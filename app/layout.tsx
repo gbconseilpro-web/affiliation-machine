@@ -38,6 +38,7 @@ export default function RootLayout({
               <a href="/comparatif" className="hover:text-primary-600">Comparatif</a>
               <a href="/guide" className="hover:text-primary-600">Guide</a>
               <a href="/avis" className="hover:text-primary-600">Avis</a>
+              <a href="/auteur" className="hover:text-primary-600">À propos</a>
             </nav>
           </div>
         </header>

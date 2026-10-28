@@ -1,6 +1,7 @@
 /**
  * Utilitaires SEO
  * Génération de métadonnées structurées pour chaque type de page
+ * Couvre : Article, Product, FAQPage, BreadcrumbList, Person
  */
 
 import type { Metadata } from 'next'
@@ -53,6 +54,7 @@ export function buildMetadata(options: SeoOptions): Metadata {
 
 /**
  * Génère le JSON-LD pour un article de comparatif
+ * Utilise Person (auteur nommé) plutôt qu'Organization pour le signal GEO
  */
 export function buildComparativeJsonLd(opts: {
   name: string
@@ -60,6 +62,8 @@ export function buildComparativeJsonLd(opts: {
   url: string
   datePublished: string
   dateModified?: string
+  authorName?: string
+  authorUrl?: string
 }) {
   return {
     '@context': 'https://schema.org',
@@ -70,9 +74,9 @@ export function buildComparativeJsonLd(opts: {
     datePublished: opts.datePublished,
     dateModified: opts.dateModified || opts.datePublished,
     author: {
-      '@type': 'Organization',
-      name: SITE_NAME,
-      url: SITE_URL,
+      '@type': 'Person',
+      name: opts.authorName || process.env.SITE_AUTHOR_NAME || SITE_NAME,
+      url: opts.authorUrl || `${SITE_URL}/auteur`,
     },
     publisher: {
       '@type': 'Organization',
@@ -114,6 +118,71 @@ export function buildProductJsonLd(opts: {
         availability: 'https://schema.org/InStock',
       },
     }),
+  }
+}
+
+/**
+ * Génère le JSON-LD FAQPage
+ * Obligatoire pour la visibilité dans Google AI Overviews et Perplexity
+ * Minimum 6 questions, réponses de 50-150 mots
+ */
+export function buildFaqJsonLd(faqs: Array<{ question: string; answer: string }>) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map(({ question, answer }) => ({
+      '@type': 'Question',
+      name: question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: answer,
+      },
+    })),
+  }
+}
+
+/**
+ * Génère le JSON-LD BreadcrumbList
+ * Améliore la navigation dans les SERPs et les extraits IA
+ */
+export function buildBreadcrumbJsonLd(
+  items: Array<{ name: string; path: string }>
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      item: `${SITE_URL}${item.path}`,
+    })),
+  }
+}
+
+/**
+ * Génère le JSON-LD Person pour la page auteur
+ * Signal de confiance clé pour GEO (ChatGPT, Perplexity, Claude)
+ */
+export function buildPersonJsonLd(opts: {
+  name: string
+  description: string
+  imageUrl?: string
+  sameAs?: string[] // LinkedIn, Twitter, site perso
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: opts.name,
+    description: opts.description,
+    url: `${SITE_URL}/auteur`,
+    ...(opts.imageUrl && { image: opts.imageUrl }),
+    ...(opts.sameAs && opts.sameAs.length > 0 && { sameAs: opts.sameAs }),
+    worksFor: {
+      '@type': 'Organization',
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
   }
 }
 
