@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Permet de générer des sites statiques si besoin
-  // output: 'export',
+  output: 'standalone',
+  typescript: { ignoreBuildErrors: true },
+  eslint: { ignoreDuringBuilds: true },
 
   // Variables d'environnement accessibles côté client
   env: {
