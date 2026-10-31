@@ -2,9 +2,8 @@ module.exports = {
   apps: [
     {
       name: 'affiliation',
-      script: 'node',
-      args: '.next/standalone/server.js',
-      cwd: '/tmp/affiliation-machine',
+      script: '.next/standalone/server.js',
+      cwd: '/home/ubuntu/affiliation-machine',
       env: {
         NODE_ENV: 'production',
         PORT: 3000,
