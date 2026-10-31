@@ -1,9 +1,17 @@
 #!/bin/bash
 set -e
 cd /home/ubuntu/affiliation-machine
-git fetch origin
-git reset --hard origin/main
+echo "=== Pull latest code ==="
+git pull origin main
+echo "=== Install dependencies ==="
+npm ci --production
+echo "=== Build Next.js ==="
 npm run build
-cp -r agents .next/standalone/agents
+echo "=== Copy static files to standalone ==="
+cp -r .next/static .next/standalone/.next/
+chmod -R 755 .next/standalone/.next/static/
+chmod o+x /home/ubuntu
+echo "=== Restart PM2 ==="
 pm2 restart affiliation
-echo "DEPLOY OK"
+sudo systemctl reload nginx
+echo "=== Deploy done ==="
