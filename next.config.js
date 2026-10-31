@@ -3,6 +3,7 @@ const nextConfig = {
   output: 'standalone',
   typescript: { ignoreBuildErrors: true },
   eslint: { ignoreDuringBuilds: true },
+  staticPageGenerationTimeout: 180,
 
   // Variables d'environnement accessibles côté client
   env: {

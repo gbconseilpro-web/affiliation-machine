@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import LeadMagnetForm from './components/LeadMagnetForm'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Meilleur logiciel de facturation 2026 — Comparatif & Avis',
   description: 'Comparez les meilleurs logiciels de facturation pour freelances et auto-entrepreneurs. Avis vérifiés, tarifs, essais gratuits. Mis à jour octobre 2026.',
