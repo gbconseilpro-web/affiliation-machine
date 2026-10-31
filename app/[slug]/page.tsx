@@ -16,19 +16,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const seo = getSeoBySlug(params.slug)
   const article = getArticleBySlug(params.slug)
   if (!article) return {}
-
   return {
     title: seo?.meta_title || article.title,
-    description: seo?.meta_desc || `Guide complet sur ${article.kw} - FacturationPro`,
-    alternates: {
-      canonical: seo?.canonical || `https://facturationpro.fr/${params.slug}`,
-    },
-    openGraph: {
-      title: seo?.og_title || article.title,
-      description: seo?.meta_desc || `Guide complet sur ${article.kw}`,
-      type: 'article',
-    },
+    description: seo?.meta_desc || `Guide complet sur ${article.kw} pour indépendants et auto-entrepreneurs.`,
+    alternates: { canonical: seo?.canonical || `https://facturationpro.fr/${params.slug}` },
+    openGraph: { title: seo?.og_title || article.title, description: seo?.meta_desc || '', type: 'article' },
   }
+}
+
+const GUIDE_ICONS: Record<string, string> = {
+  'logiciel-facturation': '🧾',
+  'devis-gratuit': '📋',
+  'micro-entrepreneur': '🚀',
+  'facture-en-ligne': '💻',
 }
 
 export default function ArticlePage({ params }: Props) {
@@ -36,97 +36,146 @@ export default function ArticlePage({ params }: Props) {
   if (!article) notFound()
 
   const awin = AWIN_LINKS[params.slug as keyof typeof AWIN_LINKS]
+  const allArticles = getArticles().filter(a => a.slug !== params.slug)
   const publishedDate = new Date(article.ts * 1000).toLocaleDateString('fr-FR', {
     year: 'numeric', month: 'long', day: 'numeric'
   })
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
+    <div className="bg-white">
       {/* Breadcrumb */}
-      <nav className="flex items-center gap-2 text-sm text-gray-500 mb-8">
-        <Link href="/" className="hover:text-primary-600">Accueil</Link>
-        <span>›</span>
-        <span className="text-gray-800">{article.title}</span>
-      </nav>
+      <div className="bg-gray-50 border-b border-gray-100">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-3">
+          <nav className="flex items-center gap-2 text-sm text-gray-500">
+            <Link href="/" className="hover:text-primary-600 transition-colors">Accueil</Link>
+            <svg className="w-4 h-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+            <span className="text-gray-800 font-medium truncate">{article.title}</span>
+          </nav>
+        </div>
+      </div>
 
-      <article>
-        {/* CTA Awin en haut */}
-        {awin && (
-          <div className="bg-gradient-to-r from-accent-50 to-primary-50 border border-accent-200 rounded-2xl p-6 mb-8 flex flex-col sm:flex-row items-center gap-4">
-            <div className="flex-1">
-              <p className="text-sm font-semibold text-accent-700 mb-1">✨ Notre recommandation</p>
-              <p className="font-bold text-gray-900">{awin.name}</p>
-              <p className="text-gray-600 text-sm">{awin.desc}</p>
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 md:py-14">
+        <div className="grid lg:grid-cols-[1fr_320px] gap-10 items-start">
+
+          {/* ===== COLONNE PRINCIPALE ===== */}
+          <div className="min-w-0">
+
+            {/* Article header */}
+            <header className="mb-8">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 bg-primary-50 rounded-xl flex items-center justify-center text-xl">
+                  {GUIDE_ICONS[params.slug] || '📄'}
+                </div>
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="badge badge-primary uppercase tracking-wide">Guide 2025</span>
+                  <time className="text-sm text-gray-400">{publishedDate}</time>
+                </div>
+              </div>
+            </header>
+
+            {/* CTA Awin EN HAUT */}
+            {awin && (
+              <div className="rounded-2xl border border-accent-200 bg-gradient-to-r from-accent-50 to-orange-50 p-5 mb-8 flex flex-col sm:flex-row items-center gap-4">
+                <div className="flex-1 text-center sm:text-left">
+                  <p className="text-xs font-bold text-accent-700 uppercase tracking-wide mb-1">Notre recommandation</p>
+                  <p className="font-bold text-gray-900 text-lg">{awin.name}</p>
+                  <p className="text-gray-600 text-sm mt-0.5">{awin.desc}</p>
+                </div>
+                <a
+                  href={awin.url}
+                  target="_blank"
+                  rel="nofollow sponsored noopener"
+                  className="btn-accent shrink-0 px-5 py-3"
+                >
+                  {awin.cta} →
+                </a>
+              </div>
+            )}
+
+            {/* Body de l'article */}
+            <div className="prose-article" dangerouslySetInnerHTML={{ __html: article.body }} />
+
+            {/* CTA Awin EN BAS */}
+            {awin && (
+              <div className="mt-12 rounded-2xl bg-primary-900 text-white p-8 text-center">
+                <div className="w-12 h-12 bg-primary-800 rounded-xl flex items-center justify-center mx-auto mb-4 text-2xl">
+                  {GUIDE_ICONS[params.slug] || '🚀'}
+                </div>
+                <h3 className="text-xl font-bold mb-2">Prêt à vous lancer ?</h3>
+                <p className="text-primary-200 mb-5 text-sm max-w-md mx-auto">{awin.desc}</p>
+                <a
+                  href={awin.url}
+                  target="_blank"
+                  rel="nofollow sponsored noopener"
+                  className="inline-flex items-center gap-2 bg-accent-500 hover:bg-accent-600 text-white font-bold px-8 py-4 rounded-xl transition-colors text-lg"
+                >
+                  {awin.cta} →
+                </a>
+                <p className="text-xs text-primary-400 mt-3">Lien affilié — commission perçue sans surcoût pour vous</p>
+              </div>
+            )}
+
+            {/* Autres guides */}
+            <div className="mt-12 pt-8 border-t border-gray-100">
+              <h3 className="text-lg font-bold text-gray-900 mb-4">Lire aussi</h3>
+              <div className="grid sm:grid-cols-2 gap-3">
+                {allArticles.map(a => (
+                  <Link
+                    key={a.slug}
+                    href={`/${a.slug}`}
+                    className="flex items-center gap-3 p-3 rounded-xl border border-gray-100 hover:border-primary-200 hover:bg-primary-50 transition-all group"
+                  >
+                    <span className="text-xl">{GUIDE_ICONS[a.slug] || '📄'}</span>
+                    <span className="text-sm font-medium text-gray-700 group-hover:text-primary-700">{a.title}</span>
+                  </Link>
+                ))}
+              </div>
             </div>
-            <a
-              href={awin.url}
-              target="_blank"
-              rel="nofollow sponsored noopener"
-              className="inline-flex items-center gap-2 bg-accent-500 hover:bg-accent-600 text-white font-semibold px-6 py-3 rounded-xl transition-colors whitespace-nowrap"
-            >
-              {awin.cta} →
-            </a>
           </div>
-        )}
 
-        {/* Article header */}
-        <header className="mb-8">
-          <div className="flex items-center gap-3 mb-4">
-            <span className="bg-primary-100 text-primary-700 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wide">
-              Guide 2025
-            </span>
-            <time className="text-sm text-gray-500">{publishedDate}</time>
-          </div>
-        </header>
+          {/* ===== SIDEBAR ===== */}
+          <aside className="lg:sticky lg:top-24 space-y-5">
+            {/* CTA sidebar */}
+            {awin && (
+              <div className="rounded-2xl border border-gray-100 bg-white shadow-card p-5 text-center">
+                <div className="w-10 h-10 bg-accent-50 rounded-xl flex items-center justify-center mx-auto mb-3 text-xl">⭐</div>
+                <p className="text-xs font-bold text-accent-700 uppercase tracking-wide mb-1">Notre n°1</p>
+                <p className="font-bold text-gray-900 mb-1">{awin.name}</p>
+                <p className="text-gray-500 text-xs mb-4">{awin.desc}</p>
+                <a
+                  href={awin.url}
+                  target="_blank"
+                  rel="nofollow sponsored noopener"
+                  className="btn-accent w-full justify-center text-sm py-2.5"
+                >
+                  {awin.cta} →
+                </a>
+                <p className="text-xs text-gray-400 mt-2">Lien affilié</p>
+              </div>
+            )}
 
-        {/* Article body */}
-        <div
-          className="prose prose-lg prose-gray max-w-none
-            prose-headings:font-bold prose-headings:text-gray-900
-            prose-h1:text-3xl prose-h1:mb-6
-            prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4
-            prose-p:text-gray-700 prose-p:leading-relaxed
-            prose-a:text-primary-600 prose-a:no-underline hover:prose-a:underline"
-          dangerouslySetInnerHTML={{ __html: article.body }}
-        />
+            {/* Autres guides sidebar */}
+            <div className="rounded-2xl border border-gray-100 bg-white shadow-card p-5">
+              <h4 className="font-bold text-gray-900 text-sm mb-3">Autres guides</h4>
+              <ul className="space-y-2">
+                {allArticles.map(a => (
+                  <li key={a.slug}>
+                    <Link href={`/${a.slug}`} className="flex items-center gap-2 text-sm text-gray-600 hover:text-primary-600 transition-colors py-1">
+                      <span>{GUIDE_ICONS[a.slug] || '📄'}</span>
+                      <span className="truncate">{a.title}</span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
 
-        {/* CTA Awin en bas */}
-        {awin && (
-          <div className="mt-12 bg-gray-50 border border-gray-200 rounded-2xl p-8 text-center">
-            <h3 className="text-xl font-bold text-gray-900 mb-2">
-              Prêt à commencer ?
-            </h3>
-            <p className="text-gray-600 mb-6">{awin.desc}</p>
-            <a
-              href={awin.url}
-              target="_blank"
-              rel="nofollow sponsored noopener"
-              className="inline-flex items-center gap-2 bg-primary-600 hover:bg-primary-700 text-white font-semibold px-8 py-4 rounded-xl transition-colors text-lg"
-            >
-              {awin.cta} →
-            </a>
-            <p className="text-xs text-gray-400 mt-3">
-              * Lien affilié — nous percevons une commission si vous souscrivez via ce lien, sans coût supplémentaire pour vous.
-            </p>
-          </div>
-        )}
-      </article>
-
-      {/* Navigation vers d'autres articles */}
-      <div className="mt-12 pt-8 border-t border-gray-200">
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">Lire aussi</h3>
-        <div className="flex flex-wrap gap-3">
-          {Object.entries(AWIN_LINKS)
-            .filter(([slug]) => slug !== params.slug)
-            .map(([slug, data]) => (
-              <Link
-                key={slug}
-                href={`/${slug}`}
-                className="text-primary-600 hover:text-primary-700 text-sm font-medium border border-primary-200 rounded-lg px-4 py-2 hover:bg-primary-50 transition-colors"
-              >
-                {slug.replace(/-/g, ' ')} →
-              </Link>
-            ))}
+            {/* Note info */}
+            <div className="rounded-xl bg-gray-50 border border-gray-100 p-4 text-xs text-gray-500 leading-relaxed">
+              <strong className="text-gray-700">Note éditoriale :</strong> Ce site contient des liens affiliés. En cliquant dessus, nous percevons une commission sans frais supplémentaires pour vous. Cela nous permet de financer notre travail éditorial.
+            </div>
+          </aside>
         </div>
       </div>
     </div>
