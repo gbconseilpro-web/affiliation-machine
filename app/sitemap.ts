@@ -34,6 +34,8 @@ const blogSlugs = [
   'contrat-freelance-modele-gratuit',
   'taux-journalier-moyen-freelance',
   'facturer-client-etranger-auto-entrepreneur',
+  'portage-salarial-vs-freelance',
+  'comment-trouver-clients-freelance',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {

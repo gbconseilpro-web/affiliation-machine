@@ -2481,6 +2481,281 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
     metaTitle: 'Facturer Client Etranger Auto-Entrepreneur 2026 : TVA, Devise, Paiement | FacturationPro',
     metaDescription: 'Comment facturer un client etranger en auto-entrepreneur ? TVA (autoliquidation, exoneration), mentions obligatoires, devises, paiements internationaux. Guide complet 2026.',
   },
+  {
+    slug: 'portage-salarial-vs-freelance',
+    title: 'Portage Salarial vs Freelance : Lequel Choisir en 2026 ?',
+    excerpt: 'Portage salarial ou freelance independant ? Comparatif complet des avantages, inconvenients, revenus nets et situations ideales pour faire le bon choix en 2026.',
+    content: `
+<h2>Portage salarial ou freelance : le grand debat</h2>
+<p>Vous souhaitez travailler en independant mais vous hesitez entre le portage salarial et le statut de freelance classique (auto-entrepreneur, SASU, EURL) ? Ces deux modes d'exercice vous permettent de travailler pour des clients en toute independance, mais leur fonctionnement, leurs avantages fiscaux et leur niveau de protection sociale sont tres differents.</p>
+<p>Ce guide comparatif vous aide a choisir en fonction de votre situation, de vos revenus et de vos priorites.</p>
+
+<h2>Qu'est-ce que le portage salarial ?</h2>
+<p>Le portage salarial est un dispositif triangulaire : vous travaillez pour des clients, mais vous etes salarie d'une societe de portage qui gere toute votre administratif. La societe de portage facture vos clients, vous verse un salaire (apres deduction de ses frais et des cotisations sociales) et vous couvre avec le statut de salarie.</p>
+<p><strong>Les acteurs du portage salarial :</strong></p>
+<ul>
+<li>Le consultant porte : vous, le professionnel independant</li>
+<li>La societe de portage : l'intermediaire qui vous emploie (ex. ITG, RHsens, Independance et Expansion)</li>
+<li>L'entreprise cliente : la societe qui beneficie de vos prestations</li>
+</ul>
+<p><strong>Comment ca fonctionne ?</strong> Vous signez un contrat de travail (CDI ou CDD) avec la societe de portage. Vous trouvez vos missions vous-meme (le portage ne vous apporte pas de clients). La societe de portage facture votre client le montant convenu, preleve sa commission (generalement 5 a 10%), et vous verse un salaire calcule sur le solde.</p>
+
+<h2>Portage salarial vs freelance : le comparatif</h2>
+
+<h3>Revenus nets</h3>
+<p>C'est le nerf de la guerre. Pour un meme chiffre d'affaires, le revenu net est tres different selon le statut :</p>
+<p><strong>Exemple pour un CA de 80 000 EUR/an :</strong></p>
+<ul>
+<li><strong>Auto-entrepreneur (profession liberale)</strong> : cotisations ~22% + abattement 34% = environ 47 000 EUR de revenu imposable. Revenu net apres IR (hypothese 30% de TMI) : ~42 000 EUR</li>
+<li><strong>SASU (president assimile salarie)</strong> : remuneration 40k + dividendes optimises = environ 52 000 EUR nets</li>
+<li><strong>Portage salarial</strong> : frais de gestion 8% + cotisations sociales ~50% sur le salaire brut = environ 33 000 a 36 000 EUR nets</li>
+</ul>
+<p>Conclusion : le portage salarial coute cher en cotisations. Vous payez la protection sociale au prix fort.</p>
+
+<h3>Protection sociale</h3>
+<p>C'est l'avantage majeur du portage salarial :</p>
+<ul>
+<li><strong>Portage salarial</strong> : chomage (ARE), retraite du regime general, prevoyance, mutuelle d'entreprise, conges payes, arret maladie... vous beneficiez de la protection complete du salarie</li>
+<li><strong>Auto-entrepreneur</strong> : pas de chomage, retraite au RSI (plus faible), maladie limitee</li>
+<li><strong>SASU</strong> : proche du salarie si vous vous versez une remuneration, mais pas de chomage pole emploi</li>
+</ul>
+
+<h3>Administratif et complexite</h3>
+<ul>
+<li><strong>Portage salarial</strong> : zero gestion administrative. La societe de portage gere la facturation, les relances, les declarations sociales et fiscales</li>
+<li><strong>Auto-entrepreneur</strong> : declarations URSSAF trimestrielles ou mensuelles, simple mais vous devez le faire vous-meme</li>
+<li><strong>SASU/EURL</strong> : comptabilite obligatoire, liasse fiscale, AG annuelle... complexite significative sauf si vous utilisez un logiciel comme <a href="/go/pennylane">Pennylane</a> ou <a href="/go/indy">Indy</a></li>
+</ul>
+
+<h3>Flexibilite et creation d'entreprise</h3>
+<ul>
+<li><strong>Portage salarial</strong> : pas de structure juridique a creer, ideal pour tester l'independance ou pour une mission ponctuelle</li>
+<li><strong>Freelance independant</strong> : vous etes entrepreneur, vous construisez votre marque, votre reputation, votre base clients</li>
+</ul>
+
+<h2>Avantages et inconvenients du portage salarial</h2>
+
+<h3>Avantages</h3>
+<ul>
+<li>Protection sociale complete (chomage, retraite, prevoyance)</li>
+<li>Zero gestion administrative</li>
+<li>Pas besoin de creer une societe</li>
+<li>Ideal pour tester l'independance sans risque</li>
+<li>Acces aux droits au chomage entre deux missions</li>
+<li>Reconnaissance par certains clients grands comptes (ils preferent un salarie)</li>
+</ul>
+
+<h3>Inconvenients</h3>
+<ul>
+<li>Revenu net significativement inferieur (20 a 30% de moins qu'en SASU optimisee)</li>
+<li>Frais de gestion de la societe de portage (5 a 12%)</li>
+<li>Moins de marge de manoeuvre pour optimiser fiscalement</li>
+<li>Dependance a la societe de portage</li>
+<li>Pas adapte aux activites commerciales (vente de produits)</li>
+</ul>
+
+<h2>Avantages et inconvenients du freelance independant</h2>
+
+<h3>Avantages</h3>
+<ul>
+<li>Revenu net superieur, surtout en SASU optimisee</li>
+<li>Liberte totale dans la gestion de votre activite</li>
+<li>Construction d'une marque personnelle et d'un patrimoine professionnel</li>
+<li>Deduction des charges reelles (vs cotisations sur CA brut en portage)</li>
+<li>Possibilite de croissance (embauche, partenariats...)</li>
+</ul>
+
+<h3>Inconvenients</h3>
+<ul>
+<li>Pas d'acces au chomage (sauf Ateliers de Reflexion Commerciale pour les dirigeants)</li>
+<li>Gestion administrative (meme simplifiee avec les bons outils)</li>
+<li>Retraite moins favorable qu'un salarie (surtout en micro)</li>
+<li>Vous etes seul responsable en cas de litige client</li>
+</ul>
+
+<h2>Qui devrait choisir le portage salarial ?</h2>
+<p>Le portage salarial est particulierement adapte si vous :</p>
+<ul>
+<li>Demarrez en independance et voulez tester sans vous lancer dans la creation d'une societe</li>
+<li>Travaillez pour de grands comptes qui exigent un interlocuteur salarie</li>
+<li>Etes dans une periode de transition et voulez conserver vos droits au chomage</li>
+<li>Avez une mission unique ou occasionnelle (pas une activite reguliere)</li>
+<li>N'aimez pas la gestion administrative et preferez vous concentrer sur votre coeur de metier</li>
+<li>Votre TJM est eleve (700 EUR+) et vous pouvez absorber les couts en restant profitable</li>
+</ul>
+
+<h2>Qui devrait choisir le freelance independant ?</h2>
+<p>Le statut de freelance independant (SASU, EURL, ou auto-entrepreneur pour demarrer) est plus adapte si vous :</p>
+<ul>
+<li>Avez une activite reguliere avec plusieurs clients</li>
+<li>Voulez maximiser vos revenus nets</li>
+<li>Etes a l'aise avec la gestion administrative (ou vous utilisez des outils adaptes)</li>
+<li>Souhaitez construire une marque et une reputation a long terme</li>
+<li>Avez des charges deductibles significatives (materiel, sous-traitance...)</li>
+<li>Envisagez de developper votre activite (salaries, associes...)</li>
+</ul>
+<p>Pour la gestion quotidienne de votre facturation et comptabilite en freelance independant, des solutions comme <a href="/go/freebe">Freebe</a> (specialiste des freelances) ou <a href="/go/pennylane">Pennylane</a> (comptabilite et fiscalite integrees) simplifient enormement le travail.</p>
+
+<h2>Peut-on cumuler portage salarial et statut independant ?</h2>
+<p>Oui, c'est possible ! De nombreux professionnels utilisent le portage salarial pour certains grands comptes (qui le requis) et facturent leurs autres clients en direct via leur SASU ou auto-entreprise. C'est une strategie hybride interessante qui combine la protection sociale du portage avec la flexibilite et les revenus superieurs du statut independant.</p>
+<p>Attention cependant : certaines societes de portage interdisent contractuellement l'exercice concurrent d'une activite independante dans le meme secteur.</p>
+
+<h2>FAQ : Portage salarial vs freelance</h2>
+<p><strong>Peut-on passer du portage au statut independant facilement ?</strong> Oui. Si vous etes en CDI de portage, vous pouvez demissionner (mais vous perdez vos droits au chomage) ou negocier une rupture conventionnelle. En CDD de portage, attendez la fin du contrat. Rien ne vous empeche ensuite de creer votre SASU ou votre auto-entreprise.</p>
+<p><strong>Le portage salarial est-il possible pour toutes les activites ?</strong> Non. Le portage est reserve aux activites de prestation de services intellectuels (conseil, informatique, formation, communication...). Le commerce de marchandises, l'artisanat et les professions reglementees (medecin, avocat...) en sont exclus.</p>
+<p><strong>Quelle est la remuneration minimum en portage salarial ?</strong> Depuis 2017, la remuneration minimale en portage salarial est de 2 517 EUR bruts/mois (soit environ 1 900 EUR nets). Si votre CA est trop faible pour atteindre ce minimum, la societe de portage ne peut pas vous salarier.</p>
+<p><strong>L'ARE (allocation chomage) est-elle vraiment accessible en portage salarial ?</strong> Oui, si vous avez cotise suffisamment (4 mois sur les 24 derniers mois). C'est l'un des vrais avantages du portage. En revanche, les dirigeants de SASU ou EURL ne sont en general pas eligibles a l'ARE (sauf si un licenciement d'un precedent emploi salarie est recent).</p>
+    `.trim(),
+    date: '2026-11-15',
+    category: 'Guides',
+    readTime: '13 min',
+    author: 'L\'equipe FacturationPro',
+    image: '/blog/portage-salarial-vs-freelance.svg',
+    tags: ['portage salarial', 'freelance', 'statut', 'independant', 'protection sociale'],
+    metaTitle: 'Portage Salarial vs Freelance 2026 : Comparatif Complet Revenus et Avantages',
+    metaDescription: 'Portage salarial ou freelance independant ? Comparatif des revenus nets, protection sociale, administratif et situations ideales. Guide complet 2026 pour faire le bon choix.',
+  },
+  {
+    slug: 'comment-trouver-clients-freelance',
+    title: 'Comment Trouver des Clients en Freelance : 12 Strategies qui Marchent en 2026',
+    excerpt: 'Plateformes, LinkedIn, cold emailing, reseau... Decouvrez les 12 meilleures strategies pour trouver des clients freelance rapidement et construire un portefeuille solide en 2026.',
+    content: `
+<h2>Trouver des clients freelance : le defi numero un</h2>
+<p>Que vous soyez developpeur, designer, consultant ou redacteur, la question "comment trouver des clients ?" est la principale preoccupation des freelances, surtout en debut d'activite. Ce guide vous presente 12 strategies concretes, testees et efficaces, pour developper votre portefeuille clients en 2026.</p>
+
+<h2>1. Les plateformes de freelances</h2>
+<p>C'est souvent le premier reflexe, et a juste titre pour demarrer :</p>
+<ul>
+<li><strong>Malt</strong> : la reference en France pour les freelances tech, conseil et marketing. Tres utilisee par les grandes entreprises. Commission de 10% sur les missions.</li>
+<li><strong>Comet</strong> : specialise dans les profils tech et data, missions longues, clients grands comptes.</li>
+<li><strong>Creatix</strong> : pour les profils creatifs (design, communication, photo, video).</li>
+<li><strong>Upwork / Fiverr</strong> : marchés internationaux, competition plus forte mais volume immense.</li>
+<li><strong>Toptal</strong> : selection rigoureuse (top 3% des candidats), mais missions haut de gamme a fort TJM.</li>
+</ul>
+<p>Avantage : clients deja la. Inconvenient : competition forte, commissions, et dependance a la plateforme.</p>
+
+<h2>2. LinkedIn : votre vitrine professionnelle</h2>
+<p>LinkedIn est devenu incontournable pour les freelances B2B. Voici comment l'optimiser :</p>
+<ul>
+<li><strong>Profil 100% complet</strong> : titre percutant, photo professionnelle, resume qui decrit votre proposition de valeur</li>
+<li><strong>Activez "Open to Work"</strong> en mode recruter (visible uniquement par les recruteurs et potentiels clients)</li>
+<li><strong>Publiez regulierement</strong> : partagez vos expertises, cas clients (anonymises), conseils pratiques. La visibilite organique est encore bonne sur LinkedIn.</li>
+<li><strong>Contactez directement les DRH, directeurs IT, marketing managers</strong> dans vos cibles. Message court, personnalise, valeur proposee.</li>
+</ul>
+
+<h2>3. Le reseau personnel et professionnel</h2>
+<p>Les statistiques sont claires : la majorite des premieres missions freelance viennent du reseau existant. Vos anciens collegues, managers, camarades d'ecole, amis... Dites-leur que vous etes disponible !</p>
+<ul>
+<li>Envoyez un email de "lancement" a tous vos contacts professionnels</li>
+<li>Reactiver des contacts LinkedIn dormants avec un message personnalise</li>
+<li>Participez a des evenements de networking dans votre secteur</li>
+<li>Rejoignez des associations professionnelles ou groupes de votre metier</li>
+</ul>
+
+<h2>4. Le cold emailing cible</h2>
+<p>Le cold emailing, c'est contacter des prospects qui ne vous connaissent pas. C'est chronophage mais tres efficace si bien fait :</p>
+<ul>
+<li>Identifiez 20 a 30 entreprises cibles dans votre secteur</li>
+<li>Trouvez le bon interlocuteur (via LinkedIn, Kaspr, Hunter.io)</li>
+<li>Redigez un email court (5 phrases max), ultra-personnalise, centre sur leur probleme</li>
+<li>Sequence de 3 emails maximum avec relances espacees de 5 jours</li>
+</ul>
+<p>Taux de reponse attendu : 5 a 15% si la cible et le message sont bons. Un CRM simple ou des outils comme <a href="/go/pennylane">Pennylane</a> vous aideront a suivre vos prospects et devis.</p>
+
+<h2>5. Votre site web et votre SEO</h2>
+<p>Un site professionnel positionne sur vos mots-cles metier peut generer des leads en pilote automatique :</p>
+<ul>
+<li>Page d'accueil claire avec votre proposition de valeur et vos cas clients</li>
+<li>Blog avec du contenu expert dans votre domaine</li>
+<li>Temoignages et avis clients visibles</li>
+<li>Formulaire de contact simple</li>
+</ul>
+<p>Le SEO prend 6 a 12 mois pour donner des resultats, mais c'est un investissement a long terme tres rentable.</p>
+
+<h2>6. Sous-traitance et partenariats</h2>
+<p>Un moyen souvent sous-estime : proposer vos services en sous-traitance a d'autres freelances ou a des agences. Les agences de communication, ESN (SSII), cabinets de conseil ont souvent besoin de ressources supplementaires et cherchent des freelances de confiance.</p>
+<ul>
+<li>Contactez les agences de votre secteur pour vous presenter</li>
+<li>Rejoignez les communautes de freelances de votre metier</li>
+<li>Proposez de la reciprocite : vous leur envoyez des clients qui ne correspondent pas a votre profil, ils vous envoient des missions</li>
+</ul>
+
+<h2>7. Les communautes et forums en ligne</h2>
+<ul>
+<li><strong>Slack/Discord de votre metier</strong> : rejoignez les communautes actives (FrenchTech, Design Systems France, communautes JS...)</li>
+<li><strong>Reddit</strong> : r/freelance, r/digitalnomad pour les freelances internationaux</li>
+<li><strong>Indie Hackers</strong> : pour les freelances et entrepreneurs digitaux</li>
+<li><strong>Groupes Facebook</strong> professionnels de votre secteur</li>
+</ul>
+<p>La cle : contribuer d'abord, sans chercher a vendre. Votre expertise se verra naturellement.</p>
+
+<h2>8. Les appels d'offres publics</h2>
+<p>Les collectivites, administrations et entreprises publiques publient des appels d'offres auxquels vous pouvez repondre en tant que freelance (SASU ou EURL, pas en auto-entrepreneur pour les montants importants) :</p>
+<ul>
+<li>BOAMP (Bulletin Officiel des Annonces de Marches Publics)</li>
+<li>Marchés publics.fr</li>
+<li>Les appels d'offres des grandes villes et de l'Etat</li>
+</ul>
+
+<h2>9. Les evenements et conferences</h2>
+<p>Etre visible en personne reste une strategie tres efficace :</p>
+<ul>
+<li>Conferences et salons de votre secteur</li>
+<li>Meetups locaux (Tech, Design, Marketing...)</li>
+<li>Proposez vous-meme de parler en conference ou webinar : c'est la meilleure visibility possible</li>
+</ul>
+
+<h2>10. YouTube et les reseaux sociaux</h2>
+<p>Creer du contenu video ou social vous positionne comme expert et attire des clients inbound :</p>
+<ul>
+<li>YouTube : tutoriels, conseils, retours d'experience (longue echelle mais tres fort)</li>
+<li>Twitter/X : partage de connaissances, participation aux conversations de votre secteur</li>
+<li>Instagram : pour les metiers visuels (design, photo, video)</li>
+<li>Threads : alternative emergente a Twitter</li>
+</ul>
+
+<h2>11. Les agences de placement et ESN</h2>
+<p>Des societes specialisees placent des freelances chez leurs clients moyennant une commission (souvent 15 a 25% du TJM). C'est moins rentable mais zero effort de prospection :</p>
+<ul>
+<li>Michael Page, Robert Half (profils seniors)</li>
+<li>ESN/SSII locales dans votre ville</li>
+<li>Agences specialisees dans votre metier</li>
+</ul>
+
+<h2>12. La recommandation client (le graal)</h2>
+<p>A terme, le meilleur canal d'acquisition client est la recommandation de vos clients satisfaits. C'est gratuit, qualifie et a fort taux de conversion. Pour y arriver :</p>
+<ul>
+<li>Livrez un travail excellent qui depasse les attentes</li>
+<li>Demandez explicitement a vos clients satisfaits de vous recommander</li>
+<li>Mettez en place un programme de parrainage (reduction sur la prochaine mission)</li>
+<li>Demandez des temoignages ecrits et videos</li>
+</ul>
+
+<h2>Organiser sa prospection freelance</h2>
+<p>La prospection, ca se gere comme un projet. Quelques bonnes pratiques :</p>
+<ul>
+<li><strong>Definissez votre ICP</strong> (Ideal Client Profile) : secteur, taille, localisation, probleme a resoudre</li>
+<li><strong>Diversifiez vos canaux</strong> : ne misez pas tout sur Malt ou sur le reseau</li>
+<li><strong>Fixez-vous des objectifs</strong> : X emails/semaine, Y posts LinkedIn/mois, Z meetings/mois</li>
+<li><strong>Gerez votre pipeline</strong> avec un simple tableau ou CRM</li>
+<li><strong>Tracez vos devis</strong> avec un logiciel comme <a href="/go/freebe">Freebe</a> qui vous permet de convertir rapidement un prospect en client</li>
+</ul>
+
+<h2>FAQ : Trouver des clients freelance</h2>
+<p><strong>Combien de temps faut-il pour trouver son premier client freelance ?</strong> Avec une strategie active (reseau + LinkedIn + plateforme), la plupart des freelances trouvent leur premier client en 2 a 8 semaines. Ceux qui ont un reseau professionnel etabli peuvent trouver en quelques jours.</p>
+<p><strong>Quelle est la meilleure plateforme pour demarrer en freelance ?</strong> Malt est la reference en France pour commencer. Complementez avec LinkedIn pour construire votre presence a long terme. Upwork si vous visez les clients internationaux.</p>
+<p><strong>Comment fixer mon tarif pour ne pas etre trop cher ni bradeur ?</strong> Consultez notre guide sur le <a href="/blog/taux-journalier-moyen-freelance">Taux Journalier Moyen (TJM) freelance</a> qui inclut une grille de tarifs par metier.</p>
+<p><strong>Dois-je me specialiser ou rester generaliste pour trouver plus de clients ?</strong> La specialisation est generalement plus efficace : elle vous positionne comme expert, justifie un TJM plus eleve, et facilite le bouche-a-oreille. Un developpeur React senior trouve plus facilement que "un developpeur web".</p>
+    `.trim(),
+    date: '2026-11-16',
+    category: 'Guides',
+    readTime: '15 min',
+    author: 'L\'equipe FacturationPro',
+    image: '/blog/comment-trouver-clients-freelance.svg',
+    tags: ['trouver clients', 'prospection freelance', 'Malt', 'LinkedIn', 'cold emailing', 'reseau'],
+    metaTitle: 'Comment Trouver des Clients Freelance 2026 : 12 Strategies qui Marchent',
+    metaDescription: 'Plateformes Malt, LinkedIn, cold emailing, reseau, sous-traitance... 12 strategies concretes pour trouver des clients freelance rapidement et construire un portefeuille solide en 2026.',
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
