@@ -16,7 +16,7 @@ interface SeoOptions {
   updatedAt?: string
 }
 
-const SITE_NAME = process.env.SITE_NAME || 'Site Affiliation'
+const SITE_NAME = process.env.SITE_NAME || 'FacturationPro'
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://facturationpro.com'
 
 /**
