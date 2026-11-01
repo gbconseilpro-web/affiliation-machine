@@ -20,19 +20,19 @@ export const BLOG_POSTS: BlogPost[] = [
     keywords: ['logiciel facturation freelance', 'meilleur logiciel facturation', 'facturation indépendant 2026'],
     content: `
 <h2>Pourquoi choisir un logiciel de facturation dédié ?</h2>
-<p>En 2026, utiliser Word ou Excel pour facturer n'est plus une option viable. Les obligations légales (mentions obligatoires, TVA, archivage), le temps perdu et le risque d'erreurs justifient largement l'investissement dans un outil dédié — d'autant que les solutions du marché démarrent à 7€/mois.</p>
+<p>En 2026, utiliser Word ou Excel pour facturer n'est plus une option viable. Les obligations légales (mentions obligatoires, TVA, archivage), le temps perdu et le risque d'erreurs justifient largement l'investissement dans un outil dédié : d'autant que les solutions du marché démarrent à 7€/mois.</p>
 
 <h2>Les 4 solutions à connaître</h2>
-<h3>Freebe — Le meilleur pour les freelances en SASU/EURL</h3>
+<h3>Freebe : le meilleur pour les freelances en SASU/EURL</h3>
 <p>Freebe est la solution la plus complète pour les freelances qui ont opté pour une structure juridique (SASU, EURL). Comptabilité intégrée, suivi de temps, notes de frais, déclaration de TVA : tout est là. Comptez 20€/mois pour la version complète, ou testez gratuitement pendant 30 jours.</p>
 
-<h3>Indy — Le choix des micro-entrepreneurs</h3>
+<h3>Indy : le choix des micro-entrepreneurs</h3>
 <p>Indy s'impose pour les micro-entrepreneurs grâce à sa prise en main ultra-simple et ses déclarations de CA automatisées. À partir de 7€/mois, c'est le rapport qualité/prix le plus avantageux du marché. 200 000+ indépendants lui font confiance.</p>
 
-<h3>Pennylane — La vision expert-comptable</h3>
+<h3>Pennylane : la vision expert-comptable</h3>
 <p>Pennylane se distingue par son modèle collaboratif : votre expert-comptable accède à votre dossier en temps réel, ce qui réduit considérablement le temps de clôture annuelle. Solution préférée des consultants et professions libérales réglementées.</p>
 
-<h3>Tiime — La facturation pure et simple</h3>
+<h3>Tiime : la facturation pure et simple</h3>
 <p>Tiime propose la facturation de base en freemium. Idéal pour démarrer sans budget, mais les fonctionnalités avancées (suivi de temps, relances automatiques) nécessitent un abonnement payant.</p>
 
 <h2>Notre verdict</h2>
@@ -117,7 +117,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <li><strong>Identité du vendeur</strong> : nom/dénomination, adresse, SIRET, forme juridique</li>
 <li><strong>Identité de l'acheteur</strong> : nom/raison sociale, adresse</li>
 <li><strong>Désignation des produits/services</strong> avec quantité et prix unitaire HT</li>
-<li><strong>Taux de TVA applicable</strong> (ou mention "TVA non applicable — article 293 B du CGI" pour les micro-entrepreneurs sous le seuil)</li>
+<li><strong>Taux de TVA applicable</strong> (ou mention "TVA non applicable, article 293 B du CGI" pour les micro-entrepreneurs sous le seuil)</li>
 <li><strong>Montant total TTC</strong></li>
 <li><strong>Délai et conditions de paiement</strong></li>
 <li><strong>Pénalités de retard</strong> : taux et conditions</li>
