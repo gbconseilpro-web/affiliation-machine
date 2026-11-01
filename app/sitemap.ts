@@ -19,6 +19,11 @@ const blogSlugs = [
   'note-de-frais-freelance-logiciel',
   'sasu-eurl-choisir-statut-freelance',
   'indy-avis-test-complet',
+  'tiime-avis-test-complet',
+  'shine-avis-test-complet',
+  'devis-vs-facture-difference',
+  'logiciel-facturation-artisan',
+  'tva-auto-entrepreneur-guide',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -75,6 +80,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${SITE_URL}/comparatif/tiime-vs-pennylane`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${SITE_URL}/comparatif/indy-vs-pennylane`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${SITE_URL}/comparatif/freebe-vs-tiime`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${SITE_URL}/comparatif/shine-vs-indy`,
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.8,

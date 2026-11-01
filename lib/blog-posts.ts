@@ -1028,6 +1028,309 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Essayez Indy gratuitement pendant 30 jours via notre <a href="/go/indy">lien affilie</a>, ou comparez-le a Freebe dans notre <a href="/comparatif/indy-vs-freebe">comparatif Indy vs Freebe</a>.</p>
     `.trim(),
   },
+  {
+    slug: 'tiime-avis-test-complet',
+    title: 'Tiime Avis 2026 : test complet du logiciel de facturation',
+    excerpt: 'Notre avis detaille sur Tiime apres 30 jours de test. Fonctionnalites, tarifs, interface, comptabilite : tout ce que vous devez savoir avant de vous abonner.',
+    date: '2026-11-01',
+    readTime: 9,
+    category: 'Avis logiciels',
+    keywords: ['tiime avis', 'tiime test', 'tiime logiciel facturation', 'tiime comptabilite'],
+    image: '/blog/tiime-avis-test-complet.svg',
+    content: `
+<h2>Tiime en bref : un logiciel pense pour les experts-comptables</h2>
+<p>Tiime se distingue de la concurrence par un positionnement original : il est concu pour fonctionner en collaboration etroite avec votre expert-comptable. La plateforme propose deux applications complementaires, Tiime Account (pour le professionnel) et Tiime AE (pour les auto-entrepreneurs), qui partagent les donnees en temps reel avec le cabinet comptable.</p>
+<p>Apres 30 jours d'utilisation intensive, voici notre verdict complet.</p>
+
+<h2>Fonctionnalites principales de Tiime</h2>
+<p>Tiime couvre les besoins essentiels des independants et TPE :</p>
+<ul>
+<li><strong>Facturation et devis</strong> : creation rapide, personnalisation du template, envoi par email</li>
+<li><strong>Suivi des encaissements</strong> : relances automatiques, statut des paiements</li>
+<li><strong>Notes de frais</strong> : capture par photo, categorisation automatique par IA</li>
+<li><strong>Synchronisation bancaire</strong> : connexion Open Banking avec les principales banques</li>
+<li><strong>Espace collaboratif expert-comptable</strong> : partage en temps reel des pieces comptables</li>
+<li><strong>Declaration TVA</strong> : preparation et envoi direct a la DGFiP (plan pro)</li>
+</ul>
+
+<h2>L'interface Tiime : simple et efficace</h2>
+<p>L'interface de Tiime est epuree et intuitive. La creation d'une facture prend moins de 2 minutes pour un utilisateur experimente. Le tableau de bord donne une vue claire sur le chiffre d'affaires, les factures en attente et la tresorerie disponible.</p>
+<p>L'application mobile iOS et Android est bien concue et permet de creer des factures ou de photographier des notes de frais en deplacement. La synchronisation est instantanee.</p>
+
+<h2>Tarifs Tiime 2026</h2>
+<p>Tiime propose une offre adaptee a differents profils :</p>
+<ul>
+<li><strong>Tiime AE (auto-entrepreneurs)</strong> : gratuit avec fonctionnalites de base, ou 9,90 EUR/mois pour la version complete</li>
+<li><strong>Tiime Account (TPE/independants)</strong> : a partir de 19 EUR/mois, avec acces expert-comptable inclus</li>
+<li><strong>Offres cabinet</strong> : tarification specifique pour les experts-comptables qui deploient Tiime chez leurs clients</li>
+</ul>
+<p>Le rapport qualite/prix est excellent, notamment pour les auto-entrepreneurs qui beneficient d'un plan gratuit fonctionnel.</p>
+
+<h2>Tiime vs la concurrence</h2>
+<p>Face a <a href="/blog/freebe-avis-test-complet">Freebe</a> et <a href="/blog/indy-avis-test-complet">Indy</a>, Tiime se positionne differemment : il est moins oriente "suivi de temps" que Freebe, mais propose une integration expert-comptable plus poussee qu'Indy. C'est le choix ideal si vous collaborez avec un cabinet comptable.</p>
+<p>Vous pouvez aussi consulter notre <a href="/comparatif/tiime-vs-pennylane">comparatif Tiime vs Pennylane</a> pour voir comment il se mesure a l'un des acteurs les plus populaires du marche.</p>
+
+<h2>Points forts et points faibles</h2>
+<p><strong>Points forts :</strong></p>
+<ul>
+<li>Collaboration expert-comptable native et fluide</li>
+<li>Interface claire et prise en main rapide</li>
+<li>Plan gratuit genereux pour les auto-entrepreneurs</li>
+<li>Capture automatique des notes de frais par IA</li>
+<li>Readiness facturation electronique 2026</li>
+</ul>
+<p><strong>Points faibles :</strong></p>
+<ul>
+<li>Pas de suivi de temps integre (contrairement a Freebe)</li>
+<li>Moins adapte aux structures sans expert-comptable</li>
+<li>Fonctionnalites avancees reservees au plan payant</li>
+</ul>
+
+<h2>Notre verdict Tiime</h2>
+<p><strong>Note globale : 4,2/5.</strong> Tiime est le meilleur choix pour les independants qui travaillent avec un expert-comptable et veulent fluidifier le partage des donnees. Pour ceux qui cherchent un suivi de temps ou une independance totale vis-a-vis d'un EC, Freebe ou Indy seront plus adaptes.</p>
+<p>Essayez Tiime gratuitement via notre <a href="/go/tiime">lien affilie</a>, ou comparez-le a Pennylane dans notre <a href="/comparatif/tiime-vs-pennylane">comparatif Tiime vs Pennylane</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: 'shine-avis-test-complet',
+    title: 'Shine Avis 2026 : test complet du compte pro pour freelances',
+    excerpt: 'Shine est-il vraiment le meilleur compte pro pour les freelances ? Notre test apres 30 jours : tarifs, fonctionnalites, cartes bancaires et service client.',
+    date: '2026-11-02',
+    readTime: 9,
+    category: 'Avis logiciels',
+    keywords: ['shine avis', 'shine compte pro', 'shine freelance', 'shine test 2026'],
+    image: '/blog/shine-avis-test-complet.svg',
+    content: `
+<h2>Shine : le compte pro qui simplifie la vie des independants</h2>
+<p>Shine n'est pas un simple logiciel de facturation : c'est un compte bancaire professionnel complet, concu specifiquement pour les freelances, auto-entrepreneurs et petites entreprises. Il integre IBAN francais, carte Mastercard, facturation, et outils de gestion en une seule application.</p>
+<p>Nous avons teste Shine pendant 30 jours pour vous donner un avis honnete et complet.</p>
+
+<h2>Ce que propose Shine en 2026</h2>
+<p>Shine couvre a la fois la banque et la gestion :</p>
+<ul>
+<li><strong>Compte bancaire pro</strong> : IBAN francais, virement SEPA, prelevement, encaissement CB en ligne</li>
+<li><strong>Carte Mastercard</strong> : physique et virtuelle, avec plafonds personnalisables</li>
+<li><strong>Facturation integree</strong> : creation et envoi de factures et devis directement depuis l'app</li>
+<li><strong>Mise de cote automatique</strong> : provision automatique pour l'URSSAF, la TVA, les impots</li>
+<li><strong>Rappels de declarations</strong> : alertes pour ne pas oublier vos echeances fiscales</li>
+<li><strong>Support 7j/7</strong> : chat en ligne avec des conseillers humains</li>
+</ul>
+
+<h2>Tarifs Shine 2026</h2>
+<p>Shine propose trois formules :</p>
+<ul>
+<li><strong>Shine Basic</strong> : 7,90 EUR/mois - compte pro, IBAN, carte virtuelle, facturation de base</li>
+<li><strong>Shine Plus</strong> : 13,90 EUR/mois - carte physique, mise de cote, encaissement CB, 2 sous-comptes</li>
+<li><strong>Shine Pro</strong> : 24,90 EUR/mois - fonctionnalites avancees, plusieurs cartes, comptabilite exportable</li>
+</ul>
+<p>Ces tarifs incluent tout : pas de frais de tenue de compte, pas de commission sur les virements SEPA.</p>
+
+<h2>L'outil de mise de cote : la vraie valeur ajoutee</h2>
+<p>La fonctionnalite de mise de cote automatique est ce qui distingue vraiment Shine. Des que vous recevez un paiement, Shine peut automatiquement provisionner un pourcentage pour vos charges URSSAF, votre TVA et votre impot sur le revenu. Pour un auto-entrepreneur, c'est une tranquillite d'esprit considerable : fini le stress des echeances.</p>
+
+<h2>Shine vs les autres logiciels de facturation</h2>
+<p>Shine n'est pas directement comparable a <a href="/blog/freebe-avis-test-complet">Freebe</a> ou <a href="/blog/indy-avis-test-complet">Indy</a> car il integre un vrai compte bancaire. Si vous cherchez uniquement un logiciel de facturation, Freebe sera plus complet sur la gestion de projets. Mais si vous voulez centraliser votre banque et votre facturation, Shine est imbattable.</p>
+<p>Retrouvez Shine dans notre <a href="/comparatif">comparatif des logiciels de facturation</a>.</p>
+
+<h2>Points forts et points faibles</h2>
+<p><strong>Points forts :</strong></p>
+<ul>
+<li>Compte bancaire + facturation en une seule app</li>
+<li>Mise de cote automatique pour les charges</li>
+<li>Interface mobile excellente</li>
+<li>Support client 7j/7 tres reactif</li>
+<li>Rappels automatiques des echeances fiscales</li>
+</ul>
+<p><strong>Points faibles :</strong></p>
+<ul>
+<li>Fonctionnalites comptables moins avancees qu'un logiciel dedie</li>
+<li>Pas de suivi de temps</li>
+<li>Tarif plus eleve que des logiciels de facturation purs</li>
+</ul>
+
+<h2>Notre verdict Shine</h2>
+<p><strong>Note globale : 4,3/5.</strong> Shine est le choix numero un si vous voulez une solution tout-en-un qui remplace a la fois votre compte bancaire pro et votre logiciel de facturation. Pour une gestion de projets poussee ou un suivi de temps, combinez-le avec un outil dedie.</p>
+<p>Ouvrez votre compte Shine via notre <a href="/go/shine">lien partenaire</a> pour beneficier des offres du moment.</p>
+    `.trim(),
+  },
+  {
+    slug: 'devis-vs-facture-difference',
+    title: 'Devis vs Facture : quelles differences ? Guide complet 2026',
+    excerpt: 'Devis ou facture : quand utiliser l\'un ou l\'autre ? Valeur juridique, mentions obligatoires, delais et conseils pratiques pour les freelances et auto-entrepreneurs.',
+    date: '2026-11-03',
+    readTime: 7,
+    category: 'Guides',
+    keywords: ['devis vs facture', 'difference devis facture', 'devis freelance', 'facture devis obligation'],
+    image: '/blog/devis-vs-facture-difference.svg',
+    content: `
+<h2>Devis et facture : deux documents distincts avec des roles differents</h2>
+<p>Beaucoup de freelances et d'auto-entrepreneurs confondent devis et facture, ou n'utilisent pas l'un des deux de facon systematique. Pourtant, ces deux documents ont des roles juridiques et commerciaux bien distincts. Voici tout ce que vous devez savoir.</p>
+
+<h2>Qu'est-ce qu'un devis ?</h2>
+<p>Un devis est un document commercial qui formalise une <strong>offre de prestation avant son execution</strong>. Il engage le prestataire sur les conditions qu'il propose : prix, delais, description des travaux. Une fois signe par le client, le devis devient un <strong>contrat juridiquement contraignant</strong>.</p>
+<p>Le devis doit contenir :</p>
+<ul>
+<li>La date d'emission et la duree de validite de l'offre</li>
+<li>L'identite du prestataire et du client</li>
+<li>La description precise des prestations</li>
+<li>Le prix unitaire HT et le montant total TTC</li>
+<li>Les conditions de paiement</li>
+<li>La mention "Bon pour accord" avec signature du client</li>
+</ul>
+
+<h2>Qu'est-ce qu'une facture ?</h2>
+<p>Une facture est un document comptable emis <strong>apres la realisation de la prestation</strong>. Elle constitue la demande de paiement officielle et a une valeur juridique importante : elle sert de preuve de la transaction et doit etre conservee pendant 10 ans.</p>
+<p>En France, l'emission d'une facture est <strong>obligatoire</strong> pour toute prestation entre professionnels. Les <a href="/blog/mentions-obligatoires-facture-france">mentions obligatoires</a> sont strictement definies par la loi.</p>
+
+<h2>Devis vs Facture : le tableau comparatif</h2>
+<p><strong>Devis :</strong> document avant prestation, valeur contractuelle apres signature, non obligatoire (sauf secteurs specifiques), pas de valeur comptable</p>
+<p><strong>Facture :</strong> document apres prestation, valeur juridique immediate, obligatoire entre professionnels, document comptable officiel</p>
+
+<h2>Quand le devis est-il obligatoire ?</h2>
+<p>Le devis n'est pas systematiquement obligatoire, mais il l'est dans certains secteurs :</p>
+<ul>
+<li>Travaux de batiment et artisanat (au-dessus de 150 EUR TTC)</li>
+<li>Demenagement</li>
+<li>Reparation d'appareils electromenagers</li>
+<li>Certaines prestations de service a la personne</li>
+</ul>
+<p>Pour les freelances en dehors de ces secteurs, le devis reste fortement recommande pour toute mission superieure a quelques centaines d'euros.</p>
+
+<h2>La facture d'acompte : un cas particulier</h2>
+<p>Lorsque vous demandez un acompte avant de demarrer une mission, vous devez emettre une <strong>facture d'acompte</strong> (et non un devis). Cette facture partielle sera deduite de la facture finale. Le devis ne peut pas servir a demander un paiement.</p>
+
+<h2>Comment gerer devis et factures facilement ?</h2>
+<p>Les logiciels de facturation comme <a href="/blog/freebe-avis-test-complet">Freebe</a> ou <a href="/blog/indy-avis-test-complet">Indy</a> permettent de transformer un devis accepte en facture en un clic, sans ressaisie. C'est un gain de temps considerable et cela evite les erreurs de copier-coller.</p>
+<p>Comparez les meilleures solutions dans notre <a href="/comparatif">comparatif des logiciels de facturation</a>.</p>
+
+<h2>FAQ : devis et factures</h2>
+<p><strong>Un devis signe a-t-il la meme valeur qu'un contrat ?</strong> Oui, un devis signe par les deux parties vaut contrat. Il engage le prestataire a realiser la prestation aux conditions decrites et le client a payer le montant convenu.</p>
+<p><strong>Peut-on modifier un devis apres signature ?</strong> Toute modification doit faire l'objet d'un avenant signe par les deux parties. Une modification unilaterale n'est pas valable.</p>
+<p><strong>Combien de temps conserver les devis et factures ?</strong> Les factures doivent etre conservees 10 ans. Les devis sont soumis au delai de prescription commerciale, generalement 5 ans.</p>
+    `.trim(),
+  },
+  {
+    slug: 'logiciel-facturation-artisan',
+    title: 'Meilleur Logiciel de Facturation pour Artisan 2026 : comparatif',
+    excerpt: 'Quel logiciel de facturation choisir quand on est artisan ? Plombier, electricien, menuisier... notre comparatif des meilleures solutions adaptees aux metiers du batiment.',
+    date: '2026-11-04',
+    readTime: 8,
+    category: 'Guides',
+    keywords: ['logiciel facturation artisan', 'facturation artisan batiment', 'devis facture artisan', 'logiciel devis artisan'],
+    image: '/blog/logiciel-facturation-artisan.svg',
+    content: `
+<h2>Les besoins specifiques des artisans en matiere de facturation</h2>
+<p>Un artisan - plombier, electricien, menuisier, maconnerie - a des besoins de facturation tres differents d'un freelance en SSII. Les specificites : devis obligatoires au-dessus de 150 EUR, facturation de main-d'oeuvre et de materiaux, gestion des acomptes, situations de travaux pour les chantiers longs, et conformite aux obligations du batiment.</p>
+
+<h2>Criteres de selection pour un artisan</h2>
+<p>Avant de choisir un logiciel, voici les criteres essentiels pour un artisan :</p>
+<ul>
+<li><strong>Devis rapide sur chantier</strong> : possibilite de creer un devis depuis le smartphone directement chez le client</li>
+<li><strong>Catalogue de produits et materiaux</strong> : base de donnees des references avec prix unitaires et marges</li>
+<li><strong>Gestion des situations de travaux</strong> : pour les chantiers en plusieurs phases</li>
+<li><strong>Calcul automatique TVA</strong> : notamment la TVA a taux reduit (10%) pour les travaux de renovation</li>
+<li><strong>Mentions legales batiment</strong> : assurance RCP, numeros de certification RGE si applicable</li>
+<li><strong>Suivi des paiements</strong> : acomptes, solde, relances</li>
+</ul>
+
+<h2>Les meilleurs logiciels de facturation pour artisans</h2>
+<p>Parmi les solutions que nous avons testees, voici notre selection pour les artisans :</p>
+
+<p><strong>Pennylane</strong> : tres complet, gere la comptabilite, les factures, les devis et s'integre avec de nombreux secteurs. Ideal pour les artisans avec une activite importante. Disponible via notre <a href="/go/pennylane">lien affilie</a>. Notre avis complet dans le <a href="/blog/pennylane-avis-test-complet">test Pennylane</a>.</p>
+
+<p><strong>Indy</strong> : excellent pour les auto-entrepreneurs artisans, avec une gestion URSSAF integree. Parfait si votre activite est en micro-entreprise. Testez-le via notre <a href="/go/indy">lien partenaire</a>.</p>
+
+<p><strong>Freebe</strong> : moins oriente batiment, mais tres bon pour les artisans qui facturent a l'heure (plombier en regie, electricien depannage). Essai via notre <a href="/go/freebe">lien affilie Freebe</a>.</p>
+
+<h2>La TVA dans le batiment : un point crucial</h2>
+<p>Les artisans du batiment doivent maitrisier les differents taux de TVA applicables :</p>
+<ul>
+<li><strong>20%</strong> : taux normal, applicable aux constructions neuves et certains travaux</li>
+<li><strong>10%</strong> : taux intermediaire, applicable aux travaux de renovation sur logements de plus de 2 ans</li>
+<li><strong>5,5%</strong> : taux reduit, applicable aux travaux d'amelioration energetique (isolation, chaudiere a condensation...)</li>
+</ul>
+<p>Un bon logiciel de facturation artisan doit permettre de mixer ces taux sur une meme facture.</p>
+
+<h2>Le devis dans le batiment : obligations specifiques</h2>
+<p>Pour les artisans, le devis est obligatoire au-dessus de 150 EUR TTC. Il doit mentionner :</p>
+<ul>
+<li>La date de debut des travaux et la duree d'execution estimee</li>
+<li>Le detail des materiaux et leur origine</li>
+<li>La distinction entre le cout de la main-d'oeuvre et le cout des materiaux</li>
+<li>Les certifications et assurances du professionnel</li>
+</ul>
+<p>Consultez notre guide sur les <a href="/blog/mentions-obligatoires-facture-france">mentions obligatoires sur les factures</a> pour plus de details.</p>
+
+<h2>Facturation electronique 2026 : les artisans sont-ils concernes ?</h2>
+<p>Oui, l'obligation de facturation electronique s'appliquera progressivement a tous les professionnels, y compris les artisans. A partir de 2026, toutes les factures entre professionnels devront transiter par des plateformes agreees. Notre <a href="/blog/facturation-electronique-2026-guide">guide sur la facturation electronique 2026</a> vous explique ce qui change et comment vous preparer.</p>
+
+<h2>Notre recommandation pour les artisans</h2>
+<p>Pour la majorite des artisans en auto-entreprise ou micro-entreprise, <strong>Indy</strong> est le meilleur choix rapport qualite/prix : gratuit en plan de base, tres simple et avec la gestion URSSAF integree. Pour les artisans avec une structure plus importante (SARL, EURL, EI classique), <strong>Pennylane</strong> offre plus de profondeur comptable. Consultez notre <a href="/comparatif">comparatif complet</a> pour choisir.</p>
+    `.trim(),
+  },
+  {
+    slug: 'tva-auto-entrepreneur-guide',
+    title: 'TVA Auto-Entrepreneur 2026 : tout comprendre en 5 minutes',
+    excerpt: 'TVA et auto-entrepreneur : franchise en base, seuils 2026, depassement, facturation... Notre guide clair pour savoir si vous etes concerne et comment gerer la TVA.',
+    date: '2026-11-05',
+    readTime: 7,
+    category: 'Juridique',
+    keywords: ['tva auto entrepreneur', 'franchise tva auto entrepreneur', 'seuil tva micro entreprise', 'tva freelance'],
+    image: '/blog/tva-auto-entrepreneur-guide.svg',
+    content: `
+<h2>TVA et auto-entrepreneur : la franchise en base par defaut</h2>
+<p>En France, les auto-entrepreneurs beneficient par defaut de la <strong>franchise en base de TVA</strong>. Concretement, cela signifie que vous n'avez pas a collecter la TVA sur vos ventes, et que vous ne pouvez pas non plus la recuperer sur vos achats. Vos factures indiquent la mention "TVA non applicable - article 293 B du CGI".</p>
+<p>C'est une simplification administrative importante, mais elle n'est pas definitive : des que vous depassez certains seuils de chiffre d'affaires, vous devenez assujetti a la TVA.</p>
+
+<h2>Les seuils de TVA pour les auto-entrepreneurs en 2026</h2>
+<p>Les seuils de la franchise en base de TVA sont les suivants en 2026 :</p>
+<ul>
+<li><strong>Prestations de services et professions liberales</strong> : 36 800 EUR de CA annuel (seuil de base) et 39 100 EUR (seuil majore)</li>
+<li><strong>Commerce et vente de marchandises</strong> : 91 900 EUR de CA annuel (seuil de base) et 101 000 EUR (seuil majore)</li>
+<li><strong>Avocats, auteurs, artistes-interpretes</strong> : seuils specifiques de 47 700 EUR et 58 600 EUR</li>
+</ul>
+<p>Attention : ces seuils sont proratises si vous n'etes pas auto-entrepreneur sur toute l'annee.</p>
+
+<h2>Comment fonctionne le depassement de seuil ?</h2>
+<p>Si vous depassez le seuil de base mais restez sous le seuil majore :</p>
+<ul>
+<li>La premiere annee du depassement, vous conservez la franchise en base</li>
+<li>L'annee suivante, vous devenez assujetti a la TVA</li>
+</ul>
+<p>Si vous depassez directement le seuil majore, vous devenez assujetti a la TVA <strong>des le premier jour du mois de depassement</strong>. C'est un changement immediat qui necessite d'agir rapidement.</p>
+
+<h2>Quelles obligations en cas d'assujettissement a la TVA ?</h2>
+<p>Une fois assujetti a la TVA, vous devez :</p>
+<ul>
+<li>Modifier vos factures pour faire apparaitre la TVA (taux et montant)</li>
+<li>Deposer des declarations de TVA periodiques (mensuelle, trimestrielle ou annuelle selon votre regime)</li>
+<li>Payer la TVA collectee aupres de l'administration fiscale</li>
+<li>Conserver le droit de recuperer la TVA sur vos achats professionnels</li>
+</ul>
+<p>Un logiciel comme <a href="/blog/indy-avis-test-complet">Indy</a> ou <a href="/blog/pennylane-avis-test-complet">Pennylane</a> peut automatiser la preparation de vos declarations de TVA et reduire considerablement ce travail administratif.</p>
+
+<h2>Peut-on opter volontairement pour la TVA ?</h2>
+<p>Oui, un auto-entrepreneur peut choisir de devenir assujetti a la TVA volontairement, meme sans depasser les seuils. Cela peut etre interessant si vos clients sont eux-memes assujettis (entreprises) et si vous avez des achats importants sur lesquels recuperer la TVA.</p>
+<p>En revanche, si vous vendez principalement a des particuliers (BtoC), la franchise en base est generalement plus avantageuse : vos prix sont plus competitifs sans TVA.</p>
+
+<h2>TVA et facturation electronique 2026</h2>
+<p>La reforme de la facturation electronique obligatoire va egalement impacter les auto-entrepreneurs assujettis a la TVA. A partir de 2026, leurs factures devront transiter par des plateformes agreees (PDP). Notre <a href="/blog/facturation-electronique-2026-guide">guide sur la facturation electronique 2026</a> vous explique les etapes a suivre.</p>
+
+<h2>Nos outils recommandes pour gerer la TVA</h2>
+<p>Si vous devenez assujetti a la TVA, un logiciel adapte devient indispensable. Voici nos recommandations :</p>
+<ul>
+<li><a href="/blog/indy-avis-test-complet"><strong>Indy</strong></a> : ideal pour les auto-entrepreneurs, avec gestion URSSAF et TVA integrees</li>
+<li><a href="/blog/pennylane-avis-test-complet"><strong>Pennylane</strong></a> : solution complete pour une gestion plus avancee</li>
+<li><a href="/blog/freebe-avis-test-complet"><strong>Freebe</strong></a> : excellent pour les prestations de services avec suivi de temps</li>
+</ul>
+<p>Comparez toutes les solutions dans notre <a href="/comparatif">comparatif des logiciels de facturation</a>.</p>
+
+<h2>FAQ : TVA et auto-entrepreneur</h2>
+<p><strong>Un auto-entrepreneur doit-il indiquer la TVA sur ses factures ?</strong> Non, tant qu'il beneficie de la franchise en base, il doit indiquer la mention "TVA non applicable - art. 293 B du CGI" et ne pas faire figurer de TVA.</p>
+<p><strong>Que se passe-t-il si j'oublie de mentionner "TVA non applicable" ?</strong> L'oubli de cette mention n'entraine pas de sanction systematique, mais peut creer de la confusion. En cas de controle, l'administration pourrait considerer que vous avez collecte de la TVA implicitement.</p>
+<p><strong>Peut-on repasser en franchise en base apres avoir ete assujetti ?</strong> Oui, si votre CA repasse sous les seuils, vous pouvez redevenir beneficiaire de la franchise l'annee suivante. Mais attention aux demarches administratives necessaires.</p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
