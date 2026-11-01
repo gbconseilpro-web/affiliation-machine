@@ -32,6 +32,9 @@
   .badge-green {
     @apply badge bg-green-50 text-green-700;
   }
+  .section {
+    @apply max-w-6xl mx-auto px-4 py-16;
+  }
 
   /* Article body styles (sans plugin typography) */
   .article-body h1 {

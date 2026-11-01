@@ -113,10 +113,10 @@ export default function HomePage() {
             <span className="text-white text-2xl font-bold">Facturation<span className="text-orange-400">Pro</span></span>
           </div>
 
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight max-w-2xl mx-auto">
             Quel logiciel de{' '}
             <span className="text-orange-400">facturation</span>{' '}
-            choisir en 2026 ?
+            choisir en&nbsp;2026&nbsp;?
           </h1>
           <p className="text-indigo-200 text-lg mb-8 max-w-2xl mx-auto">
             Comparatif des 8 meilleurs outils pour freelances et auto-entrepreneurs.
