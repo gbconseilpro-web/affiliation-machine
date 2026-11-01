@@ -13,6 +13,17 @@ const goPages = [
   'myunisoft',
 ]
 
+const comparatifPages = [
+  'freebe',
+  'pennylane',
+  'indy',
+  'tiime',
+  'shine',
+  'sellsy',
+  'finom',
+  'myunisoft',
+]
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date()
 
@@ -43,6 +54,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]
 
+  // Pages avis individuelles /comparatif/[slug]
+  const comparatifPageEntries: MetadataRoute.Sitemap = comparatifPages.map((slug) => ({
+    url: `${SITE_URL}/comparatif/${slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.85,
+  }))
+
   // Les pages /go/ sont en noindex mais on les inclut quand même pour le crawl interne
   const goPageEntries: MetadataRoute.Sitemap = goPages.map((slug) => ({
     url: `${SITE_URL}/go/${slug}`,
@@ -51,5 +70,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.3,
   }))
 
-  return [...staticPages, ...goPageEntries]
+  return [...staticPages, ...comparatifPageEntries, ...goPageEntries]
 }
