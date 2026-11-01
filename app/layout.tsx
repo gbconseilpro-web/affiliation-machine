@@ -50,6 +50,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <nav className="hidden md:flex items-center gap-1">
               <a href="/comparatif" className="px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:text-primary-600 hover:bg-primary-50 transition-colors">Comparatif</a>
               <a href="/guide" className="px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:text-primary-600 hover:bg-primary-50 transition-colors">Guide</a>
+              <a href="/blog" className="px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:text-primary-600 hover:bg-primary-50 transition-colors">Blog</a>
               <a href="/auteur" className="px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:text-primary-600 hover:bg-primary-50 transition-colors">À propos</a>
             </nav>
 
@@ -100,7 +101,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <ul className="space-y-2 text-sm">
                   <li><a href="/comparatif" className="hover:text-white transition-colors">Comparatif 2026</a></li>
                   <li><a href="/guide" className="hover:text-white transition-colors">Guide complet</a></li>
+                  <li><a href="/blog" className="hover:text-white transition-colors">Blog</a></li>
                   <li><a href="/auteur" className="hover:text-white transition-colors">À propos</a></li>
+                  <li><a href="/mentions-legales" className="hover:text-white transition-colors">Mentions légales</a></li>
+                  <li><a href="/politique-confidentialite" className="hover:text-white transition-colors">Confidentialité</a></li>
                 </ul>
               </div>
             </div>

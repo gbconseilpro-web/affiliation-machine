@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next'
+import { getAllBlogPosts } from '@/lib/blog-posts'
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://facturationpro.fr'
 
@@ -47,6 +48,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${SITE_URL}/blog`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
       url: `${SITE_URL}/auteur`,
       lastModified: now,
       changeFrequency: 'monthly',
@@ -70,5 +77,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.3,
   }))
 
-  return [...staticPages, ...comparatifPageEntries, ...goPageEntries]
+  // Articles de blog
+  const blogPosts = getAllBlogPosts()
+  const blogEntries: MetadataRoute.Sitemap = blogPosts.map((post) => ({
+    url: `${SITE_URL}/blog/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: 'monthly' as const,
+    priority: 0.75,
+  }))
+
+  return [...staticPages, ...comparatifPageEntries, ...blogEntries, ...goPageEntries]
 }
