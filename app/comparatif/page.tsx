@@ -151,9 +151,9 @@ const products = [
       'Tarif plus élevé que les concurrents simples',
       'Fonctionnalités avancées réservées aux plans supérieurs',
     ],
-    ctaUrl: '#',
+    ctaUrl: '/go/pennylane',
     ctaText: 'Essayer Pennylane →',
-    ctaAffiliate: false,
+    ctaAffiliate: true,
     features: {
       'Essai gratuit': '14 jours',
       'Devis & factures': true,
@@ -187,9 +187,9 @@ const products = [
       'Facturation moins complète que Freebe',
       'Support uniquement par email (délai 24-48h)',
     ],
-    ctaUrl: '#',
+    ctaUrl: '/go/indy',
     ctaText: 'Essayer Indy →',
-    ctaAffiliate: false,
+    ctaAffiliate: true,
     features: {
       'Essai gratuit': '1 mois',
       'Devis & factures': true,
@@ -222,9 +222,9 @@ const products = [
       'Fonctions avancées payantes',
       'Moins adapté si pas d\'expert-comptable',
     ],
-    ctaUrl: '#',
+    ctaUrl: '/go/tiime',
     ctaText: 'Essayer Tiime →',
-    ctaAffiliate: false,
+    ctaAffiliate: true,
     features: {
       'Essai gratuit': 'Plan gratuit',
       'Devis & factures': true,
@@ -258,9 +258,9 @@ const products = [
       'Comptabilité non incluse (à connecter)',
       'Pas adapté aux entreprises avec TVA complexe',
     ],
-    ctaUrl: '#',
+    ctaUrl: '/go/shine',
     ctaText: 'Essayer Shine →',
-    ctaAffiliate: false,
+    ctaAffiliate: true,
     features: {
       'Essai gratuit': '1 mois',
       'Devis & factures': true,
@@ -294,9 +294,9 @@ const products = [
       'Prise en main plus longue',
       'Surdimensionné pour un freelance solo',
     ],
-    ctaUrl: '#',
+    ctaUrl: '/go/sellsy',
     ctaText: 'Essayer Sellsy →',
-    ctaAffiliate: false,
+    ctaAffiliate: true,
     features: {
       'Essai gratuit': '15 jours',
       'Devis & factures': true,
@@ -329,9 +329,9 @@ const products = [
       'Moins adapté à la fiscalité française spécifique',
       'Support client perfectible selon les avis',
     ],
-    ctaUrl: '#',
+    ctaUrl: '/go/finom',
     ctaText: 'Essayer Finom →',
-    ctaAffiliate: false,
+    ctaAffiliate: true,
     features: {
       'Essai gratuit': 'Plan gratuit',
       'Devis & factures': true,
@@ -364,9 +364,9 @@ const products = [
       'Accès principalement via cabinet comptable',
       'Interface moins moderne que Pennylane',
     ],
-    ctaUrl: '#',
+    ctaUrl: '/go/myunisoft',
     ctaText: 'Demander une démo →',
-    ctaAffiliate: false,
+    ctaAffiliate: true,
     features: {
       'Essai gratuit': 'Démo',
       'Devis & factures': true,
@@ -688,10 +688,10 @@ export default function ComparatifPage() {
           <h3 className="font-extrabold text-gray-900 mb-4">Guides complémentaires</h3>
           <div className="grid md:grid-cols-2 gap-3">
             {[
-              { href: '/logiciel-facturation', label: '→ Guide complet : choisir son logiciel de facturation' },
-              { href: '/devis-gratuit', label: '→ Comment faire un devis gratuit en ligne ?' },
-              { href: '/micro-entrepreneur', label: '→ Facturation pour micro-entrepreneur : le guide 2026' },
-              { href: '/facture-en-ligne', label: '→ Créer une facture en ligne : toutes les obligations' },
+              { href: '/guide', label: '→ Guide complet : choisir son logiciel de facturation' },
+              { href: '/comparatif/pennylane', label: '→ Avis Pennylane 2026 : test complet' },
+              { href: '/comparatif/indy', label: '→ Avis Indy 2026 : test complet' },
+              { href: '/comparatif/freebe', label: '→ Avis Freebe 2026 : test complet' },
             ].map((link) => (
               <a key={link.href} href={link.href} className="text-[#4f46e5] hover:text-[#3730a3] font-semibold text-sm transition-colors">
                 {link.label}
