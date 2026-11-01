@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: seo?.meta_title || article.title,
     description: seo?.meta_desc || `Guide complet sur ${article.kw} pour indépendants et auto-entrepreneurs.`,
-    alternates: { canonical: seo?.canonical || `https://facturationpro.fr/${params.slug}` },
+    alternates: { canonical: seo?.canonical || `https://facturationpro.com/${params.slug}` },
     openGraph: { title: seo?.og_title || article.title, description: seo?.meta_desc || '', type: 'article' },
   }
 }

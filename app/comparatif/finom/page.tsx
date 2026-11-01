@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Avis Finom 2026 : test complet du compte pro + facturation européen',
   description: 'Notre avis sur Finom après test : compte pro européen + facturation, cashback sur dépenses, tarifs. La fintech qui paie pour facturer ?',
-  alternates: { canonical: 'https://facturationpro.fr/comparatif/finom' },
+  alternates: { canonical: 'https://facturationpro.com/comparatif/finom' },
   openGraph: {
     title: 'Avis Finom 2026 : Test complet',
     description: 'Compte pro européen + facturation avec cashback : notre test complet de Finom, tarifs, avantages et limites.',

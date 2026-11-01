@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Avis Indy 2026 : test complet du logiciel de comptabilité pour indépendants',
   description: 'Notre avis sur Indy (ex Georges) après test : comptabilité automatisée par IA, tarifs, avantages. La fin de l\'expert-comptable pour les indépendants ?',
-  alternates: { canonical: 'https://facturationpro.fr/comparatif/indy' },
+  alternates: { canonical: 'https://facturationpro.com/comparatif/indy' },
   openGraph: {
     title: 'Avis Indy 2026 : Test complet',
     description: 'Test réel d\'Indy : comptabilité automatisée par IA, connexion bancaire, bilan annuel automatique. Pour les indépendants et auto-entrepreneurs.',

@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Avis Tiime 2026 : test complet du logiciel de facturation gratuit',
   description: 'Notre avis sur Tiime après test : fonctionnalités du plan gratuit, tarifs, avantages. Le meilleur logiciel de facturation gratuit pour indépendants ?',
-  alternates: { canonical: 'https://facturationpro.fr/comparatif/tiime' },
+  alternates: { canonical: 'https://facturationpro.com/comparatif/tiime' },
   openGraph: {
     title: 'Avis Tiime 2026 : Test complet',
     description: 'Test réel de Tiime : plan gratuit, fonctionnalités, tarifs, avantages et inconvénients du logiciel de facturation pour indépendants.',

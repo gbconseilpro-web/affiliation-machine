@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Avis Freebe 2026 : Test complet du logiciel de facturation pour freelances',
   description: 'Notre avis sur Freebe après test réel : fonctionnalités, tarifs, avantages et inconvénients. Le meilleur logiciel de facturation pour auto-entrepreneurs ?',
-  alternates: { canonical: 'https://facturationpro.fr/comparatif/freebe' },
+  alternates: { canonical: 'https://facturationpro.com/comparatif/freebe' },
   openGraph: {
     title: 'Avis Freebe 2026 : Test complet',
     description: 'Test réel de Freebe : fonctionnalités, tarifs, avantages et inconvénients du logiciel de facturation pour freelances.',

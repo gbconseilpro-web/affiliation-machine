@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Avis Pennylane 2026 : test complet du logiciel comptabilité-facturation',
   description: 'Notre avis sur Pennylane après test réel : fonctionnalités, tarifs, avantages. La solution comptabilité + facturation tout-en-un pour TPE/PME ?',
-  alternates: { canonical: 'https://facturationpro.fr/comparatif/pennylane' },
+  alternates: { canonical: 'https://facturationpro.com/comparatif/pennylane' },
   openGraph: {
     title: 'Avis Pennylane 2026 : Test complet',
     description: 'Test réel de Pennylane : comptabilité intégrée, synchronisation bancaire, TVA automatisée. La solution tout-en-un pour TPE/PME.',

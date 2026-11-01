@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next'
 import { getAllBlogPosts } from '@/lib/blog-posts'
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://facturationpro.fr'
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://facturationpro.com'
 
 const goPages = [
   'freebe',

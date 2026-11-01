@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Avis Sellsy 2026 : test complet du CRM + facturation pour PME',
   description: 'Notre avis sur Sellsy après test : CRM + facturation + trésorerie, tarifs, avantages. La solution tout-en-un pour les PME qui veulent tout gérer depuis un seul outil ?',
-  alternates: { canonical: 'https://facturationpro.fr/comparatif/sellsy' },
+  alternates: { canonical: 'https://facturationpro.com/comparatif/sellsy' },
   openGraph: {
     title: 'Avis Sellsy 2026 : Test complet',
     description: 'Test réel de Sellsy : CRM + facturation + trésorerie, tarifs, avantages et inconvénients pour les PME.',

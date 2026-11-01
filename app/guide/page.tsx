@@ -6,7 +6,7 @@ import {
   buildMetadata,
 } from '@/lib/seo'
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://facturationpro.fr'
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://facturationpro.com'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Guide facturation electronique obligatoire 2026 : Tout comprendre',

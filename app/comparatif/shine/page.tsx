@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Avis Shine 2026 : test complet du compte pro + facturation pour freelances',
   description: 'Notre avis sur Shine après test : compte bancaire pro + facturation intégrés, tarifs, avantages. Le meilleur combo pour freelances ?',
-  alternates: { canonical: 'https://facturationpro.fr/comparatif/shine' },
+  alternates: { canonical: 'https://facturationpro.com/comparatif/shine' },
   openGraph: {
     title: 'Avis Shine 2026 : Test complet',
     description: 'Test réel de Shine : compte pro + facturation intégrés, tarifs, avantages et inconvénients pour les freelances.',

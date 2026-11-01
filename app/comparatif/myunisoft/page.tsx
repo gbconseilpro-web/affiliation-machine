@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Avis MyUnisoft 2026 : test complet du logiciel de comptabilité cabinet',
   description: 'Notre avis sur MyUnisoft après test : logiciel comptabilité cloud pour cabinets d\'experts-comptables, tarifs, avantages. La révolution de la compta collaborative ?',
-  alternates: { canonical: 'https://facturationpro.fr/comparatif/myunisoft' },
+  alternates: { canonical: 'https://facturationpro.com/comparatif/myunisoft' },
   openGraph: {
     title: 'Avis MyUnisoft 2026 : Test complet',
     description: 'Test réel de MyUnisoft : le logiciel comptabilité cloud pour cabinets d\'experts-comptables. Notre verdict complet.',
