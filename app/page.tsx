@@ -97,7 +97,7 @@ const TOP3 = [
     stars: '★★★★★',
     features: ['Comptabilité + facturation', 'Synchronisation bancaire', 'Compatible expert-comptable'],
     cta: 'Voir l\'offre →',
-    ctaUrl: '#',
+    ctaUrl: 'https://www.pennylane.com/fr/inscription?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=homepage-top3',
   },
   {
     rank: 3,
@@ -110,7 +110,7 @@ const TOP3 = [
     stars: '★★★★☆',
     features: ['Déclaration fiscale automatique', 'Interface ultra-simple', 'Idéal micro-entrepreneur'],
     cta: 'Voir l\'offre →',
-    ctaUrl: '#',
+    ctaUrl: 'https://www.indy.fr/inscription?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=homepage-top3',
   },
 ]
 
