@@ -29,8 +29,8 @@ const blogSlugs = [
   'sellsy-avis-test-complet',
   'finom-avis-test-complet',
   'logiciel-facturation-pme-comparatif',
-  'facturation-electronique-2026-guide',
   'note-de-frais-auto-entrepreneur-guide',
+  'deductibilite-charges-freelance',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {

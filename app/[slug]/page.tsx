@@ -41,7 +41,29 @@ export default function ArticlePage({ params }: Props) {
     year: 'numeric', month: 'long', day: 'numeric'
   })
 
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: article.title,
+    author: { '@type': 'Organization', name: 'FacturationPro' },
+    publisher: { '@type': 'Organization', name: 'FacturationPro', url: 'https://facturationpro.com' },
+    datePublished: new Date(article.ts * 1000).toISOString().split('T')[0],
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://facturationpro.com/${params.slug}` },
+  }
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://facturationpro.com' },
+      { '@type': 'ListItem', position: 2, name: article.title, item: `https://facturationpro.com/${params.slug}` },
+    ],
+  }
+
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
     <div className="bg-white">
       {/* Breadcrumb */}
       <div className="bg-gray-50 border-b border-gray-100">
@@ -179,5 +201,6 @@ export default function ArticlePage({ params }: Props) {
         </div>
       </div>
     </div>
+    </>
   )
 }

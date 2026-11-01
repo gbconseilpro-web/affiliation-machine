@@ -1957,6 +1957,191 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
     metaTitle: 'Note de Frais Auto-Entrepreneur 2026 : Ce que Vous Pouvez Deduire | FacturationPro',
     metaDescription: 'Notes de frais et deductions pour auto-entrepreneur : debourses refacturables, frais de deplacement, materiel, logiciels. Guide complet pour micro-entrepreneurs 2026.',
   },
+  {
+    slug: 'deductibilite-charges-freelance',
+    title: 'Deductibilite des Charges Freelance : Le Guide Complet 2026 (SASU, EURL)',
+    excerpt: 'Quelles charges pouvez-vous deduire en tant que freelance en SASU ou EURL ? Materiel, deplacement, repas, formation, logiciels... Guide complet avec exemples chiffres.',
+    content: `
+<h2>Charges deductibles en freelance : l'avantage du regime reel</h2>
+<p>En tant que freelance en SASU ou EURL, vous beneficiez du regime reel d'imposition : vous pouvez deduire vos charges professionnelles reelles de votre chiffre d'affaires pour ne payer l'impot que sur votre benefice net. C'est l'un des grands avantages par rapport au regime micro-entrepreneur.</p>
+<p>Ce guide recense toutes les charges deductibles pour un freelance en 2026 et vous explique les conditions et limites a respecter pour optimiser votre fiscalite legalement.</p>
+
+<h2>Le principe de la deductibilite des charges</h2>
+<p>Pour qu'une charge soit deductible, elle doit remplir plusieurs conditions cumulatives :</p>
+<ul>
+<li><strong>Etre engagee dans l'interet de l'entreprise</strong> (pas une depense personnelle)</li>
+<li><strong>Etre justifiee par une facture</strong> ou un document comptable</li>
+<li><strong>Correspondre a l'exercice en cours</strong> (principe de l'annualite)</li>
+<li><strong>Ne pas etre exclue expressement par la loi</strong> (certains frais somptuaires sont exclus)</li>
+</ul>
+<p>En SASU, les charges sont payees par la societe. En EURL a l'IS, idem. En EURL a l'IR, elles reduisent votre benefice imposable. Dans tous les cas, conservez soigneusement toutes vos factures pendant au moins 10 ans.</p>
+
+<h2>1. Materiel et equipements informatiques</h2>
+<p>Tout le materiel informatique utilise dans le cadre de votre activite est deductible. La question est de savoir si vous le deduisez en une fois ou par amortissement :</p>
+
+<h3>Amortissement vs deduction immediate</h3>
+<p><strong>Moins de 500 EUR HT</strong> : deductible en totalite l'annee de l'achat (charges de faible valeur).</p>
+<p><strong>Plus de 500 EUR HT</strong> : amorti sur la duree d'utilisation prevue :</p>
+<ul>
+<li>Ordinateur portable ou fixe : amortissement sur 3 ans (33,33%/an)</li>
+<li>Smartphone : amortissement sur 2 a 3 ans</li>
+<li>Logiciel informatique : amortissement sur 3 ans (ou deduction immediate si < 500 EUR)</li>
+<li>Mobilier de bureau : amortissement sur 5 a 10 ans</li>
+</ul>
+
+<h3>Exemples de materiel deductible</h3>
+<ul>
+<li>Ordinateur portable (MacBook, PC...)</li>
+<li>Ecran(s) supplementaire(s)</li>
+<li>Clavier, souris, peripheriques</li>
+<li>Casque audio professionnel</li>
+<li>Imprimante, scanner</li>
+<li>Disques durs externes et solutions de sauvegarde</li>
+<li>Camera ou microphone pour visioconferences</li>
+</ul>
+
+<h2>2. Logiciels et abonnements SaaS</h2>
+<p>Tous les abonnements a des outils professionnels sont deductibles en totalite l'annee du paiement :</p>
+<ul>
+<li><strong>Suite bureautique</strong> : Microsoft 365, Google Workspace</li>
+<li><strong>Logiciel de facturation</strong> : <a href="/go/freebe">Freebe</a>, <a href="/go/indy">Indy</a>, <a href="/go/pennylane">Pennylane</a></li>
+<li><strong>Outils de gestion de projet</strong> : Notion, Asana, Trello</li>
+<li><strong>Outils de communication</strong> : Slack, Zoom</li>
+<li><strong>Adobe Creative Cloud</strong> (pour graphistes, motion designers...)</li>
+<li><strong>Outils SEO/marketing</strong> : Semrush, Ahrefs, Mailchimp</li>
+<li><strong>Stockage cloud</strong> : Dropbox, Google Drive, iCloud</li>
+<li><strong>Antivirus et securite</strong></li>
+<li><strong>VPN professionnel</strong></li>
+</ul>
+<p>Astuce : optez pour des abonnements annuels plutot que mensuels, ils sont souvent 20 a 30% moins chers et tout aussi deductibles.</p>
+
+<h2>3. Frais de deplacement</h2>
+<p>Les deplacements professionnels sont deductibles selon leur nature :</p>
+
+<h3>Transports en commun</h3>
+<p>Trains, avions, bus, metro, taxis, VTC (Uber, Bolt...) pris dans le cadre de missions professionnelles sont deductibles en totalite sur presentation des justificatifs.</p>
+
+<h3>Vehicule personnel : le bareme kilometrique</h3>
+<p>Si vous utilisez votre vehicule personnel pour des deplacements professionnels, vous pouvez deduire les frais au bareme kilometrique fixe par l'administration :</p>
+<ul>
+<li>Pour un vehicule de 3 CV : 0,456 EUR/km (pour 5 000 km parcourus)</li>
+<li>Pour un vehicule de 5 CV : 0,601 EUR/km (pour 5 000 km parcourus)</li>
+<li>Pour un vehicule de 7 CV et plus : 0,697 EUR/km (pour 5 000 km parcourus)</li>
+</ul>
+<p>Le bareme prend en compte l'amortissement, le carburant, les assurances, l'entretien. Il est actuellement redetermine chaque annee par arrete ministeriel. Conservez un carnet de route (date, motif, km parcourus, client).</p>
+
+<h3>Vehicule de societe</h3>
+<p>Si votre SASU ou EURL possede un vehicule, toutes les charges liees (assurance, carburant, entretien, amortissement) sont deductibles a 100% des lors que le vehicule est classe "vehicule utilitaire". Pour un vehicule de tourisme, une partie de la TVA et de l'amortissement n'est pas recuperable.</p>
+
+<h3>Hebergement en deplacement</h3>
+<p>Les frais d'hotel, chambre d'hote ou Airbnb lors de deplacements professionnels sont deductibles en totalite avec justificatifs. Pas de plafond particulier, mais le montant doit rester raisonnable au regard de la localite et de la mission.</p>
+
+<h2>4. Repas et frais de representation</h2>
+<p>Les frais de repas et de representation sont deductibles sous conditions :</p>
+
+<h3>Repas pris seul en deplacement</h3>
+<p>Deductibles dans la limite de la difference entre le cout du repas et le montant de la deduction forfaitaire pour repas prise en compte pour les salaries (environ 4,90 EUR en 2026). En pratique, un repas de 15 EUR en deplacement est deductible a hauteur de 15 - 4,90 = 10,10 EUR.</p>
+
+<h3>Repas d'affaires avec clients ou partenaires</h3>
+<p>Deductibles a 75% sous reserve que :</p>
+<ul>
+<li>Le repas soit justifie par un interet commercial (reunion client, negociation...)</li>
+<li>Vous conserviez la note avec les noms des personnes presentes et l'objet de la reunion</li>
+<li>Le montant reste raisonnable (un repas gastronomique a 500 EUR par personne sera difficilement justifiable)</li>
+</ul>
+
+<h3>Frais de representation : cadeaux clients</h3>
+<p>Les cadeaux offerts a des clients ou partenaires sont deductibles. La TVA n'est recuperable que si la valeur du cadeau est inferieure a 73 EUR TTC par beneficiaire et par an. Au-dela, la TVA n'est pas deductible. Le montant HT reste deductible en IS.</p>
+
+<h2>5. Frais de bureau et teletravail</h2>
+<p>Selon votre situation, les frais de bureau peuvent etre deduits de differentes manieres :</p>
+
+<h3>Bureau en coworking ou location de bureau</h3>
+<p>Les loyers d'espaces de coworking ou de bureaux loues sont deductibles en totalite. C'est la solution la plus simple et la plus propre comptablement.</p>
+
+<h3>Domiciliation chez soi</h3>
+<p>Si votre entreprise est domiciliee chez vous, vous pouvez facturer un loyer a votre societe pour l'utilisation d'une partie de votre logement. Ce loyer est deductible pour la societe dans la limite du loyer de marche, mais imposable pour vous en tant que revenus fonciers (ou dans vos revenus du foyer si proprietaire). La mise en oeuvre necessite un contrat de domiciliation.</p>
+
+<h3>Quote-part de charges si auto-domiciliation</h3>
+<p>Alternative : deduire une quote-part de vos charges de logement (loyer ou mensualite, electricite, internet) proportionnelle a la surface utilisee professionnellement. Exemple : 10 m2 sur 50 m2 = 20% deductibles. Documentez soigneusement ce calcul.</p>
+
+<h3>Abonnement internet et telephone</h3>
+<p>La quote-part professionnelle de vos abonnements internet et telephone est deductible. Si vous avez un forfait mixte (perso + pro), deduisez la part raisonnablement professionnelle (50% a 80% selon votre activite).</p>
+
+<h2>6. Formation professionnelle</h2>
+<p>Toutes les formations liees a votre activite professionnelle sont deductibles :</p>
+<ul>
+<li>Formations en ligne (Udemy, Coursera, LinkedIn Learning...)</li>
+<li>Livres et ouvrages professionnels</li>
+<li>Abonnements a des publications professionnelles</li>
+<li>Congres, seminaires, colloques</li>
+<li>Coaching professionnel</li>
+</ul>
+<p>Attention : la formation doit etre en lien avec votre activite actuelle ou son developpement previsible. Un cours de cuisine n'est pas deductible pour un developpeur web... sauf si vous avez un projet de food-tech a defendre !</p>
+
+<h2>7. Frais de communication et marketing</h2>
+<ul>
+<li>Creation et hebergement de votre site web professionnel</li>
+<li>Nom de domaine</li>
+<li>Publicite en ligne (Google Ads, Facebook Ads, LinkedIn Ads)</li>
+<li>Cartes de visite et supports print</li>
+<li>Abonnements aux reseaux sociaux professionnels (LinkedIn Premium...)</li>
+<li>Logiciels de creation graphique</li>
+<li>Photographe pour votre site ou vos contenus</li>
+</ul>
+
+<h2>8. Assurances professionnelles</h2>
+<p>Les assurances liees a votre activite professionnelle sont integralement deductibles :</p>
+<ul>
+<li>Responsabilite civile professionnelle (RC Pro)</li>
+<li>Protection juridique professionnelle</li>
+<li>Assurance prevoyance (dans certaines limites Madelin)</li>
+<li>Assurance chefs d'entreprise</li>
+</ul>
+<p>En SASU, votre protection sociale est couverte par le regime general (assimile salarie). En EURL a l'IS, vous relevez du regime TNS (Travailleur Non Salarie). Les cotisations TNS sont deductibles du benefice de l'entreprise.</p>
+
+<h2>9. Honoraires de prestataires</h2>
+<ul>
+<li>Expert-comptable : deductible en totalite</li>
+<li>Avocat (redaction de contrats, litige...)</li>
+<li>Secretariat et assistanat (administratif)</li>
+<li>Sous-traitance de missions</li>
+<li>Graphiste, developpeur, prestataire externe</li>
+</ul>
+<p>Pour un freelance qui utilise <a href="/go/pennylane">Pennylane</a> ou <a href="/go/indy">Indy</a> et fait appel a un expert-comptable via la plateforme, les honoraires comptables sont souvent reduits et entierement deductibles.</p>
+
+<h2>Micro-entrepreneur vs SASU/EURL : l'impact reel</h2>
+<p>Prenons un exemple concret pour illustrer l'interet du regime reel :</p>
+<p><strong>Freelance avec 60 000 EUR de CA et 15 000 EUR de charges reelles</strong></p>
+<p>En regime micro (profession liberale) : abattement forfaitaire de 34% = 20 400 EUR. Base imposable = 39 600 EUR.</p>
+<p>En regime reel (EURL/SASU IS) : deduction de 15 000 EUR de charges reelles. Benefice imposable = 45 000 EUR. Mais vous pouvez en plus vous verser une remuneration de 20 000 EUR deductible, reduisant le benefice a 25 000 EUR a l'IS.</p>
+<p>La difference peut representer plusieurs milliers d'euros d'impots en moins selon votre situation. Notre guide <a href="/blog/sasu-eurl-choisir-statut-freelance">SASU ou EURL : quel statut choisir</a> vous aide a simuler votre cas.</p>
+
+<h2>Comment gerer ses charges deductibles au quotidien ?</h2>
+<p>La cle d'une bonne gestion des charges deductibles, c'est l'organisation :</p>
+<ul>
+<li><strong>Toutes les depenses pro sur un compte dedie</strong> : compte bancaire pro ou compte courant de la societe</li>
+<li><strong>Conserver toutes les factures</strong> numeriquement (scan ou application mobile)</li>
+<li><strong>Saisir au fil de l'eau</strong> plutot qu'en fin d'annee</li>
+<li><strong>Categoriser correctement</strong> chaque depense dans votre logiciel comptable</li>
+</ul>
+<p>Un logiciel comme <a href="/go/pennylane">Pennylane</a> integre la gestion des notes de frais et la categorisation automatique des depenses par IA, ce qui simplifie enormement le travail comptable. <a href="/go/shine">Shine</a> offre aussi un excellent compte pro avec gestion des frais integree pour les independants.</p>
+
+<h2>FAQ : Deductibilite des charges freelance</h2>
+<p><strong>Puis-je deduire mon abonnement Spotify en tant que freelance ?</strong> Non, Spotify est un abonnement personnel. En revanche, si vous etes musicien ou producteur de podcasts professionnels, un abonnement a une bibliotheque musicale professionnelle est deductible.</p>
+<p><strong>Mon macbook est-il deductible a 100% ?</strong> Oui, mais sur 3 ans (amortissement). Si vous l'avez achete 2 000 EUR HT, vous deduisez environ 667 EUR/an pendant 3 ans. Si vous l'utilisez aussi a titre personnel, vous ne deduisez que la quote-part professionnelle (80% si vous l'utilisez principalement pour le travail).</p>
+<p><strong>Les frais de coiffure sont-ils deductibles pour un freelance ?</strong> Non, sauf cas tres specifiques (acteurs, presentateurs TV...) ou la tenue est directement liee a l'activite. Pour un consultant ou un developpeur, les frais de presentation personnelle ne sont pas deductibles.</p>
+<p><strong>Puis-je deduire les interets d'un emprunt pour financer mon activite ?</strong> Oui. Si vous avez emprunte pour financer du materiel ou le fonds de roulement de votre activite, les interets d'emprunt sont deductibles. L'investissement lui-meme est amorti.</p>
+    `.trim(),
+    date: '2026-11-11',
+    category: 'Guides',
+    readTime: '12 min',
+    author: 'L\'equipe FacturationPro',
+    image: '/blog/deductibilite-charges-freelance.svg',
+    tags: ['charges deductibles', 'freelance', 'SASU', 'EURL', 'fiscalite', 'comptabilite'],
+    metaTitle: 'Charges Deductibles Freelance 2026 : Guide Complet SASU EURL | FacturationPro',
+    metaDescription: 'Toutes les charges deductibles pour freelance en SASU ou EURL : materiel, logiciels, deplacement, repas, formation, bureau... Guide complet avec exemples chiffres 2026.',
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
