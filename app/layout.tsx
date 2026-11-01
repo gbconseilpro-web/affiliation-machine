@@ -39,7 +39,8 @@ export default function RootLayout({
             </a>
             <nav className="hidden md:flex gap-6 text-sm font-medium text-gray-600">
               <a href="/comparatif" className="hover:text-primary-600">Comparatif logiciels</a>
-              <a href="/guide" className="hover:text-primary-600">Guide facturation électronique</a>
+              <a href="/guide" className="hover:text-primary-600">Guide</a>
+              <a href="/blog" className="hover:text-primary-600">Blog</a>
               <a href="/auteur" className="hover:text-primary-600">À propos</a>
             </nav>
           </div>
@@ -57,6 +58,7 @@ export default function RootLayout({
                 <ul className="space-y-1 text-sm text-gray-500">
                   <li><a href="/guide" className="hover:text-primary-600">Guide facturation électronique</a></li>
                   <li><a href="/comparatif" className="hover:text-primary-600">Comparatif logiciels</a></li>
+                  <li><a href="/blog" className="hover:text-primary-600">Blog</a></li>
                   <li><a href="/auteur" className="hover:text-primary-600">Notre méthode</a></li>
                 </ul>
               </div>

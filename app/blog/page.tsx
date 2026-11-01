@@ -6,7 +6,7 @@ export const dynamic = 'force-static'
 export const metadata: Metadata = {
   title: 'Blog : Guides et conseils facturation pour indépendants',
   description: 'Guides pratiques, comparatifs et conseils pour gérer votre facturation en tant que freelance ou auto-entrepreneur.',
-  alternates: { canonical: 'https://facturationpro.fr/blog' },
+  alternates: { canonical: 'https://facturationpro.com/blog' },
 }
 
 export default function BlogPage() {
@@ -16,6 +16,12 @@ export default function BlogPage() {
     'Comparatifs': 'bg-indigo-100 text-indigo-700',
     'Guides': 'bg-emerald-100 text-emerald-700',
     'Avis logiciels': 'bg-orange-100 text-orange-700',
+  }
+
+  const categoryIcons: Record<string, string> = {
+    'Comparatifs': '⚖️',
+    'Guides': '📖',
+    'Avis logiciels': '🔍',
   }
 
   return (
@@ -35,6 +41,9 @@ export default function BlogPage() {
         {posts.map(post => (
           <article key={post.slug} className="bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6">
             <div className="flex items-start gap-4">
+              <div className="flex-shrink-0 w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-2xl" aria-hidden="true">
+                {categoryIcons[post.category] ?? '📄'}
+              </div>
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-3 mb-2">
                   <span className={`text-xs font-semibold px-2.5 py-0.5 rounded-full ${categoryColors[post.category] ?? 'bg-gray-100 text-gray-600'}`}>

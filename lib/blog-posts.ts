@@ -628,6 +628,197 @@ export const BLOG_POSTS: BlogPost[] = [
 </ul>
     `.trim(),
   },
+  {
+    slug: 'application-facturation-debutant-freelance',
+    title: 'Application de facturation pour débutant freelance : laquelle choisir en 2026 ?',
+    excerpt: 'Vous débutez en freelance et cherchez une application de facturation simple, pas chère et conforme ? Ce guide répond à vos 10 questions les plus fréquentes avec des recommandations concrètes.',
+    date: '2026-12-16',
+    readTime: 10,
+    category: 'Guides',
+    keywords: ['application facturation débutant freelance', 'logiciel facturation freelance débutant', 'quelle application facturation freelance', 'facturation freelance premier client'],
+    content: `
+<h2>Par où commencer quand on se lance en freelance ?</h2>
+<p>Votre premier client vous demande une facture. Vous réalisez que vous n'avez aucun outil, aucun template, et vous ne savez même pas quelles mentions mettre dessus. C'est le moment le plus fréquent où les nouveaux freelances cherchent "application facturation débutant". Ce guide répond directement à vos questions, sans jargon.</p>
+
+<h2>Question 1 : ai-je vraiment besoin d'une application de facturation ?</h2>
+<p><strong>Réponse courte : oui, dès votre première facture.</strong> Une facture manuscrite ou un document Word fait maison expose à trois risques : mentions obligatoires manquantes (vous êtes en infraction), numérotation incohérente (problème en cas de contrôle), et image non professionnelle (certains clients refusent les factures non issues d'un logiciel). Une application prend 5 minutes à configurer et génère automatiquement des factures conformes.</p>
+
+<h2>Question 2 : quelle application pour un auto-entrepreneur qui démarre ?</h2>
+<p><strong>Notre recommandation : Indy ou Tiime selon votre budget.</strong></p>
+<ul>
+<li><strong>Tiime</strong> : version gratuite disponible, idéale pour tester sans engagement. Factures et devis illimités, archivage automatique. Limite : fonctionnalités basiques, pas de synchronisation bancaire en version gratuite.</li>
+<li><strong>Indy</strong> : à partir de 7 euros par mois, avec synchronisation bancaire, alertes de seuil de TVA et rappels de déclaration URSSAF. Recommandé dès que vous avez 3-4 clients récurrents.</li>
+</ul>
+
+<h2>Question 3 : et si je suis en SASU ou EURL, pas micro-entrepreneur ?</h2>
+<p><strong>Le bon choix est différent.</strong> En société, vous avez besoin d'une comptabilité plus structurée et idéalement d'un lien avec votre expert-comptable. <strong>Freebe</strong> (à partir de 9,99 euros par mois) est conçu spécifiquement pour ce profil : gestion de projets, suivi du temps, notes de frais, export comptable. C'est notre recommandation numéro un pour les freelances en SASU.</p>
+
+<h2>Question 4 : quelles mentions doivent figurer sur ma facture ?</h2>
+<p>Voici les mentions obligatoires pour tout freelance en France :</p>
+<ul>
+<li>Vos coordonnées complètes : nom/prénom ou dénomination sociale, adresse, numéro SIRET</li>
+<li>Coordonnées du client : nom et adresse</li>
+<li>Date d'émission et numéro unique chronologique (ex : 2026-001)</li>
+<li>Description précise de la prestation, quantité et prix unitaire HT</li>
+<li>Taux de TVA ou mention "TVA non applicable, art. 293 B du CGI" si vous êtes sous le seuil</li>
+<li>Total TTC, date et conditions de paiement</li>
+<li>Pénalités de retard et indemnité forfaitaire de recouvrement de 40 euros</li>
+</ul>
+<p>Une bonne application génère toutes ces mentions automatiquement. Vous n'avez pas à les mémoriser.</p>
+
+<h2>Question 5 : peut-on faire des factures gratuitement ?</h2>
+<p>Oui. <strong>Tiime propose une version entièrement gratuite</strong> pour la création de factures et devis. D'autres solutions comme Henrri (racheté par Indy) proposaient aussi du gratuit. Attention cependant : le gratuit a ses limites (pas de synchronisation bancaire, relances manuelles, support limité). Pour un freelance avec 2-3 clients par mois et moins de 10 factures par an, le gratuit suffit. Au-delà, un outil payant à 7-10 euros par mois s'amortit très vite.</p>
+
+<h2>Question 6 : comment numéroter mes factures ?</h2>
+<p>La numérotation doit être <strong>chronologique et continue</strong>, sans trous. Le format le plus simple et le plus lisible : <strong>AAAA-NNN</strong> (exemple : 2026-001, 2026-002, 2026-003). Si vous avez plusieurs clients, vous pouvez ajouter un préfixe client : 2026-CLIENT-001. En cas d'annulation d'une facture, vous ne la supprimez pas : vous émettez un avoir avec le même numéro suivi de "AV" (2026-001-AV). Toutes les applications gèrent cette numérotation automatiquement.</p>
+
+<h2>Question 7 : comment gérer la TVA quand on démarre ?</h2>
+<p>Si votre chiffre d'affaires est inférieur à 36 800 euros par an (prestations de services), vous bénéficiez de la franchise en base de TVA. Concrètement : vous facturez sans TVA et mentionnez "TVA non applicable, article 293 B du CGI" sur chaque facture. Dès que vous dépassez ce seuil en cours d'année, vous devez facturer la TVA à 20% dès le premier jour du mois suivant. <strong>Indy envoie une alerte automatique quand vous approchez du seuil</strong>, ce qui évite les mauvaises surprises.</p>
+
+<h2>Question 8 : combien de temps faut-il conserver les factures ?</h2>
+<p><strong>10 ans à compter de la date d'émission</strong>, selon l'article L123-22 du Code de commerce. Cela vaut pour toutes les factures émises et reçues. Une application cloud s'occupe de cet archivage automatiquement, avec des serveurs sécurisés et des backups réguliers. Si vous gérez vos factures en Excel ou Word, c'est vous qui êtes responsable de la conservation et de la lisibilité des fichiers sur 10 ans.</p>
+
+<h2>Question 9 : que faire si un client ne paie pas ?</h2>
+<p>La procédure standard en 3 étapes :</p>
+<ul>
+<li><strong>J+1 après l'échéance :</strong> email de rappel poli (la plupart des retards sont des oublis)</li>
+<li><strong>J+15 sans réponse :</strong> mise en demeure par recommandé avec accusé de réception, avec mention des pénalités de retard applicables</li>
+<li><strong>J+30 sans réponse :</strong> injonction de payer via le greffe du tribunal de commerce (procédure simple et peu coûteuse)</li>
+</ul>
+<p>Freebe et Indy proposent des relances automatiques par email, ce qui sécurise votre trésorerie sans que vous ayez à y penser.</p>
+
+<h2>Question 10 : quelle application pour un freelance qui grandit ?</h2>
+<p>Si votre activité se développe (plus de 3 000 euros par mois de CA, plusieurs clients simultanés, sous-traitance), voici la progression logique :</p>
+<ul>
+<li><strong>Démarrage :</strong> Tiime gratuit ou Indy Solo (7 euros/mois)</li>
+<li><strong>Développement :</strong> Indy complet (20 euros/mois) ou Freebe (9,99 à 24,99 euros/mois)</li>
+<li><strong>Société (SASU/EURL) :</strong> Freebe ou Pennylane avec expert-comptable partenaire</li>
+</ul>
+<p>Le changement d'outil au bon moment évite de perdre du temps sur des tâches administratives qui peuvent être automatisées.</p>
+
+<h2>Notre verdict pour les débutants</h2>
+<p>Si vous démarrez aujourd'hui en auto-entrepreneur : commencez avec <a href="/go/indy">Indy</a> (7 euros/mois), qui couvre tous les besoins essentiels avec une synchronisation bancaire et des alertes utiles. Si vous êtes en SASU ou que vous avez des projets complexes à gérer : <a href="/go/freebe">Freebe</a> est le choix logique. Dans les deux cas, l'essai gratuit de 30 jours vous permet de tester sans engagement.</p>
+
+<p>Consultez aussi notre <a href="/comparatif">comparatif complet</a> pour voir tous les logiciels côte à côte.</p>
+    `.trim(),
+  },
+  {
+    slug: 'facturation-urssaf-logiciel',
+    title: 'Facturation et URSSAF : comment un logiciel simplifie vos déclarations ?',
+    excerpt: 'Cotisations sociales, déclaration de CA, seuils de TVA : le lien entre votre logiciel de facturation et l\'URSSAF n\'est pas automatique, mais les bons outils rendent tout ça invisible.',
+    date: '2026-12-23',
+    readTime: 8,
+    category: 'Guides',
+    keywords: ['facturation urssaf logiciel', 'logiciel facturation déclaration urssaf', 'auto-entrepreneur urssaf facturation', 'déclaration ca urssaf logiciel'],
+    content: `
+<h2>URSSAF et facturation : deux mondes séparés mais liés</h2>
+<p>Votre logiciel de facturation ne communique pas directement avec l'URSSAF (sauf rares exceptions). Ce sont deux systèmes distincts. Mais un bon logiciel de facturation vous donne exactement les chiffres dont vous avez besoin pour vos déclarations URSSAF, avec les bons totaux au bon moment, et parfois même des rappels automatiques.</p>
+
+<h2>Ce que l'URSSAF exige des auto-entrepreneurs</h2>
+<p>En tant qu'auto-entrepreneur, vous devez déclarer votre chiffre d'affaires mensuel ou trimestriel (selon votre choix à l'immatriculation) sur autoentrepreneur.urssaf.fr. Le montant à déclarer correspond au <strong>chiffre d'affaires encaissé</strong> (somme des règlements reçus), et non aux factures émises. C'est un détail crucial que beaucoup de débutants ratent.</p>
+<ul>
+<li>Déclaration mensuelle : avant le 31 du mois M pour le mois M-1</li>
+<li>Déclaration trimestrielle : avant le 30 avril (T1), 31 juillet (T2), 31 octobre (T3), 31 janvier (T4)</li>
+<li>En cas de CA nul : vous devez quand même déclarer "0"</li>
+<li>Oubli de déclaration : cotisation forfaitaire et pénalités appliquées</li>
+</ul>
+
+<h2>Comment un logiciel de facturation aide pour l'URSSAF</h2>
+<h3>Suivi des encaissements en temps réel</h3>
+<p>La plupart des logiciels distinguent les factures émises et les paiements reçus. <strong>Indy</strong> synchronise votre compte bancaire pour enregistrer automatiquement chaque encaissement dès qu'il apparaît sur votre relevé. Vous voyez en permanence votre CA encaissé par période, ce qui rend la déclaration URSSAF triviale : vous copiez le chiffre depuis le tableau de bord.</p>
+
+<h3>Alertes de déclaration</h3>
+<p>Indy envoie des rappels automatiques avant chaque échéance URSSAF. Plus de risque d'oublier une déclaration ou de payer une pénalité pour retard.</p>
+
+<h3>Suivi du seuil de TVA</h3>
+<p>Le logiciel affiche en temps réel votre position par rapport aux seuils de franchise en base de TVA (36 800 euros pour les prestations de services en 2026). Une alerte vous prévient quand vous approchez du seuil, vous laissant le temps d'anticiper le passage à la TVA sans être pris au dépourvu.</p>
+
+<h3>Export pour votre expert-comptable</h3>
+<p>Si vous avez un expert-comptable (ou si votre activité grandit au point d'en avoir besoin), les logiciels exportent vos données en formats standardisés : FEC (Fichier des Écritures Comptables), CSV, ou format spécifique à votre cabinet. Cela réduit les honoraires comptables et évite les doubles saisies.</p>
+
+<h2>Les limites : ce qu'un logiciel ne fait pas pour vous</h2>
+<ul>
+<li><strong>Il ne déclare pas à l'URSSAF à votre place :</strong> vous devez toujours vous connecter sur autoentrepreneur.urssaf.fr et saisir votre CA</li>
+<li><strong>Il ne calcule pas vos cotisations :</strong> c'est l'URSSAF qui applique les taux selon votre activité (12,3% pour les prestations de services BIC, 21,2% pour les libéraux en CIPAV, etc.)</li>
+<li><strong>Il ne remplace pas un expert-comptable :</strong> pour les questions fiscales complexes, TVA déductible, CFE, IS, la consultation d'un professionnel reste nécessaire</li>
+</ul>
+
+<h2>Cas pratique : déclaration URSSAF avec Indy</h2>
+<p>Voici comment fonctionne concrètement le processus avec Indy :</p>
+<ul>
+<li>Vous émettez vos factures dans Indy au fur et à mesure</li>
+<li>Vos clients paient, les virements arrivent sur votre compte bancaire synchronisé</li>
+<li>Indy catégorise automatiquement chaque encaissement comme "recette professionnelle"</li>
+<li>En fin de période, le tableau de bord affiche votre CA encaissé sur la période</li>
+<li>Vous copiez ce chiffre sur autoentrepreneur.urssaf.fr pour votre déclaration</li>
+<li>L'URSSAF calcule vos cotisations et vous envoie l'avis de paiement</li>
+</ul>
+<p>Temps total pour la déclaration : 5 minutes au lieu de 30 minutes à rechercher vos relevés bancaires et calculer les totaux manuellement.</p>
+
+<h2>Et pour les freelances en société (SASU/EURL) ?</h2>
+<p>La situation est différente : vous ne relevez plus de l'URSSAF auto-entrepreneur mais de la DSN (Déclaration Sociale Nominative) si vous vous versez un salaire, ou du régime des indépendants (SSI) si vous êtes gérant non salarié. Dans ce cas :</p>
+<ul>
+<li><strong>Freebe</strong> ou <strong>Pennylane</strong> sont mieux adaptés que des outils micro-entrepreneur</li>
+<li>Un expert-comptable devient généralement indispensable pour la conformité sociale et fiscale</li>
+<li>Les déclarations sont plus complexes mais moins fréquentes (annuelles pour beaucoup)</li>
+</ul>
+
+<h2>Notre recommandation</h2>
+<p>Pour un auto-entrepreneur qui veut simplifier au maximum le lien entre facturation et URSSAF : <a href="/go/indy">Indy</a> est le choix le plus adapté. La synchronisation bancaire automatique, les alertes de déclaration et le tableau de bord CA par période sont exactement ce qu'il faut pour ne plus jamais stresser à chaque échéance URSSAF.</p>
+
+<p>Pour comparer toutes les options disponibles, consultez notre <a href="/comparatif">comparatif complet des logiciels de facturation</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: 'erreurs-facturation-freelance',
+    title: '7 erreurs de facturation que font (presque) tous les freelances',
+    excerpt: 'Numérotation incorrecte, TVA oubliée, délais non respectés... Ces erreurs peuvent coûter cher. Découvrez comment les éviter une bonne fois pour toutes.',
+    date: '2026-12-30',
+    readTime: 9,
+    category: 'Guides',
+    keywords: ['erreurs facturation freelance', 'erreur facture freelance', 'facture incorrecte freelance', 'problème facturation indépendant'],
+    content: `
+<h2>Pourquoi les erreurs de facturation coûtent si cher</h2>
+<p>Une erreur sur une facture, c'est rarement anodine. Elle peut entraîner un retard de paiement (le client demande une facture rectificative), un risque fiscal (mention obligatoire absente, numérotation non conforme), ou une perte sèche (TVA non réclamée, pénalités non appliquées). Voici les 7 erreurs les plus courantes, et comment les éviter définitivement.</p>
+
+<h2>Erreur n°1 : oublier des mentions obligatoires</h2>
+<p>C'est l'erreur numéro un chez les débutants. Une facture sans le numéro SIRET, sans mention TVA ou sans indemnité forfaitaire de recouvrement de 40 euros est juridiquement incomplète. Les conséquences : un client professionnel peut la refuser, et l'administration fiscale peut la rejeter lors d'un contrôle.</p>
+<p><strong>La solution :</strong> utiliser un logiciel qui génère toutes les mentions obligatoires automatiquement. Vous ne pouvez plus rien oublier, même sans les connaître par coeur. <a href="/go/indy">Indy</a> et <a href="/go/freebe">Freebe</a> intègrent tous les champs légaux obligatoires.</p>
+
+<h2>Erreur n°2 : une numérotation non chronologique</h2>
+<p>Beaucoup de freelances commencent à numéroter leurs factures au hasard (FACT-001, puis FACT-003 après une annulation, puis FACT-015 parce que ça sonne bien). La loi est claire : la numérotation doit être <strong>chronologique et continue, sans trous</strong>. Un trou dans la numérotation est un signal d'alarme pour un contrôleur fiscal.</p>
+<p><strong>La solution :</strong> laisser le logiciel gérer la numérotation automatiquement. Ne jamais supprimer une facture : en cas d'erreur, émettre un avoir (FA-2026-001-AV) et une nouvelle facture corrective.</p>
+
+<h2>Erreur n°3 : facturer en HT sans vérifier son statut TVA</h2>
+<p>Un freelance qui dépasse le seuil de franchise en base de TVA (36 800 euros pour les prestations de services en 2026) et continue à facturer sans TVA se retrouve personnellement redevable de la TVA sur toutes les factures émises depuis le dépassement. Il doit reverser la TVA à l'État sans pouvoir la récupérer auprès de ses clients après coup.</p>
+<p><strong>La solution :</strong> surveiller son CA en permanence et activer immédiatement la TVA dès le dépassement. Indy envoie une alerte automatique avant le seuil.</p>
+
+<h2>Erreur n°4 : ne pas appliquer les pénalités de retard</h2>
+<p>Légalement, les pénalités de retard s'appliquent automatiquement dès le premier jour de retard, même sans relance. Beaucoup de freelances ne les réclament jamais par peur de "froisser" le client. Résultat : des clients habituels qui paient systématiquement en retard parce qu'il n'y a aucune conséquence.</p>
+<p><strong>La solution :</strong> mentionner les pénalités de retard sur chaque facture (obligation légale), et les appliquer effectivement en cas de retard répété. Un logiciel avec relances automatiques (Freebe, Indy) envoie des rappels sans que vous ayez à intervenir, ce qui professionnalise la relation sans la rendre conflictuelle.</p>
+
+<h2>Erreur n°5 : confondre date de facture et date de prestation</h2>
+<p>La date d'émission de la facture détermine la période comptable à laquelle elle est rattachée. Si vous facturez en janvier 2027 une prestation réalisée en décembre 2026, les conséquences sur votre déclaration de revenus peuvent être significatives. Idem pour la TVA : c'est la date de la prestation qui détermine quand elle est exigible (pour les prestataires de services).</p>
+<p><strong>La solution :</strong> facturer au plus vite après la réalisation de la prestation, idéalement le jour même ou dans la semaine. Un logiciel avec création de facture rapide depuis mobile (Indy, Tiime) encourage cette bonne habitude.</p>
+
+<h2>Erreur n°6 : envoyer la facture sans accusé de réception</h2>
+<p>En cas de litige, la date à laquelle le client a reçu la facture détermine le point de départ du délai de paiement. Un email sans suivi ne prouve rien. Certains clients de mauvaise foi contestent avoir reçu la facture pour gagner du temps.</p>
+<p><strong>La solution :</strong> envoyer les factures par l'interface du logiciel, qui génère un accusé de réception automatique et un historique des envois. Pour les clients importants, demander une confirmation de réception explicite.</p>
+
+<h2>Erreur n°7 : ne pas archiver correctement</h2>
+<p>Les factures doivent être conservées 10 ans. Beaucoup de freelances stockent leurs factures dans un dossier sur leur disque dur local, sans backup. Un crash disque, et 10 ans de documents sont perdus, avec les risques juridiques et fiscaux que cela implique.</p>
+<p><strong>La solution :</strong> utiliser un logiciel cloud qui s'occupe de l'archivage automatiquement sur des serveurs sécurisés avec redondance. En cas de contrôle fiscal dans 7 ans, vous retrouvez n'importe quelle facture en 10 secondes.</p>
+
+<h2>Le commun de ces 7 erreurs</h2>
+<p>Toutes ces erreurs ont une cause commune : la gestion manuelle de la facturation. Un Excel ou un Word maison oblige à tout gérer soi-même : les mentions, la numérotation, les alertes, les relances, l'archivage. Un logiciel automatise tout ça. Le coût de l'abonnement (7 à 25 euros par mois selon l'outil) est largement compensé par les risques évités et le temps gagné.</p>
+
+<p>Découvrez notre sélection des meilleurs outils dans notre <a href="/comparatif">comparatif logiciels de facturation</a>, ou consultez directement les essais gratuits :</p>
+<ul>
+<li><a href="/go/indy">Indy : essai gratuit 30 jours</a> (idéal auto-entrepreneurs)</li>
+<li><a href="/go/freebe">Freebe : essai gratuit 30 jours</a> (idéal SASU/EURL et freelances)</li>
+</ul>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
