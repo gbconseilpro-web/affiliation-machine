@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Deploy via SSH (password auth)
+      - name: Deploy via SSH
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.VPS_HOST }}
@@ -17,22 +17,13 @@ jobs:
           password: ${{ secrets.VPS_PASSWORD }}
           script: |
             set -e
-            # Clone or update repo
-            if [ -d /home/ubuntu/affiliation-machine ]; then
-              cd /home/ubuntu/affiliation-machine
-              git pull origin main
-            else
-              git clone https://github.com/gbconseilpro-web/affiliation-machine.git /home/ubuntu/affiliation-machine
-              cd /home/ubuntu/affiliation-machine
-            fi
-            # Install and build
+            cd /home/ubuntu/affiliation-machine
+            git pull origin main
             npm ci --production=false
             npm run build
-            # Start or restart PM2
-            if pm2 list | grep -q 'affiliation'; then
-              pm2 restart ecosystem.config.js --update-env
-            else
-              pm2 start ecosystem.config.js
-            fi
+            cp -r .next/static .next/standalone/.next/static
+            cp -r public .next/standalone/public
+            if [ -d agents ]; then cp -r agents .next/standalone/agents; fi
+            pm2 restart affiliation
             pm2 save
             echo "Deploy done - $(date)"
