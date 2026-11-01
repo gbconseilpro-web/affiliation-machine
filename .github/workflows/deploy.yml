@@ -18,12 +18,38 @@ jobs:
           script: |
             set -e
             cd /home/ubuntu/affiliation-machine
+
+            echo "==> Git pull"
             git pull origin main
-            npm install
+
+            echo "==> npm install (clean)"
+            npm ci --omit=dev || npm install
+
+            echo "==> Build Next.js"
             npm run build
+
+            echo "==> Copie assets standalone"
             cp -r .next/static .next/standalone/.next/static
             cp -r public .next/standalone/public
+
+            # node_modules du projet -> standalone pour les modules manquants au runtime
+            # Next standalone ne bundle pas tout : sharp, certains loaders dynamiques
+            if [ -d node_modules ]; then
+              rsync -a --ignore-existing node_modules/ .next/standalone/node_modules/ 2>/dev/null || true
+            fi
+
             if [ -d agents ]; then cp -r agents .next/standalone/agents; fi
-            pm2 restart affiliation
+
+            echo "==> .env -> standalone"
+            if [ -f .env ]; then cp .env .next/standalone/.env; fi
+            if [ -f .env.local ]; then cp .env.local .next/standalone/.env.local; fi
+
+            echo "==> Restart pm2"
+            pm2 restart affiliation || pm2 start .next/standalone/server.js --name affiliation --cwd .next/standalone
             pm2 save
-            echo "Deploy done - $(date)"
+
+            echo "==> Health check"
+            sleep 3
+            curl -sf http://localhost:3000 > /dev/null && echo "OK: port 3000 repond" || echo "WARN: port 3000 ne repond pas encore"
+
+            echo "==> Deploy done $(date)"

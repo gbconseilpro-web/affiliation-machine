@@ -5,6 +5,8 @@ import {
   buildFaqJsonLd,
   buildBreadcrumbJsonLd,
   buildMetadata,
+  buildSoftwareComparisonListJsonLd,
+  buildSoftwareApplicationJsonLd,
 } from '@/lib/seo'
 import { buildAffiliateLink } from '@/lib/affiliate'
 
@@ -168,6 +170,32 @@ export default function ComparatifPage() {
     { name: 'Comparatif logiciels', path: '/comparatif' },
   ])
 
+  // ItemList SoftwareApplication : signal cle pour AI Overviews et ChatGPT Search
+  const softwareListJsonLd = buildSoftwareComparisonListJsonLd(
+    products.map((p, i) => ({
+      name: p.name,
+      description: p.pros[0],
+      url: `${SITE_URL}/comparatif#${p.name.toLowerCase()}`,
+      rating: p.rating,
+      reviewCount: p.reviewCount,
+      price: p.price,
+      position: i + 1,
+    }))
+  )
+
+  // SoftwareApplication individuel pour chaque outil (enrichit le maillage semantique)
+  const softwareAppsJsonLd = products.map(p =>
+    buildSoftwareApplicationJsonLd({
+      name: p.name,
+      description: p.pros[0],
+      url: `${SITE_URL}/comparatif#${p.name.toLowerCase()}`,
+      rating: p.rating,
+      reviewCount: p.reviewCount,
+      price: p.price,
+      features: Object.entries(p.features).filter(([, v]) => v).map(([k]) => k),
+    })
+  )
+
   return (
     <>
       <script
@@ -182,6 +210,17 @@ export default function ComparatifPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareListJsonLd) }}
+      />
+      {softwareAppsJsonLd.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
 
       {/* HERO violet — cohérence avec la home */}
       <section className="bg-gradient-to-br from-indigo-700 via-indigo-600 to-purple-700">

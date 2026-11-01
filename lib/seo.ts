@@ -187,6 +187,148 @@ export function buildPersonJsonLd(opts: {
 }
 
 /**
+ * Genere le JSON-LD SoftwareApplication pour un logiciel
+ * Signal fort pour GEO : ChatGPT, Perplexity et Claude extraient ce schema
+ * pour repondre aux questions "quel logiciel de facturation choisir"
+ */
+export function buildSoftwareApplicationJsonLd(opts: {
+  name: string
+  description: string
+  url: string
+  applicationCategory?: string
+  operatingSystem?: string
+  price?: string
+  rating: number
+  reviewCount: number
+  features?: string[]
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: opts.name,
+    description: opts.description,
+    url: opts.url,
+    applicationCategory: opts.applicationCategory || 'BusinessApplication',
+    operatingSystem: opts.operatingSystem || 'Web, iOS, Android',
+    offers: {
+      '@type': 'Offer',
+      price: opts.price?.replace(/[^0-9.]/g, '') || '0',
+      priceCurrency: 'EUR',
+      availability: 'https://schema.org/InStock',
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: opts.rating,
+      reviewCount: opts.reviewCount,
+      bestRating: 5,
+      worstRating: 1,
+    },
+    ...(opts.features && opts.features.length > 0 && {
+      featureList: opts.features.join(', '),
+    }),
+  }
+}
+
+/**
+ * Genere un JSON-LD Review pour un logiciel
+ * Combine avec SoftwareApplication pour un signal E-E-A-T maximal
+ */
+export function buildReviewJsonLd(opts: {
+  itemName: string
+  itemUrl: string
+  itemType?: string
+  reviewBody: string
+  ratingValue: number
+  authorName?: string
+  datePublished?: string
+  positiveNotes?: string[]
+  negativeNotes?: string[]
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Review',
+    itemReviewed: {
+      '@type': opts.itemType || 'SoftwareApplication',
+      name: opts.itemName,
+      url: opts.itemUrl,
+    },
+    reviewBody: opts.reviewBody,
+    reviewRating: {
+      '@type': 'Rating',
+      ratingValue: opts.ratingValue,
+      bestRating: 5,
+      worstRating: 1,
+    },
+    author: {
+      '@type': 'Person',
+      name: opts.authorName || (process.env.SITE_AUTHOR_NAME || SITE_NAME),
+      url: `${SITE_URL}/auteur`,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+    datePublished: opts.datePublished || new Date().toISOString().split('T')[0],
+    ...(opts.positiveNotes && opts.positiveNotes.length > 0 && {
+      positiveNotes: opts.positiveNotes.map(note => ({ '@type': 'ListItem', name: note })),
+    }),
+    ...(opts.negativeNotes && opts.negativeNotes.length > 0 && {
+      negativeNotes: opts.negativeNotes.map(note => ({ '@type': 'ListItem', name: note })),
+    }),
+  }
+}
+
+/**
+ * Genere un JSON-LD ItemList de SoftwareApplication pour les comparatifs
+ * Format ideal pour apparaitre dans les AI Overviews Google et ChatGPT Search
+ */
+export function buildSoftwareComparisonListJsonLd(products: Array<{
+  name: string
+  description: string
+  url: string
+  rating: number
+  reviewCount: number
+  price?: string
+  position: number
+}>) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Comparatif logiciels de facturation 2026',
+    description: 'Classement des meilleurs logiciels de facturation electronique pour PME et independants',
+    numberOfItems: products.length,
+    itemListElement: products.map(product => ({
+      '@type': 'ListItem',
+      position: product.position,
+      item: {
+        '@type': 'SoftwareApplication',
+        name: product.name,
+        description: product.description,
+        url: product.url,
+        applicationCategory: 'BusinessApplication',
+        operatingSystem: 'Web, iOS, Android',
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: product.rating,
+          reviewCount: product.reviewCount,
+          bestRating: 5,
+          worstRating: 1,
+        },
+        ...(product.price && {
+          offers: {
+            '@type': 'Offer',
+            price: product.price.replace(/[^0-9.]/g, ''),
+            priceCurrency: 'EUR',
+            availability: 'https://schema.org/InStock',
+          },
+        }),
+      },
+    })),
+  }
+}
+
+/**
  * Slugifie un string pour les URLs
  */
 export function slugify(text: string): string {
