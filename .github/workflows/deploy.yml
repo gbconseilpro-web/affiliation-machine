@@ -19,7 +19,7 @@ jobs:
             set -e
             cd /home/ubuntu/affiliation-machine
             git pull origin main
-            npm ci --production=false
+            npm install
             npm run build
             cp -r .next/static .next/standalone/.next/static
             cp -r public .next/standalone/public
