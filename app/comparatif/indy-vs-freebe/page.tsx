@@ -24,6 +24,48 @@ const jsonLd = {
   datePublished: '2026-11-01',
   dateModified: '2026-11-01',
   publisher: { '@type': 'Organization', name: 'FacturationPro' },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://facturationpro.com/comparatif/indy-vs-freebe' },
+}
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Indy ou Freebe : lequel est le mieux pour un freelance ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Cela depend de votre statut. Indy est superieur pour les auto-entrepreneurs et TNS qui ont besoin de declarations URSSAF automatiques et d\'un suivi comptable complet. Freebe excelle pour les freelances qui veulent une gestion du temps et des projets integree, avec une interface plus visuelle.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Indy est-il vraiment gratuit ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Indy propose une offre gratuite avec les fonctionnalites de base (facturation, suivi de tresorerie). Les fonctionnalites avancees comme les declarations URSSAF automatiques et la comptabilite complete sont accessibles dans les plans payants (a partir de 9 EUR/mois).',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Freebe convient-il aux auto-entrepreneurs ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Oui, Freebe est entierement adapte aux auto-entrepreneurs. Il permet de creer des devis et factures conformes, de suivre le CA par rapport aux seuils micro-entreprise, et de gerer les notes de frais. La version gratuite est suffisante pour de nombreux auto-entrepreneurs debutants.',
+      },
+    },
+  ],
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://facturationpro.com' },
+    { '@type': 'ListItem', position: 2, name: 'Comparatifs', item: 'https://facturationpro.com/comparatif' },
+    { '@type': 'ListItem', position: 3, name: 'Indy vs Freebe', item: 'https://facturationpro.com/comparatif/indy-vs-freebe' },
+  ],
 }
 
 const criteria = [
@@ -41,6 +83,8 @@ export default function IndyVsFreebe() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <div className="bg-white min-h-screen">
         {/* Breadcrumb */}
         <div className="bg-gray-50 border-b border-gray-100 py-3">

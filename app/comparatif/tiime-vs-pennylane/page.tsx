@@ -24,6 +24,48 @@ const jsonLd = {
   datePublished: '2026-11-01',
   dateModified: '2026-11-01',
   publisher: { '@type': 'Organization', name: 'FacturationPro' },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://facturationpro.com/comparatif/tiime-vs-pennylane' },
+}
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Tiime ou Pennylane : lequel choisir pour un freelance en 2026 ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Tiime est plus adapte aux freelances et independants qui cherchent un rapport qualite/prix optimal avec une facturation et une comptabilite completes. Pennylane convient davantage aux entreprises ayant un expert-comptable, grace a sa collaboration en temps reel avec le cabinet. Les deux offrent des fonctionnalites de facturation et de comptabilite similaires.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Pennylane est-il compatible avec mon expert-comptable ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Oui, Pennylane est specifiquement concu pour faciliter la collaboration avec les experts-comptables. L\'expert a acces en temps reel aux donnees de votre entreprise, peut valider les ecritures et preparer votre bilan directement dans la plateforme. C\'est l\'un des points forts majeurs de Pennylane par rapport a Tiime.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Tiime est-il gratuit ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Tiime propose une offre d\'entree accessible avec les fonctionnalites essentielles de facturation. Les plans avances incluent la comptabilite en temps reel, les rapports et l\'integration bancaire. Tiime est generalement positionne sur des tarifs plus competitifs que Pennylane, ce qui en fait un meilleur choix pour les independants sensibles au prix.',
+      },
+    },
+  ],
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://facturationpro.com' },
+    { '@type': 'ListItem', position: 2, name: 'Comparatifs', item: 'https://facturationpro.com/comparatif' },
+    { '@type': 'ListItem', position: 3, name: 'Tiime vs Pennylane', item: 'https://facturationpro.com/comparatif/tiime-vs-pennylane' },
+  ],
 }
 
 const criteria = [
@@ -41,6 +83,8 @@ export default function TiimeVsPennylane() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <div className="bg-white min-h-screen">
         {/* Breadcrumb */}
         <div className="bg-gray-50 border-b border-gray-100 py-3">

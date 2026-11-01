@@ -24,6 +24,48 @@ const jsonLd = {
   datePublished: '2026-11-01',
   dateModified: '2026-11-01',
   publisher: { '@type': 'Organization', name: 'FacturationPro' },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': 'https://facturationpro.com/comparatif/freebe-vs-pennylane' },
+}
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Freebe ou Pennylane : lequel choisir pour un freelance ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Freebe est ideal pour les freelances et porteurs de projet : interface simple, suivi du temps integre et tarif accessible (11 EUR/mois). Pennylane s\'adresse plutot aux TPE ayant un expert-comptable, avec une comptabilite complete. Pour un independant seul, Freebe est generalement le meilleur choix.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Pennylane est-il trop cher pour un auto-entrepreneur ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Pennylane demarre a 29 EUR/mois pour la gestion financiere seule, contre 11 EUR pour Freebe. Pour un auto-entrepreneur avec un CA modeste, le surcoût de Pennylane ne se justifie que si vous avez besoin de la synchronisation expert-comptable ou de fonctionnalites comptables avancees.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Freebe gere-t-il la facturation electronique 2026 ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Oui, Freebe travaille sur la conformite a la reforme de facturation electronique obligatoire prevue en France. Pennylane est egalement en cours de certification PDP. Les deux plateformes communiquent regulierement sur l\'avancement de leur conformite.',
+      },
+    },
+  ],
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://facturationpro.com' },
+    { '@type': 'ListItem', position: 2, name: 'Comparatifs', item: 'https://facturationpro.com/comparatif' },
+    { '@type': 'ListItem', position: 3, name: 'Freebe vs Pennylane', item: 'https://facturationpro.com/comparatif/freebe-vs-pennylane' },
+  ],
 }
 
 const criteria = [
@@ -41,6 +83,8 @@ export default function FreebeVsPennylane() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <div className="bg-white min-h-screen">
         {/* Breadcrumb */}
         <div className="bg-gray-50 border-b border-gray-100 py-3">
