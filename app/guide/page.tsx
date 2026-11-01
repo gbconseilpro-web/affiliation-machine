@@ -108,25 +108,28 @@ export default function GuidePage() {
         </div>
 
         {/* CONTENU PRINCIPAL */}
-        <article className="prose prose-gray max-w-none">
+        <article className="space-y-8">
 
-          <h2>1. Pourquoi cette réforme, et pourquoi maintenant ?</h2>
-          <p>
-            La réforme de la facturation électronique B2B en France découle de la directive européenne
-            et de la loi de finances 2020. L&apos;objectif de l&apos;État est triple : lutter contre la fraude à la TVA
-            (estimée à 14 milliards d&apos;euros de manque à gagner par an), moderniser les processus comptables
-            des entreprises françaises, et aligner la France sur les standards européens.
-          </p>
-          <p>
-            Concrètement, chaque facture émise entre entreprises françaises sera transmise à l&apos;administration
-            fiscale en temps quasi-réel. Fini le décalage entre la facturation déclarée et les paiements réels.
-          </p>
+          <div>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Pourquoi cette réforme, et pourquoi maintenant ?</h2>
+            <p className="text-gray-700 leading-relaxed mb-3">
+              La réforme de la facturation électronique B2B en France découle de la directive européenne
+              et de la loi de finances 2020. L&apos;objectif de l&apos;État est triple : lutter contre la fraude à la TVA
+              (estimée à 14 milliards d&apos;euros de manque à gagner par an), moderniser les processus comptables
+              des entreprises françaises, et aligner la France sur les standards européens.
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              Concrètement, chaque facture émise entre entreprises françaises sera transmise à l&apos;administration
+              fiscale en temps quasi-réel. Fini le décalage entre la facturation déclarée et les paiements réels.
+            </p>
+          </div>
 
-          <h2>2. Qui est concerné exactement ?</h2>
-          <p>
-            <strong>Sont concernées :</strong> toutes les entreprises assujetties à la TVA établies en France,
-            pour leurs transactions B2B (entre professionnels) sur le territoire français.
-          </p>
+          <div>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Qui est concerné exactement ?</h2>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              <strong>Sont concernées :</strong> toutes les entreprises assujetties à la TVA établies en France,
+              pour leurs transactions B2B (entre professionnels) sur le territoire français.
+            </p>
           <div className="not-prose bg-gray-50 rounded-xl p-5 my-6">
             <table className="w-full text-sm">
               <thead>
@@ -160,16 +163,18 @@ export default function GuidePage() {
               </tbody>
             </table>
           </div>
-          <p>
+          <p className="text-gray-700 leading-relaxed mt-4">
             <strong>Ne sont pas concernées :</strong> les transactions B2C (ventes aux particuliers),
             les transactions avec l&apos;étranger (export, intra-UE), et les entreprises en franchise de TVA
             (pour l&apos;obligation d&apos;émission).
           </p>
+          </div>
 
-          <h2>3. Les formats acceptés</h2>
-          <p>
-            La réforme impose des formats structurés, lisibles par les machines. Trois formats sont reconnus :
-          </p>
+          <div>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">3. Les formats acceptés</h2>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              La réforme impose des formats structurés, lisibles par les machines. Trois formats sont reconnus :
+            </p>
           <div className="not-prose space-y-4 my-6">
             <div className="card p-5">
               <div className="flex items-start gap-3">
@@ -210,10 +215,11 @@ export default function GuidePage() {
             </div>
           </div>
 
-          <h2>4. PDP vs PPF : quelle plateforme choisir ?</h2>
-          <p>
-            Pour transmettre et recevoir des factures électroniques, vous devez passer par l&apos;une de ces deux options :
-          </p>
+          <div>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">4. PDP vs PPF : quelle plateforme choisir ?</h2>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              Pour transmettre et recevoir des factures électroniques, vous devez passer par l&apos;une de ces deux options :
+            </p>
           <div className="not-prose grid md:grid-cols-2 gap-4 my-6">
             <div className="card p-5 border-2 border-primary-200">
               <h3 className="font-bold mb-2">PPF — Portail Public de Facturation</h3>
@@ -237,7 +243,8 @@ export default function GuidePage() {
             </div>
           </div>
 
-          <h2>5. Plan d&apos;action en 5 étapes</h2>
+          <div>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Plan d&apos;action en 5 étapes</h2>
           <div className="not-prose space-y-4 my-6">
             {[
               { step: '1', title: 'Faites l\'inventaire de vos outils actuels', desc: 'Listez vos logiciels de facturation, comptabilité et ERP. Demandez à vos éditeurs leur calendrier de mise en conformité.' },
