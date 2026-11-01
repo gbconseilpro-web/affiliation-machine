@@ -70,8 +70,26 @@ export default function AuteurPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://facturationpro.com' },
+            { '@type': 'ListItem', position: 2, name: 'A propos', item: 'https://facturationpro.com/auteur' },
+          ],
+        }) }}
+      />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
+
+        {/* Breadcrumb */}
+        <nav className="flex items-center gap-2 text-sm text-gray-500 mb-8">
+          <a href="/" className="hover:text-indigo-600">Accueil</a>
+          <span>›</span>
+          <span className="text-gray-800 font-medium">A propos</span>
+        </nav>
 
         {/* Hero */}
         <div className="mb-12 text-center">

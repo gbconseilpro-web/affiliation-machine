@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#faf5ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ede9fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)" rx="16"/>
+  <!-- Indy logo area -->
+  <circle cx="140" cy="180" r="64" fill="#7c3aed" opacity="0.12"/>
+  <text x="140" y="200" font-family="Arial Black,sans-serif" font-size="68" font-weight="900" fill="#7c3aed" text-anchor="middle">i</text>
+  <text x="140" y="260" font-family="Arial,sans-serif" font-size="20" fill="#7c3aed" text-anchor="middle">★★★★☆</text>
+  <text x="140" y="285" font-family="Arial,sans-serif" font-size="13" fill="#5b21b6" text-anchor="middle">4,4 / 5</text>
+  <!-- Stats -->
+  <rect x="240" y="80" width="510" height="290" rx="12" fill="white" opacity="0.7"/>
+  <text x="270" y="130" font-family="Arial Black,sans-serif" font-size="24" font-weight="900" fill="#4c1d95">Indy</text>
+  <text x="270" y="158" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">Avis &amp; test complet 2026</text>
+  <text x="360" y="158" font-family="Arial,sans-serif" font-size="12" fill="#7c3aed" text-anchor="start">  |  300 000+ utilisateurs</text>
+  <!-- Features -->
+  <circle cx="270" cy="196" r="5" fill="#7c3aed"/>
+  <text x="285" y="201" font-family="Arial,sans-serif" font-size="13" fill="#374151">Synchronisation bancaire en temps reel</text>
+  <circle cx="270" cy="226" r="5" fill="#7c3aed"/>
+  <text x="285" y="231" font-family="Arial,sans-serif" font-size="13" fill="#374151">Alertes seuils TVA et plafonds micro</text>
+  <circle cx="270" cy="256" r="5" fill="#7c3aed"/>
+  <text x="285" y="261" font-family="Arial,sans-serif" font-size="13" fill="#374151">Application mobile tres soignee</text>
+  <circle cx="270" cy="286" r="5" fill="#7c3aed"/>
+  <text x="285" y="291" font-family="Arial,sans-serif" font-size="13" fill="#374151">Plan gratuit disponible</text>
+  <!-- Badge -->
+  <rect x="270" y="320" width="200" height="32" rx="16" fill="#7c3aed"/>
+  <text x="370" y="341" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle">N°1 AUTO-ENTREPRENEURS</text>
+  <text x="720" y="440" font-family="Arial,sans-serif" font-size="11" fill="#9ca3af" text-anchor="end">facturationpro.com</text>
+</svg>

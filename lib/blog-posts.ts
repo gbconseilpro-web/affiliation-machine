@@ -831,6 +831,203 @@ export const BLOG_POSTS: BlogPost[] = [
 </ul>
     `.trim(),
   },
+  {
+    slug: 'pennylane-avis-test-complet',
+    title: 'Pennylane avis 2026 : test complet du logiciel comptabilite pour independants',
+    excerpt: 'Pennylane est-il le meilleur outil de comptabilite pour freelances et TPE ? Notre test apres 3 mois d\'utilisation.',
+    date: '2026-11-01',
+    readTime: 10,
+    category: 'Avis logiciels',
+    keywords: ['pennylane avis', 'pennylane test', 'pennylane tarif', 'pennylane freelance'],
+    image: '/blog/pennylane-avis-test-complet.svg',
+    content: `
+<h2>Qu\'est-ce que Pennylane ?</h2>
+<p>Pennylane est une plateforme de comptabilite et de gestion financiere fondee en 2020 a Paris. Son positionnement est unique : il ne s\'adresse pas uniquement au freelance qui veut faire ses factures, mais au duo freelance + expert-comptable. L\'EC acces directement a votre dossier, voit vos transactions en temps reel et peut clore l\'exercice directement dans l\'outil.</p>
+<p>En 2026, Pennylane revendique plus de 150 000 entreprises utilisatrices et une integration aupres de milliers de cabinets comptables en France.</p>
+
+<h2>Les fonctionnalites principales</h2>
+<h3>Facturation et devis</h3>
+<p>Pennylane permet de creer des factures et devis conformes aux exigences legales francaises. La personnalisation est bonne (logo, couleurs, mentions) et l\'envoi par email est integre. On note la generation automatique des factures recurrentes, pratique pour les abonnements ou prestations mensuelles.</p>
+
+<h3>Reconciliation bancaire automatique</h3>
+<p>C\'est le point fort de Pennylane : la synchronisation bancaire via Open Banking importe vos transactions, les categorise automatiquement et les rattache a vos factures ou notes de frais. Le taux de categorisation automatique atteint 85-90% sur les comptes actifs, ce qui reduit drastiquement le travail de saisie.</p>
+
+<h3>Collaboration avec l\'expert-comptable</h3>
+<p>L\'EC acces a votre espace en lecture et ecriture selon les droits que vous lui accordez. Il peut valider des ecritures, categoriser les transactions restantes et preparer la declaration de TVA directement dans Pennylane. Pour les structures qui ont un EC, c\'est un gain de plusieurs heures par trimestre.</p>
+
+<h3>Tableau de bord financier</h3>
+<p>Le dashboard Pennylane donne une vision claire : CA du mois, tresorerie en temps reel, factures en attente, TVA a declarer. Bien concu et rassurant.</p>
+
+<h2>Tarifs Pennylane 2026</h2>
+<p>Pennylane propose plusieurs formules :</p>
+<ul>
+<li><strong>Essentiel</strong> : 26 EUR/mois - facturation, reconciliation bancaire, tableau de bord</li>
+<li><strong>Business</strong> : 59 EUR/mois - tout l\'essentiel + collaboration EC avancee, declarations de TVA, plusieurs utilisateurs</li>
+<li><strong>Expert</strong> : tarif sur devis - pour les cabinets comptables qui gere plusieurs dossiers</li>
+</ul>
+<p>Aucun essai gratuit classique, mais une demo guidee gratuite est disponible sur demande.</p>
+
+<h2>Nos points forts et points faibles</h2>
+<h3>Ce qui nous a convaincus</h3>
+<ul>
+<li>La reconciliation bancaire est vraiment au-dessus de la concurrence</li>
+<li>L\'espace collaboratif avec l\'EC est une vraie valeur ajoutee</li>
+<li>Le dashboard financier est clair et rassurant</li>
+<li>Compatible facturation electronique 2026 (PDP agree)</li>
+</ul>
+<h3>Ce qui peut freiner</h3>
+<ul>
+<li>Le prix : 26 EUR/mois minimum, c\'est 2x a 3x plus cher que Freebe ou Indy pour la facturation seule</li>
+<li>La courbe d\'apprentissage : l\'outil est riche, il faut un peu de temps pour le maitriser</li>
+<li>Moins de fonctionnalites de suivi de temps que Freebe : si vous facturez a l\'heure, Freebe reste superieur</li>
+</ul>
+
+<h2>Notre verdict Pennylane</h2>
+<p><strong>Note globale : 4,3/5.</strong> Pennylane est le meilleur choix si vous avez un expert-comptable ou si vous voulez une vision financiere tres rigoureuse. Pour un freelance solo sans EC qui cherche juste a facturer simplement, Freebe ou Indy seront plus adaptes et moins chers.</p>
+
+<p>Decouvrez Pennylane via notre <a href="/go/pennylane">lien de partenariat</a> ou comparez-le a Freebe dans notre <a href="/comparatif/freebe-vs-pennylane">comparatif Freebe vs Pennylane</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: 'note-de-frais-freelance-logiciel',
+    title: 'Notes de frais freelance : quel logiciel utiliser en 2026 ?',
+    excerpt: 'Repas clients, transports, materiel : comment gerer vos notes de frais efficacement et les deduire de vos revenus.',
+    date: '2026-11-03',
+    readTime: 7,
+    category: 'Guides',
+    keywords: ['note de frais freelance', 'deduction frais freelance', 'logiciel note de frais indépendant'],
+    image: '/blog/note-de-frais-freelance-logiciel.svg',
+    content: `
+<h2>Qu\'est-ce qu\'une note de frais pour un freelance ?</h2>
+<p>En tant que freelance ou independant, vous engagez des depenses pour votre activite professionnelle : repas avec des clients, transports, abonnements logiciels, materiel informatique, formation... Ces depenses sont deductibles de vos revenus professionnels, ce qui reduit votre base imposable. Mais encore faut-il les documenter correctement.</p>
+<p>Une note de frais est le document qui justifie ces depenses aupres de l\'administration fiscale ou de votre expert-comptable. Sans justificatif, la deduction est refusee en cas de controle.</p>
+
+<h2>Ce que vous pouvez deduire (et ce que vous ne pouvez pas)</h2>
+<h3>Deductible</h3>
+<ul>
+<li>Repas avec clients ou partenaires (avec justificatif et nom des convives)</li>
+<li>Transports professionnels (train, avion, taxi, Uber sur mission)</li>
+<li>Abonnements logiciels professionnels</li>
+<li>Materiel de bureau et informatique</li>
+<li>Formation et livres professionnels</li>
+<li>Telephone et internet (prorata usage pro)</li>
+</ul>
+<h3>Non deductible ou partiel</h3>
+<ul>
+<li>Repas seul au bureau : 50% seulement au-dela du seuil URSSAF</li>
+<li>Amendes et contraventions : jamais deductibles</li>
+<li>Vetements non specifiques a la profession</li>
+<li>Loyer domicile (sauf si espace dedie et bail commercial)</li>
+</ul>
+
+<h2>Les logiciels qui gerent les notes de frais</h2>
+<h3>Freebe : le meilleur pour les freelances en societe</h3>
+<p>Freebe integre un module de notes de frais complet : scan du justificatif par photo, categorisation automatique, lien avec la comptabilite. Vous pouvez aussi vous rembourser vos frais directement depuis l\'outil. Note : disponible sur le plan Comptabilite (24,99 EUR/mois).</p>
+
+<h3>Indy : suffisant pour les micro-entrepreneurs</h3>
+<p>Indy permet la categorisation des depenses par connexion bancaire et le scan de justificatifs. Moins complet que Freebe pour les notes de frais, mais suffit pour un auto-entrepreneur qui a peu de frais a suivre.</p>
+
+<h3>Pennylane : ideal si vous avez un expert-comptable</h3>
+<p>Pennylane centralise les notes de frais et les soumet directement a votre EC pour validation. La reconciliation bancaire automatique fait gagner beaucoup de temps sur la categorisation.</p>
+
+<h2>Le conseil pratique : la regle d\'or</h2>
+<p>Quel que soit le logiciel choisi, la regle est simple : <strong>photographiez chaque justificatif le jour meme</strong> et ne gardez pas les tickets papier. L\'administration fiscale accepte les justificatifs numeriques depuis 2016. Un recu perdu est un frais non deductible.</p>
+
+<p>Consultez notre <a href="/comparatif">comparatif des logiciels de facturation</a> pour choisir celui qui correspond a votre situation.</p>
+    `.trim(),
+  },
+  {
+    slug: 'sasu-eurl-choisir-statut-freelance',
+    title: 'SASU ou EURL : quel statut choisir pour votre activite freelance ?',
+    excerpt: 'SASU et EURL sont les deux formes juridiques les plus populaires chez les freelances. On compare la fiscalite, les charges et les obligations.',
+    date: '2026-11-05',
+    readTime: 8,
+    category: 'Guides',
+    keywords: ['sasu vs eurl freelance', 'choisir statut freelance', 'sasu eurl differences', 'statut juridique independant'],
+    image: '/blog/sasu-eurl-choisir-statut-freelance.svg',
+    content: `
+<h2>SASU et EURL : deux structures similaires, des differences importantes</h2>
+<p>La SASU (Societe par Actions Simplifiee Unipersonnelle) et l\'EURL (Entreprise Unipersonnelle a Responsabilite Limitee) sont les deux formes societales les plus adoptees par les freelances en France. Les deux offrent la protection de la responsabilite limitee, mais elles different sur des points cruciaux : le regime social du dirigeant, la fiscalite et les obligations administratives.</p>
+
+<h2>Le regime social : assimile-salarie vs TNS</h2>
+<p>C\'est la difference la plus importante. En SASU, le president est <strong>assimile-salarie</strong> : il cotise au regime general de la Securite sociale, beneficie des memes droits qu\'un salarie (sauf chomage), mais paye des charges sociales elevees (environ 70% sur la remuneration en brut).</p>
+<p>En EURL, le gerant est <strong>travailleur non salarie (TNS)</strong> : il cotise a la SSI (anciennement RSI). Les charges sont moins elevees (environ 45% sur la remuneration), mais la protection sociale est moindre (retraite plus faible, pas d\'arret maladie les 3 premiers jours).</p>
+
+<h2>La fiscalite : IS et options</h2>
+<h3>SASU</h3>
+<p>La SASU est soumise a l\'IS (Impot sur les Societes) par defaut : 15% sur les premiers 42 500 EUR de benefices, 25% au-dela. Le president peut se verser un salaire (charge deductible) et/ou des dividendes (flat tax 30% ou bareme progressif). La remuneration du president est une charge deductible pour la societe.</p>
+
+<h3>EURL</h3>
+<p>L\'EURL peut choisir l\'IR (Impot sur le Revenu) ou l\'IS. L\'IR est adapte aux premiers exercices avec peu de benefices, mais peut devenir penalisant au-dela de 30 000-40 000 EUR de revenus. L\'IS est souvent prefere a partir de ce seuil.</p>
+
+<h2>Quel statut pour quel profil ?</h2>
+<ul>
+<li><strong>SASU</strong> : ideal si vous voulez maximiser votre protection sociale, si vous avez des revenus eleves et souhaitez des dividendes optimises, ou si vous envisagez des levees de fonds futures</li>
+<li><strong>EURL</strong> : ideal si vous voulez minimiser vos charges sociales, si vous demarrez et avez un revenu moderement, ou si la simplicite administrative est importante</li>
+</ul>
+
+<h2>Les logiciels de facturation adaptes a chaque statut</h2>
+<p>Que vous soyez en SASU ou EURL, les obligations de facturation sont identiques. Les logiciels comme <a href="/go/freebe">Freebe</a> et <a href="/go/pennylane">Pennylane</a> sont parfaitement adaptes aux deux statuts. Ils gerent la TVA, les mentions legales et l\'export comptable requis dans les deux cas.</p>
+
+<p>Pour approfondir le choix de votre logiciel de facturation, consultez notre <a href="/comparatif">comparatif complet</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: 'indy-avis-test-complet',
+    title: 'Indy avis 2026 : test complet du logiciel pour auto-entrepreneurs et freelances',
+    excerpt: 'Indy est-il vraiment le meilleur logiciel pour micro-entrepreneurs ? Notre test apres 2 mois d\'utilisation intensive.',
+    date: '2026-11-07',
+    readTime: 9,
+    category: 'Avis logiciels',
+    keywords: ['indy avis', 'indy logiciel test', 'indy freelance', 'indy auto entrepreneur'],
+    image: '/blog/indy-avis-test-complet.svg',
+    content: `
+<h2>Presentation d\'Indy</h2>
+<p>Indy (anciennement Georges, rebaptise en 2021) est un logiciel de gestion pour independants francais fonde a Paris. Son positionnement est clair : simplifier au maximum la gestion administrative des micro-entrepreneurs et freelances, avec une promesse de 10 minutes par mois pour tenir sa comptabilite a jour.</p>
+<p>En 2026, Indy compte plus de 300 000 utilisateurs et s\'affirme comme le leader sur le segment micro-entrepreneur.</p>
+
+<h2>Les fonctionnalites</h2>
+<h3>Synchronisation bancaire</h3>
+<p>La connexion bancaire est le coeur d\'Indy. Elle importe vos transactions en temps reel, les categorise automatiquement et les attribue a la bonne colonne comptable. La reconnaissance automatique atteint 90%+ sur les comptes bien etablis.</p>
+
+<h3>Facturation</h3>
+<p>Indy permet de creer des factures et devis conformes. L\'interface est epuree et la creation d\'une facture prend moins de 2 minutes. Les fonctionnalites sont suffisantes pour la plupart des freelances, sans la richesse de Freebe (pas de suivi de temps integre, relances moins poussees).</p>
+
+<h3>Declaration de chiffre d\'affaires</h3>
+<p>Indy calcule automatiquement le CA a declarer chaque mois ou chaque trimestre sur l\'URSSAF. Il envoie aussi des alertes si vous approchez des seuils de TVA ou des plafonds du regime micro.</p>
+
+<h3>Application mobile</h3>
+<p>L\'application iOS et Android est une des plus soignees du marche. Scan de justificatifs, creation de devis, validation de transactions : tout est accessible en mobilite. Un vrai plus pour les freelances en deplacement.</p>
+
+<h2>Tarifs Indy 2026</h2>
+<ul>
+<li><strong>Starter</strong> : gratuit - facturation de base, import de transactions limite</li>
+<li><strong>Solo</strong> : 9 EUR/mois - synchronisation bancaire illimitee, declarations, notes de frais</li>
+<li><strong>Pro</strong> : 18 EUR/mois - multi-compte, relances automatiques, export comptable avance</li>
+</ul>
+<p>Un essai gratuit 30 jours est disponible sur tous les plans payants.</p>
+
+<h2>Points forts et points faibles</h2>
+<h3>Ce qu\'on a aime</h3>
+<ul>
+<li>L\'interface, la plus intuitive du marche tous logiciels confondus</li>
+<li>La synchro bancaire vraiment efficace et rapide</li>
+<li>Les alertes de seuils de TVA et plafonds micro : une vraie securite</li>
+<li>Le plan gratuit accessible pour tester sans engagement</li>
+</ul>
+<h3>Les limites</h3>
+<ul>
+<li>Pas de suivi de temps integre : si vous facturez a l\'heure, tournez-vous vers Freebe</li>
+<li>La comptabilite reste simplifiee : pour une vraie collaboration avec un EC, Pennylane va plus loin</li>
+<li>Moins adapte aux societes (SASU/EURL) qu\'aux micro-entrepreneurs</li>
+</ul>
+
+<h2>Notre verdict Indy</h2>
+<p><strong>Note globale : 4,4/5.</strong> Indy est le meilleur choix pour les auto-entrepreneurs et micro-entrepreneurs qui veulent une gestion simple et efficace. Pour les freelances en societe (SASU, EURL) avec des besoins plus avances, Freebe reste superieur.</p>
+
+<p>Essayez Indy gratuitement pendant 30 jours via notre <a href="/go/indy">lien affilie</a>, ou comparez-le a Freebe dans notre <a href="/comparatif/indy-vs-freebe">comparatif Indy vs Freebe</a>.</p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {

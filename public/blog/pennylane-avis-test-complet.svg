@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ecfdf5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d1fae5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)" rx="16"/>
+  <!-- Logo P -->
+  <circle cx="140" cy="180" r="64" fill="#059669" opacity="0.12"/>
+  <text x="140" y="200" font-family="Arial Black,sans-serif" font-size="72" font-weight="900" fill="#059669" text-anchor="middle">P</text>
+  <!-- Stars -->
+  <text x="140" y="260" font-family="Arial,sans-serif" font-size="20" fill="#059669" text-anchor="middle">★★★★☆</text>
+  <text x="140" y="285" font-family="Arial,sans-serif" font-size="13" fill="#065f46" text-anchor="middle">4,3 / 5</text>
+  <!-- Title block -->
+  <rect x="240" y="80" width="510" height="290" rx="12" fill="white" opacity="0.7"/>
+  <text x="270" y="130" font-family="Arial Black,sans-serif" font-size="24" font-weight="900" fill="#064e3b">Pennylane</text>
+  <text x="270" y="160" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">Avis &amp; test complet 2026</text>
+  <!-- Key points -->
+  <circle cx="270" cy="196" r="5" fill="#059669"/>
+  <text x="285" y="201" font-family="Arial,sans-serif" font-size="13" fill="#374151">Reconciliation bancaire automatique</text>
+  <circle cx="270" cy="226" r="5" fill="#059669"/>
+  <text x="285" y="231" font-family="Arial,sans-serif" font-size="13" fill="#374151">Collaboration expert-comptable</text>
+  <circle cx="270" cy="256" r="5" fill="#059669"/>
+  <text x="285" y="261" font-family="Arial,sans-serif" font-size="13" fill="#374151">A partir de 26 EUR/mois</text>
+  <circle cx="270" cy="286" r="5" fill="#059669"/>
+  <text x="285" y="291" font-family="Arial,sans-serif" font-size="13" fill="#374151">Compatible facturation electronique 2026</text>
+  <!-- Badge -->
+  <rect x="270" y="320" width="180" height="32" rx="16" fill="#059669"/>
+  <text x="360" y="341" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle">RECOMMANDE EC</text>
+  <!-- FacturationPro watermark -->
+  <text x="720" y="440" font-family="Arial,sans-serif" font-size="11" fill="#9ca3af" text-anchor="end">facturationpro.com</text>
+</svg>
