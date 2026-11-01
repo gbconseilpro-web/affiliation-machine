@@ -29,10 +29,53 @@ const jsonLd = {
   reviewBody: 'Tiime est le meilleur logiciel de facturation gratuit pour indépendants en 2026 grâce à son plan de base très généreux.',
 }
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Tiime est-il vraiment gratuit ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Oui, Tiime propose un plan gratuit tres genereux qui inclut la facturation illimitee, les devis, la gestion des clients et l\'envoi par email. La version payante ajoute la synchronisation bancaire, les notes de frais, les relances automatiques et la comptabilite avancee.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Tiime est-il compatible avec mon expert-comptable ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Oui, Tiime a ete concu en partenariat avec des experts-comptables. Les plans Tiime Account et Tiime Enterprise permettent une collaboration directe avec votre cabinet : acces en temps reel, export FEC, lettrage des ecritures et preparation du bilan.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Tiime convient-il aux auto-entrepreneurs ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Absolument. Tiime est l\'un des logiciels les plus utilises par les auto-entrepreneurs en France grace a son plan gratuit. Il gere la facturation conforme, le suivi du CA par rapport aux seuils micro, et l\'envoi des factures directement depuis l\'application mobile.',
+      },
+    },
+  ],
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://facturationpro.com' },
+    { '@type': 'ListItem', position: 2, name: 'Comparatifs', item: 'https://facturationpro.com/comparatif' },
+    { '@type': 'ListItem', position: 3, name: 'Avis Tiime', item: 'https://facturationpro.com/comparatif/tiime' },
+  ],
+}
+
 export default function AvisTiime() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <div className="bg-white min-h-screen">
         <div className="bg-gray-50 border-b border-gray-100 py-3">
           <div className="max-w-4xl mx-auto px-4 sm:px-6">

@@ -28,10 +28,53 @@ const jsonLd = {
   reviewBody: 'MyUnisoft est le logiciel de comptabilité cloud de référence pour les cabinets d\'experts-comptables français.',
 }
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'MyUnisoft est-il reserve aux experts-comptables ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'MyUnisoft est principalement concu pour les cabinets d\'experts-comptables et leurs clients entreprises. Les TPE et PME peuvent y acceder via leur cabinet comptable, qui leur ouvre un acces collaboratif. Ce n\'est pas un logiciel grand public comme Pennylane ou Indy.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Quelle est la difference entre MyUnisoft et Pennylane ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'MyUnisoft est un logiciel comptable professionnel destine aux cabinets (outil de production comptable), tandis que Pennylane est une solution hybride utilisable directement par l\'entrepreneur avec un module expert-comptable. MyUnisoft offre plus de fonctionnalites comptables avancees, Pennylane est plus accessible aux non-comptables.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'MyUnisoft est-il compatible avec la facture electronique 2026 ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Oui, MyUnisoft est entierement compatible avec la reforme de la facture electronique obligatoire prevue en France. Le logiciel est immatricule comme Plateforme de Dematerialisation Partenaire (PDP) et gere l\'emission, la reception et l\'archivage des factures electroniques au format Factur-X et UBL.',
+      },
+    },
+  ],
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://facturationpro.com' },
+    { '@type': 'ListItem', position: 2, name: 'Comparatifs', item: 'https://facturationpro.com/comparatif' },
+    { '@type': 'ListItem', position: 3, name: 'Avis MyUnisoft', item: 'https://facturationpro.com/comparatif/myunisoft' },
+  ],
+}
+
 export default function AvisMyUnisoft() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <div className="bg-white min-h-screen">
         {/* Breadcrumb */}
         <div className="bg-gray-50 border-b border-gray-100 py-3">

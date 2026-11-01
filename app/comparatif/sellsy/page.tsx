@@ -29,10 +29,53 @@ const jsonLd = {
   reviewBody: 'Sellsy est la meilleure solution CRM + facturation + trésorerie pour les PME françaises en 2026.',
 }
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Sellsy convient-il aux PME ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Oui, Sellsy est concu specifiquement pour les PME francaises. Il combine CRM, facturation et tresorerie dans un seul outil, ce qui le rend ideal pour les entreprises de 5 a 200 salaries qui veulent centraliser leur gestion commerciale.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Quel est le tarif de Sellsy en 2026 ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Sellsy propose plusieurs formules a partir de 29 EUR/mois pour la facturation seule, jusqu\'a 129 EUR/mois pour la suite complete CRM + facturation + tresorerie. Un essai gratuit de 15 jours est disponible sans carte bancaire.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Quelle est la difference entre Sellsy et un logiciel de facturation classique ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Contrairement a un simple logiciel de facturation, Sellsy integre un CRM complet (gestion des contacts, pipeline commercial, relances automatiques) et un module de tresorerie. C\'est une solution tout-en-un qui evite d\'utiliser plusieurs outils separes.',
+      },
+    },
+  ],
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://facturationpro.com' },
+    { '@type': 'ListItem', position: 2, name: 'Comparatifs', item: 'https://facturationpro.com/comparatif' },
+    { '@type': 'ListItem', position: 3, name: 'Avis Sellsy', item: 'https://facturationpro.com/comparatif/sellsy' },
+  ],
+}
+
 export default function AvisSellsy() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <div className="bg-white min-h-screen">
         <div className="bg-gray-50 border-b border-gray-100 py-3">
           <div className="max-w-4xl mx-auto px-4 sm:px-6">

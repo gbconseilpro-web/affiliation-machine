@@ -29,10 +29,53 @@ const jsonLd = {
   reviewBody: 'Shine est le meilleur combo compte professionnel + facturation pour les freelances français en 2026.',
 }
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Shine est-il une vraie banque ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Shine est un etablissement de paiement agree par l\'ACPR (Autorite de controle prudentiel), pas une banque classique. Votre argent est protege et segregue, mais Shine n\'est pas couverte par le fonds de garantie des depots bancaires (FGDR) comme les banques traditionnelles. Pour les montants importants, une banque traditionnelle reste recommandee en complement.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Shine propose-t-il un IBAN francais ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Oui, Shine fournit un IBAN FR (francais) avec un BIC, ce qui facilite les relations avec certains clients ou fournisseurs qui refusent les IBAN etrangers. C\'est un avantage par rapport a certaines neobanques europeennes qui donnent des IBAN lituaniens ou irlandais.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Quelle est la difference entre Shine et Finom ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Les deux sont des neobanques pro avec IBAN FR et facturation integree. Shine est historiquement positionnee sur les freelances francais avec un fort ecosysteme de partenaires. Finom est plus recente et propose un cashback attractif sur les depenses avec sa carte Mastercard. Shine a un plan d\'entree a 7,90 EUR/mois contre 0 EUR pour Finom (plan gratuit limité).',
+      },
+    },
+  ],
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://facturationpro.com' },
+    { '@type': 'ListItem', position: 2, name: 'Comparatifs', item: 'https://facturationpro.com/comparatif' },
+    { '@type': 'ListItem', position: 3, name: 'Avis Shine', item: 'https://facturationpro.com/comparatif/shine' },
+  ],
+}
+
 export default function AvisShine() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <div className="bg-white min-h-screen">
         <div className="bg-gray-50 border-b border-gray-100 py-3">
           <div className="max-w-4xl mx-auto px-4 sm:px-6">

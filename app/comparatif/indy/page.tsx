@@ -29,10 +29,53 @@ const jsonLd = {
   reviewBody: 'Indy est le logiciel de comptabilité automatisée par IA pour indépendants et auto-entrepreneurs en 2026.',
 }
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Indy est-il vraiment gratuit ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Indy propose un plan gratuit avec la facturation de base et la connexion bancaire. Les fonctionnalites avancees comme les declarations URSSAF automatiques, la TVA et la liasse fiscale annuelle sont dans les plans payants (a partir de 9 EUR/mois pour les auto-entrepreneurs).',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Indy remplace-t-il un expert-comptable ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Pour les auto-entrepreneurs et les TNS en EI, Indy peut remplacer un expert-comptable dans la plupart des cas : declarations URSSAF, TVA, bilan simplifie, liasse fiscale. Pour les societes (SASU, EURL avec IS) avec une comptabilite plus complexe, un expert-comptable reste recommande, mais Indy reduit significativement sa charge de travail.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Quelle est la difference entre Indy et Freebe ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Indy est fort sur la comptabilite et les obligations fiscales (declarations URSSAF auto, TVA, liasse fiscale). Freebe excelle sur la gestion de projets et le suivi de temps integre (timer, TJM, facturation automatique des temps). Les deux couvrent la facturation de base. Indy est ideal pour les auto-entrepreneurs, Freebe pour les freelances qui gèrent des projets.',
+      },
+    },
+  ],
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://facturationpro.com' },
+    { '@type': 'ListItem', position: 2, name: 'Comparatifs', item: 'https://facturationpro.com/comparatif' },
+    { '@type': 'ListItem', position: 3, name: 'Avis Indy', item: 'https://facturationpro.com/comparatif/indy' },
+  ],
+}
+
 export default function AvisIndy() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <div className="bg-white min-h-screen">
         {/* Breadcrumb */}
         <div className="bg-gray-50 border-b border-gray-100 py-3">

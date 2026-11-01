@@ -29,10 +29,53 @@ const jsonLd = {
   reviewBody: 'Freebe est le meilleur logiciel de facturation pour freelances et auto-entrepreneurs en 2026.',
 }
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Freebe est-il gratuit ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Freebe propose une version gratuite avec les fonctionnalites essentielles (devis, factures, 3 clients). La version payante (a partir de 9,90 EUR/mois) debloque les clients illimites, le suivi de temps avance, les relances automatiques et la gestion des notes de frais.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Freebe convient-il aux auto-entrepreneurs ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Oui, Freebe est specifiquement concu pour les freelances et auto-entrepreneurs. Il gere les seuils de chiffre d\'affaires micro-entreprise, la facturation conforme, et propose une interface pensee pour les independants sans comptable.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Quelle est la difference entre Freebe et Pennylane ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Freebe est oriente gestion de projets et suivi de temps pour freelances (TJM, timer integre). Pennylane cible plutot les TPE/PME avec un expert-comptable, avec une comptabilite plus complete et une collaboration en temps reel avec le cabinet. Freebe est moins cher et plus simple pour un auto-entrepreneur.',
+      },
+    },
+  ],
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://facturationpro.com' },
+    { '@type': 'ListItem', position: 2, name: 'Comparatifs', item: 'https://facturationpro.com/comparatif' },
+    { '@type': 'ListItem', position: 3, name: 'Avis Freebe', item: 'https://facturationpro.com/comparatif/freebe' },
+  ],
+}
+
 export default function AvisFreebe() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <div className="bg-white min-h-screen">
         {/* Breadcrumb */}
         <div className="bg-gray-50 border-b border-gray-100 py-3">

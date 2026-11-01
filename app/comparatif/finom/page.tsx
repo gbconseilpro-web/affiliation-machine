@@ -29,10 +29,53 @@ const jsonLd = {
   reviewBody: 'Finom est un compte pro européen avec facturation intégrée et cashback sur les dépenses professionnelles.',
 }
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Finom est-il une vraie banque ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Finom n\'est pas une banque au sens traditionnel mais un etablissement de paiement agree par la Banque de Lituanie (regulateur europeen). Il propose un IBAN europeen (LT) pleinement fonctionnel pour les paiements SEPA, accepte dans la majorite des situations professionnelles en France.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Qu\'est-ce que le cashback Finom ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Finom propose un cashback jusqu\'a 3 % sur toutes les depenses professionnelles effectuees avec la carte Mastercard. Ce cashback est credite mensuellement sur le compte et peut representer une economie substantielle pour les entreprises avec des depenses importantes.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Finom est-il adapte aux auto-entrepreneurs ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Oui, Finom propose une offre Solo a partir de 14 EUR/mois incluant un compte pro, une carte, la facturation integree et le cashback. C\'est une solution interessante pour les auto-entrepreneurs qui veulent centraliser compte pro et facturation tout en beneficiant de cashback.',
+      },
+    },
+  ],
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://facturationpro.com' },
+    { '@type': 'ListItem', position: 2, name: 'Comparatifs', item: 'https://facturationpro.com/comparatif' },
+    { '@type': 'ListItem', position: 3, name: 'Avis Finom', item: 'https://facturationpro.com/comparatif/finom' },
+  ],
+}
+
 export default function AvisFinom() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <div className="bg-white min-h-screen">
         {/* Breadcrumb */}
         <div className="bg-gray-50 border-b border-gray-100 py-3">

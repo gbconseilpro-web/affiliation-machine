@@ -29,10 +29,53 @@ const jsonLd = {
   reviewBody: 'Pennylane est la solution comptabilité + facturation tout-en-un pour TPE/PME en 2026.',
 }
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Pennylane est-il adapte aux freelances ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Pennylane convient aux freelances en SASU ou EURL qui travaillent avec un expert-comptable. Son plan de base (29 EUR/mois) couvre la facturation et la gestion financiere. En revanche, pour un auto-entrepreneur simple, Freebe ou Indy sont plus adaptes et moins chers.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Pennylane remplace-t-il un expert-comptable ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Non, Pennylane est concu pour travailler en collaboration avec votre expert-comptable, pas pour le remplacer. La plateforme permet a votre EC d\'acceder en temps reel a vos donnees financieres et de preparer votre bilan. C\'est son principal avantage : faciliter cette collaboration.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Quel est le tarif de Pennylane en 2026 ?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Pennylane propose plusieurs plans : Essentiel (29 EUR/mois, facturation + tableau de bord), Plus (49 EUR/mois, + TVA auto et tresorerie), Business (79 EUR/mois, + collaboration EC avancee). Les plans Expert incluent l\'expert-comptable integre pour un tarif tout compris.',
+      },
+    },
+  ],
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://facturationpro.com' },
+    { '@type': 'ListItem', position: 2, name: 'Comparatifs', item: 'https://facturationpro.com/comparatif' },
+    { '@type': 'ListItem', position: 3, name: 'Avis Pennylane', item: 'https://facturationpro.com/comparatif/pennylane' },
+  ],
+}
+
 export default function AvisPennylane() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <div className="bg-white min-h-screen">
         {/* Breadcrumb */}
         <div className="bg-gray-50 border-b border-gray-100 py-3">
