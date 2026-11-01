@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#f0f9ff"/>
+  <!-- Document numerique -->
+  <rect x="160" y="90" width="200" height="260" rx="10" fill="white" stroke="#0ea5e9" stroke-width="2"/>
+  <rect x="160" y="90" width="200" height="42" rx="10" fill="#0ea5e9"/>
+  <rect x="160" y="120" width="200" height="12" fill="#0ea5e9"/>
+  <text x="260" y="116" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle" font-weight="bold">FACTURE ELECTRONIQUE</text>
+  <!-- Lignes document -->
+  <rect x="180" y="148" width="80" height="8" rx="2" fill="#e0f2fe"/>
+  <rect x="270" y="148" width="70" height="8" rx="2" fill="#e0f2fe"/>
+  <rect x="180" y="164" width="120" height="8" rx="2" fill="#f1f5f9"/>
+  <rect x="180" y="180" width="100" height="8" rx="2" fill="#f1f5f9"/>
+  <line x1="180" y1="196" x2="340" y2="196" stroke="#e0f2fe" stroke-width="1"/>
+  <rect x="180" y="204" width="60" height="7" rx="2" fill="#f1f5f9"/>
+  <rect x="180" y="218" width="70" height="7" rx="2" fill="#f1f5f9"/>
+  <rect x="180" y="232" width="50" height="7" rx="2" fill="#f1f5f9"/>
+  <line x1="180" y1="248" x2="340" y2="248" stroke="#e0f2fe" stroke-width="1"/>
+  <rect x="255" y="256" width="65" height="14" rx="4" fill="#0ea5e9" opacity="0.2"/>
+  <!-- Badge electronique - QR code style -->
+  <rect x="182" y="278" width="50" height="50" rx="4" fill="#0ea5e9" opacity="0.1" stroke="#0ea5e9" stroke-width="1"/>
+  <rect x="188" y="284" width="14" height="14" rx="2" fill="#0ea5e9" opacity="0.4"/>
+  <rect x="208" y="284" width="14" height="14" rx="2" fill="#0ea5e9" opacity="0.4"/>
+  <rect x="188" y="304" width="14" height="14" rx="2" fill="#0ea5e9" opacity="0.4"/>
+  <rect x="208" y="304" width="6" height="6" rx="1" fill="#0ea5e9" opacity="0.4"/>
+  <rect x="218" y="304" width="6" height="6" rx="1" fill="#0ea5e9" opacity="0.4"/>
+  <!-- Fleche cloud upload -->
+  <path d="M420 220 L420 160" stroke="#4f46e5" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <!-- Cloud -->
+  <ellipse cx="420" cy="140" rx="60" ry="40" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/>
+  <ellipse cx="390" cy="150" rx="35" ry="30" fill="#e0e7ff"/>
+  <ellipse cx="450" cy="148" rx="35" ry="28" fill="#e0e7ff"/>
+  <text x="420" y="145" font-family="Arial, sans-serif" font-size="18" fill="#4f46e5" text-anchor="middle">☁</text>
+  <!-- Fleche vers recepteur -->
+  <path d="M500 200 L560 200" stroke="#059669" stroke-width="2.5" stroke-linecap="round"/>
+  <polygon points="560,193 575,200 560,207" fill="#059669"/>
+  <!-- Destinataire -->
+  <rect x="580" y="160" width="140" height="100" rx="10" fill="white" stroke="#059669" stroke-width="2"/>
+  <text x="650" y="188" font-family="Arial, sans-serif" font-size="11" fill="#059669" text-anchor="middle" font-weight="bold">PORTAIL PDP</text>
+  <text x="650" y="206" font-family="Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Chorus Pro</text>
+  <rect x="598" y="216" width="104" height="8" rx="3" fill="#e5e7eb"/>
+  <rect x="598" y="230" width="80" height="8" rx="3" fill="#e5e7eb"/>
+  <!-- Annee obligatoire badge -->
+  <rect x="560" y="290" width="160" height="50" rx="10" fill="#4f46e5"/>
+  <text x="640" y="313" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Obligatoire en 2026</text>
+  <text x="640" y="330" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle" opacity="0.85">pour toutes les entreprises</text>
+  <!-- Title -->
+  <text x="400" y="410" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1f2937" text-anchor="middle">Facturation electronique 2026</text>
+  <text x="400" y="432" font-family="Arial, sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">Guide complet de mise en conformite</text>
+</svg>

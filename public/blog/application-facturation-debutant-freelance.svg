@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#faf5ff"/>
+  <!-- Personnage (profil gauche) -->
+  <circle cx="180" cy="160" r="36" fill="#7c3aed" opacity="0.15"/>
+  <circle cx="180" cy="148" r="22" fill="#7c3aed" opacity="0.4"/>
+  <path d="M145 210 Q180 185 215 210 L220 260 H140 Z" fill="#7c3aed" opacity="0.3"/>
+  <!-- Question bubble 1 -->
+  <rect x="230" y="90" width="220" height="60" rx="16" fill="white" stroke="#7c3aed" stroke-width="2"/>
+  <polygon points="235,130 215,148 248,138" fill="white" stroke="#7c3aed" stroke-width="2"/>
+  <polygon points="235,130 215,148 248,138" fill="white"/>
+  <text x="340" y="116" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">Quel logiciel choisir</text>
+  <text x="340" y="134" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">quand on debute ?</text>
+  <!-- Reponse bubble 1 -->
+  <rect x="350" y="170" width="220" height="60" rx="16" fill="#7c3aed" opacity="0.1" stroke="#7c3aed" stroke-width="1.5"/>
+  <polygon points="576,194 600,180 580,210" fill="#7c3aed" opacity="0.1" stroke="#7c3aed" stroke-width="1.5"/>
+  <polygon points="576,194 600,180 580,210" fill="#7c3aed" opacity="0.1"/>
+  <text x="460" y="198" font-family="Arial, sans-serif" font-size="12" fill="#4f46e5" text-anchor="middle">Freebe ou Indy :</text>
+  <text x="460" y="216" font-family="Arial, sans-serif" font-size="12" fill="#4f46e5" text-anchor="middle">interface simple</text>
+  <!-- Icone expert droite -->
+  <circle cx="630" cy="195" r="28" fill="#4f46e5" opacity="0.15"/>
+  <circle cx="630" cy="185" r="18" fill="#4f46e5" opacity="0.4"/>
+  <path d="M604" y="220" L630,205 L656,220 L660,255 H600 Z" fill="#4f46e5" opacity="0.3"/>
+  <!-- Question bubble 2 -->
+  <rect x="230" y="260" width="220" height="60" rx="16" fill="white" stroke="#059669" stroke-width="2"/>
+  <polygon points="235,300 215,315 248,308" fill="white" stroke="#059669" stroke-width="2"/>
+  <polygon points="235,300 215,315 248,308" fill="white"/>
+  <text x="340" y="286" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">Est-ce que c'est obligatoire</text>
+  <text x="340" y="304" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">de faire des factures ?</text>
+  <!-- Reponse bubble 2 -->
+  <rect x="350" y="335" width="220" height="60" rx="16" fill="#059669" opacity="0.1" stroke="#059669" stroke-width="1.5"/>
+  <text x="460" y="361" font-family="Arial, sans-serif" font-size="12" fill="#059669" text-anchor="middle">Oui, des la 1re mission</text>
+  <text x="460" y="379" font-family="Arial, sans-serif" font-size="12" fill="#059669" text-anchor="middle">c'est obligatoire !</text>
+  <!-- Badge Q&A -->
+  <rect x="40" y="280" width="80" height="34" rx="17" fill="#7c3aed"/>
+  <text x="80" y="302" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle" font-weight="bold">10 Q&amp;A</text>
+  <!-- Title -->
+  <text x="400" y="415" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#1f2937" text-anchor="middle">Application facturation : guide debutant freelance</text>
+  <text x="400" y="437" font-family="Arial, sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">10 questions essentielles pour bien demarrer</text>
+</svg>

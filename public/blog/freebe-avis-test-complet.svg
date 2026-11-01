@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#fafaf9"/>
+  <!-- Card principale -->
+  <rect x="150" y="70" width="500" height="280" rx="20" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+  <!-- Logo Freebe style -->
+  <rect x="190" y="110" width="56" height="56" rx="12" fill="#4f46e5"/>
+  <text x="218" y="147" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">F</text>
+  <text x="262" y="135" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1f2937">Freebe</text>
+  <text x="262" y="155" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Logiciel de facturation freelance</text>
+  <!-- Stars rating -->
+  <text x="190" y="198" font-family="Arial, sans-serif" font-size="28" fill="#f59e0b">★★★★</text>
+  <text x="334" y="198" font-family="Arial, sans-serif" font-size="28" fill="#d1d5db">★</text>
+  <text x="370" y="196" font-family="Arial, sans-serif" font-size="16" fill="#1f2937" font-weight="bold">4.2/5</text>
+  <text x="420" y="196" font-family="Arial, sans-serif" font-size="12" fill="#9ca3af">(148 avis)</text>
+  <!-- Divider -->
+  <line x1="190" y1="210" x2="610" y2="210" stroke="#f3f4f6" stroke-width="1.5"/>
+  <!-- Pros & Cons -->
+  <text x="190" y="235" font-family="Arial, sans-serif" font-size="12" fill="#059669" font-weight="bold">POINTS FORTS</text>
+  <text x="400" y="235" font-family="Arial, sans-serif" font-size="12" fill="#ef4444" font-weight="bold">POINTS FAIBLES</text>
+  <text x="195" y="255" font-family="Arial, sans-serif" font-size="11" fill="#374151">✓ Interface intuitive</text>
+  <text x="405" y="255" font-family="Arial, sans-serif" font-size="11" fill="#374151">✗ Prix élevé</text>
+  <text x="195" y="273" font-family="Arial, sans-serif" font-size="11" fill="#374151">✓ Devis automatiques</text>
+  <text x="405" y="273" font-family="Arial, sans-serif" font-size="11" fill="#374151">✗ Pas d'appli mobile</text>
+  <text x="195" y="291" font-family="Arial, sans-serif" font-size="11" fill="#374151">✓ Portail client inclus</text>
+  <text x="405" y="291" font-family="Arial, sans-serif" font-size="11" fill="#374151">✗ Export limité</text>
+  <!-- Prix badge -->
+  <rect x="190" y="308" width="130" height="26" rx="8" fill="#4f46e5" opacity="0.1"/>
+  <text x="255" y="325" font-family="Arial, sans-serif" font-size="12" fill="#4f46e5" text-anchor="middle" font-weight="bold">A partir de 14 EUR/mois</text>
+  <!-- CTA -->
+  <rect x="470" y="308" width="120" height="26" rx="8" fill="#4f46e5"/>
+  <text x="530" y="325" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Essai gratuit</text>
+  <!-- Badge "Avis complet" -->
+  <rect x="570" y="80" width="110" height="36" rx="18" fill="#4f46e5"/>
+  <text x="625" y="103" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">Avis complet</text>
+  <!-- Title -->
+  <text x="400" y="410" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1f2937" text-anchor="middle">Freebe : avis et test complet 2026</text>
+  <text x="400" y="432" font-family="Arial, sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">Le logiciel de facturation des freelances</text>
+</svg>

@@ -6,6 +6,7 @@ export interface BlogPost {
   readTime: number
   category: string
   keywords: string[]
+  image?: string
   content: string
 }
 
@@ -18,6 +19,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: 8,
     category: 'Comparatifs',
     keywords: ['logiciel facturation freelance', 'meilleur logiciel facturation', 'facturation indépendant 2026'],
+    image: '/blog/logiciel-facturation-freelance-2026.svg',
     content: `
 <h2>Pourquoi choisir un logiciel de facturation dédié ?</h2>
 <p>En 2026, utiliser Word ou Excel pour facturer n'est plus une option viable. Les obligations légales (mentions obligatoires, TVA, archivage), le temps perdu et le risque d'erreurs justifient largement l'investissement dans un outil dédié : d'autant que les solutions du marché démarrent à 7€/mois.</p>
@@ -49,6 +51,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: 6,
     category: 'Guides',
     keywords: ['logiciel gestion auto-entrepreneur', 'application auto-entrepreneur', 'gérer micro-entreprise'],
+    image: '/blog/auto-entrepreneur-logiciel-gestion-2026.svg',
     content: `
 <h2>Les besoins spécifiques des auto-entrepreneurs</h2>
 <p>Le régime micro-entrepreneur est simple fiscalement, mais il impose quand même plusieurs obligations : émettre des factures conformes, déclarer son chiffre d'affaires mensuellement ou trimestriellement, et conserver tous les justificatifs pendant 10 ans.</p>
@@ -75,6 +78,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: 10,
     category: 'Avis logiciels',
     keywords: ['freebe avis', 'freebe test', 'freebe freelance', 'freebe tarif'],
+    image: '/blog/freebe-avis-test-complet.svg',
     content: `
 <h2>Présentation de Freebe</h2>
 <p>Freebe est un logiciel de gestion pour freelances français, fondé en 2016. Il s'est imposé comme la référence pour les consultants, développeurs et créatifs qui ont opté pour une SASU ou EURL. Aujourd'hui, plus de 50 000 freelances l'utilisent au quotidien.</p>
@@ -106,6 +110,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: 7,
     category: 'Guides',
     keywords: ['mentions obligatoires facture', 'facture légale france', 'mentions facture freelance'],
+    image: '/blog/mentions-obligatoires-facture-france.svg',
     content: `
 <h2>Pourquoi les mentions obligatoires sont importantes</h2>
 <p>Une facture incomplète peut être contestée par votre client, refusée par l'administration fiscale, ou entraîner des pénalités lors d'un contrôle. La loi française est précise sur ce point : certaines mentions sont impérativement requises.</p>
@@ -139,6 +144,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: 5,
     category: 'Guides',
     keywords: ['délai paiement facture', 'retard paiement freelance', 'relance client facture impayée'],
+    image: '/blog/delai-paiement-facture-freelance.svg',
     content: `
 <h2>Les délais légaux de paiement</h2>
 <p>En France, le délai de paiement entre professionnels est encadré par la loi. Par défaut, la date d'échéance est de <strong>30 jours</strong> à compter de la date de réception de la facture. Ce délai peut être négocié contractuellement, mais ne peut pas dépasser <strong>60 jours</strong> à compter de la date d'émission de la facture (article L441-10 du Code de commerce).</p>
@@ -165,6 +171,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: 12,
     category: 'Guides',
     keywords: ['logiciel facturation auto-entrepreneur', 'facturation micro-entrepreneur', 'logiciel devis facture auto-entrepreneur', 'meilleur logiciel facturation micro-entrepreneur'],
+    image: '/blog/logiciel-facturation-auto-entrepreneur.svg',
     content: `
 <h2>Pourquoi les auto-entrepreneurs ont besoin d'un logiciel de facturation dédié</h2>
 <p>Le régime auto-entrepreneur (ou micro-entrepreneur depuis 2016, les deux termes désignant la même réalité juridique) attire chaque année plusieurs centaines de milliers de créateurs d'activité en France. Sa simplicité est réelle : pas de comptabilité formelle, pas de bilan annuel, des charges sociales calculées sur le chiffre d'affaires brut. Mais cette simplicité ne signifie pas absence d'obligations.</p>
@@ -295,6 +302,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: 10,
     category: 'Guides',
     keywords: ['facturation electronique 2026', 'e-facture obligatoire', 'facture electronique entreprise', 'reforme facturation 2026'],
+    image: '/blog/facturation-electronique-2026-guide.svg',
     content: `
 <h2>La reforme de la facturation electronique en France : de quoi parle-t-on ?</h2>
 <p>La France est en train de vivre une transformation majeure de ses pratiques de facturation B2B. Depuis plusieurs années annoncée et plusieurs fois reportée, la generalisation de la facturation electronique entre entreprises assujetties a la TVA en France est desormais planifiee avec un calendrier ferme. Cette reforme, portee par la loi de finances pour 2020 et precisee par les ordonnances et decrets subsequents, va toucher toutes les entreprises, quelle que soit leur taille.</p>
@@ -411,6 +419,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: 14,
     category: 'Comparatifs',
     keywords: ['meilleur logiciel facturation freelance', 'logiciel facturation independant', 'comparatif logiciel facturation', 'outil facturation freelance france'],
+    image: '/blog/meilleur-logiciel-facturation-freelance.svg',
     content: `
 <h2>Comment choisir son logiciel de facturation quand on est freelance</h2>
 <p>En 2026, le marche des logiciels de facturation pour independants est plus fourni que jamais. Chaque editeur promet d'etre "la solution la plus simple", "la plus complete" ou "la moins chere". Pour un freelance qui demarre ou qui cherche a changer d'outil, naviguer dans cette offre peut vite devenir un casse-tete.</p>
@@ -636,6 +645,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: 10,
     category: 'Guides',
     keywords: ['application facturation débutant freelance', 'logiciel facturation freelance débutant', 'quelle application facturation freelance', 'facturation freelance premier client'],
+    image: '/blog/application-facturation-debutant-freelance.svg',
     content: `
 <h2>Par où commencer quand on se lance en freelance ?</h2>
 <p>Votre premier client vous demande une facture. Vous réalisez que vous n'avez aucun outil, aucun template, et vous ne savez même pas quelles mentions mettre dessus. C'est le moment le plus fréquent où les nouveaux freelances cherchent "application facturation débutant". Ce guide répond directement à vos questions, sans jargon.</p>
@@ -710,6 +720,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: 8,
     category: 'Guides',
     keywords: ['facturation urssaf logiciel', 'logiciel facturation déclaration urssaf', 'auto-entrepreneur urssaf facturation', 'déclaration ca urssaf logiciel'],
+    image: '/blog/facturation-urssaf-logiciel.svg',
     content: `
 <h2>URSSAF et facturation : deux mondes séparés mais liés</h2>
 <p>Votre logiciel de facturation ne communique pas directement avec l'URSSAF (sauf rares exceptions). Ce sont deux systèmes distincts. Mais un bon logiciel de facturation vous donne exactement les chiffres dont vous avez besoin pour vos déclarations URSSAF, avec les bons totaux au bon moment, et parfois même des rappels automatiques.</p>
@@ -777,6 +788,7 @@ export const BLOG_POSTS: BlogPost[] = [
     readTime: 9,
     category: 'Guides',
     keywords: ['erreurs facturation freelance', 'erreur facture freelance', 'facture incorrecte freelance', 'problème facturation indépendant'],
+    image: '/blog/erreurs-facturation-freelance.svg',
     content: `
 <h2>Pourquoi les erreurs de facturation coûtent si cher</h2>
 <p>Une erreur sur une facture, c'est rarement anodine. Elle peut entraîner un retard de paiement (le client demande une facture rectificative), un risque fiscal (mention obligatoire absente, numérotation non conforme), ou une perte sèche (TVA non réclamée, pénalités non appliquées). Voici les 7 erreurs les plus courantes, et comment les éviter définitivement.</p>

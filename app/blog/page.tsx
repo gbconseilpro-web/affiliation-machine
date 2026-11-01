@@ -41,9 +41,22 @@ export default function BlogPage() {
         {posts.map(post => (
           <article key={post.slug} className="bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow p-6">
             <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-2xl" aria-hidden="true">
-                {categoryIcons[post.category] ?? '📄'}
-              </div>
+              {post.image ? (
+                <div className="flex-shrink-0 w-24 h-14 rounded-xl overflow-hidden bg-gray-50 hidden sm:block">
+                  <img
+                    src={post.image}
+                    alt=""
+                    width={96}
+                    height={56}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
+                </div>
+              ) : (
+                <div className="flex-shrink-0 w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-2xl hidden sm:flex" aria-hidden="true">
+                  {categoryIcons[post.category] ?? '📄'}
+                </div>
+              )}
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-3 mb-2">
                   <span className={`text-xs font-semibold px-2.5 py-0.5 rounded-full ${categoryColors[post.category] ?? 'bg-gray-100 text-gray-600'}`}>

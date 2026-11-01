@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#f8f9ff"/>
+  <!-- Horloge grande -->
+  <circle cx="220" cy="200" r="110" fill="white" stroke="#4f46e5" stroke-width="3"/>
+  <circle cx="220" cy="200" r="100" fill="#f8f9ff" stroke="#4f46e5" stroke-width="1" stroke-dasharray="4,4"/>
+  <!-- Ticks -->
+  <line x1="220" y1="105" x2="220" y2="120" stroke="#4f46e5" stroke-width="3"/>
+  <line x1="315" y1="200" x2="300" y2="200" stroke="#4f46e5" stroke-width="3"/>
+  <line x1="220" y1="295" x2="220" y2="280" stroke="#4f46e5" stroke-width="3"/>
+  <line x1="125" y1="200" x2="140" y2="200" stroke="#4f46e5" stroke-width="3"/>
+  <!-- Aiguilles -->
+  <line x1="220" y1="200" x2="220" y2="130" stroke="#4f46e5" stroke-width="4" stroke-linecap="round"/>
+  <line x1="220" y1="200" x2="275" y2="200" stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="220" cy="200" r="6" fill="#4f46e5"/>
+  <!-- Chiffres horloge -->
+  <text x="220" y="128" font-family="Arial, sans-serif" font-size="14" fill="#4f46e5" text-anchor="middle" font-weight="bold">12</text>
+  <text x="308" y="205" font-family="Arial, sans-serif" font-size="14" fill="#4f46e5" text-anchor="middle" font-weight="bold">3</text>
+  <text x="220" y="292" font-family="Arial, sans-serif" font-size="14" fill="#4f46e5" text-anchor="middle" font-weight="bold">6</text>
+  <text x="132" y="205" font-family="Arial, sans-serif" font-size="14" fill="#4f46e5" text-anchor="middle" font-weight="bold">9</text>
+  <!-- Calendrier -->
+  <rect x="380" y="100" width="180" height="160" rx="10" fill="white" stroke="#4f46e5" stroke-width="2"/>
+  <rect x="380" y="100" width="180" height="40" rx="10" fill="#4f46e5"/>
+  <rect x="380" y="128" width="180" height="12" fill="#4f46e5"/>
+  <text x="470" y="128" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="bold">NOVEMBRE 2026</text>
+  <!-- Jours -->
+  <text x="410" y="158" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">L</text>
+  <text x="435" y="158" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">M</text>
+  <text x="460" y="158" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">M</text>
+  <text x="485" y="158" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">J</text>
+  <text x="510" y="158" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af" text-anchor="middle">V</text>
+  <!-- Dates ligne 1 -->
+  <text x="410" y="178" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">2</text>
+  <text x="435" y="178" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">3</text>
+  <text x="460" y="178" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">4</text>
+  <text x="485" y="178" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">5</text>
+  <text x="510" y="178" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">6</text>
+  <!-- Dates ligne 2, avec D-30 marqué -->
+  <text x="410" y="198" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">9</text>
+  <text x="435" y="198" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">10</text>
+  <text x="460" y="198" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">11</text>
+  <text x="485" y="198" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">12</text>
+  <text x="510" y="198" font-family="Arial, sans-serif" font-size="12" fill="#374151" text-anchor="middle">13</text>
+  <!-- Cercle sur date finale -->
+  <circle cx="460" cy="218" r="12" fill="#ef4444" opacity="0.15"/>
+  <circle cx="460" cy="218" r="12" stroke="#ef4444" stroke-width="1.5" fill="none"/>
+  <text x="460" y="222" font-family="Arial, sans-serif" font-size="12" fill="#ef4444" text-anchor="middle" font-weight="bold">30</text>
+  <!-- EUR badge -->
+  <rect x="390" y="290" width="160" height="50" rx="10" fill="#059669" opacity="0.1" stroke="#059669" stroke-width="1.5"/>
+  <text x="470" y="313" font-family="Arial, sans-serif" font-size="20" fill="#059669" text-anchor="middle" font-weight="bold">EUR</text>
+  <text x="470" y="330" font-family="Arial, sans-serif" font-size="11" fill="#059669" text-anchor="middle">Delai legal : 30 jours</text>
+  <!-- Fleche urgence -->
+  <rect x="600" y="150" width="130" height="50" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="665" y="172" font-family="Arial, sans-serif" font-size="11" fill="#92400e" text-anchor="middle" font-weight="bold">Penalites de retard</text>
+  <text x="665" y="189" font-family="Arial, sans-serif" font-size="10" fill="#92400e" text-anchor="middle">applicables des J+1</text>
+  <!-- Title -->
+  <text x="400" y="410" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1f2937" text-anchor="middle">Delai de paiement d'une facture</text>
+  <text x="400" y="432" font-family="Arial, sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">Regles legales et recours pour freelances</text>
+</svg>
