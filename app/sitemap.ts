@@ -2,19 +2,23 @@ import type { MetadataRoute } from 'next'
 
 const SITE_URL = 'https://facturationpro.com'
 
-// All blog post slugs
+// All blog post slugs - synced with lib/blog-posts.ts
 const blogSlugs = [
-  'facturation-electronique-2026',
-  'meilleur-logiciel-facturation-auto-entrepreneur',
-  'logiciel-facturation-sasu',
-  'facturation-electronique-freelance',
-  'mentions-legales-facture',
-  'relance-facture-impayee',
-  'devis-facture-difference',
-  'note-frais-freelance',
-  'facture-avoir',
-  'tva-auto-entrepreneur',
+  'logiciel-facturation-freelance-2026',
+  'auto-entrepreneur-logiciel-gestion-2026',
+  'freebe-avis-test-complet',
+  'mentions-obligatoires-facture-france',
+  'delai-paiement-facture-freelance',
+  'logiciel-facturation-auto-entrepreneur',
+  'facturation-electronique-2026-guide',
+  'meilleur-logiciel-facturation-freelance',
+  'application-facturation-debutant-freelance',
+  'facturation-urssaf-logiciel',
   'erreurs-facturation-freelance',
+  'pennylane-avis-test-complet',
+  'note-de-frais-freelance-logiciel',
+  'sasu-eurl-choisir-statut-freelance',
+  'indy-avis-test-complet',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {

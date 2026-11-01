@@ -304,6 +304,69 @@ export default function ComparatifPage() {
           </div>
         </section>
 
+        {/* Comparatifs VS */}
+        <section className="mt-16">
+          <h2 className="text-2xl font-bold mb-2">Comparatifs détaillés : logiciel vs logiciel</h2>
+          <p className="text-gray-600 mb-6 text-sm">
+            Hésitez-vous entre deux logiciels ? Nos comparatifs approfondis vous aident à trancher selon votre profil.
+          </p>
+          <div className="grid md:grid-cols-3 gap-4">
+            <a
+              href="/comparatif/freebe-vs-pennylane"
+              className="group block bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-indigo-200 transition-all"
+            >
+              <div className="flex items-center gap-2 mb-3">
+                <span className="w-7 h-7 bg-indigo-100 rounded-lg flex items-center justify-center text-indigo-700 font-bold text-xs">F</span>
+                <span className="text-gray-400 font-bold">vs</span>
+                <span className="w-7 h-7 bg-emerald-100 rounded-lg flex items-center justify-center text-emerald-700 font-bold text-xs">P</span>
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-1 group-hover:text-indigo-600 transition-colors">
+                Freebe vs Pennylane
+              </h3>
+              <p className="text-xs text-gray-500">Gestion freelance vs comptabilité PME — lequel choisir ?</p>
+              <span className="inline-flex items-center gap-1 text-xs text-indigo-600 font-medium mt-3">
+                Voir le comparatif <span>→</span>
+              </span>
+            </a>
+
+            <a
+              href="/comparatif/indy-vs-freebe"
+              className="group block bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-indigo-200 transition-all"
+            >
+              <div className="flex items-center gap-2 mb-3">
+                <span className="w-7 h-7 bg-blue-100 rounded-lg flex items-center justify-center text-blue-700 font-bold text-xs">I</span>
+                <span className="text-gray-400 font-bold">vs</span>
+                <span className="w-7 h-7 bg-indigo-100 rounded-lg flex items-center justify-center text-indigo-700 font-bold text-xs">F</span>
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-1 group-hover:text-indigo-600 transition-colors">
+                Indy vs Freebe
+              </h3>
+              <p className="text-xs text-gray-500">Comptabilité auto-entrepreneur vs gestion freelance SASU/EURL</p>
+              <span className="inline-flex items-center gap-1 text-xs text-indigo-600 font-medium mt-3">
+                Voir le comparatif <span>→</span>
+              </span>
+            </a>
+
+            <a
+              href="/comparatif/tiime-vs-pennylane"
+              className="group block bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-indigo-200 transition-all"
+            >
+              <div className="flex items-center gap-2 mb-3">
+                <span className="w-7 h-7 bg-violet-100 rounded-lg flex items-center justify-center text-violet-700 font-bold text-xs">T</span>
+                <span className="text-gray-400 font-bold">vs</span>
+                <span className="w-7 h-7 bg-emerald-100 rounded-lg flex items-center justify-center text-emerald-700 font-bold text-xs">P</span>
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-1 group-hover:text-indigo-600 transition-colors">
+                Tiime vs Pennylane
+              </h3>
+              <p className="text-xs text-gray-500">Outil expert-comptable vs solution tout-en-un pour PME</p>
+              <span className="inline-flex items-center gap-1 text-xs text-indigo-600 font-medium mt-3">
+                Voir le comparatif <span>→</span>
+              </span>
+            </a>
+          </div>
+        </section>
+
         {/* Maillage interne */}
         <div className="mt-12 p-6 bg-gray-50 rounded-xl">
           <h3 className="font-bold text-lg mb-3">Pour aller plus loin</h3>
@@ -313,6 +376,9 @@ export default function ComparatifPage() {
             </a>
             <a href="/" className="text-primary-600 hover:underline text-sm">
               → Les échéances clés 2026
+            </a>
+            <a href="/blog" className="text-primary-600 hover:underline text-sm">
+              → Blog : conseils facturation pour freelances
             </a>
           </div>
         </div>
