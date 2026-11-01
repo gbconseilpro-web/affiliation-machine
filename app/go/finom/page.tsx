@@ -55,7 +55,7 @@ export default function GoFinomPage() {
 
         {/* CTA principal */}
         <a
-          href="https://finom.co/fr/?ref=facturationpro"
+          href="https://finom.co/fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=go-finom"
           target="_blank"
           rel="nofollow sponsored noopener noreferrer"
           className="inline-flex items-center gap-3 bg-violet-600 hover:bg-violet-700 text-white text-xl font-bold px-10 py-5 rounded-2xl shadow-lg shadow-violet-200 transition-all hover:scale-105 mb-4"
@@ -108,7 +108,7 @@ export default function GoFinomPage() {
 
         {/* CTA secondaire */}
         <a
-          href="https://finom.co/fr/?ref=facturationpro"
+          href="https://finom.co/fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=go-finom"
           target="_blank"
           rel="nofollow sponsored noopener noreferrer"
           className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl transition-all hover:scale-105 mb-6"

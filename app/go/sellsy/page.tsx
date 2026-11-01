@@ -55,7 +55,7 @@ export default function GoSellsyPage() {
 
         {/* CTA principal */}
         <a
-          href="https://www.sellsy.fr/?ref=facturationpro"
+          href="https://go.sellsy.com/essai-gratuit?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=go-sellsy"
           target="_blank"
           rel="nofollow sponsored noopener noreferrer"
           className="inline-flex items-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white text-xl font-bold px-10 py-5 rounded-2xl shadow-lg shadow-emerald-200 transition-all hover:scale-105 mb-4"
@@ -108,7 +108,7 @@ export default function GoSellsyPage() {
 
         {/* CTA secondaire */}
         <a
-          href="https://www.sellsy.fr/?ref=facturationpro"
+          href="https://go.sellsy.com/essai-gratuit?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=go-sellsy"
           target="_blank"
           rel="nofollow sponsored noopener noreferrer"
           className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl transition-all hover:scale-105 mb-6"
