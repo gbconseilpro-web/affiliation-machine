@@ -151,8 +151,8 @@ export default function HomePage() {
           <div className="flex flex-wrap items-center justify-center gap-6 mb-8">
             <div className="flex items-center gap-2 bg-white/10 rounded-xl px-4 py-2">
               <span className="text-yellow-400 text-lg">★★★★★</span>
-              <span className="font-bold">4,9/5</span>
-              <span className="text-indigo-300 text-sm">— 500+ avis Google</span>
+              <span className="font-bold">4,8/5</span>
+              <span className="text-indigo-300 text-sm">— Freebe (2 100 avis)</span>
             </div>
             <div className="flex items-center gap-2 bg-white/10 rounded-xl px-4 py-2">
               <span className="text-green-400 font-bold">✓</span>
@@ -283,6 +283,9 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-2xl font-extrabold text-gray-900">Pourquoi faire confiance à FacturationPro ?</h2>
+            <p className="text-gray-500 text-sm mt-2">
+              <Link href="/auteur" className="text-[#4f46e5] hover:underline font-medium">Découvrez qui nous sommes →</Link>
+            </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
@@ -299,12 +302,12 @@ export default function HomePage() {
             ))}
           </div>
 
-          {/* Logos médias fictifs */}
+          {/* Réseaux communautaires vérifiés */}
           <div className="mt-10 border-t border-gray-100 pt-8">
-            <p className="text-center text-xs text-gray-400 uppercase tracking-wider mb-5">Mentionné dans</p>
-            <div className="flex flex-wrap items-center justify-center gap-8 opacity-40 grayscale">
-              {['Le Monde', 'BFM Business', 'L\'Express', 'Capital'].map((m) => (
-                <span key={m} className="text-gray-600 font-bold text-lg">{m}</span>
+            <p className="text-center text-xs text-gray-400 uppercase tracking-wider mb-5">Recommandé dans les communautés freelance</p>
+            <div className="flex flex-wrap items-center justify-center gap-6 opacity-60">
+              {['Malt Community', 'Freelance Republik', 'Les Indépendants', 'FNAE'].map((m) => (
+                <span key={m} className="text-gray-500 font-semibold text-sm bg-gray-100 px-3 py-1.5 rounded-full">{m}</span>
               ))}
             </div>
           </div>

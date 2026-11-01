@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     default: 'FacturationPro — Logiciels de facturation pour indépendants',
     template: '%s | FacturationPro',
   },
-  description: 'Comparez les meilleurs logiciels de facturation pour freelances et auto-entrepreneurs. Guides, avis et comparatifs 2025.',
+  description: 'Comparez les meilleurs logiciels de facturation pour freelances et auto-entrepreneurs. Guides, avis et comparatifs 2026.',
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: { type: 'website', locale: 'fr_FR' },
 }
@@ -85,14 +85,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div>
                 <h3 className="text-white font-semibold mb-3 text-sm">Le site</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><a href="/comparatif" className="hover:text-white transition-colors">Comparatif 2025</a></li>
+                  <li><a href="/comparatif" className="hover:text-white transition-colors">Comparatif 2026</a></li>
                   <li><a href="/guide" className="hover:text-white transition-colors">Guide complet</a></li>
                   <li><a href="/auteur" className="hover:text-white transition-colors">À propos</a></li>
                 </ul>
               </div>
             </div>
             <div className="border-t border-gray-800 pt-6 text-xs text-center text-gray-500">
-              Ce site contient des liens affiliés. En cliquant, nous percevons une commission sans coût supplémentaire pour vous. © 2025 FacturationPro
+              Ce site contient des liens affiliés. En cliquant, nous percevons une commission sans coût supplémentaire pour vous. © 2026 FacturationPro
             </div>
           </div>
         </footer>
