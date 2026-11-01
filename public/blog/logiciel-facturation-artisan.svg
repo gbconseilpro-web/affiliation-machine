@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff7ed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffedd5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)" rx="16"/>
+  <!-- Tool icon -->
+  <circle cx="140" cy="180" r="64" fill="#ea580c" opacity="0.12"/>
+  <text x="140" y="210" font-family="Arial,sans-serif" font-size="72" text-anchor="middle">🔧</text>
+  <rect x="240" y="60" width="520" height="330" rx="12" fill="white" opacity="0.75"/>
+  <text x="270" y="108" font-family="Arial Black,sans-serif" font-size="22" font-weight="900" fill="#7c2d12">Logiciel de Facturation</text>
+  <text x="270" y="132" font-family="Arial Black,sans-serif" font-size="22" font-weight="900" fill="#ea580c">pour Artisans 2026</text>
+  <text x="270" y="158" font-family="Arial,sans-serif" font-size="13" fill="#6b7280">Plombier, electricien, menuisier, maconnerie...</text>
+  <rect x="270" y="170" width="460" height="1" fill="#fed7aa"/>
+  <!-- Criteria -->
+  <text x="270" y="200" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#9a3412">Criteres cles :</text>
+  <circle cx="280" cy="221" r="4" fill="#ea580c"/>
+  <text x="294" y="226" font-family="Arial,sans-serif" font-size="12" fill="#374151">Devis rapide sur chantier (smartphone)</text>
+  <circle cx="280" cy="245" r="4" fill="#ea580c"/>
+  <text x="294" y="250" font-family="Arial,sans-serif" font-size="12" fill="#374151">Gestion TVA 5,5% / 10% / 20%</text>
+  <circle cx="280" cy="269" r="4" fill="#ea580c"/>
+  <text x="294" y="274" font-family="Arial,sans-serif" font-size="12" fill="#374151">Catalogue materiaux et main-d'oeuvre</text>
+  <circle cx="280" cy="293" r="4" fill="#ea580c"/>
+  <text x="294" y="298" font-family="Arial,sans-serif" font-size="12" fill="#374151">Devis obligatoire au-dessus de 150 EUR TTC</text>
+  <circle cx="280" cy="317" r="4" fill="#ea580c"/>
+  <text x="294" y="322" font-family="Arial,sans-serif" font-size="12" fill="#374151">Readiness facturation electronique 2026</text>
+  <!-- Badge -->
+  <rect x="270" y="340" width="200" height="34" rx="17" fill="#ea580c"/>
+  <text x="370" y="362" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle">COMPARATIF ARTISANS</text>
+  <text x="720" y="440" font-family="Arial,sans-serif" font-size="11" fill="#9ca3af" text-anchor="end">facturationpro.com</text>
+</svg>

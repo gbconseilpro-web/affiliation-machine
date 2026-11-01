@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#eff6ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dbeafe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)" rx="16"/>
+  <!-- Devis doc -->
+  <rect x="60" y="100" width="160" height="200" rx="10" fill="white" stroke="#3b82f6" stroke-width="2"/>
+  <rect x="80" y="120" width="120" height="10" rx="3" fill="#bfdbfe"/>
+  <rect x="80" y="140" width="80" height="8" rx="3" fill="#dbeafe"/>
+  <rect x="80" y="158" width="100" height="8" rx="3" fill="#dbeafe"/>
+  <rect x="80" y="176" width="90" height="8" rx="3" fill="#dbeafe"/>
+  <rect x="80" y="210" width="120" height="24" rx="6" fill="#3b82f6"/>
+  <text x="140" y="227" font-family="Arial,sans-serif" font-size="12" fill="white" text-anchor="middle">Bon pour accord</text>
+  <text x="140" y="320" font-family="Arial Black,sans-serif" font-size="16" font-weight="900" fill="#1e40af" text-anchor="middle">DEVIS</text>
+  <text x="140" y="340" font-family="Arial,sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">Avant prestation</text>
+  <!-- Arrow -->
+  <text x="280" y="210" font-family="Arial,sans-serif" font-size="40" fill="#3b82f6" text-anchor="middle">&#8594;</text>
+  <text x="280" y="240" font-family="Arial,sans-serif" font-size="10" fill="#6b7280" text-anchor="middle">Accepte</text>
+  <!-- Facture doc -->
+  <rect x="360" y="100" width="160" height="200" rx="10" fill="white" stroke="#6366f1" stroke-width="2"/>
+  <rect x="380" y="120" width="120" height="10" rx="3" fill="#c7d2fe"/>
+  <rect x="380" y="140" width="80" height="8" rx="3" fill="#e0e7ff"/>
+  <rect x="380" y="158" width="100" height="8" rx="3" fill="#e0e7ff"/>
+  <rect x="380" y="176" width="90" height="8" rx="3" fill="#e0e7ff"/>
+  <rect x="380" y="194" width="120" height="8" rx="3" fill="#e0e7ff"/>
+  <text x="440" y="235" font-family="Arial,sans-serif" font-size="13" fill="#6366f1" text-anchor="middle">TOTAL TTC</text>
+  <text x="440" y="255" font-family="Arial Black,sans-serif" font-size="16" fill="#4338ca" text-anchor="middle">1 500,00 EUR</text>
+  <text x="440" y="320" font-family="Arial Black,sans-serif" font-size="16" font-weight="900" fill="#4338ca" text-anchor="middle">FACTURE</text>
+  <text x="440" y="340" font-family="Arial,sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">Apres prestation</text>
+  <!-- Title -->
+  <text x="620" y="160" font-family="Arial Black,sans-serif" font-size="22" font-weight="900" fill="#1e3a8a" text-anchor="middle">Devis</text>
+  <text x="620" y="185" font-family="Arial Black,sans-serif" font-size="22" font-weight="900" fill="#1e3a8a" text-anchor="middle">vs Facture</text>
+  <text x="620" y="215" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">Guide complet 2026</text>
+  <rect x="548" y="235" width="148" height="2" fill="#bfdbfe"/>
+  <text x="620" y="270" font-family="Arial,sans-serif" font-size="12" fill="#374151" text-anchor="middle">Valeur juridique</text>
+  <text x="620" y="290" font-family="Arial,sans-serif" font-size="12" fill="#374151" text-anchor="middle">Mentions obligatoires</text>
+  <text x="620" y="310" font-family="Arial,sans-serif" font-size="12" fill="#374151" text-anchor="middle">Delais de conservation</text>
+  <text x="720" y="440" font-family="Arial,sans-serif" font-size="11" fill="#9ca3af" text-anchor="end">facturationpro.com</text>
+</svg>
