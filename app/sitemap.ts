@@ -31,6 +31,9 @@ const blogSlugs = [
   'logiciel-facturation-pme-comparatif',
   'note-de-frais-auto-entrepreneur-guide',
   'deductibilite-charges-freelance',
+  'contrat-freelance-modele-gratuit',
+  'taux-journalier-moyen-freelance',
+  'facturer-client-etranger-auto-entrepreneur',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {

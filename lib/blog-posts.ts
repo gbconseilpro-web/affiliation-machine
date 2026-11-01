@@ -2142,6 +2142,345 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
     metaTitle: 'Charges Deductibles Freelance 2026 : Guide Complet SASU EURL | FacturationPro',
     metaDescription: 'Toutes les charges deductibles pour freelance en SASU ou EURL : materiel, logiciels, deplacement, repas, formation, bureau... Guide complet avec exemples chiffres 2026.',
   },
+  {
+    slug: 'contrat-freelance-modele-gratuit',
+    title: 'Contrat Freelance : Modele Gratuit et Guide Complet 2026',
+    excerpt: 'Telechargez un modele de contrat freelance gratuit et comprenez les clauses essentielles a inclure : mission, tarifs, propriete intellectuelle, confidentialite et resiliation.',
+    content: `
+<h2>Pourquoi un contrat freelance est indispensable</h2>
+<p>Un contrat freelance n'est pas une formalite bureaucratique : c'est votre meilleure protection en cas de litige avec un client. Il definit clairement les droits et obligations de chaque partie, evite les malentendus sur le perimetre de la mission et vous donne une base juridique solide en cas d'impaye ou de conflit.</p>
+<p>Pourtant, de nombreux freelances travaillent encore sur la base d'un simple echange d'emails ou d'une poignee de main. C'est une erreur qui peut couter tres cher. Ce guide vous explique les clauses essentielles d'un contrat freelance et vous fournit un modele complet a adapter.</p>
+
+<h2>Les 10 clauses essentielles d'un contrat freelance</h2>
+
+<h3>1. Identification des parties</h3>
+<p>Le contrat doit identifier precisement les deux parties : vous (votre nom, statut juridique, SIRET, adresse) et votre client (raison sociale, SIRET, adresse, nom du representant legal). C'est la base de tout contrat valide.</p>
+
+<h3>2. Description de la mission</h3>
+<p>C'est la clause la plus importante. Elle doit decrire avec precision :</p>
+<ul>
+<li>La nature exacte des prestations (developpement, conseil, redaction, design...)</li>
+<li>Les livrables attendus (fichiers, documents, code source...)</li>
+<li>Le perimetre inclus ET exclu (evitez le scope creep)</li>
+<li>Les criteres de validation ou de reception</li>
+</ul>
+<p>Plus cette description est precise, moins vous aurez de litiges sur "c'etait compris dans la mission".</p>
+
+<h3>3. Duree et calendrier</h3>
+<p>Precisez la date de debut, la date de fin prevue (ou la duree), et si possible les jalons intermediaires. Si la mission est recurrente (temps partiel mensuel), precisez la frequence et les modalites de renouvellement ou de resiliation.</p>
+
+<h3>4. Tarifs et conditions de paiement</h3>
+<p>Cette clause doit mentionner :</p>
+<ul>
+<li>Votre tarification (taux horaire, journalier, forfait, ou abonnement mensuel)</li>
+<li>Le montant total ou estimatif HT et TTC (si vous facturez la TVA)</li>
+<li>Les modalites de paiement : echeances, acompte (30 a 50% a la commande est courant)</li>
+<li>Les delais de paiement : 30 jours max pour les professionnels (loi LME), 45 jours fin de mois</li>
+<li>Les penalites de retard : minimum 3 fois le taux d'interet legal + 40 EUR d'indemnite forfaitaire</li>
+</ul>
+
+<h3>5. Propriete intellectuelle</h3>
+<p>C'est une clause souvent negligee mais cruciale. Par defaut en droit francais, le createur conserve les droits sur son oeuvre. Pour que le client puisse utiliser librement vos livrables, il faut prevoir une cession des droits :</p>
+<ul>
+<li>Etendue de la cession : utilisation, reproduction, modification, commercialisation</li>
+<li>Territoire : France, monde entier</li>
+<li>Duree : pendant la duree du contrat, ou pour la duree legale des droits d'auteur</li>
+</ul>
+<p>Attention : si vous coupez la prestation sans avoir recu le paiement complet, vous pouvez contractuellement prevoir que les droits ne sont transferes qu'a paiement integral.</p>
+
+<h3>6. Confidentialite (NDA)</h3>
+<p>Obligatoire si vous avez acces a des informations sensibles du client (strategy, donnees clients, code source proprietaire). Precisez :</p>
+<ul>
+<li>La nature des informations confidentielles</li>
+<li>Les obligations de non-divulgation</li>
+<li>La duree : generalement 2 a 5 ans apres la fin de la mission</li>
+</ul>
+
+<h3>7. Clause de non-concurrence (optionnelle)</h3>
+<p>Certains clients demandent une clause vous interdisant de travailler pour leurs concurrents directs pendant la duree de la mission. Cette clause est valide si elle est limitee dans le temps, le territoire et le secteur. Negociez une contrepartie financiere si elle est tres restrictive.</p>
+
+<h3>8. Responsabilite et garanties</h3>
+<p>Limitez votre responsabilite au montant des honoraires percus. Precisez les cas d'exclusion (force majeure, informations inexactes fournies par le client). Si vous avez une RC Pro, mentionnez-la.</p>
+
+<h3>9. Modification du perimetre</h3>
+<p>Prevoyez un processus explicite pour les demandes de modification en cours de mission (avenants ecrits, delai de reponse, impact sur le prix). C'est la meilleure protection contre le scope creep.</p>
+
+<h3>10. Resiliation</h3>
+<p>Precisez les conditions de rupture du contrat :</p>
+<ul>
+<li>Delai de preavis (2 a 4 semaines selon la duree)</li>
+<li>Facturation des travaux realises en cas de resiliation anticipee</li>
+<li>Cas de resiliation immediate (non-paiement, comportement abusif)</li>
+</ul>
+
+<h2>Modele de contrat freelance (structure type)</h2>
+<p>Voici la structure d'un contrat freelance standard que vous pouvez adapter :</p>
+
+<h3>Preambule</h3>
+<p>"Entre [Votre nom/societe], [statut], immatricule(e) sous le numero SIRET [X], dont le siege social est situe [adresse], represente(e) par [nom], ci-apres denomme 'le Prestataire'...</p>
+<p>Et [Nom du client], [statut], immatricule sous le numero SIRET [X], dont le siege social est situe [adresse], represente par [nom], ci-apres denomme 'le Client'..."</p>
+
+<h3>Article 1 - Objet du contrat</h3>
+<p>"Le Prestataire s'engage a realiser pour le Client la/les prestation(s) suivante(s) : [description detaillee]."</p>
+
+<h3>Article 2 - Duree</h3>
+<p>"La mission debutera le [date] et se terminera le [date]. Toute prolongation fera l'objet d'un avenant."</p>
+
+<h3>Articles 3 a 10</h3>
+<p>Reprenez les 10 clauses decrites ci-dessus et redigez-les pour votre situation specifique. Chaque article doit etre numerote et clairement intitule.</p>
+
+<h3>Signatures</h3>
+<p>"Fait en deux exemplaires originaux, a [ville], le [date]. Signature du Prestataire + signature du Client (avec la mention 'Lu et approuve')."</p>
+
+<h2>Contrat ou CGV : quelle difference ?</h2>
+<p>Les Conditions Generales de Vente (CGV) sont un document standardise qui s'applique a l'ensemble de vos clients. Le contrat est un document sur mesure pour une mission specifique. Dans la pratique :</p>
+<ul>
+<li>Pour des missions recurrentes ou importantes : utilisez un contrat specifique</li>
+<li>Pour des missions ponctuelles et simples : vos CGV + un bon de commande accepte par le client peuvent suffire</li>
+<li>Les CGV sont opposables si le client en a eu connaissance avant la commande (mentionnez-les sur vos devis)</li>
+</ul>
+
+<h2>La signature electronique : valide juridiquement</h2>
+<p>La signature electronique qualifiee a la meme valeur juridique qu'une signature manuscrite en droit francais (article L100 du Code de commerce, reglement eIDAS europeen). Des outils comme DocuSign, SignRequest ou <a href="/go/pennylane">Pennylane</a> permettent de signer des contrats electroniquement de facon securisee.</p>
+<p>Pour vos contrats simples, un email d'acceptation explicite ("Je valide le devis et les conditions") peut aussi constituer une preuve suffisante, meme sans signature formelle.</p>
+
+<h2>Et si le client refuse de signer un contrat ?</h2>
+<p>Un client qui refuse systematiquement tout formalisme contractuel est un signal d'alerte. Dans ce cas :</p>
+<ul>
+<li>Demandez a minima la validation ecrite du devis, avec reference explicite a vos CGV</li>
+<li>Exigez un acompte plus important avant de demarrer (50% minimum)</li>
+<li>Documentez tout par ecrit (emails, messages...)</li>
+<li>Evaluez si la relation est vraiment saine avant de vous engager</li>
+</ul>
+
+<h2>Gerer ses contrats et sa facturation avec un logiciel</h2>
+<p>Un bon logiciel de gestion freelance vous permet de creer, envoyer et suivre vos devis et contrats directement. <a href="/go/freebe">Freebe</a> integre la gestion des devis, factures et suivi des missions dans une interface simple pensee pour les freelances. <a href="/go/pennylane">Pennylane</a> propose une gestion complete incluant la signature electronique et le suivi comptable.</p>
+<p>Ces outils conservent un historique complet de vos documents et vous alertent sur les devis en attente de validation ou les factures impayees.</p>
+
+<h2>FAQ : Contrat freelance</h2>
+<p><strong>Un contrat oral est-il valide ?</strong> Oui, mais quasiment impossible a prouver en cas de litige. Privilegiez toujours l'ecrit, meme un simple echange d'emails confirmant les termes.</p>
+<p><strong>Dois-je faire relire mon contrat par un avocat ?</strong> Pour les missions importantes (> 10 000 EUR), un conseil juridique peut etre judicieux. Pour les missions courantes, un modele de contrat standard bien redige suffit generalement.</p>
+<p><strong>Que faire en cas d'impaye ?</strong> D'abord une relance amiable, puis une mise en demeure par LRAR, puis une procedure d'injonction de payer (gratuite, sans avocat jusqu'a 10 000 EUR). Notre guide <a href="/blog/relance-facture-impayee-modele">relance facture impayee</a> detaille toutes les etapes.</p>
+<p><strong>Mon contrat doit-il etre en francais ?</strong> Pour un client francais, un contrat en anglais est valide juridiquement mais peut compliques les litiges. Privilegiez le francais ou prevoyez une version bilingue avec la version francaise faisant foi.</p>
+    `.trim(),
+    date: '2026-11-12',
+    category: 'Guides',
+    readTime: '12 min',
+    author: 'L\'equipe FacturationPro',
+    image: '/blog/contrat-freelance-modele-gratuit.svg',
+    tags: ['contrat freelance', 'modele contrat', 'propriete intellectuelle', 'NDA', 'CGV'],
+    metaTitle: 'Contrat Freelance 2026 : Modele Gratuit + Guide des Clauses Essentielles',
+    metaDescription: 'Modele de contrat freelance gratuit + guide complet des 10 clauses essentielles : mission, tarifs, propriete intellectuelle, confidentialite, resiliation. Protegez-vous des litiges.',
+  },
+  {
+    slug: 'taux-journalier-moyen-freelance',
+    title: 'Taux Journalier Moyen (TJM) Freelance 2026 : Comment le Calculer et le Negocier',
+    excerpt: 'Comment calculer votre TJM freelance ? Simulateur, grille par metier et conseils pour negocier votre tarif sans sous-evaluer votre travail. Guide complet 2026.',
+    content: `
+<h2>Qu'est-ce que le TJM (Taux Journalier Moyen) ?</h2>
+<p>Le TJM, ou Taux Journalier Moyen, est le tarif que vous facturez par jour de travail a vos clients. C'est la reference principale pour tarifer votre activite de freelance, notamment dans le conseil, l'IT, la communication et les metiers intellectuels en general.</p>
+<p>En 2026, les TJM varient enormement selon le metier, l'experience, la specialisation et la region : de 200 EUR/jour pour un junior en province a 1 500 EUR/jour ou plus pour un expert senior tres specialise en Ile-de-France.</p>
+
+<h2>La formule de calcul du TJM</h2>
+<p>Voici la formule de base pour calculer votre TJM :</p>
+<p><strong>TJM = (Salaire cible + Charges + Frais) / Nombre de jours facturables</strong></p>
+
+<h3>Etape 1 : Determiner votre revenu cible net</h3>
+<p>Commencez par le salaire net mensuel que vous souhaitez obtenir. Exemples :</p>
+<ul>
+<li>Revenu cible : 4 000 EUR net/mois</li>
+<li>Annuel : 4 000 x 12 = 48 000 EUR net/an</li>
+</ul>
+
+<h3>Etape 2 : Calculer le chiffre d'affaires necessaire</h3>
+<p>En SASU ou EURL (IS), la relation entre votre remuneration et le CA est complexe (charges sociales, IS, dividendes...). Une approximation courante : CA = Revenu net x 2,5 a 3. Pour 48 000 EUR nets : CA cible = 120 000 a 144 000 EUR HT.</p>
+<p>Ce ratio depend de votre statut, de votre niveau de charges et de votre optimisation fiscale. Un expert-comptable peut vous aider a affiner ce calcul.</p>
+
+<h3>Etape 3 : Estimer les jours facturables</h3>
+<p>Une annee compte 365 jours, mais combien sont vraiment facturables ?</p>
+<ul>
+<li>365 jours totaux</li>
+<li>- 104 jours de week-end = 261 jours ouvrables</li>
+<li>- 25 jours de conges = 236 jours</li>
+<li>- 11 jours feries = 225 jours</li>
+<li>- 20 jours de maladie, formation, prospection, admin = 205 jours</li>
+<li>- 15% de non-facturation (recherche de missions, periods creuses) = 175 jours facturables</li>
+</ul>
+<p>En pratique, 150 a 200 jours facturables par an est une fourchette realiste pour la plupart des freelances.</p>
+
+<h3>Etape 4 : Calculer le TJM</h3>
+<p>TJM = CA annuel / Jours facturables = 130 000 / 175 = <strong>743 EUR/jour</strong></p>
+<p>Arrondissez a un chiffre "propre" (750, 800...) et ajustez selon le marche.</p>
+
+<h2>TJM moyen par metier en 2026</h2>
+<p>Voici des fourchettes de TJM par metier en France, basees sur les donnees du marche 2026 :</p>
+
+<h3>Developpement et IT</h3>
+<ul>
+<li>Developpeur junior (0-3 ans) : 350 - 500 EUR/jour</li>
+<li>Developpeur confirmé (3-7 ans) : 500 - 750 EUR/jour</li>
+<li>Developpeur senior (7 ans+) : 700 - 1 000 EUR/jour</li>
+<li>Architecte / CTO part-time : 900 - 1 500 EUR/jour</li>
+<li>Data Scientist : 600 - 900 EUR/jour</li>
+<li>DevOps / SRE : 600 - 900 EUR/jour</li>
+<li>Product Manager : 500 - 800 EUR/jour</li>
+</ul>
+
+<h3>Design et UX</h3>
+<ul>
+<li>Graphiste junior : 250 - 400 EUR/jour</li>
+<li>UX/UI Designer confirme : 400 - 650 EUR/jour</li>
+<li>Directeur artistique senior : 600 - 900 EUR/jour</li>
+</ul>
+
+<h3>Marketing et communication</h3>
+<ul>
+<li>Community Manager : 200 - 400 EUR/jour</li>
+<li>Consultant SEO : 400 - 700 EUR/jour</li>
+<li>Consultant marketing digital senior : 600 - 1 000 EUR/jour</li>
+<li>Directeur marketing part-time : 800 - 1 200 EUR/jour</li>
+</ul>
+
+<h3>Conseil et management</h3>
+<ul>
+<li>Consultant junior : 450 - 650 EUR/jour</li>
+<li>Consultant confirme : 650 - 900 EUR/jour</li>
+<li>Manager de transition : 900 - 1 500 EUR/jour</li>
+<li>DG / DAF part-time (C-Level) : 1 000 - 2 000 EUR/jour</li>
+</ul>
+
+<h3>Metiers juridiques et finance</h3>
+<ul>
+<li>Comptable / DAF junior : 400 - 600 EUR/jour</li>
+<li>Avocat consultant : 800 - 1 500 EUR/jour</li>
+<li>Expert-comptable independant : 600 - 1 000 EUR/jour</li>
+</ul>
+
+<h2>6 facteurs qui influencent votre TJM</h2>
+
+<h3>1. L'experience et la specialisation</h3>
+<p>Un expert en cybersecurité, en IA ou en finance de marche peut facturer 2 a 3 fois plus qu'un generaliste, car sa competence est rare et a forte valeur ajoutee.</p>
+
+<h3>2. La localisation</h3>
+<p>Les TJM en Ile-de-France sont 20 a 40% plus eleves qu'en province pour les memes competences. Le remote generalise a partiellement reduit cet ecart, mais il subsiste.</p>
+
+<h3>3. Le type de client</h3>
+<p>Les grands comptes (CAC 40, ministeres) payent generalement mieux que les PME, mais leurs processus sont plus lourds. Les startups paient souvent moins mais offrent plus de flexibilite et d'agilite.</p>
+
+<h3>4. La duree et la recurrence</h3>
+<p>Une mission longue et recurrente (3 jours/semaine pendant 6 mois) justifie un TJM legerement inferieur a celui d'une mission ponctuelle, car vous avez moins de "temps mort" de prospection.</p>
+
+<h3>5. La tension du marche</h3>
+<p>Certains profils sont en tension (architectes cloud, experts SAP, specialistes de certaines technologies...) et peuvent negocier des TJM bien au-dessus du marche moyen.</p>
+
+<h3>6. Le canal d'acquisition</h3>
+<p>Un client trouve via votre reseau (LinkedIn, bouche-a-oreille) accepte generalement un TJM plus eleve qu'un client trouve via une plateforme de freelancing (Malt, Upwork...) qui met en competition les prestataires.</p>
+
+<h2>Comment negocier votre TJM ?</h2>
+<p>La negociation tarifaire est un exercice ou beaucoup de freelances peinent. Quelques principes :</p>
+<ul>
+<li><strong>Ancrez haut</strong> : donnez toujours votre tarif superieur en premier, le client negociera vers le bas</li>
+<li><strong>Ne justifiez pas</strong> : "mon TJM est de 800 EUR" est plus fort que "j'aurais besoin de 800 EUR parce que..."</li>
+<li><strong>Negociez le perimetre, pas le tarif</strong> : si le budget est inferieur, reduisez la mission plutot que votre jour</li>
+<li><strong>Valorisez votre ROI</strong> : si votre intervention peut generer 100 000 EUR de CA en plus, 50 000 EUR d'economies ou eviter un litige de 200 000 EUR, votre TJM de 800 EUR est evident</li>
+<li><strong>Augmentez regulierement</strong> : prevoyez une revalorisation annuelle de 5 a 10% pour vos clients recurrents</li>
+</ul>
+
+<h2>TJM et logiciel de facturation</h2>
+<p>Suivi des jours travailles, facturation a la journee, calcul automatique des depassements... Tout cela se gere simplement dans un logiciel de facturation adapte aux freelances. <a href="/go/freebe">Freebe</a> est concu specifiquement pour les freelances et propose un suivi du temps et des missions integre. <a href="/go/indy">Indy</a> combine gestion des factures et comptabilite avec une interface simple pour suivre votre activite au jour le jour.</p>
+
+<h2>FAQ : TJM freelance</h2>
+<p><strong>TJM ou forfait : que choisir ?</strong> Le TJM est plus simple quand le perimetre est flou. Le forfait est plus avantageux quand vous etes tres efficace et pouvez livrer en moins de temps que prevu. Hybride possible : forfait avec TJM pour les depassements.</p>
+<p><strong>Dois-je facturer la TVA sur mon TJM ?</strong> Si vous etes en regime reel (SASU, EURL ou AE au-dela des seuils), oui. Votre TJM s'entend HT, et vous ajoutez 20% de TVA. Un TJM de 800 EUR HT = 960 EUR TTC. Voir notre guide <a href="/blog/tva-auto-entrepreneur-guide">TVA auto-entrepreneur</a>.</p>
+<p><strong>Mon TJM peut-il evoluer a la hausse en cours de mission ?</strong> Oui, a condition que cela soit prevu au contrat (clause de revalorisation annuelle) ou que vous negociiez un avenant. Ne renoncez pas a augmenter par peur de perdre le client : un bon client respecte la valeur de votre travail.</p>
+    `.trim(),
+    date: '2026-11-13',
+    category: 'Guides',
+    readTime: '14 min',
+    author: 'L\'equipe FacturationPro',
+    image: '/blog/taux-journalier-moyen-freelance.svg',
+    tags: ['TJM', 'taux journalier', 'tarif freelance', 'negociation', 'salaire freelance'],
+    metaTitle: 'TJM Freelance 2026 : Calculer son Taux Journalier Moyen et Negocier | FacturationPro',
+    metaDescription: 'Comment calculer votre TJM freelance en 2026 ? Formule, grille par metier (dev, design, conseil), simulateur et conseils pour negocier votre tarif. Guide complet.',
+  },
+  {
+    slug: 'facturer-client-etranger-auto-entrepreneur',
+    title: 'Facturer un Client Etranger en Auto-Entrepreneur : Guide Complet 2026',
+    excerpt: 'Comment facturer un client etranger (UE ou hors UE) en auto-entrepreneur ? TVA, mention legale, paiement international, reglementation... Tout ce qu\'il faut savoir.',
+    content: `
+<h2>Peut-on facturer des clients etrangers en auto-entrepreneur ?</h2>
+<p>Oui, tout a fait. Il n'y a aucune restriction a facturer des clients hors de France, qu'ils soient dans l'Union Europeenne ou a l'autre bout du monde. C'est meme une opportunite : les tarifs pratiques dans certains pays (UK, USA, Suisse, Pays nordiques) sont souvent nettement plus eleves qu'en France.</p>
+<p>En revanche, les regles de TVA, les mentions obligatoires sur la facture et les modalites de paiement sont differentes selon la localisation du client. Ce guide vous explique tout.</p>
+
+<h2>Les regles de TVA avec les clients etrangers</h2>
+<p>La TVA est au coeur de la facturation internationale. Les regles dependent de la nature du client (particulier ou professionnel) et de sa localisation.</p>
+
+<h3>Client professionnel dans l'UE (B2B)</h3>
+<p>Pour une prestation de services a un professionnel (assujetti a la TVA) dans un autre pays de l'UE : vous ne facturez PAS la TVA francaise. La facture est HT (exoneree de TVA) et c'est le client qui autoliquide la TVA dans son pays. C'est le regime de l'autoliquidation.</p>
+<p>Mentions obligatoires sur la facture : "Autoliquidation - Article 283-2 du CGI" ou "VAT Reverse Charge - Article 44 of Directive 2006/112/EC". Vous devez aussi demander le numero de TVA intracommunautaire du client et le faire figurer sur la facture, puis le declarer dans votre Declaation d'Echanges de Services (DES) mensuelle ou trimestrielle.</p>
+
+<h3>Client particulier dans l'UE (B2C)</h3>
+<p>Pour un particulier (non assujetti), vous appliquez la TVA du pays du client si votre CA de services numeriques depasse 10 000 EUR dans l'UE (seuil OSS). En dessous, vous pouvez choisir d'appliquer la TVA francaise ou d'utiliser le guichet OSS (One Stop Shop). Pour les services "physiques" (conseil en presentiel, formation...), les regles sont differentes.</p>
+<p>Si vous etes en franchise de TVA (auto-entrepreneur sous les seuils), vous ne collectez pas de TVA dans tous les cas.</p>
+
+<h3>Client hors UE (Suisse, UK post-Brexit, USA...)</h3>
+<p>Pour un client hors UE, qu'il soit particulier ou professionnel : <strong>pas de TVA francaise</strong>. La facture est HT avec la mention "Exoneration de TVA - article 259-1 du CGI" ou "VAT exempt - export of services".</p>
+<p>Exception : pour les services "physiquement localises" en France (location, evenementiel...), la TVA francaise s'applique.</p>
+
+<h2>Mentions obligatoires sur une facture internationale</h2>
+<p>En plus des mentions habituelles d'une facture francaise, ajoutez :</p>
+<ul>
+<li>Numero de TVA intracommunautaire du client (UE uniquement)</li>
+<li>Mention d'autoliquidation ou d'exoneration selon le cas</li>
+<li>La devise (EUR, USD, GBP...) et le taux de change si applicable</li>
+<li>Si la facture est en anglais : les elements obligatoires restent les memes mais traduits</li>
+</ul>
+
+<h2>Dans quelle devise facturer ?</h2>
+<p>Vous pouvez facturer en n'importe quelle devise, mais vos obligations comptables restent en euros. Si vous facturez en dollars :</p>
+<ul>
+<li>Indiquez le montant en USD et le taux de change EUR/USD a la date de la facture</li>
+<li>La comptabilisation se fait en euros (montant converti)</li>
+<li>Le risque de change est pour vous : si le dollar baisse entre la facture et le paiement, vous perdez</li>
+</ul>
+<p>Conseil : si vous facturez regulierement en devises, ouvrez un compte en devises (Wise Business, Revolut Business) pour limiter les frais de conversion et le risque de change.</p>
+
+<h2>Comment recevoir les paiements internationaux ?</h2>
+<p>C'est souvent le principal obstacle : les virements SWIFT ont des frais elevés et des delais longs. Les solutions modernes :</p>
+<ul>
+<li><strong>Wise Business</strong> : IBAN local dans plusieurs devises, frais tres bas, transfert rapide. Reference pour les freelances qui travaillent avec l'etranger</li>
+<li><strong>Revolut Business</strong> : similaire a Wise, avec carte physique incluse</li>
+<li><strong>PayPal Business</strong> : tres accepte mais frais eleves (3 a 5%)</li>
+<li><strong>Virement SEPA</strong> : gratuit et instantane pour les clients dans la zone euro</li>
+<li><strong>Stripe</strong> : si votre client paie par carte bancaire, Stripe permet de recevoir des paiements en ligne dans toutes les devises</li>
+</ul>
+
+<h2>Le chiffre d'affaires en devises et les plafonds auto-entrepreneur</h2>
+<p>En auto-entrepreneur, vos plafonds de CA (77 700 EUR pour les services) s'appliquent en euros. Si vous encaissez en dollars, convertissez au taux du jour de l'encaissement. Attention : le CA pris en compte est celui encaisse, pas celui facture.</p>
+<p>Important : si votre activite internationale se developpe significativement et que vous approchez des plafonds auto-entrepreneur, il peut etre judicieux de passer en SASU ou EURL pour profiter du regime reel et optimiser votre fiscalite. Notre guide <a href="/blog/sasu-eurl-choisir-statut-freelance">SASU ou EURL</a> vous aide a trancher.</p>
+
+<h2>Declarer ses revenus etrangers</h2>
+<p>En auto-entrepreneur, vous declaraez votre CA total (France + etranger) a l'URSSAF sur votre declaration mensuelle ou trimestrielle. Les revenus etrangers ne beneficient d'aucun traitement special : ils sont soumis aux memes cotisations et au meme impot que vos revenus francais.</p>
+<p>Exception : si vous etes resident fiscal dans un pays etranger, les conventions fiscales bilaterales s'appliquent. Consultez un expert-comptable si vous etes en situation de double residence.</p>
+
+<h2>Logiciel de facturation et clients etrangers</h2>
+<p>Un bon logiciel de facturation comme <a href="/go/freebe">Freebe</a> ou <a href="/go/pennylane">Pennylane</a> gere les factures en devises etrangeres, les mentions d'autoliquidation et les clients internationaux. <a href="/go/pennylane">Pennylane</a> propose en outre une integration avec les comptes en devises et un suivi multi-devises particulierement utile si vous avez plusieurs clients etrangers.</p>
+
+<h2>FAQ : Facturer un client etranger</h2>
+<p><strong>Dois-je traduire ma facture en anglais ?</strong> Non, une facture en francais est valide pour un client etranger. En pratique, si votre client ne parle pas francais, il sera plus a l'aise avec une facture bilingue FR/EN. C'est une question de relation commerciale, pas d'obligation legale.</p>
+<p><strong>Mon client americain me demande un W-8BEN. Qu'est-ce que c'est ?</strong> C'est un formulaire fiscal americain que les non-residents doivent remplir pour certifier qu'ils ne sont pas soumis a l'imposition americaine. Si votre client vous le demande, remplissez-le : il est necessaire pour qu'il puisse vous payer sans retenue a la source aux USA.</p>
+<p><strong>Quelle est la difference entre B2B et B2C pour la TVA ?</strong> B2B (Business to Business) = votre client est une entreprise ou un professionnel. B2C (Business to Consumer) = votre client est un particulier. La distinction est fondamentale pour les regles de TVA en Europe.</p>
+<p><strong>Mon client suisse me demande de facturer en CHF. Est-ce possible ?</strong> Oui, vous pouvez facturer en francs suisses. Indiquez le montant en CHF et la conversion EUR au taux du jour sur la facture. La Suisse n'est pas dans l'UE donc pas d'autoliquidation : la facture est simplement HT (exoneree de TVA francaise).</p>
+    `.trim(),
+    date: '2026-11-14',
+    category: 'Guides',
+    readTime: '11 min',
+    author: 'L\'equipe FacturationPro',
+    image: '/blog/facturer-client-etranger-auto-entrepreneur.svg',
+    tags: ['client etranger', 'TVA intracommunautaire', 'auto-entrepreneur', 'facturation internationale', 'autoliquidation'],
+    metaTitle: 'Facturer Client Etranger Auto-Entrepreneur 2026 : TVA, Devise, Paiement | FacturationPro',
+    metaDescription: 'Comment facturer un client etranger en auto-entrepreneur ? TVA (autoliquidation, exoneration), mentions obligatoires, devises, paiements internationaux. Guide complet 2026.',
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
