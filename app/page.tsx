@@ -168,7 +168,7 @@ export default function HomePage() {
             <Link href="/comparatif" className="bg-[#f97316] hover:bg-[#ea6c0a] text-white font-bold px-8 py-4 rounded-xl text-lg transition-colors">
               Voir le comparatif complet →
             </Link>
-            <Link href="/logiciel-facturation" className="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold px-8 py-4 rounded-xl transition-colors">
+            <Link href="/guide" className="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold px-8 py-4 rounded-xl transition-colors">
               Guide gratuit 2026
             </Link>
           </div>
