@@ -1509,6 +1509,222 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p><strong>Que se passe-t-il si on ne paie pas ses cotisations ?</strong> L'URSSAF peut proceder au recouvrement force, avec majorations de retard (5 %) et penalites. En cas de difficulte, il vaut mieux contacter l'URSSAF pour demander un echelonnement.</p>
     `.trim(),
   },
+  {
+    slug: 'sellsy-avis-test-complet',
+    title: 'Sellsy 2026 : Avis et Test Complet (CRM + Facturation PME)',
+    excerpt: 'Sellsy, la solution tout-en-un pour PME qui combine CRM, facturation et comptabilite. Notre avis complet apres test : fonctionnalites, tarifs, avantages et limites.',
+    date: '2026-11-06',
+    readTime: 10,
+    category: 'Avis logiciels',
+    keywords: ['sellsy avis', 'sellsy test', 'sellsy crm facturation', 'logiciel gestion pme', 'sellsy tarif'],
+    image: '/blog/sellsy-avis-test-complet.svg',
+    content: `
+<h2>Sellsy en bref : la solution tout-en-un des PME</h2>
+<p>Sellsy est une plateforme francaise de gestion d'entreprise qui integre CRM, facturation, comptabilite et gestion de projets dans une seule solution. Fondee en 2009 a La Rochelle, c'est l'une des rares solutions francaises a couvrir autant de fonctionnalites pour les PME de 5 a 100 personnes.</p>
+<p>Notre note globale : <strong>4,3/5</strong></p>
+<ul>
+<li>Points forts : CRM natif, personnalisation avancee, support francophone de qualite</li>
+<li>Points faibles : Prix eleve, courbe d'apprentissage longue, interface parfois complexe</li>
+</ul>
+
+<h2>Fonctionnalites de Sellsy</h2>
+<h3>CRM integre</h3>
+<p>Ce qui distingue Sellsy de la concurrence, c'est son CRM natif complet : pipeline de vente, suivi des contacts, historique des interactions, gestion des devis... Tout est relie. Un devis cree depuis le CRM se transforme en facture en un clic, et le paiement est automatiquement rapproche. Pour une PME avec une equipe commerciale, c'est un gain de temps considerable.</p>
+<h3>Facturation et comptabilite</h3>
+<p>La facturation est au niveau des meilleurs : factures recurrentes, acomptes, avoirs, relances automatiques, paiement en ligne integre (carte, virement SEPA). Sellsy est <strong>certifie conforme a la facturation electronique 2026</strong> et figure parmi les premieres PDP (Plateformes de Dematerialisation Partenaires) agreeees par la DGFiP.</p>
+<p>La comptabilite est integree avec export grand livre, balance, bilan simplifie. Pour aller plus loin, Sellsy se connecte nativement aux grands cabinets d'expertise comptable.</p>
+<h3>Gestion de projets et temps</h3>
+<p>Pour les agences et ESN, Sellsy propose la gestion de projets avec suivi du temps passe, facturation au temps reel, gestion des budgets par projet. Rare sur le marche des solutions de gestion integree.</p>
+
+<h2>Tarifs Sellsy 2026</h2>
+<p>Sellsy est positionne sur le segment premium :</p>
+<ul>
+<li><strong>Starter</strong> : 39 EUR/mois (1 utilisateur) - CRM + Facturation basique</li>
+<li><strong>Growth</strong> : 69 EUR/mois (2 utilisateurs) - Tout Starter + automatisations</li>
+<li><strong>Business</strong> : 129 EUR/mois (5 utilisateurs) - Tout Growth + comptabilite avancee</li>
+<li><strong>Enterprise</strong> : sur devis - utilisateurs illimites, support dedie</li>
+</ul>
+<p>Chaque utilisateur supplementaire est facture en plus. Pour une equipe de 5 personnes sur le plan Business, comptez environ 200-250 EUR/mois. C'est significativement plus cher que Pennylane (50 EUR) ou Indy (25 EUR), mais ces solutions n'ont pas de CRM integre.</p>
+
+<h2>Pour qui est fait Sellsy ?</h2>
+<p>Sellsy est ideal pour :</p>
+<ul>
+<li><strong>PME avec equipe commerciale</strong> : Le CRM natif justifie le prix si vous avez des commerciaux</li>
+<li><strong>Agences et ESN</strong> : La gestion de projets + temps est tres complete</li>
+<li><strong>Entreprises en croissance</strong> : La solution scale facilement de 5 a 100 personnes</li>
+<li><strong>Secteur B2B</strong> : Les fonctionnalites de suivi client sont orientees business</li>
+</ul>
+<p>En revanche, si vous etes freelance ou auto-entrepreneur, Sellsy est surdimensionne et trop cher. Optez plutot pour <a href="/go/freebe">Freebe</a>, <a href="/go/tiime">Tiime</a> ou <a href="/go/indy">Indy</a>.</p>
+
+<h2>Alternatives a Sellsy</h2>
+<p>Avant de souscrire, comparez avec :</p>
+<ul>
+<li><a href="/go/pennylane">Pennylane</a> : Moins cher, excellent pour les PME avec expert-comptable, mais sans CRM natif</li>
+<li>HubSpot CRM + Pennylane : Combinaison plus flexible si vous avez deja un CRM</li>
+<li>Salesforce + Quickbooks : Pour les grandes entreprises, mais hors budget PME</li>
+</ul>
+<p>Consultez notre <a href="/comparatif">comparatif complet des logiciels de gestion</a> pour choisir la solution adaptee a votre situation.</p>
+
+<h2>Verdict final : Sellsy vaut-il son prix ?</h2>
+<p>Sellsy est une excellente solution pour les PME qui ont besoin d'un vrai CRM couple a une facturation rigoureuse. Son positionnement 100% francais, son support de qualite et sa roadmap pro-facturation electronique 2026 en font un choix serieux. Le prix est la principale barriere, mais pour une equipe de 5+ personnes, le ROI peut etre rapidement atteint grace aux gains de temps sur la gestion commerciale.</p>
+<p>Si vous hesitez, profitez de l'essai gratuit de 15 jours pour tester la solution dans votre contexte. Essayez <a href="/go/sellsy">Sellsy gratuitement</a> pendant 15 jours.</p>
+
+<h2>FAQ : Sellsy</h2>
+<p><strong>Sellsy est-il certifie pour la facturation electronique 2026 ?</strong> Oui, Sellsy est sur la liste des PDP (Plateformes de Dematerialisation Partenaires) agreeees par la DGFiP pour l'obligation de facturation electronique.</p>
+<p><strong>Sellsy peut-il remplacer un CRM comme HubSpot ?</strong> Pour les PME jusqu'a 50 personnes avec des besoins standards, oui. Pour des besoins CRM avances (lead scoring, marketing automation poussee), HubSpot reste superieur.</p>
+<p><strong>Quelle est la difference entre Sellsy et Pennylane ?</strong> Pennylane est avant tout un logiciel de comptabilite et facturation, avec collaboration expert-comptable. Sellsy ajoute un CRM complet et des outils de gestion de projets, mais est plus cher. Voir notre comparatif sur <a href="/comparatif">la page comparatif</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: 'finom-avis-test-complet',
+    title: 'Finom 2026 : Avis Complet du Compte Pro pour Independants et PME',
+    excerpt: 'Finom, la neobanque pro europeenne avec IBAN FR, facturation integree et cashback sur les depenses. Notre avis complet : avantages, limites et tarifs 2026.',
+    date: '2026-11-07',
+    readTime: 8,
+    category: 'Avis logiciels',
+    keywords: ['finom avis', 'finom compte pro', 'finom freelance', 'finom pme', 'finom tarif'],
+    image: '/blog/finom-avis-test-complet.svg',
+    content: `
+<h2>Finom : la neobanque pro qui offre du cashback</h2>
+<p>Finom est une neobanque professionnelle europeenne qui se distingue par une proposition unique : du cashback sur vos depenses professionnelles. Fondee en 2019, Finom propose un IBAN FR, une carte Mastercard Business, et des outils de facturation integres. C'est une alternative serieuse a Shine ou Qonto.</p>
+<p>Notre note globale : <strong>4,1/5</strong></p>
+<ul>
+<li>Points forts : Cashback jusqu'a 3%, IBAN FR, facturation integree, excellent rapport qualite/prix</li>
+<li>Points faibles : Pas de chequier, limites sur les depot d'especes, service client parfois lent</li>
+</ul>
+
+<h2>Fonctionnalites de Finom</h2>
+<h3>Compte bancaire pro</h3>
+<p>Finom propose un vrai IBAN FR (pas un IBAN etranger comme certaines neobanques), compatible avec tous les virements et prelevements europeens. La carte Mastercard Business est disponible en version virtuelle et physique, avec limites de paiement reglables depuis l'app.</p>
+<h3>Le cashback : fonctionnalite differenciante</h3>
+<p>C'est le point fort de Finom : vous obtenez du cashback sur vos depenses professionnelles :</p>
+<ul>
+<li>Plan Solo : 0,5% de cashback</li>
+<li>Plan Team : 1% de cashback</li>
+<li>Plan Premium : jusqu'a 3% sur certaines categories</li>
+</ul>
+<p>Pour une entreprise qui depense 5 000 EUR/mois, ca represente 50 a 150 EUR recupres chaque mois. Sur un an, l'abonnement peut etre largement amorti.</p>
+<h3>Facturation et comptabilite</h3>
+<p>Finom integre un module de facturation : devis, factures, relances. C'est moins complet que des solutions dedie comme <a href="/go/freebe">Freebe</a> ou <a href="/go/tiime">Tiime</a>, mais suffisant pour les besoins basiques. La connexion avec les logiciels de comptabilite se fait via export CSV ou API.</p>
+
+<h2>Tarifs Finom 2026</h2>
+<ul>
+<li><strong>Solo</strong> : 14 EUR/mois - 1 utilisateur, carte, IBAN, facturation de base</li>
+<li><strong>Team</strong> : 24 EUR/mois - 2 utilisateurs, multi-cartes, cashback 1%</li>
+<li><strong>Premium</strong> : 34 EUR/mois - utilisateurs illimites, cashback 3%, support prioritaire</li>
+</ul>
+<p>Comparaison : Shine Freelance debut a 11 EUR/mois, Qonto Solo a 11 EUR/mois. Finom est legerement plus cher mais le cashback compense rapidement pour les entreprises qui depensent regularement.</p>
+
+<h2>Pour qui est fait Finom ?</h2>
+<ul>
+<li><strong>Freelances avec beaucoup de depenses pro</strong> : Le cashback est le plus rentable si vous payez beaucoup par carte (abonnements SaaS, materiel, deplacements)</li>
+<li><strong>Petites equipes</strong> : La gestion multi-cartes et les droits utilisateurs sont bien penses</li>
+<li><strong>Commerce et artisans</strong> : L'IBAN FR et la carte physique sont essentiels pour les paiements fournisseurs</li>
+</ul>
+<p>Si vous avez peu de depenses professionnelles, le cashback ne compense pas la difference de prix avec <a href="/go/shine">Shine</a> ou Qonto. Pour la facturation seule sans compte bancaire, preferez <a href="/go/freebe">Freebe</a>.</p>
+
+<h2>Finom vs Shine : que choisir ?</h2>
+<p>Les deux sont des neobanques pro avec facturation integree, mais avec des profils differents :</p>
+<ul>
+<li><strong>Finom</strong> : Meilleur si vous payez beaucoup par carte (cashback), bon pour les equipes</li>
+<li><strong>Shine</strong> : Meilleur pour les auto-entrepreneurs (mise de cote URSSAF/TVA automatique, plan gratuit avec fonctionnalites basiques)</li>
+</ul>
+<p>Notre recommandation : si vous payez plus de 2 000 EUR/mois en depenses pro, Finom est plus rentable. En dessous, Shine ou un logiciel de facturation dedie peut suffire.</p>
+<p>Essayez <a href="/go/finom">Finom gratuitement pendant 30 jours</a>.</p>
+
+<h2>FAQ : Finom</h2>
+<p><strong>Finom est-il une vraie banque ?</strong> Finom est un etablissement de monnaie electronique agree par la Banque de Lituanie (passeport europeen). Les fonds sont proteges jusqu'a 100 000 EUR par le Fonds de Garantie des Depots lituanien, ce qui est equivalent au systeme europeen.</p>
+<p><strong>Peut-on recevoir des cheques avec Finom ?</strong> Non, Finom ne propose pas de chequier. Pour les secteurs qui recoivent encore des cheques (artisans, professions liberales), cela peut etre un probleme.</p>
+<p><strong>Finom gere-t-il la TVA automatiquement ?</strong> Finom propose une mise de cote automatique des sommes pour la TVA sur les plans payants, similaire a ce que propose Shine.</p>
+    `.trim(),
+  },
+  {
+    slug: 'logiciel-facturation-pme-comparatif',
+    title: 'Meilleur Logiciel de Facturation pour PME en 2026 : Comparatif Complet',
+    excerpt: 'Vous gerez une PME de 5 a 50 personnes ? Comparez les meilleurs logiciels de facturation : Pennylane, Sellsy, Sage, EBP, Cegid. Fonctionnalites, prix et avis.',
+    date: '2026-11-08',
+    readTime: 11,
+    category: 'Guides',
+    keywords: ['logiciel facturation pme', 'meilleur logiciel pme', 'facturation entreprise', 'gestion pme logiciel', 'pennylane pme'],
+    image: '/blog/logiciel-facturation-pme-comparatif.svg',
+    content: `
+<h2>Pourquoi les besoins d'une PME different d'un freelance</h2>
+<p>Un auto-entrepreneur a besoin d'envoyer des factures simples. Une PME de 10 personnes, c'est autre chose : plusieurs utilisateurs, validation des factures par un manager, suivi des devis par commercial, relances automatiques, rapprochement bancaire, preparation du bilan... Les enjeux ne sont pas les memes.</p>
+<p>Ce guide est specifiquement dedie aux <strong>PME de 5 a 50 salaries</strong> qui cherchent une solution professionnelle, capable de croitre avec eux.</p>
+
+<h2>Criteres de selection pour une PME</h2>
+<ul>
+<li><strong>Multi-utilisateurs</strong> : Gestion des droits (comptable, commercial, direction)</li>
+<li><strong>Certification facturation electronique 2026</strong> : Obligation legale pour les entreprises assujetties</li>
+<li><strong>Connecteur expert-comptable</strong> : Export FEC, connexion Dext/iBanFirst...</li>
+<li><strong>API et integrations</strong> : Connexion CRM, logistique, e-commerce</li>
+<li><strong>Support francophone</strong> : Essentiel pour les questions reglementaires francaises</li>
+</ul>
+
+<h2>Les 5 meilleures solutions pour PME en 2026</h2>
+
+<h3>1. Pennylane - Le meilleur pour les PME avec expert-comptable</h3>
+<p>Pennylane s'est impose comme la reference pour les PME qui travaillent avec un expert-comptable. La collaboration temps reel directement dans le logiciel est unique sur le marche francais.</p>
+<ul>
+<li>Prix : a partir de 49 EUR/mois (PME), 99 EUR/mois avec comptabilite complete</li>
+<li>Points forts : Collaboration expert-comptable native, certification PDP facturation electronique, tresorerie temps reel</li>
+<li>Ideal pour : Startups, PME en croissance rapide, entreprises avec expert-comptable</li>
+</ul>
+<p>Essayez <a href="/go/pennylane">Pennylane gratuitement pendant 30 jours</a>.</p>
+
+<h3>2. Sellsy - Le meilleur pour les PME avec equipe commerciale</h3>
+<p>Si vous avez des commerciaux, Sellsy est la seule solution qui integre vraiment un CRM et la facturation. Plus besoin de synchroniser HubSpot et votre logiciel de facturation.</p>
+<ul>
+<li>Prix : a partir de 39 EUR/mois (1 utilisateur), 129 EUR/mois (5 utilisateurs)</li>
+<li>Points forts : CRM natif, gestion de projets, facturation complete, support francais de qualite</li>
+<li>Ideal pour : PME B2B avec commerciaux, agences, ESN</li>
+</ul>
+<p>Essayez <a href="/go/sellsy">Sellsy gratuitement pendant 15 jours</a>.</p>
+
+<h3>3. Sage 50cloud - La solution des comptables traditionnels</h3>
+<p>Sage est la reference historique de la comptabilite PME en France. Sage 50cloud est la version cloud, compatible avec les cabinets d'expertise comptable et les banques traditionnelles.</p>
+<ul>
+<li>Prix : a partir de 59 EUR/mois</li>
+<li>Points forts : Reference chez les experts-comptables, fiable, tres complet en comptabilite</li>
+<li>Ideal pour : Entreprises traditionnelles, secteurs reglementes (BTP, industrie)</li>
+</ul>
+
+<h3>4. EBP Facturation PRO - Pour les TPE/PME classiques</h3>
+<p>EBP est le logiciel le plus repandu chez les artisans et commercants francais. Sa version PRO est complete pour les PME jusqu'a 20 personnes.</p>
+<ul>
+<li>Prix : 19 EUR/mois (abonnement annuel)</li>
+<li>Points forts : Prix competitif, tres connu des experts-comptables, installation locale possible</li>
+<li>Ideal pour : Artisans, commercants, PME traditionnelles peu digitalisees</li>
+</ul>
+
+<h3>5. Cegid Loop - Pour les PME qui veulent aller vers l'ERP</h3>
+<p>Cegid Loop est la solution de Cegid pour les PME de 10 a 100 salaries qui veulent une solution plus robuste qu'un simple logiciel de facturation.</p>
+<ul>
+<li>Prix : sur devis (environ 100-300 EUR/mois selon configuration)</li>
+<li>Points forts : ERP leger, gestion RH integree, tres certifie pour la facturation electronique</li>
+<li>Ideal pour : PME de 20+ personnes, secteur public, grandes structures</li>
+</ul>
+
+<h2>La facturation electronique 2026 : obligation critique pour les PME</h2>
+<p>A partir du 1er septembre 2026, toutes les entreprises assujetties a la TVA devront emettre leurs factures B2B via une Plateforme de Dematerialisation Partenaire (PDP) agreee. Pour les PME, c'est une decision urgente : assurez-vous que votre logiciel de facturation est certifie ou sera certifie avant cette date.</p>
+<p>Solutions certifiees PDP dans notre comparatif : Pennylane, Sellsy, Sage 50cloud, Cegid Loop.</p>
+<p>Consultez notre <a href="/blog/facturation-electronique-2026-guide">guide complet sur la facturation electronique 2026</a> pour comprendre vos obligations.</p>
+
+<h2>Notre recommandation selon votre profil</h2>
+<ul>
+<li><strong>PME avec expert-comptable</strong> : Pennylane (collaboration temps reel, prix competitif)</li>
+<li><strong>PME avec equipe commerciale B2B</strong> : Sellsy (CRM + facturation integres)</li>
+<li><strong>Artisan ou commercant traditionnel</strong> : EBP ou Sage (familier des experts-comptables)</li>
+<li><strong>PME en forte croissance</strong> : Pennylane ou Sellsy, puis Cegid quand vous depassez 50 personnes</li>
+</ul>
+<p>Pour les freelances et auto-entrepreneurs, consultez notre guide <a href="/blog/meilleur-logiciel-facturation-freelance">meilleur logiciel de facturation pour freelance</a> qui vous correspond mieux.</p>
+
+<h2>FAQ : Logiciel de facturation pour PME</h2>
+<p><strong>Quelle est la difference entre un logiciel de facturation et un ERP ?</strong> Un logiciel de facturation gere la creation et l'envoi des factures. Un ERP (comme SAP ou Cegid) integre aussi la gestion des stocks, la production, les RH... Pour une PME de moins de 50 personnes, un bon logiciel de facturation avec API suffit generalement.</p>
+<p><strong>Mon logiciel actuel est-il conforme a la facturation electronique 2026 ?</strong> Verifiez si votre logiciel figure sur la liste des PDP agreees par la DGFiP (disponible sur impots.gouv.fr). Si non, migrez avant septembre 2026.</p>
+<p><strong>Combien coute un logiciel de facturation pour une PME de 10 personnes ?</strong> Comptez entre 50 et 200 EUR/mois selon les fonctionnalites. Certaines solutions comme Pennylane ont des modeles au nombre d'utilisateurs, d'autres (EBP) ont des tarifs fixes. Le ROI se calcule rapidement sur le temps gagne en gestion comptable.</p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {

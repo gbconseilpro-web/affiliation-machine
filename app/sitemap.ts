@@ -26,6 +26,9 @@ const blogSlugs = [
   'tva-auto-entrepreneur-guide',
   'relance-facture-impayee-modele',
   'cotisations-sociales-freelance-guide',
+  'sellsy-avis-test-complet',
+  'finom-avis-test-complet',
+  'logiciel-facturation-pme-comparatif',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -121,6 +124,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/go/pennylane`, lastModified: lastMonth, changeFrequency: 'monthly' as const, priority: 0.4 },
     { url: `${SITE_URL}/go/tiime`, lastModified: lastMonth, changeFrequency: 'monthly' as const, priority: 0.4 },
     { url: `${SITE_URL}/go/shine`, lastModified: lastMonth, changeFrequency: 'monthly' as const, priority: 0.4 },
+    { url: `${SITE_URL}/go/sellsy`, lastModified: lastMonth, changeFrequency: 'monthly' as const, priority: 0.4 },
+    { url: `${SITE_URL}/go/finom`, lastModified: lastMonth, changeFrequency: 'monthly' as const, priority: 0.4 },
   ]
 
   return [
