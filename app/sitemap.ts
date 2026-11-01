@@ -24,6 +24,8 @@ const blogSlugs = [
   'devis-vs-facture-difference',
   'logiciel-facturation-artisan',
   'tva-auto-entrepreneur-guide',
+  'relance-facture-impayee-modele',
+  'cotisations-sociales-freelance-guide',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -1331,6 +1331,184 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Peut-on repasser en franchise en base apres avoir ete assujetti ?</strong> Oui, si votre CA repasse sous les seuils, vous pouvez redevenir beneficiaire de la franchise l'annee suivante. Mais attention aux demarches administratives necessaires.</p>
     `.trim(),
   },
+  {
+    slug: 'relance-facture-impayee-modele',
+    title: 'Relance Facture Impayee : Modeles de Lettres + Guide Complet 2026',
+    excerpt: 'Facture impayee ? Decouvrez comment relancer efficacement vos clients avec nos modeles de lettres de relance (amiable et mise en demeure), les delais legaux et les recours juridiques disponibles.',
+    date: '2026-11-08',
+    readTime: 9,
+    category: 'Juridique',
+    keywords: ['relance facture impayee', 'modele lettre relance facture', 'mise en demeure facture', 'facture non payee recours', 'recouvrement creance freelance'],
+    image: '/blog/relance-facture-impayee-modele.svg',
+    content: `
+<h2>Facture impayee : que faire et dans quel ordre ?</h2>
+<p>Un client qui ne paie pas, c'est malheureusement une situation que presque tous les freelances et independants connaissent. La bonne nouvelle : il existe une procedure claire, en 4 etapes, qui permet de recuperer votre argent dans la grande majorite des cas -- sans passer par la case tribunal.</p>
+<p>Voici le processus recommande, du plus simple au plus contraignant :</p>
+<ol>
+<li><strong>Relance amiable par email ou telephone</strong> (des le lendemain de l'echeance)</li>
+<li><strong>Lettre de relance formelle</strong> (sous 7 a 15 jours)</li>
+<li><strong>Mise en demeure</strong> (sous 30 jours)</li>
+<li><strong>Recours juridique</strong> : injonction de payer ou tribunal</li>
+</ol>
+<p>Dans 80 % des cas, la relance amiable suffit. Le client a oublie, ou son service comptable a mis votre facture de cote. Un rappel poli et rapide regle le probleme sans friction.</p>
+
+<h2>Modele de premier email de relance (amiable)</h2>
+<p>A envoyer des le lendemain du depassement de l'echeance :</p>
+<blockquote>
+Objet : Rappel - Facture n[NUMERO] du [DATE] - [MONTANT]<br><br>
+Bonjour [Prenom],<br><br>
+Je me permets de vous contacter au sujet de la facture n[NUMERO] d'un montant de [MONTANT] TTC, dont l'echeance etait fixee au [DATE ECHEANCE].<br><br>
+Sauf erreur de ma part, je n'ai pas encore recu le reglement de cette facture. Pourriez-vous me confirmer que tout est en ordre de votre cote, ou m'indiquer si vous avez besoin d'un document complementaire ?<br><br>
+Je reste disponible pour toute question.<br><br>
+Cordialement,<br>
+[Votre nom]
+</blockquote>
+<p><strong>Conseil :</strong> joignez systematiquement la facture en PDF en piece jointe. Parfois, la facture originale a ete perdue ou mal archivee.</p>
+
+<h2>Modele de lettre de relance formelle (2e relance)</h2>
+<p>Si pas de reponse sous 7 a 10 jours, passez a une relance plus formelle :</p>
+<blockquote>
+Objet : 2e relance - Facture impayee n[NUMERO] - Urgent<br><br>
+Bonjour [Prenom],<br><br>
+Malgre mon message du [DATE 1ERE RELANCE], je n'ai toujours pas recu le reglement de la facture n[NUMERO] d'un montant de [MONTANT] TTC, echeance depassee depuis [NOMBRE] jours.<br><br>
+Je vous demande de bien vouloir proceder au virement dans les meilleurs delais, et au plus tard sous <strong>8 jours</strong>, sur le compte bancaire indique sur la facture (IBAN : [IBAN]).<br><br>
+Passes ce delai, je me verrai contraint d'engager les demarches de recouvrement prevues par la loi, ce que je souhaite eviter.<br><br>
+Cordialement,<br>
+[Votre nom]
+</blockquote>
+
+<h2>La mise en demeure : cadre legal et modele</h2>
+<p>La <strong>mise en demeure</strong> est une etape cle : c'est un document officiel qui constitue la preuve que vous avez formellement demande le paiement. Elle est necessaire avant tout recours judiciaire, et elle fait souvent effet immediat.</p>
+<p>Envoyez-la en <strong>lettre recommandee avec accuse de reception</strong> (LRAR), ou par email avec accusé de lecture. Elle doit contenir :</p>
+<ul>
+<li>Vos coordonnees completes et celles du debiteur</li>
+<li>Le numero et la date de la facture</li>
+<li>Le montant exact TTC</li>
+<li>Un delai de paiement (generalement 8 ou 15 jours)</li>
+<li>La mention des penalites de retard applicables</li>
+<li>L'avertissement d'un recours judiciaire en cas de non-paiement</li>
+</ul>
+<blockquote>
+Madame, Monsieur,<br><br>
+Par la presente, je vous mets en demeure de regler la somme de [MONTANT] TTC correspondant a la facture n[NUMERO] du [DATE], dont le reglement etait attendu au [DATE ECHEANCE].<br><br>
+En application de l'article L. 441-10 du Code de commerce, des penalites de retard sont dues depuis la date d'echeance, au taux de [TAUX : 3 fois le taux d'interet legal, soit environ 12 % en 2026], soit [MONTANT PENALITES] a ce jour.<br><br>
+Je vous demande de proceder au reglement integral, penalites comprises, dans un delai de <strong>15 jours</strong> a compter de la reception de ce courrier.<br><br>
+A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction de payer sans autre avertissement.<br><br>
+[Votre nom, date, signature]
+</blockquote>
+
+<h2>Penalites de retard : vos droits</h2>
+<p>La loi est claire : des le premier jour de retard, vous avez le droit de facturer des <strong>penalites de retard</strong>. Elles sont dues automatiquement, sans rappel prealable.</p>
+<ul>
+<li><strong>Taux minimal legal</strong> : 3 fois le taux d'interet legal BCE (environ 10 a 12 % en 2026)</li>
+<li><strong>Indemnite forfaitaire</strong> : 40 EUR par facture impayee (pour les professionnels)</li>
+<li><strong>Frais de recouvrement</strong> : si vos frais reels depassent 40 EUR, vous pouvez demander le remboursement sur justificatifs</li>
+</ul>
+<p>Ces penalites doivent figurer dans vos CGV et dans les mentions obligatoires de votre facture. Un bon logiciel de facturation les calcule automatiquement.</p>
+
+<h2>Recours judiciaires : injonction de payer</h2>
+<p>Si toutes les relances echouent, vous pouvez saisir le tribunal. La procedure la plus simple pour les creances certaines est l'<strong>injonction de payer</strong> :</p>
+<ul>
+<li><strong>Devant le tribunal de commerce</strong> : pour les creances entre professionnels (B2B)</li>
+<li><strong>Devant le tribunal judiciaire</strong> : pour les creances B2C ou mixtes</li>
+<li><strong>Proceduralement</strong> : vous deposez une requete + copies de la facture et des relances. Le juge rend une ordonnance en quelques semaines.</li>
+<li><strong>Seuil simplifie</strong> : pour les montants inferieurs a 5 000 EUR, la procedure en ligne INJONCTION.fr est possible</li>
+</ul>
+<p>En cas de succes, le juge rend une ordonnance que vous faites signifier par huissier. Si le debiteur ne conteste pas sous 30 jours, la creance est executoire.</p>
+
+<h2>Logiciel de facturation : la prevention</h2>
+<p>La meilleure relance est celle que vous n'avez pas a ecrire. Un bon logiciel de facturation comme <a href="/go/freebe">Freebe</a>, <a href="/go/indy">Indy</a> ou <a href="/go/pennylane">Pennylane</a> vous permet de :</p>
+<ul>
+<li>Configurer des <strong>relances automatiques</strong> par email a J+1, J+7, J+15</li>
+<li>Suivre le statut de chaque facture en temps reel (brouillon, envoyee, en retard, payee)</li>
+<li>Calculer automatiquement les penalites de retard</li>
+<li>Conserver toutes les preuves d'envoi en cas de litige</li>
+</ul>
+<p>Voir notre comparatif : <a href="/comparatif">meilleur logiciel de facturation freelance 2026</a>.</p>
+
+<p><strong>Combien de temps avant de relancer un client ?</strong> Des le lendemain de l'echeance. Plus vous attendez, plus le recouvrement est difficile. La relance le jour meme ou le lendemain est largement preferable a l'attendre "quelques jours".</p>
+<p><strong>Peut-on facturer des penalites a un particulier ?</strong> Les penalites de retard legales (article L. 441-10) ne s'appliquent qu'aux relations B2B. Pour les particuliers, les penalites doivent etre prevues contractuellement dans un contrat signe.</p>
+<p><strong>La mise en demeure doit-elle etre un courrier recommande ?</strong> Recommande, oui -- c'est la forme la plus solide juridiquement. Mais un email avec accusé de lecture, ou une lettre remise en main propre avec signature, constituent aussi des preuves recevables.</p>
+    `.trim(),
+  },
+  {
+    slug: 'cotisations-sociales-freelance-guide',
+    title: 'Cotisations Sociales Freelance 2026 : Taux, Calcul et Optimisation',
+    excerpt: 'Comprendre les cotisations sociales quand on est freelance : taux par statut (micro-entreprise, SASU, EURL), assiette de calcul, protection sociale, et strategies legales pour optimiser vos charges.',
+    date: '2026-11-10',
+    readTime: 10,
+    category: 'Comptabilite',
+    keywords: ['cotisations sociales freelance', 'charges sociales independant', 'taux cotisations micro entrepreneur', 'protection sociale freelance', 'optimiser charges freelance'],
+    image: '/blog/cotisations-sociales-freelance-guide.svg',
+    content: `
+<h2>Pourquoi les cotisations sociales sont la principale charge des freelances</h2>
+<p>Pour un freelance en France, les <strong>cotisations sociales representent generalement 20 a 45 % du revenu brut</strong>, selon le statut choisi. C'est de loin le poste de charge le plus important, bien avant les impots sur le revenu. Comprendre comment elles sont calculees, et comment les optimiser legalement, est donc essentiel pour maximiser votre revenu net.</p>
+
+<h2>Taux de cotisations sociales par statut en 2026</h2>
+<p>Les taux varient considerablement selon votre statut juridique :</p>
+
+<h3>Micro-entrepreneur (auto-entrepreneur)</h3>
+<p>Le micro-entrepreneur paie ses cotisations sociales sous forme d'un <strong>prelevement forfaitaire sur le chiffre d'affaires</strong>, sans tenir compte des charges reelles :</p>
+<ul>
+<li><strong>Vente de marchandises</strong> : 12,3 % du CA</li>
+<li><strong>Prestations de services BIC</strong> : 21,2 % du CA</li>
+<li><strong>Prestations de services BNC (liberaux)</strong> : 21,1 % du CA</li>
+<li><strong>Activites liberales CIPAV</strong> : 21,2 % du CA</li>
+</ul>
+<p>Avantage : si vous ne faites pas de CA, vous ne payez rien. Inconvenient : vous payez sur le CA brut, pas sur le benefice.</p>
+
+<h3>Entreprise individuelle (regime reel)</h3>
+<p>Sous le regime reel, les cotisations TNS (Travailleur Non Salarie) sont calculees sur le <strong>benefice net</strong>. Le taux global tourne autour de <strong>40 a 45 % du benefice</strong>, incluant :</p>
+<ul>
+<li>Assurance maladie-maternite : 7,2 % (avec un plancher)</li>
+<li>Retraite de base : 17,75 %</li>
+<li>Retraite complementaire : 7 %</li>
+<li>Formation professionnelle : 0,1 %</li>
+<li>Invalidite-deces : 1,3 %</li>
+</ul>
+
+<h3>EURL (gerant majoritaire)</h3>
+<p>Le gerant majoritaire d'une EURL est assimile a un TNS. Il paie des cotisations sur sa <strong>remuneration de gerance + une quote-part des dividendes</strong> (la fraction depassant 10 % du capital social). C'est un point souvent meconnu : distribuer des dividendes en EURL ne permet pas d'echapper totalement aux cotisations sociales.</p>
+<p>Taux global : <strong>35 a 45 % de la remuneration nette</strong>.</p>
+
+<h3>SASU (president)</h3>
+<p>Le president de SASU est assimile-salarie. Il beneficie du regime general de la Securite Sociale, qui offre une meilleure couverture (surtout pour la retraite), mais est plus couteux :</p>
+<ul>
+<li>Cotisations salariales : environ 22 % du salaire brut</li>
+<li>Cotisations patronales : environ 42 to 45 % du salaire brut</li>
+<li>Cout total pour l'entreprise : 100 EUR de salaire net = environ 210 EUR de cout total</li>
+</ul>
+<p>En SASU, les dividendes ne sont pas soumis aux cotisations sociales (contrairement a l'EURL). C'est pourquoi de nombreux freelances optent pour la SASU avec une remuneration faible et des dividendes eleves -- au prix d'une moins bonne couverture retraite.</p>
+
+<h2>Protection sociale : ce que vous obtenez en echange</h2>
+<p>Les cotisations financent votre protection sociale. Voici ce que vous obtenez selon votre statut :</p>
+<ul>
+<li><strong>Assurance maladie</strong> : similaire pour tous les statuts, remboursement des soins</li>
+<li><strong>Retraite</strong> : TNS accumule moins de points qu'un assimile-salarie a cotisation equivalente</li>
+<li><strong>Prevoyance</strong> : TNS moins bien couvert en cas d'arret maladie (delai de carence de 90 jours pour la SSI)</li>
+<li><strong>Maternite/Paternite</strong> : indemnites plus faibles pour les TNS que pour les assimiles-salaries</li>
+</ul>
+<p>Pour compenser les lacunes de la protection TNS, de nombreux independants souscrivent une <strong>prevoyance complementaire Madelin</strong>, dont les cotisations sont deductibles du benefice imposable.</p>
+
+<h2>Strategies legales pour optimiser vos charges sociales</h2>
+<p>Quelques pistes a explorer avec votre expert-comptable :</p>
+<ul>
+<li><strong>Choisir le bon statut</strong> : SASU vs EURL, les calculs changent tout selon votre CA et votre situation</li>
+<li><strong>Madelin et PER</strong> : les contrats de prevoyance et les versements sur un Plan d'Epargne Retraite sont deductibles du revenu imposable</li>
+<li><strong>Exoneration ACRE</strong> : la premiere annee, les nouvelles entreprises beneficient d'une reduction de cotisations (ACRE). En micro-entreprise, les taux sont reduits de 50 % pendant 12 mois.</li>
+<li><strong>Pilotage de la remuneration en SASU</strong> : adapter le niveau de salaire et de dividendes selon vos besoins de couverture sociale et votre tranche marginale d'imposition</li>
+<li><strong>Frais professionnels en societe</strong> : les frais rembourses par votre societe (note de frais) ne sont pas soumis aux cotisations sociales</li>
+</ul>
+
+<h2>Suivre ses cotisations avec un logiciel de facturation</h2>
+<p>Pour piloter efficacement vos finances en freelance, vous avez besoin d'un outil qui integre la dimension fiscale et sociale. Des logiciels comme <a href="/go/indy">Indy</a> calculent automatiquement vos provisions pour cotisations URSSAF et vous alertent sur vos obligations declaratives. <a href="/go/pennylane">Pennylane</a> va plus loin avec une vision comptable complete.</p>
+<p>Voir notre comparatif : <a href="/comparatif/indy-vs-pennylane">Indy vs Pennylane</a> et notre guide <a href="/blog/facturation-urssaf-logiciel">logiciel facturation et URSSAF</a>.</p>
+
+<p><strong>Peut-on reduire ses cotisations sociales legalement ?</strong> Oui, plusieurs dispositifs existent : choix du statut, prevoyance Madelin, exoneration ACRE en debut d'activite, arbitrage remuneration/dividendes en SASU. Toujours avec l'aide d'un comptable.</p>
+<p><strong>Quand paie-t-on ses cotisations en micro-entreprise ?</strong> Vous pouvez choisir de declarer et payer mensuellement ou trimestriellement sur le portail autoentrepreneur.urssaf.fr. Le paiement se fait sur la declaration de CA.</p>
+<p><strong>Que se passe-t-il si on ne paie pas ses cotisations ?</strong> L'URSSAF peut proceder au recouvrement force, avec majorations de retard (5 %) et penalites. En cas de difficulte, il vaut mieux contacter l'URSSAF pour demander un echelonnement.</p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
