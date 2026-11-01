@@ -1,0 +1,38 @@
+name: Deploy to VPS
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Deploy via SSH (password auth)
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: root
+          password: ${{ secrets.VPS_PASSWORD }}
+          script: |
+            set -e
+            # Clone or update repo
+            if [ -d /opt/affiliation-machine ]; then
+              cd /opt/affiliation-machine
+              git pull origin main
+            else
+              git clone https://github.com/gbconseilpro-web/affiliation-machine.git /opt/affiliation-machine
+              cd /opt/affiliation-machine
+            fi
+            # Install and build
+            npm ci --production=false
+            npm run build
+            # Start or restart PM2
+            if pm2 list | grep -q 'affiliation'; then
+              pm2 restart ecosystem.config.js --update-env
+            else
+              pm2 start ecosystem.config.js
+            fi
+            pm2 save
+            echo "Deploy done - $(date)"
