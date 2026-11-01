@@ -36,8 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             {/* Nav desktop */}
             <nav className="hidden md:flex items-center gap-1">
               <a href="/comparatif" className="px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:text-primary-600 hover:bg-primary-50 transition-colors">Comparatif</a>
-              <a href="/guide" className="px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:text-primary-600 hover:bg-primary-50 transition-colors">Guides</a>
-              <a href="/avis" className="px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:text-primary-600 hover:bg-primary-50 transition-colors">Avis</a>
+              <a href="/guide" className="px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:text-primary-600 hover:bg-primary-50 transition-colors">Guide</a>
               <a href="/auteur" className="px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:text-primary-600 hover:bg-primary-50 transition-colors">À propos</a>
             </nav>
 
@@ -74,18 +73,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <p className="text-sm leading-relaxed">Le guide de référence pour choisir votre logiciel de facturation. Indépendant et objectif.</p>
               </div>
               <div>
-                <h3 className="text-white font-semibold mb-3 text-sm">Guides</h3>
+                <h3 className="text-white font-semibold mb-3 text-sm">Logiciels</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><a href="/logiciel-facturation" className="hover:text-white transition-colors">Logiciel facturation</a></li>
-                  <li><a href="/devis-gratuit" className="hover:text-white transition-colors">Devis gratuit</a></li>
-                  <li><a href="/micro-entrepreneur" className="hover:text-white transition-colors">Micro-entrepreneur</a></li>
-                  <li><a href="/facture-en-ligne" className="hover:text-white transition-colors">Facture en ligne</a></li>
+                  <li><a href="/go/freebe" className="hover:text-white transition-colors">Freebe</a></li>
+                  <li><a href="/go/pennylane" className="hover:text-white transition-colors">Pennylane</a></li>
+                  <li><a href="/go/indy" className="hover:text-white transition-colors">Indy</a></li>
+                  <li><a href="/go/tiime" className="hover:text-white transition-colors">Tiime</a></li>
+                  <li><a href="/go/shine" className="hover:text-white transition-colors">Shine</a></li>
                 </ul>
               </div>
               <div>
                 <h3 className="text-white font-semibold mb-3 text-sm">Le site</h3>
                 <ul className="space-y-2 text-sm">
                   <li><a href="/comparatif" className="hover:text-white transition-colors">Comparatif 2025</a></li>
+                  <li><a href="/guide" className="hover:text-white transition-colors">Guide complet</a></li>
                   <li><a href="/auteur" className="hover:text-white transition-colors">À propos</a></li>
                 </ul>
               </div>
