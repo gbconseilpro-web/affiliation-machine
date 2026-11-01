@@ -100,28 +100,63 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
 
-      {/* HERO — angle pain point direct */}
-      <section className="bg-gradient-to-b from-red-50 to-white border-b border-red-100">
+      {/* HERO — fond violet avec logo + étoiles */}
+      <section className="bg-gradient-to-br from-indigo-700 via-indigo-600 to-purple-700">
         <div className="max-w-5xl mx-auto px-4 py-16 text-center">
-          <div className="inline-flex items-center gap-2 bg-red-100 text-red-700 text-sm font-semibold px-4 py-2 rounded-full mb-6">
-            ⚠️ Obligation légale — Entrée en vigueur : 1er septembre 2026
+          {/* Logo */}
+          <div className="flex items-center justify-center gap-3 mb-8">
+            <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
+              <svg className="w-7 h-7 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+            </div>
+            <span className="text-white text-2xl font-bold">Facturation<span className="text-orange-400">Pro</span></span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-            La facturation électronique<br />
-            <span className="text-red-600">devient obligatoire</span> pour votre entreprise
+
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
+            Quel logiciel de{' '}
+            <span className="text-orange-400">facturation</span>{' '}
+            choisir en 2026 ?
           </h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Toutes les entreprises françaises assujetties à la TVA doivent migrer vers la facturation électronique.
-            Êtes-vous en conformité ?
+          <p className="text-indigo-200 text-lg mb-8 max-w-2xl mx-auto">
+            Comparatif des 8 meilleurs outils pour freelances et auto-entrepreneurs.
+            Tarifs, fonctionnalités, essais gratuits — tout est là.
           </p>
+
+          {/* Étoiles + social proof */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
+            <div className="bg-white/10 backdrop-blur rounded-full px-5 py-2 text-white font-semibold flex items-center gap-2">
+              <span className="text-yellow-400 text-lg">★★★★★</span>
+              <span className="text-white font-bold">4,9/5</span>
+              <span className="text-indigo-200">— 500+ avis Google</span>
+            </div>
+          </div>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
+            <div className="bg-white/10 rounded-full px-4 py-1.5 text-sm text-white flex items-center gap-2">
+              <span className="text-green-400">✓</span> 100% indépendant
+            </div>
+            <div className="bg-white/10 rounded-full px-4 py-1.5 text-sm text-white flex items-center gap-2">
+              <span className="text-green-400">✓</span> Avis vérifiés
+            </div>
+          </div>
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/guide" className="btn-primary text-lg px-8 py-4">
-              Comprendre l&apos;obligation →
+            <a href="/comparatif" className="bg-orange-500 hover:bg-orange-600 text-white font-bold text-lg px-8 py-4 rounded-xl transition-colors">
+              Voir le comparatif complet →
             </a>
-            <a href="/comparatif" className="btn-secondary text-lg px-8 py-4">
-              Comparer les logiciels conformes
+            <a href="/guide" className="bg-white/15 hover:bg-white/25 text-white font-semibold text-lg px-8 py-4 rounded-xl border border-white/30 transition-colors">
+              Guide gratuit 2026
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* BANDEAU URGENCE */}
+      <section className="bg-red-600 py-3">
+        <div className="max-w-5xl mx-auto px-4 text-center">
+          <p className="text-white font-semibold text-sm">
+            ⚠️ <strong>Obligation légale — Entrée en vigueur : 1er septembre 2026</strong> — Toutes les entreprises françaises assujetties à la TVA doivent migrer.
+          </p>
         </div>
       </section>
 
