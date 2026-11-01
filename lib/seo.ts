@@ -17,7 +17,7 @@ interface SeoOptions {
 }
 
 const SITE_NAME = process.env.SITE_NAME || 'Site Affiliation'
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com'
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://facturationpro.com'
 
 /**
  * Génère les métadonnées Next.js pour une page
