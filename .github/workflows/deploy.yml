@@ -13,17 +13,17 @@ jobs:
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.VPS_HOST }}
-          username: root
+          username: ubuntu
           password: ${{ secrets.VPS_PASSWORD }}
           script: |
             set -e
             # Clone or update repo
-            if [ -d /opt/affiliation-machine ]; then
-              cd /opt/affiliation-machine
+            if [ -d /home/ubuntu/affiliation-machine ]; then
+              cd /home/ubuntu/affiliation-machine
               git pull origin main
             else
-              git clone https://github.com/gbconseilpro-web/affiliation-machine.git /opt/affiliation-machine
-              cd /opt/affiliation-machine
+              git clone https://github.com/gbconseilpro-web/affiliation-machine.git /home/ubuntu/affiliation-machine
+              cd /home/ubuntu/affiliation-machine
             fi
             # Install and build
             npm ci --production=false

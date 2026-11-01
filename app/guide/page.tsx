@@ -9,7 +9,7 @@ import {
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://facturationpro.fr'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Guide facturation électronique obligatoire 2026 — Tout comprendre',
+  title: 'Guide facturation électronique obligatoire 2026 : Tout comprendre',
   description: 'Guide complet sur la réforme facturation électronique 2026 : qui est concerné, les échéances, les formats (Factur-X, UBL), comment choisir sa PDP et les étapes de mise en conformité.',
   path: '/guide',
   type: 'article',
@@ -85,13 +85,13 @@ export default function GuidePage() {
 
         <div className="mb-8">
           <div className="inline-flex items-center gap-2 bg-red-100 text-red-700 text-xs font-semibold px-3 py-1 rounded-full mb-4">
-            ⚠️ Obligation légale — Entrée en vigueur septembre 2026
+            ⚠️ Obligation légale : Entrée en vigueur septembre 2026
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
             Guide complet : la facturation électronique obligatoire en France
           </h1>
           <p className="text-gray-500 text-sm mb-6">
-            Mis à jour le {new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })} — lecture : 8 minutes
+            Mis à jour le {new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })} - lecture : 8 minutes
           </p>
 
           {/* TL;DR */}
@@ -101,7 +101,7 @@ export default function GuidePage() {
               <li>• <strong>Qui ?</strong> Toutes les entreprises françaises assujetties à la TVA</li>
               <li>• <strong>Quand ?</strong> Réception obligatoire : 1er sept. 2026 / Émission PME : 1er sept. 2027</li>
               <li>• <strong>Comment ?</strong> Via une PDP agréée ou le Portail Public de Facturation</li>
-              <li>• <strong>Format ?</strong> Factur-X (PDF enrichi), UBL ou CII — plus de simples PDF</li>
+              <li>• <strong>Format ?</strong> Factur-X (PDF enrichi), UBL ou CII - plus de simples PDF</li>
               <li>• <strong>Sanction ?</strong> 15€/facture non conforme, max 15 000€/an</li>
             </ul>
           </div>
@@ -146,7 +146,7 @@ export default function GuidePage() {
                   <td className="py-2 text-red-600 font-medium">1er sept. 2026</td>
                 </tr>
                 <tr>
-                  <td className="py-2">ETI (250–5 000 salariés)</td>
+                  <td className="py-2">ETI (250-5 000 salariés)</td>
                   <td className="py-2 text-orange-600 font-medium">1er sept. 2026</td>
                   <td className="py-2 text-red-600 font-medium">1er sept. 2026</td>
                 </tr>
@@ -222,7 +222,7 @@ export default function GuidePage() {
             </p>
           <div className="not-prose grid md:grid-cols-2 gap-4 my-6">
             <div className="card p-5 border-2 border-primary-200">
-              <h3 className="font-bold mb-2">PPF — Portail Public de Facturation</h3>
+              <h3 className="font-bold mb-2">PPF - Portail Public de Facturation</h3>
               <div className="text-sm space-y-2 text-gray-600">
                 <div className="flex gap-2"><span className="text-green-500">✓</span> Gratuit</div>
                 <div className="flex gap-2"><span className="text-green-500">✓</span> Géré par l&apos;État (DGFiP)</div>
@@ -232,7 +232,7 @@ export default function GuidePage() {
               <div className="mt-3 text-xs text-gray-500">→ Adapté aux très petites structures avec peu de factures</div>
             </div>
             <div className="card p-5 border-2 border-green-200">
-              <h3 className="font-bold mb-2">PDP — Plateforme privée agréée</h3>
+              <h3 className="font-bold mb-2">PDP - Plateforme privée agréée</h3>
               <div className="text-sm space-y-2 text-gray-600">
                 <div className="flex gap-2"><span className="text-green-500">✓</span> Fonctions avancées (suivi, relances)</div>
                 <div className="flex gap-2"><span className="text-green-500">✓</span> Intégration comptable native</div>
@@ -299,17 +299,17 @@ export default function GuidePage() {
           <ul className="space-y-1 text-gray-600">
             <li>
               <a href="https://www.impots.gouv.fr/professionnel/facturation-electronique" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:underline">
-                → DGFiP — Portail officiel facturation électronique
+                → DGFiP - Portail officiel facturation électronique
               </a>
             </li>
             <li>
               <a href="https://chorus-pro.gouv.fr" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:underline">
-                → Chorus Pro — Portail Public de Facturation
+                → Chorus Pro - Portail Public de Facturation
               </a>
             </li>
             <li>
               <a href="https://bofip.impots.gouv.fr" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:underline">
-                → BOFIP — Bulletins officiels des finances publiques
+                → BOFIP - Bulletins officiels des finances publiques
               </a>
             </li>
           </ul>
