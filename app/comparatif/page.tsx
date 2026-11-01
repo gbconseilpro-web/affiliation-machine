@@ -183,35 +183,55 @@ export default function ComparatifPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
 
-      <div className="section max-w-4xl">
-        {/* Breadcrumb */}
-        <nav className="text-sm text-gray-500 mb-6" aria-label="Fil d'Ariane">
-          <a href="/" className="hover:text-primary-600">Accueil</a>
-          <span className="mx-2">›</span>
-          <span className="text-gray-800">Comparatif logiciels</span>
-        </nav>
+      {/* HERO violet — cohérence avec la home */}
+      <section className="bg-gradient-to-br from-indigo-700 via-indigo-600 to-purple-700">
+        <div className="max-w-4xl mx-auto px-4 py-12 text-center">
+          {/* Breadcrumb blanc */}
+          <nav className="text-sm text-indigo-200 mb-6 flex items-center justify-center gap-2" aria-label="Fil d'Ariane">
+            <a href="/" className="hover:text-white transition-colors">Accueil</a>
+            <span className="text-indigo-400">›</span>
+            <span className="text-white font-medium">Comparatif logiciels</span>
+          </nav>
 
-        {/* Header */}
-        <div className="mb-8">
-          <div className="inline-flex items-center gap-2 bg-orange-100 text-orange-700 text-xs font-semibold px-3 py-1 rounded-full mb-4">
-            ⚠️ Mise à jour : Novembre 2026 — Réforme en vigueur en 2026
+          <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-400/40 text-orange-200 text-xs font-semibold px-3 py-1.5 rounded-full mb-5">
+            ⚠️ Mise à jour novembre 2026 — Réforme en vigueur
           </div>
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">
-            Logiciels de facturation électronique conformes 2026
+
+          <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
+            Meilleur logiciel de{' '}
+            <span className="text-orange-400">facturation électronique</span>{' '}
+            <span className="whitespace-nowrap">2026 — Comparatif</span>
           </h1>
-          {/* TL;DR verdict */}
-          <div className="bg-primary-50 border border-primary-200 rounded-xl p-4 mb-6">
-            <p className="font-semibold text-primary-800 mb-1">✅ Notre verdict immédiat</p>
-            <p className="text-gray-700">
-              <strong>Pennylane</strong> est notre choix n°1 pour les PME (comptabilité + facturation électronique native PDP).
-              <strong> Sellsy</strong> pour les ETI avec besoin CRM.
-              <strong> Axonaut</strong> si vous voulez un ERP 100% français tout-en-un.
-            </p>
+
+          <p className="text-indigo-200 text-lg mb-6 max-w-2xl mx-auto">
+            12 logiciels testés. Seuls 3 cumulent PDP agréée, format Factur-X natif
+            et archivage légal intégré. Voici notre sélection.
+          </p>
+
+          {/* Stats rapides */}
+          <div className="flex flex-wrap items-center justify-center gap-3 mb-2">
+            <div className="bg-white/10 rounded-full px-4 py-1.5 text-sm text-white flex items-center gap-2">
+              <span className="text-green-400">✓</span> 12 logiciels analysés
+            </div>
+            <div className="bg-white/10 rounded-full px-4 py-1.5 text-sm text-white flex items-center gap-2">
+              <span className="text-green-400">✓</span> Tests en conditions réelles
+            </div>
+            <div className="bg-white/10 rounded-full px-4 py-1.5 text-sm text-white flex items-center gap-2">
+              <span className="text-green-400">✓</span> 100% indépendant
+            </div>
           </div>
-          <p className="text-gray-600 text-lg">
-            Nous avons analysé 12 logiciels sur leur conformité réelle à la réforme facturation électronique 2026.
-            Seuls 3 cumulent PDP agréée, format Factur-X natif et archivage légal intégré.
-            Mise à jour : {new Date().toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' })}.
+        </div>
+      </section>
+
+      {/* Contenu principal */}
+      <div className="section max-w-4xl">
+        {/* TL;DR verdict */}
+        <div className="bg-primary-50 border border-primary-200 rounded-xl p-5 mb-8">
+          <p className="font-semibold text-primary-800 mb-2">✅ Notre verdict immédiat</p>
+          <p className="text-gray-700">
+            <strong>Pennylane</strong> est notre choix n°1 pour les PME (comptabilité + facturation électronique native PDP).
+            <strong> Sellsy</strong> pour les ETI avec besoin CRM.
+            <strong> Axonaut</strong> si vous voulez un ERP 100% français tout-en-un.
           </p>
         </div>
 
