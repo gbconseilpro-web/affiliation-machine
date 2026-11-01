@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import LeadMagnetForm from './components/LeadMagnetForm'
 
-export const dynamic = 'force-dynamic'
+export const dynamic = 'force-static'
 
 export const metadata: Metadata = {
   title: 'Meilleur logiciel de facturation 2026 — Comparatif & Avis',
@@ -164,7 +164,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center mb-5">
             <Link href="/comparatif" className="bg-[#f97316] hover:bg-[#ea6c0a] text-white font-bold px-8 py-4 rounded-xl text-lg transition-colors">
               Voir le comparatif complet →
             </Link>
@@ -172,11 +172,32 @@ export default function HomePage() {
               Guide gratuit 2026
             </Link>
           </div>
+
+          {/* CTA affilié direct Freebe */}
+          <div className="flex flex-col items-center gap-2">
+            <a
+              href="https://www.awin1.com/cread.php?awinmid=22751&awinaffid=1957421&clickref=homepage-hero&p=https%3A%2F%2Fwww.freebe.me%2F"
+              target="_blank"
+              rel="nofollow sponsored noopener"
+              className="inline-block bg-white text-[#4f46e5] font-extrabold px-8 py-3 rounded-xl text-base transition-colors hover:bg-indigo-50 shadow-lg"
+            >
+              ⭐ Essayer Freebe gratuitement — 30 jours offerts
+            </a>
+            <p className="text-xs text-indigo-300">Lien affilié · Notre n°1 · Sans carte bancaire</p>
+          </div>
+
+          {/* Sommaire ancres */}
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-3 text-sm">
+            <span className="text-indigo-300">Aller à :</span>
+            <a href="#top3" className="text-white/80 hover:text-white underline underline-offset-2 transition-colors">Top 3</a>
+            <a href="#comparatif-complet" className="text-white/80 hover:text-white underline underline-offset-2 transition-colors">Comparatif complet</a>
+            <a href="#pourquoi-nous" className="text-white/80 hover:text-white underline underline-offset-2 transition-colors">À propos</a>
+          </div>
         </div>
       </section>
 
       {/* ══════════ NOTRE SÉLECTION TOP 3 ══════════ */}
-      <section className="py-14 bg-gray-50">
+      <section id="top3" className="py-14 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4">
           <div className="text-center mb-10">
             <span className="inline-block bg-indigo-100 text-indigo-700 text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full mb-3">Sélection 2026</span>
@@ -243,6 +264,42 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ══════════ POURQUOI NOUS ══════════ */}
+      <section id="pourquoi-nous" className="py-14 bg-white">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="text-center mb-10">
+            <h2 className="text-2xl font-extrabold text-gray-900">Pourquoi faire confiance à FacturationPro ?</h2>
+            <p className="text-gray-500 text-sm mt-2">
+              <Link href="/auteur" className="text-[#4f46e5] hover:underline font-medium">Découvrez qui nous sommes →</Link>
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { icon: '🔍', title: '100% Indépendant', desc: 'Aucun partenariat éditorial. Nos recommandations reposent sur des tests réels et des critères objectifs.' },
+              { icon: '🔄', title: 'Mis à jour 2026', desc: 'Tarifs, fonctionnalités et offres vérifiés tous les 3 mois. Vous avez toujours l\'info la plus récente.' },
+              { icon: '👥', title: 'Pour les indépendants', desc: 'Conçu par et pour freelances et auto-entrepreneurs. On connaît vos besoins de près.' },
+            ].map((item) => (
+              <div key={item.title} className="bg-gray-50 rounded-2xl p-6 text-center border border-gray-100">
+                <div className="w-14 h-14 bg-indigo-50 rounded-2xl flex items-center justify-center text-3xl mx-auto mb-4">{item.icon}</div>
+                <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* Réseaux communautaires vérifiés */}
+          <div className="mt-10 border-t border-gray-100 pt-8">
+            <p className="text-center text-xs text-gray-400 uppercase tracking-wider mb-5">Recommandé dans les communautés freelance</p>
+            <div className="flex flex-wrap items-center justify-center gap-6 opacity-60">
+              {['Malt Community', 'Freelance Republik', 'Les Indépendants', 'FNAE'].map((m) => (
+                <span key={m} className="text-gray-500 font-semibold text-sm bg-gray-100 px-3 py-1.5 rounded-full">{m}</span>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ══════════ LEAD MAGNET ══════════ */}
       <section className="bg-[#dbeafe] py-14">
         <div className="max-w-4xl mx-auto px-4">
@@ -273,42 +330,6 @@ export default function HomePage() {
               <p className="text-[#f97316] font-bold text-sm mb-6">Déjà plus de 500 téléchargements !</p>
 
               <LeadMagnetForm />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ══════════ POURQUOI NOUS ══════════ */}
-      <section className="py-14 bg-white">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="text-center mb-10">
-            <h2 className="text-2xl font-extrabold text-gray-900">Pourquoi faire confiance à FacturationPro ?</h2>
-            <p className="text-gray-500 text-sm mt-2">
-              <Link href="/auteur" className="text-[#4f46e5] hover:underline font-medium">Découvrez qui nous sommes →</Link>
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            {[
-              { icon: '🔍', title: '100% Indépendant', desc: 'Aucun partenariat éditorial. Nos recommandations reposent sur des tests réels et des critères objectifs.' },
-              { icon: '🔄', title: 'Mis à jour 2026', desc: 'Tarifs, fonctionnalités et offres vérifiés tous les 3 mois. Vous avez toujours l\'info la plus récente.' },
-              { icon: '👥', title: 'Pour les indépendants', desc: 'Conçu par et pour freelances et auto-entrepreneurs. On connaît vos besoins de près.' },
-            ].map((item) => (
-              <div key={item.title} className="bg-gray-50 rounded-2xl p-6 text-center border border-gray-100">
-                <div className="w-14 h-14 bg-indigo-50 rounded-2xl flex items-center justify-center text-3xl mx-auto mb-4">{item.icon}</div>
-                <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
-                <p className="text-gray-500 text-sm leading-relaxed">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-
-          {/* Réseaux communautaires vérifiés */}
-          <div className="mt-10 border-t border-gray-100 pt-8">
-            <p className="text-center text-xs text-gray-400 uppercase tracking-wider mb-5">Recommandé dans les communautés freelance</p>
-            <div className="flex flex-wrap items-center justify-center gap-6 opacity-60">
-              {['Malt Community', 'Freelance Republik', 'Les Indépendants', 'FNAE'].map((m) => (
-                <span key={m} className="text-gray-500 font-semibold text-sm bg-gray-100 px-3 py-1.5 rounded-full">{m}</span>
-              ))}
             </div>
           </div>
         </div>

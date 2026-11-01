@@ -689,9 +689,11 @@ export default function ComparatifPage() {
           <div className="grid md:grid-cols-2 gap-3">
             {[
               { href: '/guide', label: '→ Guide complet : choisir son logiciel de facturation' },
+              { href: '/comparatif/freebe', label: '→ Avis Freebe 2026 : test complet' },
               { href: '/comparatif/pennylane', label: '→ Avis Pennylane 2026 : test complet' },
               { href: '/comparatif/indy', label: '→ Avis Indy 2026 : test complet' },
-              { href: '/comparatif/freebe', label: '→ Avis Freebe 2026 : test complet' },
+              { href: '/comparatif/tiime', label: '→ Avis Tiime 2026 : test complet' },
+              { href: '/comparatif/shine', label: '→ Avis Shine 2026 : test complet' },
             ].map((link) => (
               <a key={link.href} href={link.href} className="text-[#4f46e5] hover:text-[#3730a3] font-semibold text-sm transition-colors">
                 {link.label}
