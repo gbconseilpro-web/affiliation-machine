@@ -8,7 +8,20 @@ export const metadata: Metadata = {
   },
   description: 'Comparez les meilleurs logiciels de facturation pour freelances et auto-entrepreneurs. Guides, avis et comparatifs 2026.',
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
-  openGraph: { type: 'website', locale: 'fr_FR' },
+  openGraph: {
+    type: 'website',
+    locale: 'fr_FR',
+    siteName: 'FacturationPro',
+    title: 'FacturationPro — Le comparatif n°1 des logiciels de facturation',
+    description: 'Comparez les meilleurs logiciels de facturation pour freelances et auto-entrepreneurs. Guides, avis et comparatifs 2026.',
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: '32x32' },
+    ],
+    apple: '/apple-touch-icon.png',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
