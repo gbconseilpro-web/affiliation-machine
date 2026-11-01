@@ -1725,6 +1725,238 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p><strong>Combien coute un logiciel de facturation pour une PME de 10 personnes ?</strong> Comptez entre 50 et 200 EUR/mois selon les fonctionnalites. Certaines solutions comme Pennylane ont des modeles au nombre d'utilisateurs, d'autres (EBP) ont des tarifs fixes. Le ROI se calcule rapidement sur le temps gagne en gestion comptable.</p>
     `.trim(),
   },
+  {
+    slug: 'facturation-electronique-2026-guide',
+    title: 'Facturation Electronique 2026 : Guide Complet pour Freelances et PME',
+    excerpt: 'Obligation de facturation electronique en France : qui est concerne, quel logiciel choisir, comment migrer avant septembre 2026. Guide complet avec FAQ.',
+    content: `
+<h2>Facturation electronique 2026 : ce qui change pour votre entreprise</h2>
+<p>La facturation electronique devient obligatoire en France a partir de septembre 2026 pour toutes les entreprises assujetties a la TVA. Cette reforme majeure, portee par la DGFiP, transforme radicalement la relation entre les entreprises et l'administration fiscale. Elle concerne des millions de freelances, auto-entrepreneurs, PME et ETI.</p>
+<p>Dans ce guide complet, nous vous expliquons ce qui change, qui est concerne, comment choisir votre logiciel conforme et comment migrer sereinement avant la date limite.</p>
+
+<h2>Qu'est-ce que la facturation electronique ?</h2>
+<p>La facturation electronique (ou e-facturation) ne se limite pas a envoyer un PDF par email. Selon la definition reglementaire francaise, une facture electronique doit etre :</p>
+<ul>
+<li><strong>Emise dans un format structure</strong> : XML (UBL ou CII), ou format hybride Factur-X (PDF + XML)</li>
+<li><strong>Transmise via une Plateforme de Dematerialisation Partenaire (PDP)</strong> agreee par la DGFiP</li>
+<li><strong>Receptionnee et archivee electroniquement</strong> dans un format permettant le controle fiscal</li>
+</ul>
+<p>Un simple PDF envoye par email ne suffit plus. Il faut passer par le Portail Public de Facturation (PPF), anciennement Chorus Pro, ou une PDP privee agreee.</p>
+
+<h2>Qui est concerne par l'obligation de facturation electronique ?</h2>
+<p>La reforme concerne toutes les transactions entre entreprises assujetties a la TVA en France (transactions B2B). Voici le calendrier d'entree en vigueur :</p>
+
+<h3>Calendrier d'obligation par taille d'entreprise</h3>
+<p><strong>Septembre 2026 :</strong> Les grandes entreprises (plus de 5 000 salaries ou 1,5 milliard EUR de chiffre d'affaires) doivent emettre des factures electroniques. Toutes les entreprises doivent etre capables de <em>recevoir</em> des factures electroniques.</p>
+<p><strong>Septembre 2027 :</strong> Les entreprises de taille intermediaire (ETI : 250 a 5 000 salaries) doivent emettre des factures electroniques.</p>
+<p><strong>Septembre 2027 ou plus :</strong> Les PME, TPE et micro-entreprises (auto-entrepreneurs inclus) doivent emettre des factures electroniques.</p>
+
+<p><strong>Attention :</strong> Meme si vous n'avez pas encore l'obligation d'emettre, vous devez pouvoir <em>recevoir</em> des factures electroniques des septembre 2026 si vos fournisseurs sont des grandes entreprises !</p>
+
+<h3>Qui n'est pas concerne ?</h3>
+<p>Les transactions suivantes sont <strong>exclues</strong> du champ de la reforme :</p>
+<ul>
+<li>Ventes aux particuliers (B2C)</li>
+<li>Transactions avec des entreprises etrangeres (export)</li>
+<li>Entreprises totalement exonerees de TVA (certaines associations, professions de sante...)</li>
+<li>Auto-entrepreneurs en franchise en base de TVA : ils doivent recevoir mais pas necessairement emettre via PDP (a confirmer selon les decrets finaux)</li>
+</ul>
+
+<h2>Les formats de factures electroniques acceptes</h2>
+<p>La DGFiP a valide trois formats de factures electroniques :</p>
+
+<h3>1. Factur-X (format hybride recommande)</h3>
+<p>C'est le format qui facilite la transition car il combine :</p>
+<ul>
+<li>Un PDF lisible par l'humain (pour la visualisation)</li>
+<li>Un fichier XML embarque (pour le traitement automatique)</li>
+</ul>
+<p>La plupart des logiciels francais (Pennylane, Indy, Freebe...) ont opte pour ce format. C'est le choix ideal pour les freelances et TPE car il ressemble a une facture traditionnelle tout en etant conforme.</p>
+
+<h3>2. UBL (Universal Business Language)</h3>
+<p>Format XML pur, standard europeen, utilise notamment dans les transactions transfrontalieres. Adapte aux entreprises travaillant avec des partenaires europeens.</p>
+
+<h3>3. CII (Cross Industry Invoice)</h3>
+<p>Format XML pur base sur la norme UN/CEFACT. Moins courant en France, mais accepte par le PPF.</p>
+
+<h2>Le Portail Public de Facturation (PPF) et les PDP</h2>
+<p>La transmission des factures electroniques se fait obligatoirement via des plateformes agreees :</p>
+
+<h3>Le Portail Public de Facturation (PPF)</h3>
+<p>Le PPF est la plateforme gratuite de l'Etat, successeur de Chorus Pro. Il permet :</p>
+<ul>
+<li>L'emission et la reception de factures electroniques gratuitement</li>
+<li>La transmission des donnees a la DGFiP (e-reporting)</li>
+<li>L'archivage fiscal des factures</li>
+</ul>
+<p>Inconvenient : le PPF est une plateforme basique. Il n'offre pas les fonctionnalites avancees (relances automatiques, tableaux de bord, integration comptable) des logiciels du marche.</p>
+
+<h3>Les Plateformes de Dematerialisation Partenaires (PDP)</h3>
+<p>Les PDP sont des operateurs prives agrees par la DGFiP qui offrent des services a valeur ajoutee en plus de la conformite reglementaire. Parmi les PDP agreees ou en cours d'agrement :</p>
+<ul>
+<li><strong>Pennylane</strong> : logiciel de gestion avec PDP integree, ideal pour PME</li>
+<li><strong>Sellsy</strong> : CRM + facturation avec statut PDP, cible PME avec equipes commerciales</li>
+<li><strong>Indy</strong> : solution tout-en-un pour independants (en cours d'agrement PDP)</li>
+<li><strong>Chorus Pro / PPF</strong> : la plateforme publique gratuite</li>
+</ul>
+<p>Passer par une PDP privee est recommande si vous souhaitez conserver des fonctionnalites avancees (relances, statistiques, integration expert-comptable).</p>
+
+<h2>Quel logiciel choisir pour la facturation electronique 2026 ?</h2>
+<p>Le choix de votre logiciel depend de votre profil. Voici nos recommandations :</p>
+
+<h3>Pour les freelances et auto-entrepreneurs</h3>
+<p><strong><a href="/go/freebe">Freebe</a></strong> est la solution la plus adaptee aux micro-entrepreneurs. Simple, abordable (moins de 10 EUR/mois), il gere la facturation electronique en format Factur-X et est compatible avec le PPF. Sa force : une interface pensee pour les non-comptables.</p>
+<p><strong><a href="/go/indy">Indy</a></strong> (ex-Georges) combine compte bancaire et facturation pour les independants. Il prepare activement sa conformite PDP pour 2026 et offre un suivi fiscal automatise tres apprecie des freelances.</p>
+<p><strong><a href="/go/tiime">Tiime</a></strong> est une autre excellente option pour les independants, avec un accent sur la collaboration avec l'expert-comptable.</p>
+
+<h3>Pour les PME (5 a 250 salaries)</h3>
+<p><strong><a href="/go/pennylane">Pennylane</a></strong> est probablement le choix numero un pour les PME francaises qui veulent une solution tout-en-un : facturation electronique conforme PDP, integration expert-comptable native, tableaux de bord financiers en temps reel. Prix : de 74 EUR a 199 EUR/mois selon le plan.</p>
+<p><strong><a href="/go/sellsy">Sellsy</a></strong> convient parfaitement aux PME avec une equipe commerciale : son CRM natif integre a la facturation et son statut PDP en font une solution tres complete.</p>
+
+<h3>Pour les artisans et commercants</h3>
+<p>Les solutions comme EBP, Sage ou Cegid offrent des versions adaptees aux metiers artisanaux. Ces logiciels traditionnels ont generalement obtenu ou sont en cours d'obtention de leur agrement PDP. Verifiez la date de mise a disposition de la fonctionnalite avant de renouveler votre contrat.</p>
+
+<h2>Comment migrer vers la facturation electronique : les 5 etapes</h2>
+<p>La migration vers la facturation electronique se prepare. Voici notre plan en 5 etapes :</p>
+
+<h3>Etape 1 : Auditer vos pratiques actuelles (maintenant)</h3>
+<p>Recensez tous vos clients B2B francais. Identifiez ceux qui seront obliges d'emettre des factures electroniques des septembre 2026 (grandes entreprises). Ce sont vos fournisseurs prioritaires a surveiller.</p>
+
+<h3>Etape 2 : Choisir votre logiciel conforme (avant mars 2026)</h3>
+<p>Verifiez que votre logiciel actuel figure sur la liste des PDP agreees par la DGFiP. Sinon, migrez vers une solution conforme. La liste est disponible sur le site de la DGFiP (impots.gouv.fr, rubrique "facturation electronique").</p>
+
+<h3>Etape 3 : Former votre equipe (3 mois avant l'echeance)</h3>
+<p>La facturation electronique change les habitudes. Prevoyez une formation pour vos collaborateurs qui emettent ou traitent des factures. Testez les nouveaux workflows avec quelques clients pilotes.</p>
+
+<h3>Etape 4 : Tester sur le PPF ou votre PDP (2 mois avant)</h3>
+<p>Le PPF propose des environnements de test. Testez l'emission et la reception de factures electroniques avant le passage en production. Signalez les problemes a votre editeur logiciel.</p>
+
+<h3>Etape 5 : Basculer et monitorer (j-15 avant l'echeance)</h3>
+<p>Basculez progressivement sur la facturation electronique avec vos clients les plus importants. Conservez vos anciennes factures PDF pendant la periode de transition. Verifiez que les statuts de vos factures (envoyee, recue, acquittee) sont bien traques dans votre logiciel.</p>
+
+<h2>L'e-reporting : l'autre obligation liee a la facturation electronique</h2>
+<p>En plus de la facturation electronique, la reforme introduit l'<strong>e-reporting</strong> : la transmission periodique a la DGFiP de donnees sur vos transactions qui ne sont pas couvertes par la facturation electronique obligatoire :</p>
+<ul>
+<li>Transactions B2C (ventes aux particuliers)</li>
+<li>Transactions avec des entreprises etrangeres</li>
+<li>Paiements recus</li>
+</ul>
+<p>L'e-reporting est transmis de maniere periodique (generalement mensuelle ou trimestrielle selon votre regime TVA) et doit aussi passer par le PPF ou une PDP. La plupart des logiciels de facturation conformes gerent egalement l'e-reporting automatiquement.</p>
+
+<h2>Les sanctions prevues en cas de non-conformite</h2>
+<p>Le non-respect de l'obligation de facturation electronique expose votre entreprise a des sanctions fiscales :</p>
+<ul>
+<li><strong>Amende par facture non conforme</strong> : 15 EUR par facture (plafonnee a 15 000 EUR par an)</li>
+<li><strong>Amende pour defaut d'e-reporting</strong> : 250 EUR par transmission manquante (plafonnee a 15 000 EUR par an)</li>
+<li><strong>Risque de redressement fiscal</strong> en cas de controle si vos factures ne sont pas conformes</li>
+</ul>
+<p>Ces sanctions sont prevues dans la loi de finances 2024 et entreront en vigueur avec les obligations. Prenez la conformite au serieux : le cout d'un bon logiciel est bien inferieur aux risques de sanctions.</p>
+
+<h2>Questions frequentes sur la facturation electronique 2026</h2>
+<p><strong>Suis-je oblige de passer par une PDP privee ?</strong> Non. Vous pouvez utiliser gratuitement le Portail Public de Facturation (PPF). Cependant, si vous souhaitez des fonctionnalites avancees (relances automatiques, integration comptable...), une PDP privee via votre logiciel de facturation est recommandee.</p>
+<p><strong>Mes factures PDF actuelles seront-elles toujours valables ?</strong> Apres l'echeance de votre taille d'entreprise, non. Vous devrez obligatoirement emettre des factures dans un format electronique structure (Factur-X, UBL ou CII) transmis via le PPF ou une PDP. Un PDF envoye par email ne sera plus conforme.</p>
+<p><strong>Que faire si mon client n'est pas encore pret a recevoir des factures electroniques ?</strong> L'obligation de recevoir des factures electroniques s'applique des septembre 2026 pour toutes les entreprises assujetties a la TVA. Si votre client n'est pas pret, il est en infraction. Vous pouvez continuer a lui envoyer des factures papier en parallele pendant la periode de transition, mais cela ne le decharge pas de son obligation.</p>
+<p><strong>Mon logiciel Freebe / Indy / Pennylane est-il deja conforme ?</strong> Les principaux editeurs francais travaillent activement a leur conformite. Freebe, Indy, Pennylane et Sellsy ont communique sur leur roadmap PDP. Contactez directement votre editeur pour connaitre la date de disponibilite de la fonctionnalite et verifiez la liste officielle de la DGFiP.</p>
+<p><strong>La facturation electronique s'applique-t-elle aux factures de sous-traitance ?</strong> Oui. Les factures entre donneurs d'ordre et sous-traitants (relations B2B) entrent dans le champ de la facturation electronique obligatoire.</p>
+<p><strong>Comment archiver mes factures electroniques ?</strong> Les factures electroniques doivent etre archivees dans leur format original (avec le fichier XML) pendant 10 ans. Votre PDP ou le PPF proposent un service d'archivage. Verifiez que votre contrat inclut bien cet archivage a long terme.</p>
+    `.trim(),
+    date: '2026-11-09',
+    category: 'Guides',
+    readTime: '15 min',
+    author: 'L\'equipe FacturationPro',
+    image: '/blog/facturation-electronique-2026-guide.svg',
+    tags: ['facturation electronique', 'obligation 2026', 'PDP', 'e-reporting', 'DGFiP'],
+    metaTitle: 'Facturation Electronique 2026 : Guide Complet Obligation France | FacturationPro',
+    metaDescription: 'Tout comprendre sur l\'obligation de facturation electronique 2026 : calendrier, formats (Factur-X, UBL), PDP agreees, logiciels conformes et etapes de migration. Guide complet et a jour.',
+  },
+  {
+    slug: 'note-de-frais-auto-entrepreneur-guide',
+    title: 'Note de Frais Auto-Entrepreneur : Ce que Vous Pouvez Deduire en 2026',
+    excerpt: 'Notes de frais et deductions pour auto-entrepreneur : repas professionnels, deplacement, materiel, internet... Tout ce que vous pouvez deduire legalement de vos revenus.',
+    content: `
+<h2>Notes de frais et auto-entrepreneur : une realite plus complexe qu'il n'y parait</h2>
+<p>En tant qu'auto-entrepreneur (micro-entrepreneur), votre regime fiscal est simplifie : vous payez un impot forfaitaire sur votre chiffre d'affaires, sans deduire vos charges reelles. Cela signifie que les "notes de frais" n'existent pas en tant que telles dans le regime micro.</p>
+<p>Cependant, vous pouvez tout a fait facturer certains frais a vos clients et gerer des depenses professionnelles qui impactent votre tresorerie. Ce guide vous explique tout.</p>
+
+<h2>La realite du regime micro : pas de deduction de charges</h2>
+<p>Dans le regime de la micro-entreprise, l'administration fiscale applique un abattement forfaitaire sur votre chiffre d'affaires pour tenir compte de vos charges :</p>
+<ul>
+<li><strong>71 % d'abattement</strong> pour les activites de vente de marchandises</li>
+<li><strong>50 % d'abattement</strong> pour les prestations de services commerciales et artisanales</li>
+<li><strong>34 % d'abattement</strong> pour les professions liberales (consultants, freelances...)</li>
+</ul>
+<p>Cet abattement est sense couvrir toutes vos charges professionnelles reelles. Vous ne pouvez pas deduire en plus vos depenses reelles, meme si elles depassent l'abattement. C'est le principe du regime micro.</p>
+
+<h2>Ce que vous pouvez facturer en plus de vos honoraires</h2>
+<p>Meme si vous ne "deduisez" pas vos charges, vous pouvez <strong>refacturer certains frais a vos clients</strong>. Ces remboursements de frais (appeles debourses) ne font pas partie de votre chiffre d'affaires s'ils sont geres correctement.</p>
+
+<h3>Les debourses : frais refactures au client</h3>
+<p>Un debourse est une depense que vous avancez pour le compte de votre client et que vous lui refacturez au reel, avec justificatifs. Pour qu'un debourse ne soit pas integre a votre CA :</p>
+<ul>
+<li>Il doit etre engage pour le compte et sur ordre expres du client</li>
+<li>Vous devez rendre compte au client des depenses exactes</li>
+<li>Vous devez etre remboursee a l'euro pres (pas de marge)</li>
+</ul>
+<p>Exemples typiques de debourses : billet de train pour se rendre chez un client, achat de materiel specifique pour une mission, frais d'hebergement sur un chantier client.</p>
+
+<h3>Comment facturer les debourses ?</h3>
+<p>Sur votre facture, mentionnez les debourses sur une ligne separee avec la mention "Debourse" ou "Frais refactures". Gardez precisement toutes les preuves (billets, tickets, factures) pour justifier ces remboursements en cas de controle.</p>
+<p>Un logiciel comme <a href="/go/freebe">Freebe</a> ou <a href="/go/indy">Indy</a> vous permet de gerer facilement ces debourses et de les integrer a vos factures.</p>
+
+<h2>Depenses professionnelles courantes pour auto-entrepreneurs</h2>
+<p>Meme si vous ne les deduisez pas fiscalement, il est important de suivre vos depenses professionnelles pour :</p>
+<ul>
+<li>Evaluer la rentabilite reelle de votre activite</li>
+<li>Decider si le passage en societe (SASU, EURL) serait plus avantageux</li>
+<li>Negocier vos tarifs en consequence</li>
+</ul>
+
+<h3>Materiels et equipements</h3>
+<p>Ordinateur, smartphone, imprimante, peripheriques... Tout le materiel utilise pour votre activite est une charge professionnelle. En regime micro, elle est censee etre couverte par l'abattement forfaitaire.</p>
+<p>Si vos charges reelles depassent l'abattement (ce qui arrive souvent pour les consultants avec peu de "materiaux"), cela plaide pour passer en regime reel via une EURL ou SASU.</p>
+
+<h3>Abonnements et logiciels</h3>
+<p>Votre logiciel de facturation (<a href="/go/freebe">Freebe</a>, <a href="/go/indy">Indy</a>...), votre suite bureautique, vos outils de marketing, votre stockage cloud... Tous ces abonnements sont des charges professionnelles a suivre.</p>
+
+<h3>Frais de deplacement</h3>
+<p>Les frais de deplacement (transport, carburant, peages) peuvent etre refactures en debourses si vous vous deplacez pour un client specifique. Si vous utilisez votre vehicule personnel pour des deplacements professionnels, vous pouvez appliquer le bareme kilometrique officiel pour calculer le cout reel et le refacturer a votre client.</p>
+
+<h3>Repas professionnels</h3>
+<p>Les repas pris en deplacement professionnel peuvent etre refactures en debourses si c'est pour le compte d'un client. Les repas avec des clients (repas d'affaires) ne sont pas refacturables en debourses mais representent une charge que vous devriez integrer dans vos tarifs.</p>
+
+<h3>Frais de bureau et telephone</h3>
+<p>Si vous travaillez depuis chez vous, une partie de vos loyers, factures internet et electricite peut etre consideree comme professionnelle. Cette quote-part (calculee au prorata de la surface utilisee) ne peut pas etre deduite en regime micro, mais c'est un element a prendre en compte pour evaluer vos charges reelles.</p>
+
+<h2>Quand passer au regime reel ?</h2>
+<p>Si vos charges reelles depassent regulierement l'abattement forfaitaire de votre regime, il est probablement temps de passer en regime reel (IS ou IR avec deduction des charges reelles) via une EURL ou une SASU.</p>
+<p>Exemple : un consultant en informatique facturai 60 000 EUR/an avec un abattement de 34% (soit 20 400 EUR de charges forfaitaires). Si ses vraies charges (materiel, logiciels, formation, deplacement, telephonie) depassent 20 400 EUR, il paie trop d'impots en micro.</p>
+<p>Notre guide <a href="/blog/sasu-eurl-choisir-statut-freelance">SASU ou EURL : quel statut choisir comme freelance</a> vous aide a prendre cette decision.</p>
+
+<h2>Comment tenir sa comptabilite en auto-entrepreneur ?</h2>
+<p>Meme si vous n'avez pas de comptabilite formelle a tenir (pas de bilan, pas de compte de resultat), vous devez :</p>
+<ul>
+<li>Tenir un livre des recettes (toutes vos encaissements)</li>
+<li>Tenir un registre des achats si vous vendez des marchandises</li>
+<li>Conserver toutes vos factures d'achat pendant 10 ans</li>
+<li>Conserver toutes vos factures de vente emises pendant 10 ans</li>
+</ul>
+<p>Un logiciel de facturation pour auto-entrepreneur comme <a href="/go/freebe">Freebe</a> ou <a href="/go/indy">Indy</a> vous simplifie enormement cette gestion en automatisant la plupart de ces obligations.</p>
+
+<h2>FAQ : Notes de frais et auto-entrepreneur</h2>
+<p><strong>Puis-je deduire mon abonnement internet de mes impots en auto-entrepreneur ?</strong> Non, en regime micro, vous ne pouvez pas deduire vos charges reelles. L'abattement forfaitaire est sense couvrir tous vos frais, y compris internet. Si votre activite genere beaucoup de frais, evaluez l'opportunite de passer en regime reel via une societe.</p>
+<p><strong>Comment refacturer mes frais de deplacement a un client ?</strong> Facturez-les en "debourses" sur votre facture : ligne separee, montant exact (avec justificatifs), pas de TVA si vous etes en franchise en base. Gardez bien tous vos titres de transport et tickets de carburant.</p>
+<p><strong>Un repas avec un client est-il deductible ?</strong> En regime micro, non. Vous pouvez refacturer au client un repas pris en son nom (si c'est un debourse), mais un repas d'affaires "relationnel" n'est pas deductible. En regime reel (EURL, SASU), il serait partiellement deductible.</p>
+<p><strong>Quel logiciel pour gerer mes frais en auto-entrepreneur ?</strong> <a href="/go/freebe">Freebe</a> est specialement concu pour les micro-entrepreneurs et integre la gestion des debourses et des notes de frais dans ses factures. <a href="/go/indy">Indy</a> offre une vue complete tresorerie + facturation tres pratique au quotidien.</p>
+    `.trim(),
+    date: '2026-11-10',
+    category: 'Guides',
+    readTime: '10 min',
+    author: 'L\'equipe FacturationPro',
+    image: '/blog/note-de-frais-freelance-logiciel.svg',
+    tags: ['note de frais', 'auto-entrepreneur', 'micro-entreprise', 'deduction', 'debourses'],
+    metaTitle: 'Note de Frais Auto-Entrepreneur 2026 : Ce que Vous Pouvez Deduire | FacturationPro',
+    metaDescription: 'Notes de frais et deductions pour auto-entrepreneur : debourses refacturables, frais de deplacement, materiel, logiciels. Guide complet pour micro-entrepreneurs 2026.',
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {

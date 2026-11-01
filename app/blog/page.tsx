@@ -9,6 +9,15 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://facturationpro.com/blog' },
 }
 
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://facturationpro.com' },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://facturationpro.com/blog' },
+  ],
+}
+
 export default function BlogPage() {
   const posts = getAllBlogPosts()
 
@@ -25,6 +34,8 @@ export default function BlogPage() {
   }
 
   return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
       {/* Header */}
       <div className="mb-10 text-center">
@@ -102,5 +113,6 @@ export default function BlogPage() {
         </a>
       </div>
     </div>
+    </>
   )
 }
