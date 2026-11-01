@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: post.title,
     description: post.excerpt,
-    alternates: { canonical: `https://facturationpro.fr/blog/${post.slug}` },
+    alternates: { canonical: `https://facturationpro.com/blog/${post.slug}` },
     openGraph: {
       title: post.title,
       description: post.excerpt,
@@ -42,16 +42,16 @@ export default function BlogPostPage({ params }: Props) {
     author: {
       '@type': 'Person',
       name: 'FacturationPro',
-      url: 'https://facturationpro.fr/auteur',
+      url: 'https://facturationpro.com/auteur',
     },
     publisher: {
       '@type': 'Organization',
       name: 'FacturationPro',
-      url: 'https://facturationpro.fr',
+      url: 'https://facturationpro.com',
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://facturationpro.fr/blog/${post.slug}`,
+      '@id': `https://facturationpro.com/blog/${post.slug}`,
     },
     keywords: post.keywords.join(', '),
   }

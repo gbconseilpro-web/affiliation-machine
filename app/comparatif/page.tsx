@@ -10,7 +10,7 @@ import {
 } from '@/lib/seo'
 import { buildAffiliateLink } from '@/lib/affiliate'
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://facturationpro.fr'
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://facturationpro.com'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Comparatif logiciels facturation électronique 2026 : Conformes PDP',
