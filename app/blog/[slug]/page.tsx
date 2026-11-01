@@ -15,6 +15,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getBlogPost(params.slug)
   if (!post) return {}
+  const ogImage = post.image
+    ? `https://facturationpro.com${post.image}`
+    : 'https://facturationpro.com/og-default.svg'
   return {
     title: post.title,
     description: post.excerpt,
@@ -24,6 +27,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: post.excerpt,
       type: 'article',
       publishedTime: post.date,
+      images: [{ url: ogImage, width: 1200, height: 630, alt: post.title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
+      images: [ogImage],
     },
   }
 }
@@ -32,6 +42,10 @@ export default function BlogPostPage({ params }: Props) {
   const post = getBlogPost(params.slug)
   if (!post) return notFound()
 
+  const ogImage = post.image
+    ? `https://facturationpro.com${post.image}`
+    : 'https://facturationpro.com/og-default.svg'
+
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -39,6 +53,7 @@ export default function BlogPostPage({ params }: Props) {
     description: post.excerpt,
     datePublished: post.date,
     dateModified: post.date,
+    image: ogImage,
     author: {
       '@type': 'Person',
       name: 'FacturationPro',
@@ -56,6 +71,16 @@ export default function BlogPostPage({ params }: Props) {
     keywords: post.keywords.join(', '),
   }
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Accueil', item: 'https://facturationpro.com' },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://facturationpro.com/blog' },
+      { '@type': 'ListItem', position: 3, name: post.title, item: `https://facturationpro.com/blog/${post.slug}` },
+    ],
+  }
+
   const categoryColors: Record<string, string> = {
     'Comparatifs': 'bg-indigo-100 text-indigo-700',
     'Guides': 'bg-emerald-100 text-emerald-700',
@@ -67,6 +92,10 @@ export default function BlogPostPage({ params }: Props) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 py-10">
         {/* Breadcrumb */}

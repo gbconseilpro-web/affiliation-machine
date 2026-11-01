@@ -364,6 +364,60 @@ export default function ComparatifPage() {
                 Voir le comparatif <span>→</span>
               </span>
             </a>
+
+            <a
+              href="/comparatif/indy-vs-pennylane"
+              className="group block bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-indigo-200 transition-all"
+            >
+              <div className="flex items-center gap-2 mb-3">
+                <span className="w-7 h-7 bg-blue-100 rounded-lg flex items-center justify-center text-blue-700 font-bold text-xs">I</span>
+                <span className="text-gray-400 font-bold">vs</span>
+                <span className="w-7 h-7 bg-emerald-100 rounded-lg flex items-center justify-center text-emerald-700 font-bold text-xs">P</span>
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-1 group-hover:text-indigo-600 transition-colors">
+                Indy vs Pennylane
+              </h3>
+              <p className="text-xs text-gray-500">Declaration URSSAF automatique vs comptabilite PME complete</p>
+              <span className="inline-flex items-center gap-1 text-xs text-indigo-600 font-medium mt-3">
+                Voir le comparatif <span>→</span>
+              </span>
+            </a>
+
+            <a
+              href="/comparatif/freebe-vs-tiime"
+              className="group block bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-indigo-200 transition-all"
+            >
+              <div className="flex items-center gap-2 mb-3">
+                <span className="w-7 h-7 bg-indigo-100 rounded-lg flex items-center justify-center text-indigo-700 font-bold text-xs">F</span>
+                <span className="text-gray-400 font-bold">vs</span>
+                <span className="w-7 h-7 bg-teal-100 rounded-lg flex items-center justify-center text-teal-700 font-bold text-xs">T</span>
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-1 group-hover:text-indigo-600 transition-colors">
+                Freebe vs Tiime
+              </h3>
+              <p className="text-xs text-gray-500">Solution complete payante vs freemium accessible aux debutants</p>
+              <span className="inline-flex items-center gap-1 text-xs text-indigo-600 font-medium mt-3">
+                Voir le comparatif <span>→</span>
+              </span>
+            </a>
+
+            <a
+              href="/comparatif/shine-vs-indy"
+              className="group block bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-indigo-200 transition-all"
+            >
+              <div className="flex items-center gap-2 mb-3">
+                <span className="w-7 h-7 bg-purple-100 rounded-lg flex items-center justify-center text-purple-700 font-bold text-xs">S</span>
+                <span className="text-gray-400 font-bold">vs</span>
+                <span className="w-7 h-7 bg-blue-100 rounded-lg flex items-center justify-center text-blue-700 font-bold text-xs">I</span>
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-1 group-hover:text-indigo-600 transition-colors">
+                Shine vs Indy
+              </h3>
+              <p className="text-xs text-gray-500">Neobanque pro avec facturation vs logiciel comptabilite URSSAF</p>
+              <span className="inline-flex items-center gap-1 text-xs text-indigo-600 font-medium mt-3">
+                Voir le comparatif <span>→</span>
+              </span>
+            </a>
           </div>
         </section>
 
