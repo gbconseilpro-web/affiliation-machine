@@ -2,13 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Essayer Sellsy gratuitement — CRM + Facturation pour PME françaises',
+  title: 'Essayer Sellsy gratuitement : CRM + Facturation pour PME françaises',
   description: 'Sellsy réunit CRM, facturation, gestion commerciale et trésorerie dans une seule plateforme 100% française. La solution all-in-one préférée des PME de 5 à 200 salariés.',
   robots: 'noindex, nofollow',
 }
 
 const reviews = [
-  { name: 'Nathalie B.', job: 'DG d\'une PME (35 sal.)', text: 'Avant Sellsy, on avait 4 outils différents. Maintenant tout est dans Sellsy — nos commerciaux gagnent 3h par semaine.', stars: 5 },
+  { name: 'Nathalie B.', job: 'DG d\'une PME (35 sal.)', text: 'Avant Sellsy, on avait 4 outils différents. Maintenant tout est dans Sellsy, nos commerciaux gagnent 3h par semaine.', stars: 5 },
   { name: 'Romain T.', job: 'Directeur commercial', text: 'Le pipeline CRM connecté à la facturation change tout. De la signature du devis à la facture payée : tout automatisé.', stars: 5 },
   { name: 'Céline A.', job: 'Responsable finance', text: 'Les relances automatiques ont réduit notre DSO de 45 jours à 28 jours. Le ROI est évident.', stars: 5 },
 ]
@@ -25,7 +25,7 @@ export default function GoSellsyPage() {
         {/* Badge */}
         <div className="bg-emerald-100 text-emerald-800 text-sm font-semibold px-4 py-2 rounded-full mb-6 flex items-center gap-2">
           <span>🇫🇷</span>
-          <span>Plateforme 100% française — données hébergées en France</span>
+          <span>Plateforme 100% française, données hébergées en France</span>
         </div>
 
         {/* Titre */}
@@ -38,7 +38,7 @@ export default function GoSellsyPage() {
             <span className="text-emerald-600">tout se passe dans Sellsy</span>
           </h1>
           <p className="text-lg text-gray-600 max-w-xl mx-auto">
-            CRM, devis, facturation, trésorerie — une seule plateforme pour toute votre activité commerciale. Sans jongler entre 4 outils.
+            CRM, devis, facturation, trésorerie : une seule plateforme pour toute votre activité commerciale. Sans jongler entre 4 outils.
           </p>
         </div>
 
@@ -126,7 +126,7 @@ export default function GoSellsyPage() {
 
       <footer className="py-4 text-center text-xs text-gray-400">
         <p>
-          FacturationPro est un site de comparaison indépendant. Ce lien est un lien affilié — nous pouvons percevoir une commission si vous souscrivez via ce lien, sans coût supplémentaire pour vous.{' '}
+          FacturationPro est un site de comparaison indépendant. Ce lien est un lien affilié : nous pouvons percevoir une commission si vous souscrivez via ce lien, sans coût supplémentaire pour vous.{' '}
           <Link href="/comparatif" className="underline">Voir notre comparatif complet</Link>
         </p>
       </footer>

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Notre avis sur Finom après test : compte pro européen + facturation, cashback sur dépenses, tarifs. La fintech qui paie pour facturer ?',
   alternates: { canonical: 'https://facturationpro.fr/comparatif/finom' },
   openGraph: {
-    title: 'Avis Finom 2026 — Test complet',
+    title: 'Avis Finom 2026 : Test complet',
     description: 'Compte pro européen + facturation avec cashback : notre test complet de Finom, tarifs, avantages et limites.',
     type: 'article',
   },
@@ -98,7 +98,7 @@ export default function AvisFinom() {
             <div className="bg-red-50 border border-red-100 rounded-2xl p-5">
               <h2 className="font-bold text-red-800 mb-3">❌ Limites</h2>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li>• IBAN européen (BE) — pas français, peut poser problème avec certains organismes</li>
+                <li>• IBAN européen (BE), pas français, peut poser problème avec certains organismes</li>
                 <li>• Moins connu en France que ses concurrents</li>
                 <li>• Support en anglais prioritaire</li>
                 <li>• Pas de déclaration URSSAF intégrée</li>
@@ -148,9 +148,9 @@ export default function AvisFinom() {
           <section className="mb-10">
             <h2 className="text-2xl font-extrabold text-gray-900 mb-6">Fonctionnalités détaillées</h2>
 
-            <h3 className="text-lg font-bold text-gray-900 mb-3">1. Le cashback — la vraie différence</h3>
+            <h3 className="text-lg font-bold text-gray-900 mb-3">1. Le cashback : la vraie différence</h3>
             <p className="text-gray-600 mb-4">
-              Le cashback Finom est sa fonctionnalité la plus distinctive. Contrairement à un simple programme de fidélité, le cashback s&apos;applique automatiquement sur chaque paiement par carte — abonnements SaaS, publicité en ligne, voyages d&apos;affaires. Pour un entrepreneur qui dépense 3 000€/mois en frais pro, le plan Team rapporte 90€/mois de cashback, soit plus que le coût de l&apos;abonnement.
+              Le cashback Finom est sa fonctionnalité la plus distinctive. Contrairement à un simple programme de fidélité, le cashback s&apos;applique automatiquement sur chaque paiement par carte : abonnements SaaS, publicité en ligne, voyages d&apos;affaires. Pour un entrepreneur qui dépense 3 000€/mois en frais pro, le plan Team rapporte 90€/mois de cashback, soit plus que le coût de l&apos;abonnement.
             </p>
 
             <h3 className="text-lg font-bold text-gray-900 mb-3">2. Facturation intégrée</h3>
@@ -160,7 +160,7 @@ export default function AvisFinom() {
 
             <h3 className="text-lg font-bold text-gray-900 mb-3">3. Compte pro européen</h3>
             <p className="text-gray-600 mb-4">
-              L&apos;IBAN Finom commence par BE (Belgique) mais est valide dans toute l&apos;UE pour les virements SEPA. La carte Mastercard Business est acceptée partout. Point d&apos;attention : certains organismes français exigent un IBAN commençant par FR — vérifiez avant d&apos;ouvrir votre compte.
+              L&apos;IBAN Finom commence par BE (Belgique) mais est valide dans toute l&apos;UE pour les virements SEPA. La carte Mastercard Business est acceptée partout. Point d&apos;attention : certains organismes français exigent un IBAN commençant par FR, vérifiez avant d&apos;ouvrir votre compte.
             </p>
 
             <h3 className="text-lg font-bold text-gray-900 mb-3">4. Multi-devises et international</h3>
@@ -245,13 +245,13 @@ export default function AvisFinom() {
 
           {/* CTA */}
           <div className="bg-indigo-600 rounded-2xl p-8 text-center text-white mb-10">
-            <h3 className="text-2xl font-bold mb-2">Essayez Finom — compte pro + cashback</h3>
+            <h3 className="text-2xl font-bold mb-2">Essayez Finom : compte pro + cashback</h3>
             <p className="text-indigo-200 mb-5">Ouvrez votre compte en quelques minutes. Facturation incluse dès le premier plan.</p>
             <a href={AFFILIATE_URL} target="_blank" rel="nofollow sponsored noopener"
               className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl text-lg transition-all">
               Ouvrir mon compte Finom →
             </a>
-            <p className="text-xs text-indigo-300 mt-3">Lien affilié — nous percevons une commission si vous souscrivez, sans surcoût pour vous.</p>
+            <p className="text-xs text-indigo-300 mt-3">Lien affilié : nous percevons une commission si vous souscrivez, sans surcoût pour vous.</p>
           </div>
 
           {/* FAQ */}

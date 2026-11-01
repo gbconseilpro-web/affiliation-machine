@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Essayer Pennylane gratuitement — Solution comptable tout-en-un pour TPE/PME',
+  title: 'Essayer Pennylane gratuitement : Solution comptable tout-en-un pour TPE/PME',
   description: 'Testez Pennylane : comptabilité automatisée, collaboration expert-comptable, rapports temps réel. La solution préférée des TPE et PME françaises.',
   robots: 'noindex, nofollow',
 }
@@ -40,7 +40,7 @@ export default function GoPennylane() {
         <main className="flex-1 flex flex-col items-center justify-center px-4 py-8">
           <div className="bg-cyan-100 text-cyan-800 text-sm font-semibold px-4 py-2 rounded-full mb-6 flex items-center gap-2">
             <span>✨</span>
-            <span>Démo gratuite disponible — Sans engagement</span>
+            <span>Démo gratuite disponible, sans engagement</span>
           </div>
 
           <div className="text-center mb-6">
@@ -166,7 +166,7 @@ export default function GoPennylane() {
         </main>
 
         <footer className="py-4 text-center text-xs text-gray-400 px-4">
-          <p>FacturationPro est un site de comparaison indépendant. Ce lien est un lien affilié — nous pouvons percevoir une commission si vous souscrivez via ce lien, sans coût supplémentaire pour vous.{' '}
+          <p>FacturationPro est un site de comparaison indépendant. Ce lien est un lien affilié : nous pouvons percevoir une commission si vous souscrivez via ce lien, sans coût supplémentaire pour vous.{' '}
           <Link href="/comparatif" className="underline">Voir notre comparatif complet</Link></p>
         </footer>
       </div>

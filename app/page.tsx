@@ -5,7 +5,7 @@ import { buildAffiliateLink } from '@/lib/affiliate'
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://facturationpro.fr'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Facturation électronique obligatoire 2026 — Êtes-vous prêt ?',
+  title: 'Facturation électronique obligatoire 2026 : Êtes-vous prêt ?',
   description: 'La facturation électronique devient obligatoire pour toutes les entreprises françaises. Découvrez les échéances, les obligations légales et les logiciels conformes pour être en règle.',
   path: '/',
   type: 'website',
@@ -120,7 +120,7 @@ export default function HomePage() {
           </h1>
           <p className="text-indigo-200 text-lg mb-8 max-w-2xl mx-auto">
             Comparatif des 8 meilleurs outils pour freelances et auto-entrepreneurs.
-            Tarifs, fonctionnalités, essais gratuits — tout est là.
+            Tarifs, fonctionnalités, essais gratuits : tout est là.
           </p>
 
           {/* Étoiles + social proof */}
@@ -128,7 +128,7 @@ export default function HomePage() {
             <div className="bg-white/10 backdrop-blur rounded-full px-5 py-2 text-white font-semibold flex items-center gap-2">
               <span className="text-yellow-400 text-lg">★★★★★</span>
               <span className="text-white font-bold">4,9/5</span>
-              <span className="text-indigo-200">— 500+ avis Google</span>
+              <span className="text-indigo-200">500+ avis Google</span>
             </div>
           </div>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
@@ -155,7 +155,7 @@ export default function HomePage() {
       <section className="bg-red-600 py-3">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <p className="text-white font-semibold text-sm">
-            ⚠️ <strong>Obligation légale — Entrée en vigueur : 1er septembre 2026</strong> — Toutes les entreprises françaises assujetties à la TVA doivent migrer.
+            ⚠️ <strong>Obligation légale : Entrée en vigueur : 1er septembre 2026</strong>. Toutes les entreprises françaises assujetties à la TVA doivent migrer.
           </p>
         </div>
       </section>
@@ -171,12 +171,12 @@ export default function HomePage() {
           </div>
           <div className="card p-6 border-l-4 border-red-500">
             <div className="text-sm font-semibold text-red-600 mb-1">1er septembre 2026</div>
-            <div className="font-bold text-lg mb-2">Émission — Grandes entreprises</div>
+            <div className="font-bold text-lg mb-2">Émission : Grandes entreprises</div>
             <p className="text-gray-600 text-sm">Les grandes entreprises et ETI doivent émettre toutes leurs factures en format électronique structuré.</p>
           </div>
           <div className="card p-6 border-l-4 border-red-700">
             <div className="text-sm font-semibold text-red-700 mb-1">1er septembre 2027</div>
-            <div className="font-bold text-lg mb-2">Émission — PME/TPE</div>
+            <div className="font-bold text-lg mb-2">Émission : PME/TPE</div>
             <p className="text-gray-600 text-sm">Les PME et TPE rejoignent l&apos;obligation d&apos;émission. Aucune exception : toutes les factures B2B doivent être électroniques.</p>
           </div>
         </div>

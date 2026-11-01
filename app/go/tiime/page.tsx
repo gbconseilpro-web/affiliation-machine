@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Essayer Tiime gratuitement — Facturation gratuite et professionnelle',
+  title: 'Essayer Tiime gratuitement : Facturation gratuite et professionnelle',
   description: 'Testez Tiime gratuitement : plan de base offert, interface épurée, intégration bancaire. La facturation professionnelle sans abonnement obligatoire.',
   robots: 'noindex, nofollow',
 }
@@ -24,7 +24,7 @@ export default function GoTiime() {
       <main className="flex-1 flex flex-col items-center justify-center px-4 py-8">
         <div className="bg-emerald-100 text-emerald-800 text-sm font-semibold px-4 py-2 rounded-full mb-6 flex items-center gap-2">
           <span>🎁</span>
-          <span>Plan de base 100% gratuit — Sans CB requise</span>
+          <span>Plan de base 100% gratuit, sans CB requise</span>
         </div>
 
         <div className="text-center mb-8">
@@ -105,7 +105,7 @@ export default function GoTiime() {
       </main>
 
       <footer className="py-4 text-center text-xs text-gray-400">
-        <p>FacturationPro est un site de comparaison indépendant. Ce lien est un lien affilié — nous pouvons percevoir une commission si vous souscrivez via ce lien, sans coût supplémentaire pour vous.{' '}
+        <p>FacturationPro est un site de comparaison indépendant. Ce lien est un lien affilié : nous pouvons percevoir une commission si vous souscrivez via ce lien, sans coût supplémentaire pour vous.{' '}
         <Link href="/comparatif" className="underline">Voir notre comparatif complet</Link></p>
       </footer>
     </div>

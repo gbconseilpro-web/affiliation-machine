@@ -113,7 +113,7 @@ export default function ArticlePage({ params }: Props) {
                 >
                   {awin.cta} →
                 </a>
-                <p className="text-xs text-primary-400 mt-3">Lien affilié — commission perçue sans surcoût pour vous</p>
+                <p className="text-xs text-primary-400 mt-3">Lien affilié : commission perçue sans surcoût pour vous</p>
               </div>
             )}
 

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Notre avis sur Indy (ex Georges) après test : comptabilité automatisée par IA, tarifs, avantages. La fin de l\'expert-comptable pour les indépendants ?',
   alternates: { canonical: 'https://facturationpro.fr/comparatif/indy' },
   openGraph: {
-    title: 'Avis Indy 2026 — Test complet',
+    title: 'Avis Indy 2026 : Test complet',
     description: 'Test réel d\'Indy : comptabilité automatisée par IA, connexion bancaire, bilan annuel automatique. Pour les indépendants et auto-entrepreneurs.',
     type: 'article',
   },
@@ -73,7 +73,7 @@ export default function AvisIndy() {
                 <div className="text-xs text-gray-500 mt-1">Note FacturationPro</div>
               </div>
               <div className="flex-1">
-                <p className="font-bold text-gray-900 mb-1">Comptabilité automatisée par IA — plan gratuit disponible</p>
+                <p className="font-bold text-gray-900 mb-1">Comptabilité automatisée par IA, plan gratuit disponible</p>
                 <p className="text-sm text-gray-600">Bilan annuel généré automatiquement, connexion bancaire directe, déclaration fiscale simplifiée. Un vrai gain de temps pour les indépendants.</p>
               </div>
               <a href={AFFILIATE_URL} target="_blank" rel="nofollow sponsored noopener"
@@ -254,7 +254,7 @@ export default function AvisIndy() {
               className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl text-lg transition-all">
               Créer mon compte Indy gratuit →
             </a>
-            <p className="text-xs text-indigo-300 mt-3">Lien affilié — nous percevons une commission si vous souscrivez, sans surcoût pour vous.</p>
+            <p className="text-xs text-indigo-300 mt-3">Lien affilié : nous percevons une commission si vous souscrivez, sans surcoût pour vous.</p>
           </div>
 
           {/* FAQ */}

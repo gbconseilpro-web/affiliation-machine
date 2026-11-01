@@ -99,14 +99,14 @@ export default function BlogPostPage({ params }: Props) {
 
         {/* Content */}
         <div
-          className="prose prose-gray prose-headings:font-bold prose-h2:text-xl prose-h2:mt-8 prose-h3:text-lg prose-p:leading-relaxed prose-a:text-indigo-600 prose-a:no-underline hover:prose-a:underline prose-ul:space-y-1 prose-strong:text-gray-900 max-w-none"
+          className="max-w-none [&_h2]:text-xl [&_h2]:font-bold [&_h2]:mt-8 [&_h2]:mb-3 [&_h3]:text-lg [&_h3]:font-bold [&_h3]:mt-6 [&_h3]:mb-2 [&_p]:leading-relaxed [&_p]:mb-4 [&_a]:text-indigo-600 [&_a]:no-underline hover:[&_a]:underline [&_ul]:space-y-1 [&_ul]:list-disc [&_ul]:pl-6 [&_ol]:list-decimal [&_ol]:pl-6 [&_strong]:text-gray-900 [&_strong]:font-semibold [&_blockquote]:border-l-4 [&_blockquote]:border-indigo-200 [&_blockquote]:pl-4 [&_blockquote]:italic [&_code]:bg-gray-100 [&_code]:px-1 [&_code]:rounded [&_code]:text-sm"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
 
         {/* CTA box */}
         <div className="mt-12 bg-indigo-50 border border-indigo-100 rounded-2xl p-6">
           <p className="font-semibold text-gray-900 mb-2">Prêt à passer à un vrai logiciel de facturation ?</p>
-          <p className="text-sm text-gray-600 mb-4">Essayez Freebe ou Indy gratuitement — sans engagement ni carte bancaire requise.</p>
+          <p className="text-sm text-gray-600 mb-4">Essayez Freebe ou Indy gratuitement, sans engagement ni carte bancaire requise.</p>
           <div className="flex flex-wrap gap-3">
             <a
               href="/go/freebe"

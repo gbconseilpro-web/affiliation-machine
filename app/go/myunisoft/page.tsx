@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Essayer MyUnisoft gratuitement — Logiciel comptable expert-comptable et entreprises',
-  description: 'MyUnisoft : la plateforme comptable collaborative entre experts-comptables et leurs clients. Facturation, comptabilité, bilan — tout connecté en temps réel.',
+  title: 'Essayer MyUnisoft gratuitement : Logiciel comptable expert-comptable et entreprises',
+  description: 'MyUnisoft : la plateforme comptable collaborative entre experts-comptables et leurs clients. Facturation, comptabilité, bilan : tout connecté en temps réel.',
   robots: 'noindex, nofollow',
 }
 
@@ -73,7 +73,7 @@ export default function GoMyUnisoftPage() {
         {/* Avantages */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-3xl w-full mb-10">
           {[
-            { icon: '🔄', title: 'Temps réel partagé', desc: 'Votre comptable voit vos factures dès que vous les créez — fini les fichiers par email' },
+            { icon: '🔄', title: 'Temps réel partagé', desc: 'Votre comptable voit vos factures dès que vous les créez, fini les fichiers par email' },
             { icon: '📊', title: 'Tableaux de bord live', desc: 'CA, trésorerie, TVA à décaisser : vos chiffres clés toujours à jour' },
             { icon: '🤖', title: 'IA de saisie automatique', desc: "Vos factures fournisseurs sont lues et comptabilisées automatiquement" },
           ].map((item) => (
@@ -113,7 +113,7 @@ export default function GoMyUnisoftPage() {
           rel="nofollow sponsored noopener noreferrer"
           className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl transition-all hover:scale-105 mb-6"
         >
-          Voir MyUnisoft en action — démo gratuite
+          Voir MyUnisoft en action : démo gratuite
           <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
           </svg>
@@ -126,7 +126,7 @@ export default function GoMyUnisoftPage() {
 
       <footer className="py-4 text-center text-xs text-gray-400">
         <p>
-          FacturationPro est un site de comparaison indépendant. Ce lien est un lien affilié — nous pouvons percevoir une commission si vous souscrivez via ce lien, sans coût supplémentaire pour vous.{' '}
+          FacturationPro est un site de comparaison indépendant. Ce lien est un lien affilié : nous pouvons percevoir une commission si vous souscrivez via ce lien, sans coût supplémentaire pour vous.{' '}
           <Link href="/comparatif" className="underline">Voir notre comparatif complet</Link>
         </p>
       </footer>

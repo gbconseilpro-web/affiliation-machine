@@ -11,7 +11,7 @@ import { buildAffiliateLink } from '@/lib/affiliate'
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://facturationpro.fr'
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Comparatif logiciels facturation électronique 2026 — Conformes PDP',
+  title: 'Comparatif logiciels facturation électronique 2026 : Conformes PDP',
   description: 'Comparatif des meilleurs logiciels de facturation électronique conformes à la réforme 2026. Certifiés PDP, formats Factur-X, UBL. Avis et tests en conditions réelles.',
   path: '/comparatif',
   type: 'article',
@@ -64,7 +64,7 @@ const products = [
     badge: '🏢 Recommandé ETI et PME en croissance',
     badgeColor: 'bg-blue-100 text-blue-800',
     pros: [
-      'CRM + facturation intégrés — pipeline commercial et facturation liés',
+      'CRM + facturation intégrés : pipeline commercial et facturation liés',
       'Conformité facturation électronique garantie avec PDP',
       'Suivi en temps réel du statut des factures envoyées',
       'Tableaux de bord financiers avancés',
@@ -105,7 +105,7 @@ const products = [
     ],
     cons: [
       'Interface moins moderne que les concurrents',
-      'PDP via partenaire (pas natif) — vérifier la mise à jour avant 2026',
+      'PDP via partenaire (pas natif) : vérifier la mise à jour avant 2026',
     ],
     ctaUrl: buildAffiliateLink({
       baseUrl: 'https://www.axonaut.com',
@@ -154,7 +154,7 @@ const faqs = [
 
 export default function ComparatifPage() {
   const articleJsonLd = buildComparativeJsonLd({
-    name: 'Comparatif logiciels facturation électronique 2026 — Conformes PDP',
+    name: 'Comparatif logiciels facturation électronique 2026 : Conformes PDP',
     description: 'Comparatif complet des meilleurs logiciels conformes à la réforme facturation électronique 2026.',
     url: `${SITE_URL}/comparatif`,
     datePublished: '2026-01-01',
@@ -194,13 +194,13 @@ export default function ComparatifPage() {
           </nav>
 
           <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-400/40 text-orange-200 text-xs font-semibold px-3 py-1.5 rounded-full mb-5">
-            ⚠️ Mise à jour novembre 2026 — Réforme en vigueur
+            ⚠️ Mise à jour novembre 2026 : Réforme en vigueur
           </div>
 
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
             Meilleur logiciel de{' '}
             <span className="text-orange-400">facturation électronique</span>{' '}
-            <span className="whitespace-nowrap">2026 — Comparatif</span>
+            <span className="whitespace-nowrap">2026 : Comparatif</span>
           </h1>
 
           <p className="text-indigo-200 text-lg mb-6 max-w-2xl mx-auto">

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Notre avis sur Tiime après test : fonctionnalités du plan gratuit, tarifs, avantages. Le meilleur logiciel de facturation gratuit pour indépendants ?',
   alternates: { canonical: 'https://facturationpro.fr/comparatif/tiime' },
   openGraph: {
-    title: 'Avis Tiime 2026 — Test complet',
+    title: 'Avis Tiime 2026 : Test complet',
     description: 'Test réel de Tiime : plan gratuit, fonctionnalités, tarifs, avantages et inconvénients du logiciel de facturation pour indépendants.',
     type: 'article',
   },
@@ -141,7 +141,7 @@ export default function AvisTiime() {
               La grande force de Tiime, c'est son plan gratuit. Contrairement à la plupart des concurrents qui limitent à 3 ou 5 factures par mois, Tiime propose des factures et devis en nombre illimité sans frais. C'est idéal pour démarrer son activité sans engager de budget.
             </p>
             <p className="text-gray-600 mb-6">
-              La synchronisation bancaire est également incluse dans le plan gratuit — ce qui est rare sur le marché. Vous pouvez connecter votre compte bancaire et rapprocher automatiquement vos paiements avec vos factures.
+              La synchronisation bancaire est également incluse dans le plan gratuit, ce qui est rare sur le marché. Vous pouvez connecter votre compte bancaire et rapprocher automatiquement vos paiements avec vos factures.
             </p>
 
             <h3 className="text-lg font-bold text-gray-900 mb-3">2. Interface et prise en main</h3>
@@ -156,7 +156,7 @@ export default function AvisTiime() {
 
             <h3 className="text-lg font-bold text-gray-900 mb-3">4. Ce qui manque vs Freebe</h3>
             <p className="text-gray-600 mb-6">
-              Tiime n'intègre pas de module de déclaration URSSAF — un point fort de <Link href="/comparatif/freebe" className="text-indigo-600 hover:underline">Freebe</Link>. Les relances automatiques sont également moins poussées. Si vous êtes auto-entrepreneur et souhaitez gérer vos cotisations directement depuis votre logiciel, Freebe reste le choix numéro un.
+              Tiime n'intègre pas de module de déclaration URSSAF, un point fort de <Link href="/comparatif/freebe" className="text-indigo-600 hover:underline">Freebe</Link>. Les relances automatiques sont également moins poussées. Si vous êtes auto-entrepreneur et souhaitez gérer vos cotisations directement depuis votre logiciel, Freebe reste le choix numéro un.
             </p>
           </section>
 
@@ -229,13 +229,13 @@ export default function AvisTiime() {
           </section>
 
           <div className="bg-emerald-600 rounded-2xl p-8 text-center text-white mb-10">
-            <h3 className="text-2xl font-bold mb-2">Essayez Tiime gratuitement — sans CB</h3>
+            <h3 className="text-2xl font-bold mb-2">Essayez Tiime gratuitement, sans CB</h3>
             <p className="text-emerald-200 mb-5">Plan de base illimité, sans engagement, sans carte bancaire.</p>
             <a href={AFFILIATE_URL} target="_blank" rel="nofollow sponsored noopener"
               className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl text-lg transition-all">
               Créer mon compte Tiime gratuit →
             </a>
-            <p className="text-xs text-emerald-300 mt-3">Lien affilié — nous percevons une commission si vous souscrivez au plan payant, sans surcoût pour vous.</p>
+            <p className="text-xs text-emerald-300 mt-3">Lien affilié : nous percevons une commission si vous souscrivez au plan payant, sans surcoût pour vous.</p>
           </div>
 
           <section className="mb-10">

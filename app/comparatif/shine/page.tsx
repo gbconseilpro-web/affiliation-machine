@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Notre avis sur Shine après test : compte bancaire pro + facturation intégrés, tarifs, avantages. Le meilleur combo pour freelances ?',
   alternates: { canonical: 'https://facturationpro.fr/comparatif/shine' },
   openGraph: {
-    title: 'Avis Shine 2026 — Test complet',
+    title: 'Avis Shine 2026 : Test complet',
     description: 'Test réel de Shine : compte pro + facturation intégrés, tarifs, avantages et inconvénients pour les freelances.',
     type: 'article',
   },
@@ -230,13 +230,13 @@ export default function AvisShine() {
           </section>
 
           <div className="bg-amber-600 rounded-2xl p-8 text-center text-white mb-10">
-            <h3 className="text-2xl font-bold mb-2">Ouvrez votre compte Shine — 1 mois offert</h3>
+            <h3 className="text-2xl font-bold mb-2">Ouvrez votre compte Shine, 1 mois offert</h3>
             <p className="text-amber-200 mb-5">IBAN français en 10 minutes. Carte Mastercard incluse.</p>
             <a href={AFFILIATE_URL} target="_blank" rel="nofollow sponsored noopener"
               className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl text-lg transition-all">
               Démarrer avec Shine →
             </a>
-            <p className="text-xs text-amber-300 mt-3">Lien affilié — nous percevons une commission si vous souscrivez, sans surcoût pour vous.</p>
+            <p className="text-xs text-amber-300 mt-3">Lien affilié : nous percevons une commission si vous souscrivez, sans surcoût pour vous.</p>
           </div>
 
           <section className="mb-10">

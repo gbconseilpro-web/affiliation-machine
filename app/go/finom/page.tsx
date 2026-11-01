@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Essayer Finom gratuitement — Compte pro + facturation tout-en-un',
+  title: 'Essayer Finom gratuitement : Compte pro + facturation tout-en-un',
   description: 'Finom : compte bancaire pro + logiciel de facturation en une seule app. Facturation illimitée, carte Mastercard, cashback. Testé par 100 000+ entrepreneurs européens.',
   robots: 'noindex, nofollow',
 }
@@ -25,7 +25,7 @@ export default function GoFinomPage() {
         {/* Badge */}
         <div className="bg-violet-100 text-violet-800 text-sm font-semibold px-4 py-2 rounded-full mb-6 flex items-center gap-2">
           <span>💳</span>
-          <span>1 mois offert sur tous les plans — sans engagement</span>
+          <span>1 mois offert sur tous les plans, sans engagement</span>
         </div>
 
         {/* Titre */}
@@ -38,7 +38,7 @@ export default function GoFinomPage() {
             <span className="text-violet-600">enfin réunis en une seule app</span>
           </h1>
           <p className="text-lg text-gray-600 max-w-xl mx-auto">
-            Ouvrez votre compte pro en 15 minutes, émettez des factures professionnelles et encaissez vos paiements — tout au même endroit.
+            Ouvrez votre compte pro en 15 minutes, émettez des factures professionnelles et encaissez vos paiements : tout au même endroit.
           </p>
         </div>
 
@@ -126,7 +126,7 @@ export default function GoFinomPage() {
 
       <footer className="py-4 text-center text-xs text-gray-400">
         <p>
-          FacturationPro est un site de comparaison indépendant. Ce lien est un lien affilié — nous pouvons percevoir une commission si vous souscrivez via ce lien, sans coût supplémentaire pour vous.{' '}
+          FacturationPro est un site de comparaison indépendant. Ce lien est un lien affilié : nous pouvons percevoir une commission si vous souscrivez via ce lien, sans coût supplémentaire pour vous.{' '}
           <Link href="/comparatif" className="underline">Voir notre comparatif complet</Link>
         </p>
       </footer>

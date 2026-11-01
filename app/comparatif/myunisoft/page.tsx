@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Notre avis sur MyUnisoft après test : logiciel comptabilité cloud pour cabinets d\'experts-comptables, tarifs, avantages. La révolution de la compta collaborative ?',
   alternates: { canonical: 'https://facturationpro.fr/comparatif/myunisoft' },
   openGraph: {
-    title: 'Avis MyUnisoft 2026 — Test complet',
+    title: 'Avis MyUnisoft 2026 : Test complet',
     description: 'Test réel de MyUnisoft : le logiciel comptabilité cloud pour cabinets d\'experts-comptables. Notre verdict complet.',
     type: 'article',
   },
@@ -135,7 +135,7 @@ export default function AvisMyUnisoft() {
 
             <h3 className="text-lg font-bold text-gray-900 mb-3">1. Comptabilité collaborative cloud</h3>
             <p className="text-gray-600 mb-4">
-              MyUnisoft est construit autour d&apos;un principe : la comptabilité en temps réel entre le cabinet et ses clients. Le portail client permet aux entrepreneurs de transmettre leurs documents directement dans le logiciel, de consulter leurs bilans et d&apos;échanger avec leur comptable — sans email ni pièce jointe.
+              MyUnisoft est construit autour d&apos;un principe : la comptabilité en temps réel entre le cabinet et ses clients. Le portail client permet aux entrepreneurs de transmettre leurs documents directement dans le logiciel, de consulter leurs bilans et d&apos;échanger avec leur comptable, sans email ni pièce jointe.
             </p>
 
             <h3 className="text-lg font-bold text-gray-900 mb-3">2. Liasse fiscale et conformité</h3>
@@ -236,7 +236,7 @@ export default function AvisMyUnisoft() {
               className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl text-lg transition-all">
               Demander une démo gratuite →
             </a>
-            <p className="text-xs text-indigo-300 mt-3">Lien affilié — nous percevons une commission si vous souscrivez, sans surcoût pour vous.</p>
+            <p className="text-xs text-indigo-300 mt-3">Lien affilié : nous percevons une commission si vous souscrivez, sans surcoût pour vous.</p>
           </div>
 
           {/* FAQ */}
@@ -246,7 +246,7 @@ export default function AvisMyUnisoft() {
               {[
                 {
                   q: 'MyUnisoft remplace-t-il un expert-comptable ?',
-                  a: 'Non — MyUnisoft est l\'outil de travail DE l\'expert-comptable, pas une alternative à ses services. Si vous cherchez à gérer votre propre comptabilité sans expert-comptable, orientez-vous vers Indy ou Pennylane qui sont conçus pour les dirigeants.',
+                  a: 'Non : MyUnisoft est l\'outil de travail DE l\'expert-comptable, pas une alternative à ses services. Si vous cherchez à gérer votre propre comptabilité sans expert-comptable, orientez-vous vers Indy ou Pennylane qui sont conçus pour les dirigeants.',
                 },
                 {
                   q: "MyUnisoft est-il homologué par l'Ordre des experts-comptables ?",
@@ -258,7 +258,7 @@ export default function AvisMyUnisoft() {
                 },
                 {
                   q: 'MyUnisoft propose-t-il une version d\'essai ?',
-                  a: 'MyUnisoft propose des démos guidées sur demande avec un conseiller. Il n\'y a pas d\'essai libre en autonomie — le produit nécessite une prise en main accompagnée compte tenu de sa richesse fonctionnelle. La démo est gratuite et sans engagement.',
+                  a: 'MyUnisoft propose des démos guidées sur demande avec un conseiller. Il n\'y a pas d\'essai libre en autonomie : le produit nécessite une prise en main accompagnée compte tenu de sa richesse fonctionnelle. La démo est gratuite et sans engagement.',
                 },
               ].map((faq, i) => (
                 <details key={i} className="bg-white border border-gray-200 rounded-xl p-5 group">

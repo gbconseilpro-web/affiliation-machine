@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: {
-    default: 'FacturationPro — Facturation électronique obligatoire 2026',
+    default: 'FacturationPro : Facturation électronique obligatoire 2026',
     template: '%s | FacturationPro',
   },
   description: 'Tout comprendre sur la facturation électronique obligatoire en France. Comparatif des meilleurs logiciels conformes, guide pratique et checklist de mise en conformité.',

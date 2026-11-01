@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Notre avis sur Pennylane après test réel : fonctionnalités, tarifs, avantages. La solution comptabilité + facturation tout-en-un pour TPE/PME ?',
   alternates: { canonical: 'https://facturationpro.fr/comparatif/pennylane' },
   openGraph: {
-    title: 'Avis Pennylane 2026 — Test complet',
+    title: 'Avis Pennylane 2026 : Test complet',
     description: 'Test réel de Pennylane : comptabilité intégrée, synchronisation bancaire, TVA automatisée. La solution tout-en-un pour TPE/PME.',
     type: 'article',
   },
@@ -161,7 +161,7 @@ export default function AvisPennylane() {
 
             <h3 className="text-lg font-bold text-gray-900 mb-3">3. Expert-comptable intégré</h3>
             <p className="text-gray-600 mb-6">
-              La fonctionnalité star de Pennylane : la possibilité d&apos;inviter votre expert-comptable directement dans la plateforme, ou d&apos;accéder à un réseau d&apos;experts-comptables partenaires. Fini les échanges de fichiers Excel — votre comptable voit exactement ce que vous voyez, en temps réel. Pour les entreprises soumises à la TVA et au bilan annuel, c&apos;est un gain de temps et d&apos;argent considérable.
+              La fonctionnalité star de Pennylane : la possibilité d&apos;inviter votre expert-comptable directement dans la plateforme, ou d&apos;accéder à un réseau d&apos;experts-comptables partenaires. Fini les échanges de fichiers Excel : votre comptable voit exactement ce que vous voyez, en temps réel. Pour les entreprises soumises à la TVA et au bilan annuel, c&apos;est un gain de temps et d&apos;argent considérable.
             </p>
 
             <h3 className="text-lg font-bold text-gray-900 mb-3">4. Gestion de la TVA</h3>
@@ -254,7 +254,7 @@ export default function AvisPennylane() {
               className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl text-lg transition-all">
               Commencer avec Pennylane →
             </a>
-            <p className="text-xs text-indigo-300 mt-3">Lien affilié — nous percevons une commission si vous souscrivez, sans surcoût pour vous.</p>
+            <p className="text-xs text-indigo-300 mt-3">Lien affilié : nous percevons une commission si vous souscrivez, sans surcoût pour vous.</p>
           </div>
 
           {/* FAQ */}

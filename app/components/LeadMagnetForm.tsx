@@ -33,7 +33,7 @@ export default function LeadMagnetForm() {
       >
         Télécharger le comparatif gratuit
       </button>
-      <p className="text-xs text-gray-400 text-center">Sans engagement — données protégées RGPD</p>
+      <p className="text-xs text-gray-400 text-center">Sans engagement, données protégées RGPD</p>
     </form>
   )
 }

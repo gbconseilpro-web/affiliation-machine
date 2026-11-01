@@ -4,7 +4,7 @@ import { getAllBlogPosts } from '@/lib/blog-posts'
 export const dynamic = 'force-static'
 
 export const metadata: Metadata = {
-  title: 'Blog — Guides et conseils facturation pour indépendants',
+  title: 'Blog : Guides et conseils facturation pour indépendants',
   description: 'Guides pratiques, comparatifs et conseils pour gérer votre facturation en tant que freelance ou auto-entrepreneur.',
   alternates: { canonical: 'https://facturationpro.fr/blog' },
 }

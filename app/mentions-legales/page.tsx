@@ -4,7 +4,7 @@ export const dynamic = 'force-static'
 
 export const metadata: Metadata = {
   title: 'Mentions légales',
-  description: 'Mentions légales du site FacturationPro.fr — éditeur, hébergeur, propriété intellectuelle.',
+  description: 'Mentions légales du site FacturationPro.fr : éditeur, hébergeur, propriété intellectuelle.',
   robots: 'noindex',
 }
 

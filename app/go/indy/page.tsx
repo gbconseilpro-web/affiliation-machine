@@ -6,7 +6,7 @@ const AFFILIATE_LINK = 'https://www.indy.fr/inscription?utm_source=facturationpr
 const AFFILIATE_LINK_CTA2 = 'https://www.indy.fr/inscription?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=go-indy-cta2'
 
 export const metadata: Metadata = {
-  title: 'Essayer Indy gratuitement — Comptabilité simplifiée pour indépendants',
+  title: 'Essayer Indy gratuitement : Comptabilité simplifiée pour indépendants',
   description: 'Indy : déclarations fiscales automatisées, catégorisation bancaire, idéal micro-entrepreneurs. 200 000+ indépendants font confiance à Indy.',
   robots: 'noindex, nofollow',
 }
@@ -20,7 +20,7 @@ const reviews = [
 const steps = [
   { num: '1', title: 'Créez votre compte', desc: 'Inscription en 2 minutes, aucune carte requise. Accès immédiat à la plateforme.' },
   { num: '2', title: 'Connectez votre banque', desc: 'Synchronisation sécurisée (DSP2) pour importer et catégoriser toutes vos transactions auto.' },
-  { num: '3', title: 'Pilotez votre compta', desc: 'Déclarations TVA, liasse fiscale, bilan — tout est généré et guidé étape par étape.' },
+  { num: '3', title: 'Pilotez votre compta', desc: 'Déclarations TVA, liasse fiscale, bilan : tout est généré et guidé étape par étape.' },
 ]
 
 export default function GoIndy() {
@@ -54,7 +54,7 @@ export default function GoIndy() {
             <span className="text-indigo-600">les indépendants français</span>
           </h1>
           <p className="text-lg text-gray-600 max-w-xl mx-auto">
-            Déclarations fiscales, TVA, bilan — Indy automatise votre comptabilité de A à Z. Rejoignez 200 000+ freelances qui ont simplifié leur gestion.
+            Déclarations fiscales, TVA, bilan : Indy automatise votre comptabilité de A à Z. Rejoignez 200 000+ freelances qui ont simplifié leur gestion.
           </p>
         </div>
 
@@ -104,7 +104,7 @@ export default function GoIndy() {
         {/* Fonctionnalités */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12">
           {[
-            { icon: '📋', title: 'Déclarations fiscales guidées', desc: 'IS, TVA, BNC/BIC — tout expliqué en langage simple, étape par étape.' },
+            { icon: '📋', title: 'Déclarations fiscales guidées', desc: 'IS, TVA, BNC/BIC : tout expliqué en langage simple, étape par étape.' },
             { icon: '🏷️', title: 'Catégorisation automatique', desc: 'Vos transactions classifiées en temps réel, sans saisie manuelle.' },
             { icon: '🛵', title: 'Taillé pour les micro-entrepreneurs', desc: 'Conçu spécifiquement pour le régime micro et la déclaration de CA.' },
           ].map((item) => (
@@ -155,7 +155,7 @@ export default function GoIndy() {
 
         {/* Disclaimer affilié */}
         <p className="text-xs text-gray-400 text-center max-w-lg mx-auto">
-          FacturationPro est un comparatif indépendant. Ce lien est un lien affilié — nous percevons une commission si vous souscrivez, sans surcoût pour vous.{' '}
+          FacturationPro est un comparatif indépendant. Ce lien est un lien affilié : nous percevons une commission si vous souscrivez, sans surcoût pour vous.{' '}
           <a href="/comparatif" className="underline">Voir notre comparatif complet</a>.
         </p>
       </main>

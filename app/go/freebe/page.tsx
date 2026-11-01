@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Essayer Freebe gratuitement — Logiciel de facturation n°1 pour freelances',
+  title: 'Essayer Freebe gratuitement : Logiciel de facturation n°1 pour freelances',
   description: 'Testez Freebe gratuitement : 3 factures/mois offertes, sans CB. Le logiciel de facturation préféré de 50 000+ freelances et auto-entrepreneurs français.',
   robots: 'noindex, nofollow',
 }
@@ -183,7 +183,7 @@ export default function GoFreebePage() {
             rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl transition-all hover:scale-105 mb-6"
           >
-            Commencer maintenant — c&apos;est gratuit
+            Commencer maintenant, c&apos;est gratuit
             <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
@@ -197,7 +197,7 @@ export default function GoFreebePage() {
 
         <footer className="py-4 text-center text-xs text-gray-400 px-4">
           <p>
-            FacturationPro est un site de comparaison indépendant. Ce lien est un lien affilié — nous pouvons percevoir une commission si vous souscrivez via ce lien, sans coût supplémentaire pour vous.{' '}
+            FacturationPro est un site de comparaison indépendant. Ce lien est un lien affilié : nous pouvons percevoir une commission si vous souscrivez via ce lien, sans coût supplémentaire pour vous.{' '}
             <Link href="/comparatif" className="underline">Voir notre comparatif complet</Link>
           </p>
         </footer>

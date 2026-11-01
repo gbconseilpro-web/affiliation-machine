@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Notre avis sur Freebe après test réel : fonctionnalités, tarifs, avantages et inconvénients. Le meilleur logiciel de facturation pour auto-entrepreneurs ?',
   alternates: { canonical: 'https://facturationpro.fr/comparatif/freebe' },
   openGraph: {
-    title: 'Avis Freebe 2026 — Test complet',
+    title: 'Avis Freebe 2026 : Test complet',
     description: 'Test réel de Freebe : fonctionnalités, tarifs, avantages et inconvénients du logiciel de facturation pour freelances.',
     type: 'article',
   },
@@ -163,7 +163,7 @@ export default function AvisFreebe() {
 
             <h3 className="text-lg font-bold text-gray-900 mb-3">3. Suivi des paiements et relances</h3>
             <p className="text-gray-600 mb-6">
-              Freebe excelle dans le suivi des impayés. Les relances automatiques sont personnalisables (délai, ton, fréquence) et fonctionnent vraiment — nous avons réduit nos délais de paiement de 15 jours en moyenne lors de notre test. Le tableau de bord trésorerie donne une vue claire en temps réel.
+              Freebe excelle dans le suivi des impayés. Les relances automatiques sont personnalisables (délai, ton, fréquence) et fonctionnent vraiment, nous avons réduit nos délais de paiement de 15 jours en moyenne lors de notre test. Le tableau de bord trésorerie donne une vue claire en temps réel.
             </p>
 
             <h3 className="text-lg font-bold text-gray-900 mb-3">4. Application mobile</h3>
@@ -241,7 +241,7 @@ export default function AvisFreebe() {
               Freebe est notre <strong>logiciel de facturation n°1 pour les freelances et auto-entrepreneurs</strong> en 2026. Son interface est la plus soignée du marché, et les fonctionnalités ciblées sur ce public (URSSAF, portail client, relances auto) sont vraiment utiles au quotidien.
             </p>
             <p className="text-gray-600 mb-4">
-              À 9,90€/mois — moins qu'un abonnement Spotify — c'est un investissement qui se rembourse dès la première facture relancée et payée. L'essai gratuit 30 jours sans carte bancaire ne laisse aucune excuse pour ne pas le tester.
+              À 9,90€/mois, moins qu'un abonnement Spotify, c'est un investissement qui se rembourse dès la première facture relancée et payée. L'essai gratuit 30 jours sans carte bancaire ne laisse aucune excuse pour ne pas le tester.
             </p>
             <p className="text-gray-600">
               <strong>La seule limite :</strong> Freebe n'est pas un logiciel de comptabilité complète. Si vous avez besoin de liasse fiscale ou de bilans, orientez-vous vers <Link href="/comparatif/pennylane" className="text-indigo-600 hover:underline">Pennylane</Link> ou <Link href="/comparatif/indy" className="text-indigo-600 hover:underline">Indy</Link>.
@@ -256,7 +256,7 @@ export default function AvisFreebe() {
               className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl text-lg transition-all">
               Commencer l'essai gratuit →
             </a>
-            <p className="text-xs text-indigo-300 mt-3">Lien affilié — nous percevons une commission si vous souscrivez, sans surcoût pour vous.</p>
+            <p className="text-xs text-indigo-300 mt-3">Lien affilié : nous percevons une commission si vous souscrivez, sans surcoût pour vous.</p>
           </div>
 
           {/* FAQ */}
@@ -266,7 +266,7 @@ export default function AvisFreebe() {
               {[
                 { q: 'Freebe est-il vraiment gratuit ?', a: 'Freebe propose un plan gratuit limité à 3 factures par mois. Pour un usage professionnel illimité, le plan Solo à 9,90€/mois est recommandé. Un essai gratuit de 30 jours (sans CB) est disponible sur le plan Solo.' },
                 { q: 'Freebe est-il conforme à la loi française ?', a: 'Oui. Freebe génère des factures conformes aux exigences légales françaises (mentions obligatoires, numérotation séquentielle, NF Z42-026 pour les auto-entrepreneurs). Le logiciel est mis à jour en fonction des évolutions réglementaires.' },
-                { q: 'Peut-on utiliser Freebe pour la TVA ?', a: 'Freebe gère la TVA sur les factures (20%, 10%, 5,5%, 0%). En revanche, il ne produit pas de déclaration de TVA complète — pour cela, référez-vous à votre expert-comptable ou utilisez Pennylane/Indy.' },
+                { q: 'Peut-on utiliser Freebe pour la TVA ?', a: 'Freebe gère la TVA sur les factures (20%, 10%, 5,5%, 0%). En revanche, il ne produit pas de déclaration de TVA complète : pour cela, référez-vous à votre expert-comptable ou utilisez Pennylane/Indy.' },
                 { q: 'Freebe fonctionne-t-il sur mobile ?', a: 'Oui. Freebe dispose d\'applications iOS (App Store) et Android (Google Play) complètes, notées 4,7/5. Vous pouvez créer des factures, suivre les paiements et enregistrer des dépenses depuis votre smartphone.' },
               ].map((faq, i) => (
                 <details key={i} className="bg-white border border-gray-200 rounded-xl p-5 group">

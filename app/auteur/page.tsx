@@ -44,7 +44,7 @@ export default function AuteurPage() {
           <section className="card p-6">
             <h2 className="text-2xl font-bold mb-4">Qui rédige ces comparatifs ?</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Je suis <strong>{AUTHOR_NAME}</strong> — {AUTHOR_DESCRIPTION}.
+              Je suis <strong>{AUTHOR_NAME}</strong>, {AUTHOR_DESCRIPTION}.
             </p>
             <p className="text-gray-700 leading-relaxed">
               Chaque comparatif publié sur ce site résulte d&apos;une évaluation personnelle,

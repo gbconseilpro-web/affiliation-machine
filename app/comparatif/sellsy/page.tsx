@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Notre avis sur Sellsy après test : CRM + facturation + trésorerie, tarifs, avantages. La solution tout-en-un pour les PME qui veulent tout gérer depuis un seul outil ?',
   alternates: { canonical: 'https://facturationpro.fr/comparatif/sellsy' },
   openGraph: {
-    title: 'Avis Sellsy 2026 — Test complet',
+    title: 'Avis Sellsy 2026 : Test complet',
     description: 'Test réel de Sellsy : CRM + facturation + trésorerie, tarifs, avantages et inconvénients pour les PME.',
     type: 'article',
   },
@@ -56,7 +56,7 @@ export default function AvisSellsy() {
               Avis Sellsy 2026 : notre test complet du CRM + facturation tout-en-un
             </h1>
             <p className="text-lg text-gray-600 mb-6">
-              Sellsy n'est pas qu'un logiciel de facturation — c'est une plateforme CRM + facturation + trésorerie en un seul outil. Après 30 jours de test intensif, voici notre avis complet pour les PME françaises.
+              Sellsy n'est pas qu'un logiciel de facturation : c'est une plateforme CRM + facturation + trésorerie en un seul outil. Après 30 jours de test intensif, voici notre avis complet pour les PME françaises.
             </p>
             <div className="bg-blue-50 border border-blue-100 rounded-2xl p-5 flex flex-col sm:flex-row items-center gap-5">
               <div className="text-center">
@@ -95,7 +95,7 @@ export default function AvisSellsy() {
               <h2 className="font-bold text-red-800 mb-3">❌ Limites</h2>
               <ul className="space-y-2 text-sm text-gray-700">
                 <li>• Prix élevé pour les petites structures (dès 29€/mois)</li>
-                <li>• Courbe d'apprentissage importante — prise en main longue</li>
+                <li>• Courbe d'apprentissage importante, prise en main longue</li>
                 <li>• Moins adapté aux freelances solo</li>
                 <li>• Configuration initiale chronophage (1 à 2 semaines)</li>
               </ul>
@@ -242,7 +242,7 @@ export default function AvisSellsy() {
               className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-xl text-lg transition-all">
               Démarrer l'essai gratuit Sellsy →
             </a>
-            <p className="text-xs text-blue-300 mt-3">Lien affilié — nous percevons une commission si vous souscrivez, sans surcoût pour vous.</p>
+            <p className="text-xs text-blue-300 mt-3">Lien affilié : nous percevons une commission si vous souscrivez, sans surcoût pour vous.</p>
           </div>
 
           <section className="mb-10">

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Essayer Shine — Le compte pro et facturation pour freelances modernes',
+  title: 'Essayer Shine : Le compte pro et facturation pour freelances modernes',
   description: 'Testez Shine : compte pro + facturation intégrés, IBAN français immédiat, app mobile 5 étoiles. Le combo parfait pour les freelances et indépendants.',
   robots: 'noindex, nofollow',
 }
@@ -24,7 +24,7 @@ export default function GoShine() {
       <main className="flex-1 flex flex-col items-center justify-center px-4 py-8">
         <div className="bg-amber-100 text-amber-800 text-sm font-semibold px-4 py-2 rounded-full mb-6 flex items-center gap-2">
           <span>⚡</span>
-          <span>Compte pro ouvert en 10 minutes — IBAN français immédiat</span>
+          <span>Compte pro ouvert en 10 minutes, IBAN français immédiat</span>
         </div>
 
         <div className="text-center mb-8">
@@ -105,7 +105,7 @@ export default function GoShine() {
       </main>
 
       <footer className="py-4 text-center text-xs text-gray-400">
-        <p>FacturationPro est un site de comparaison indépendant. Ce lien est un lien affilié — nous pouvons percevoir une commission si vous souscrivez via ce lien, sans coût supplémentaire pour vous.{' '}
+        <p>FacturationPro est un site de comparaison indépendant. Ce lien est un lien affilié : nous pouvons percevoir une commission si vous souscrivez via ce lien, sans coût supplémentaire pour vous.{' '}
         <Link href="/comparatif" className="underline">Voir notre comparatif complet</Link></p>
       </footer>
     </div>

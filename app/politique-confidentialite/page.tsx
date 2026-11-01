@@ -4,7 +4,7 @@ export const dynamic = 'force-static'
 
 export const metadata: Metadata = {
   title: 'Politique de confidentialité',
-  description: 'Politique de confidentialité de FacturationPro.fr — données collectées, droits RGPD, cookies.',
+  description: 'Politique de confidentialité de FacturationPro.fr : données collectées, droits RGPD, cookies.',
   robots: 'noindex',
 }
 
@@ -53,8 +53,8 @@ export default function PolitiqueConfidentialite() {
           <h2 className="text-base font-semibold text-gray-900 mb-3">5. Partage des données</h2>
           <p>Vos données ne sont <strong>jamais vendues ni louées</strong> à des tiers. Elles peuvent être partagées avec :</p>
           <ul className="mt-2 space-y-1 list-disc list-inside">
-            <li>OVHcloud (hébergeur) — dans le cadre strict de la prestation d&apos;hébergement</li>
-            <li>Google (Search Console) — données agrégées anonymisées uniquement</li>
+            <li>OVHcloud (hébergeur) : dans le cadre strict de la prestation d&apos;hébergement</li>
+            <li>Google (Search Console) : données agrégées anonymisées uniquement</li>
           </ul>
           <p className="mt-2">Les réseaux d&apos;affiliation (AWIN) peuvent déposer un cookie de tracking lorsque vous cliquez sur un lien affilié, conformément à leurs propres politiques de confidentialité.</p>
         </section>
