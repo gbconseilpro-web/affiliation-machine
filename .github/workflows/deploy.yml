@@ -19,8 +19,10 @@ jobs:
             set -e
             cd /home/ubuntu/affiliation-machine
 
-            echo "==> Git pull"
-            git pull origin main
+            echo "==> Git sync propre"
+            git fetch origin main
+            git reset --hard origin/main
+            git clean -fd
 
             echo "==> npm install (clean)"
             npm ci --omit=dev || npm install
