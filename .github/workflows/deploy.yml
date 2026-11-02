@@ -18,7 +18,7 @@ jobs:
           script: |
             cd /home/ubuntu/affiliation-machine
             git pull origin main
-            npm ci --omit=dev
+            npm ci
             npm run build
             cp -r .next/static .next/standalone/.next/static
             cp -r public .next/standalone/public
