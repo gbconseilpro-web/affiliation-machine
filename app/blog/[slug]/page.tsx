@@ -68,7 +68,7 @@ export default function BlogPostPage({ params }: Props) {
       '@type': 'WebPage',
       '@id': `https://facturationpro.com/blog/${post.slug}`,
     },
-    keywords: post.keywords.join(', '),
+    keywords: post.keywords?.join(', ') ?? '',
   }
 
   const breadcrumbSchema = {
