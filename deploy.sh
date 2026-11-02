@@ -1,17 +1,27 @@
 #!/bin/bash
 set -e
-cd /home/ubuntu/affiliation-machine
-echo "=== Pull latest code ==="
+
+APP_DIR="/home/ubuntu/affiliation-machine"
+PM2_NAME="affiliation"
+
+echo "==> Pull latest from main..."
+cd "$APP_DIR"
 git pull origin main
-echo "=== Install dependencies ==="
-npm install
-echo "=== Build Next.js ==="
+
+echo "==> Install dependencies..."
+npm ci --omit=dev
+
+echo "==> Build Next.js..."
 npm run build
-echo "=== Copy static files to standalone ==="
-cp -r .next/static .next/standalone/.next/
-chmod --recursive a+rx .next/standalone/.next/static/
-chmod o+x /home/ubuntu
-echo "=== Restart PM2 ==="
-pm2 restart affiliation
-sudo systemctl reload nginx
-echo "=== Deploy done ==="
+
+echo "==> Copy static files (standalone mode)..."
+cp -r .next/static .next/standalone/.next/static
+cp -r public .next/standalone/public
+
+echo "==> Restart PM2..."
+pm2 restart "$PM2_NAME" || pm2 start .next/standalone/server.js --name "$PM2_NAME" --env production
+
+echo "==> Save PM2 state..."
+pm2 save
+
+echo "==> Done. Site live at https://facturationpro.com"

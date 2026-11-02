@@ -1,57 +1,27 @@
 name: Deploy to VPS
+
 on:
   push:
-    branches: [main]
-  workflow_dispatch:
+    branches:
+      - main
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v1.0.3
         with:
-          host: ${{ secrets.VPS_HOST }}
+          host: 149.56.210.132
           username: ubuntu
-          password: ${{ secrets.VPS_PASSWORD }}
+          key: ${{ secrets.VPS_SSH_KEY }}
           script: |
-            set -e
             cd /home/ubuntu/affiliation-machine
-
-            echo "==> Git sync propre"
-            git fetch origin main
-            git reset --hard origin/main
-            git clean -fd
-
-            echo "==> npm install (clean)"
-            npm ci --omit=dev || npm install
-
-            echo "==> Build Next.js"
+            git pull origin main
+            npm ci --omit=dev
             npm run build
-
-            echo "==> Copie assets standalone"
             cp -r .next/static .next/standalone/.next/static
             cp -r public .next/standalone/public
-
-            # node_modules du projet -> standalone pour les modules manquants au runtime
-            # Next standalone ne bundle pas tout : sharp, certains loaders dynamiques
-            if [ -d node_modules ]; then
-              rsync -a --ignore-existing node_modules/ .next/standalone/node_modules/ 2>/dev/null || true
-            fi
-
-            if [ -d agents ]; then cp -r agents .next/standalone/agents; fi
-
-            echo "==> .env -> standalone"
-            if [ -f .env ]; then cp .env .next/standalone/.env; fi
-            if [ -f .env.local ]; then cp .env.local .next/standalone/.env.local; fi
-
-            echo "==> Restart pm2"
-            pm2 restart affiliation || pm2 start .next/standalone/server.js --name affiliation --cwd .next/standalone
+            pm2 restart affiliation || pm2 start .next/standalone/server.js --name affiliation --env production
             pm2 save
-
-            echo "==> Health check"
-            sleep 3
-            curl -sf http://localhost:3000 > /dev/null && echo "OK: port 3000 repond" || echo "WARN: port 3000 ne repond pas encore"
-
-            echo "==> Deploy done $(date)"
+            echo "Deploy OK"
