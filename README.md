@@ -93,3 +93,4 @@ pm2 start npm --name "monsite" -- start
 - [ ] Agents Python autonomes (Research, Content, SEO, Analytics)
 - [ ] CI/CD GitHub Actions → VPS OVH
 - [ ] Dashboard monitoring revenus
+
