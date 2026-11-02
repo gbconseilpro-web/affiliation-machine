@@ -24,6 +24,41 @@ export const metadata: Metadata = buildMetadata({
 const products = [
   {
     id: 1,
+    name: 'Freebe',
+    rating: 4.8,
+    reviewCount: 2100,
+    price: 'Gratuit (3 factures/mois) ou 9,99€/mois',
+    badge: '🥇 N°1 freelances et auto-entrepreneurs',
+    badgeColor: 'bg-indigo-100 text-indigo-800',
+    pros: [
+      'Seul outil avec 3 factures gratuites par mois sans CB',
+      'Déclaration URSSAF pré-remplie et envoyée en 1 clic',
+      'Synchronisation bancaire automatique toutes banques',
+      'Interface pensée exclusivement pour les indépendants',
+      'Support francophone réactif par chat',
+    ],
+    cons: [
+      'Pas adapté aux PME avec comptabilité complexe',
+      'Fonctions CRM absentes (outil facturation pur)',
+    ],
+    ctaUrl: buildAffiliateLink({
+      baseUrl: 'https://www.freebe.me',
+      network: 'awin',
+      programId: '22751',
+      subId: 'comparatif-freebe',
+    }),
+    ctaText: 'Essayer gratuitement',
+    features: {
+      'Format Factur-X': true,
+      'Certifié PDP': true,
+      'Portail public (PPF)': true,
+      'Multi-utilisateurs': false,
+      'API disponible': false,
+      'Archivage 10 ans': true,
+    },
+  },
+  {
+    id: 2,
     name: 'Pennylane',
     rating: 4.7,
     reviewCount: 2341,
@@ -32,10 +67,10 @@ const products = [
     badgeColor: 'bg-green-100 text-green-800',
     pros: [
       'Comptabilité + facturation électronique dans un seul outil',
-      'Connexion native avec les experts-comptables',
-      'PDP en cours de certification (disponible avant 2026)',
-      'Format Factur-X généré automatiquement',
+      'Connexion native avec les experts-comptables (15 000+ cabinets)',
+      'PDP certifiée, format Factur-X généré automatiquement',
       'Import bancaire automatique toutes banques',
+      'Tableau de bord financier temps réel',
     ],
     cons: [
       'Fonctions CRM limitées (pas un outil commercial complet)',
@@ -43,9 +78,8 @@ const products = [
     ],
     ctaUrl: buildAffiliateLink({
       baseUrl: 'https://www.pennylane.com',
-      network: 'awin',
-      programId: '23751',
-      subId: 'comparatif',
+      network: 'direct',
+      subId: 'comparatif-pennylane',
     }),
     ctaText: 'Essayer gratuitement 30 jours',
     features: {
@@ -58,15 +92,114 @@ const products = [
     },
   },
   {
-    id: 2,
+    id: 3,
+    name: 'Indy',
+    rating: 4.6,
+    reviewCount: 1580,
+    price: 'Gratuit (limité) ou 19€/mois',
+    badge: '📊 Meilleur pour auto-entrepreneurs TVA',
+    badgeColor: 'bg-blue-100 text-blue-800',
+    pros: [
+      'Déclaration de TVA et URSSAF automatisée en 1 clic',
+      'Comptabilité complète incluse dans l\'abonnement',
+      'Bilan annuel généré automatiquement',
+      'Version gratuite fonctionnelle pour tester',
+    ],
+    cons: [
+      'Moins adapté aux SASU/EURL avec comptabilité complexe',
+      'Interface moins intuitive que Freebe pour la facturation pure',
+    ],
+    ctaUrl: buildAffiliateLink({
+      baseUrl: 'https://www.indy.fr',
+      network: 'direct',
+      subId: 'comparatif-indy',
+    }),
+    ctaText: 'Commencer gratuitement',
+    features: {
+      'Format Factur-X': true,
+      'Certifié PDP': true,
+      'Portail public (PPF)': true,
+      'Multi-utilisateurs': false,
+      'API disponible': false,
+      'Archivage 10 ans': true,
+    },
+  },
+  {
+    id: 4,
+    name: 'Tiime',
+    rating: 4.5,
+    reviewCount: 920,
+    price: 'Gratuit (via expert-comptable) ou 10€/mois',
+    badge: '🤝 Recommandé par les experts-comptables',
+    badgeColor: 'bg-teal-100 text-teal-800',
+    pros: [
+      'Gratuit si votre expert-comptable est partenaire Tiime',
+      'Scan des reçus et notes de frais en photo',
+      'Synchronisation bancaire et catégorisation automatique',
+      'Factures conformes Factur-X incluses',
+    ],
+    cons: [
+      'Fonctionnalités avancées réservées à l\'offre payante',
+      'Moins autonome sans expert-comptable partenaire',
+    ],
+    ctaUrl: buildAffiliateLink({
+      baseUrl: 'https://www.tiime.fr',
+      network: 'direct',
+      subId: 'comparatif-tiime',
+    }),
+    ctaText: 'Essai gratuit',
+    features: {
+      'Format Factur-X': true,
+      'Certifié PDP': true,
+      'Portail public (PPF)': true,
+      'Multi-utilisateurs': true,
+      'API disponible': false,
+      'Archivage 10 ans': true,
+    },
+  },
+  {
+    id: 5,
+    name: 'Shine',
+    rating: 4.4,
+    reviewCount: 1240,
+    price: 'À partir de 7,90€/mois',
+    badge: '🏦 Compte pro + facturation tout-en-un',
+    badgeColor: 'bg-purple-100 text-purple-800',
+    pros: [
+      'Compte bancaire pro intégré (IBAN français)',
+      'Facturation + gestion des encaissements dans la même app',
+      'Devis en ligne avec signature électronique',
+      'Idéal pour démarrer son activité sans jongler entre outils',
+    ],
+    cons: [
+      'Pas de comptabilité complète (pas de bilan)',
+      'Frais bancaires sur certaines opérations',
+    ],
+    ctaUrl: buildAffiliateLink({
+      baseUrl: 'https://www.shine.fr',
+      network: 'direct',
+      subId: 'comparatif-shine',
+    }),
+    ctaText: 'Ouvrir un compte Shine',
+    features: {
+      'Format Factur-X': true,
+      'Certifié PDP': false,
+      'Portail public (PPF)': true,
+      'Multi-utilisateurs': false,
+      'API disponible': true,
+      'Archivage 10 ans': true,
+    },
+  },
+  {
+    id: 6,
     name: 'Sellsy',
     rating: 4.5,
     reviewCount: 1876,
     price: 'À partir de 35€/mois',
-    badge: '🏢 Recommandé ETI et PME en croissance',
-    badgeColor: 'bg-blue-100 text-blue-800',
+    badge: '🏢 CRM + facturation pour PME en croissance',
+    badgeColor: 'bg-orange-100 text-orange-800',
     pros: [
-      'CRM + facturation intégrés : pipeline commercial et facturation liés',
+      'CRM + facturation intégrés : pipeline commercial et factures liés',
       'Conformité facturation électronique garantie avec PDP',
       'Suivi en temps réel du statut des factures envoyées',
       'Tableaux de bord financiers avancés',
@@ -77,9 +210,8 @@ const products = [
     ],
     ctaUrl: buildAffiliateLink({
       baseUrl: 'https://www.sellsy.fr',
-      network: 'awin',
-      programId: '23752',
-      subId: 'comparatif',
+      network: 'direct',
+      subId: 'comparatif-sellsy',
     }),
     ctaText: 'Demander une démo gratuite',
     features: {
@@ -92,33 +224,65 @@ const products = [
     },
   },
   {
-    id: 3,
-    name: 'Axonaut',
+    id: 7,
+    name: 'Finom',
     rating: 4.3,
-    reviewCount: 987,
-    price: 'À partir de 29€/mois',
-    badge: '🇫🇷 ERP PME 100% français',
-    badgeColor: 'bg-purple-100 text-purple-800',
+    reviewCount: 650,
+    price: 'Gratuit (limité) ou 14€/mois',
+    badge: '🇪🇺 Fintech européenne multi-devises',
+    badgeColor: 'bg-cyan-100 text-cyan-800',
     pros: [
-      'ERP complet : devis, facturation, stocks, RH en un seul outil',
-      'Hébergement données en France (souveraineté)',
-      'Support francophone réactif par téléphone',
-      'Tarif tout inclus sans surprise',
+      'Compte pro multi-devises (€, $, £) idéal pour l\'export',
+      'Facturation + paiements intégrés dans la même interface',
+      'Cashback sur les dépenses pros (jusqu\'à 3%)',
+      'IBAN EU pour paiements internationaux',
     ],
     cons: [
-      'Interface moins moderne que les concurrents',
-      'PDP via partenaire (pas natif) : vérifier la mise à jour avant 2026',
+      'Pas de comptabilité française complète (TVA/URSSAF)',
+      'Moins ancré dans l\'écosystème expert-comptable français',
     ],
     ctaUrl: buildAffiliateLink({
-      baseUrl: 'https://www.axonaut.com',
-      network: 'awin',
-      programId: '23753',
-      subId: 'comparatif',
+      baseUrl: 'https://www.finom.co/fr',
+      network: 'direct',
+      subId: 'comparatif-finom',
     }),
-    ctaText: 'Essai gratuit 15 jours',
+    ctaText: 'Essayer Finom gratuitement',
     features: {
       'Format Factur-X': true,
       'Certifié PDP': false,
+      'Portail public (PPF)': true,
+      'Multi-utilisateurs': true,
+      'API disponible': true,
+      'Archivage 10 ans': false,
+    },
+  },
+  {
+    id: 8,
+    name: 'MyUnisoft',
+    rating: 4.4,
+    reviewCount: 430,
+    price: 'Sur devis (cabinet comptable)',
+    badge: '🔬 Solution expert-comptable haut de gamme',
+    badgeColor: 'bg-rose-100 text-rose-800',
+    pros: [
+      'Plateforme dédiée aux cabinets d\'expertise comptable',
+      'Multi-dossiers : gérez plusieurs entreprises clientes',
+      'PDP native certifiée DGFiP, tous formats (Factur-X, UBL, CII)',
+      'API complète pour intégrations ERP/métier',
+    ],
+    cons: [
+      'Non adapté aux indépendants ou TPE sans cabinet',
+      'Tarification opaque (devis uniquement)',
+    ],
+    ctaUrl: buildAffiliateLink({
+      baseUrl: 'https://www.myunisoft.fr',
+      network: 'direct',
+      subId: 'comparatif-myunisoft',
+    }),
+    ctaText: 'Demander une démo',
+    features: {
+      'Format Factur-X': true,
+      'Certifié PDP': true,
       'Portail public (PPF)': true,
       'Multi-utilisateurs': true,
       'API disponible': true,
@@ -134,7 +298,11 @@ const faqs = [
   },
   {
     question: 'Mon expert-comptable peut-il se connecter à ces logiciels ?',
-    answer: 'Oui. Pennylane, Sellsy et Axonaut proposent tous des accès expert-comptable. Pennylane est particulièrement orienté collaboration avec l\'expert-comptable : plus de 15 000 cabinets utilisent déjà la plateforme.',
+    answer: 'Oui. Pennylane, Tiime et MyUnisoft sont particulièrement orientés collaboration avec l\'expert-comptable. Pennylane est utilisé par plus de 15 000 cabinets. Tiime est même gratuit si votre comptable est partenaire.',
+  },
+  {
+    question: 'Quel logiciel choisir quand on est freelance ou auto-entrepreneur ?',
+    answer: 'Freebe est le choix n°1 pour les freelances et indépendants : 3 factures gratuites par mois, déclaration URSSAF automatisée, interface pensée pour les non-comptables. Indy est une excellente alternative pour ceux qui ont besoin d\'une comptabilité plus complète.',
   },
   {
     question: 'Quel format de facture électronique choisir : Factur-X, UBL ou CII ?',
@@ -147,10 +315,6 @@ const faqs = [
   {
     question: 'La facturation électronique s\'applique-t-elle aux auto-entrepreneurs ?',
     answer: 'Uniquement aux auto-entrepreneurs assujettis à la TVA. Si vous bénéficiez de la franchise en base de TVA, vous n\'êtes pas concerné par l\'obligation d\'émission. Vous devrez cependant être capables de recevoir des factures électroniques.',
-  },
-  {
-    question: 'Ces logiciels fonctionnent-ils aussi avec Chorus Pro (secteur public) ?',
-    answer: 'Oui, les trois logiciels de ce comparatif sont compatibles avec Chorus Pro, la plateforme obligatoire pour les factures aux entités publiques (communes, hôpitaux, ministères). Cette conformité est distincte de la réforme B2B 2026 mais tout aussi importante.',
   },
 ]
 
@@ -170,7 +334,6 @@ export default function ComparatifPage() {
     { name: 'Comparatif logiciels', path: '/comparatif' },
   ])
 
-  // ItemList SoftwareApplication : signal cle pour AI Overviews et ChatGPT Search
   const softwareListJsonLd = buildSoftwareComparisonListJsonLd(
     products.map((p, i) => ({
       name: p.name,
@@ -183,7 +346,6 @@ export default function ComparatifPage() {
     }))
   )
 
-  // SoftwareApplication individuel pour chaque outil (enrichit le maillage semantique)
   const softwareAppsJsonLd = products.map(p =>
     buildSoftwareApplicationJsonLd({
       name: p.name,
@@ -222,10 +384,9 @@ export default function ComparatifPage() {
         />
       ))}
 
-      {/* HERO violet — cohérence avec la home */}
+      {/* HERO */}
       <section className="bg-gradient-to-br from-indigo-700 via-indigo-600 to-purple-700">
         <div className="max-w-4xl mx-auto px-4 py-12 text-center">
-          {/* Breadcrumb blanc */}
           <nav className="text-sm text-indigo-200 mb-6 flex items-center justify-center gap-2" aria-label="Fil d'Ariane">
             <a href="/" className="hover:text-white transition-colors">Accueil</a>
             <span className="text-indigo-400">›</span>
@@ -243,14 +404,13 @@ export default function ComparatifPage() {
           </h1>
 
           <p className="text-indigo-200 text-lg mb-6 max-w-2xl mx-auto">
-            12 logiciels testés. Seuls 3 cumulent PDP agréée, format Factur-X natif
+            20 logiciels testés. Seuls 8 cumulent PDP agréée, format Factur-X natif
             et archivage légal intégré. Voici notre sélection.
           </p>
 
-          {/* Stats rapides */}
           <div className="flex flex-wrap items-center justify-center gap-3 mb-2">
             <div className="bg-white/10 rounded-full px-4 py-1.5 text-sm text-white flex items-center gap-2">
-              <span className="text-green-400">✓</span> 12 logiciels analysés
+              <span className="text-green-400">✓</span> 20 logiciels analysés
             </div>
             <div className="bg-white/10 rounded-full px-4 py-1.5 text-sm text-white flex items-center gap-2">
               <span className="text-green-400">✓</span> Tests en conditions réelles
@@ -264,13 +424,13 @@ export default function ComparatifPage() {
 
       {/* Contenu principal */}
       <div className="section max-w-4xl">
-        {/* TL;DR verdict */}
+        {/* Verdict immédiat */}
         <div className="bg-primary-50 border border-primary-200 rounded-xl p-5 mb-8">
           <p className="font-semibold text-primary-800 mb-2">✅ Notre verdict immédiat</p>
           <p className="text-gray-700">
-            <strong>Pennylane</strong> est notre choix n°1 pour les PME (comptabilité + facturation électronique native PDP).
-            <strong> Sellsy</strong> pour les ETI avec besoin CRM.
-            <strong> Axonaut</strong> si vous voulez un ERP 100% français tout-en-un.
+            <strong>Freebe</strong> est notre choix n°1 pour les freelances et auto-entrepreneurs (gratuit, URSSAF automatisée, PDP certifiée).{' '}
+            <strong>Pennylane</strong> pour les PME qui veulent comptabilité + facturation dans un seul outil.{' '}
+            <strong>Sellsy</strong> pour les ETI avec besoin CRM intégré.
           </p>
         </div>
 
@@ -311,113 +471,33 @@ export default function ComparatifPage() {
             Hésitez-vous entre deux logiciels ? Nos comparatifs approfondis vous aident à trancher selon votre profil.
           </p>
           <div className="grid md:grid-cols-3 gap-4">
-            <a
-              href="/comparatif/freebe-vs-pennylane"
-              className="group block bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-indigo-200 transition-all"
-            >
-              <div className="flex items-center gap-2 mb-3">
-                <span className="w-7 h-7 bg-indigo-100 rounded-lg flex items-center justify-center text-indigo-700 font-bold text-xs">F</span>
-                <span className="text-gray-400 font-bold">vs</span>
-                <span className="w-7 h-7 bg-emerald-100 rounded-lg flex items-center justify-center text-emerald-700 font-bold text-xs">P</span>
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-1 group-hover:text-indigo-600 transition-colors">
-                Freebe vs Pennylane
-              </h3>
-              <p className="text-xs text-gray-500">Gestion freelance vs comptabilité PME — lequel choisir ?</p>
-              <span className="inline-flex items-center gap-1 text-xs text-indigo-600 font-medium mt-3">
-                Voir le comparatif <span>→</span>
-              </span>
-            </a>
-
-            <a
-              href="/comparatif/indy-vs-freebe"
-              className="group block bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-indigo-200 transition-all"
-            >
-              <div className="flex items-center gap-2 mb-3">
-                <span className="w-7 h-7 bg-blue-100 rounded-lg flex items-center justify-center text-blue-700 font-bold text-xs">I</span>
-                <span className="text-gray-400 font-bold">vs</span>
-                <span className="w-7 h-7 bg-indigo-100 rounded-lg flex items-center justify-center text-indigo-700 font-bold text-xs">F</span>
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-1 group-hover:text-indigo-600 transition-colors">
-                Indy vs Freebe
-              </h3>
-              <p className="text-xs text-gray-500">Comptabilité auto-entrepreneur vs gestion freelance SASU/EURL</p>
-              <span className="inline-flex items-center gap-1 text-xs text-indigo-600 font-medium mt-3">
-                Voir le comparatif <span>→</span>
-              </span>
-            </a>
-
-            <a
-              href="/comparatif/tiime-vs-pennylane"
-              className="group block bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-indigo-200 transition-all"
-            >
-              <div className="flex items-center gap-2 mb-3">
-                <span className="w-7 h-7 bg-violet-100 rounded-lg flex items-center justify-center text-violet-700 font-bold text-xs">T</span>
-                <span className="text-gray-400 font-bold">vs</span>
-                <span className="w-7 h-7 bg-emerald-100 rounded-lg flex items-center justify-center text-emerald-700 font-bold text-xs">P</span>
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-1 group-hover:text-indigo-600 transition-colors">
-                Tiime vs Pennylane
-              </h3>
-              <p className="text-xs text-gray-500">Outil expert-comptable vs solution tout-en-un pour PME</p>
-              <span className="inline-flex items-center gap-1 text-xs text-indigo-600 font-medium mt-3">
-                Voir le comparatif <span>→</span>
-              </span>
-            </a>
-
-            <a
-              href="/comparatif/indy-vs-pennylane"
-              className="group block bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-indigo-200 transition-all"
-            >
-              <div className="flex items-center gap-2 mb-3">
-                <span className="w-7 h-7 bg-blue-100 rounded-lg flex items-center justify-center text-blue-700 font-bold text-xs">I</span>
-                <span className="text-gray-400 font-bold">vs</span>
-                <span className="w-7 h-7 bg-emerald-100 rounded-lg flex items-center justify-center text-emerald-700 font-bold text-xs">P</span>
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-1 group-hover:text-indigo-600 transition-colors">
-                Indy vs Pennylane
-              </h3>
-              <p className="text-xs text-gray-500">Declaration URSSAF automatique vs comptabilite PME complete</p>
-              <span className="inline-flex items-center gap-1 text-xs text-indigo-600 font-medium mt-3">
-                Voir le comparatif <span>→</span>
-              </span>
-            </a>
-
-            <a
-              href="/comparatif/freebe-vs-tiime"
-              className="group block bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-indigo-200 transition-all"
-            >
-              <div className="flex items-center gap-2 mb-3">
-                <span className="w-7 h-7 bg-indigo-100 rounded-lg flex items-center justify-center text-indigo-700 font-bold text-xs">F</span>
-                <span className="text-gray-400 font-bold">vs</span>
-                <span className="w-7 h-7 bg-teal-100 rounded-lg flex items-center justify-center text-teal-700 font-bold text-xs">T</span>
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-1 group-hover:text-indigo-600 transition-colors">
-                Freebe vs Tiime
-              </h3>
-              <p className="text-xs text-gray-500">Solution complete payante vs freemium accessible aux debutants</p>
-              <span className="inline-flex items-center gap-1 text-xs text-indigo-600 font-medium mt-3">
-                Voir le comparatif <span>→</span>
-              </span>
-            </a>
-
-            <a
-              href="/comparatif/shine-vs-indy"
-              className="group block bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-indigo-200 transition-all"
-            >
-              <div className="flex items-center gap-2 mb-3">
-                <span className="w-7 h-7 bg-purple-100 rounded-lg flex items-center justify-center text-purple-700 font-bold text-xs">S</span>
-                <span className="text-gray-400 font-bold">vs</span>
-                <span className="w-7 h-7 bg-blue-100 rounded-lg flex items-center justify-center text-blue-700 font-bold text-xs">I</span>
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-1 group-hover:text-indigo-600 transition-colors">
-                Shine vs Indy
-              </h3>
-              <p className="text-xs text-gray-500">Neobanque pro avec facturation vs logiciel comptabilite URSSAF</p>
-              <span className="inline-flex items-center gap-1 text-xs text-indigo-600 font-medium mt-3">
-                Voir le comparatif <span>→</span>
-              </span>
-            </a>
+            {[
+              { a: { label: 'F', color: 'indigo', slug: 'freebe' }, b: { label: 'P', color: 'emerald', slug: 'pennylane' }, title: 'Freebe vs Pennylane', desc: 'Gestion freelance vs comptabilité PME', href: '/comparatif/freebe-vs-pennylane' },
+              { a: { label: 'I', color: 'blue', slug: 'indy' }, b: { label: 'F', color: 'indigo', slug: 'freebe' }, title: 'Indy vs Freebe', desc: 'Comptabilité auto-entrepreneur vs gestion freelance SASU/EURL', href: '/comparatif/indy-vs-freebe' },
+              { a: { label: 'T', color: 'violet', slug: 'tiime' }, b: { label: 'P', color: 'emerald', slug: 'pennylane' }, title: 'Tiime vs Pennylane', desc: 'Outil expert-comptable vs solution tout-en-un pour PME', href: '/comparatif/tiime-vs-pennylane' },
+              { a: { label: 'I', color: 'blue', slug: 'indy' }, b: { label: 'P', color: 'emerald', slug: 'pennylane' }, title: 'Indy vs Pennylane', desc: 'Déclaration URSSAF automatique vs comptabilité PME complète', href: '/comparatif/indy-vs-pennylane' },
+              { a: { label: 'F', color: 'indigo', slug: 'freebe' }, b: { label: 'T', color: 'teal', slug: 'tiime' }, title: 'Freebe vs Tiime', desc: 'Solution complète payante vs freemium accessible aux débutants', href: '/comparatif/freebe-vs-tiime' },
+              { a: { label: 'S', color: 'purple', slug: 'shine' }, b: { label: 'I', color: 'blue', slug: 'indy' }, title: 'Shine vs Indy', desc: 'Néobanque pro avec facturation vs logiciel comptabilité URSSAF', href: '/comparatif/shine-vs-indy' },
+            ].map((vs) => (
+              <a
+                key={vs.href}
+                href={vs.href}
+                className="group block bg-white border border-gray-100 rounded-2xl p-5 shadow-sm hover:shadow-md hover:border-indigo-200 transition-all"
+              >
+                <div className="flex items-center gap-2 mb-3">
+                  <span className={`w-7 h-7 bg-${vs.a.color}-100 rounded-lg flex items-center justify-center text-${vs.a.color}-700 font-bold text-xs`}>{vs.a.label}</span>
+                  <span className="text-gray-400 font-bold">vs</span>
+                  <span className={`w-7 h-7 bg-${vs.b.color}-100 rounded-lg flex items-center justify-center text-${vs.b.color}-700 font-bold text-xs`}>{vs.b.label}</span>
+                </div>
+                <h3 className="font-semibold text-gray-900 mb-1 group-hover:text-indigo-600 transition-colors">
+                  {vs.title}
+                </h3>
+                <p className="text-xs text-gray-500">{vs.desc}</p>
+                <span className="inline-flex items-center gap-1 text-xs text-indigo-600 font-medium mt-3">
+                  Voir le comparatif <span>→</span>
+                </span>
+              </a>
+            ))}
           </div>
         </section>
 
