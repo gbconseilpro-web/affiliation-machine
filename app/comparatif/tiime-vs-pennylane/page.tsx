@@ -12,8 +12,8 @@ export const metadata: Metadata = {
   },
 }
 
-const TIIME_URL = 'https://www.awin1.com/cread.php?awinmid=22751&awinaffid=1957421&clickref=tiime-vs-pennylane&p=https%3A%2F%2Ftiime.fr%2F'
-const PENNYLANE_URL = 'https://www.awin1.com/cread.php?awinmid=22751&awinaffid=1957421&clickref=pennylane-vs-tiime&p=https%3A%2F%2Fwww.pennylane.com%2F'
+const TIIME_URL = '/go/tiime'
+const PENNYLANE_URL = '/go/pennylane'
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -143,7 +143,7 @@ export default function TiimeVsPennylane() {
                 <li>Ceux qui cherchent une alternative abordable a Pennylane</li>
               </ul>
               <p className="text-xs text-gray-500 mb-3">Tarification variable · Contacter Tiime</p>
-              <a href={TIIME_URL} target="_blank" rel="noopener sponsored" className="block w-full text-center bg-teal-600 hover:bg-teal-700 text-white font-semibold text-sm px-4 py-2.5 rounded-xl transition-colors">
+              <a href={TIIME_URL} className="block w-full text-center bg-teal-600 hover:bg-teal-700 text-white font-semibold text-sm px-4 py-2.5 rounded-xl transition-colors">
                 Decouvrir Tiime
               </a>
             </div>
@@ -168,7 +168,7 @@ export default function TiimeVsPennylane() {
                 <li>Ceux dont l&apos;EC recommande specifiquement Pennylane</li>
               </ul>
               <p className="text-xs text-gray-500 mb-3">A partir de 26 EUR/mois · Demo gratuite</p>
-              <a href={PENNYLANE_URL} target="_blank" rel="noopener sponsored" className="block w-full text-center bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-sm px-4 py-2.5 rounded-xl transition-colors">
+              <a href={PENNYLANE_URL} className="block w-full text-center bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-sm px-4 py-2.5 rounded-xl transition-colors">
                 Decouvrir Pennylane
               </a>
             </div>
@@ -266,10 +266,10 @@ export default function TiimeVsPennylane() {
 
           {/* CTA */}
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href={TIIME_URL} target="_blank" rel="noopener sponsored" className="flex-1 text-center bg-teal-600 hover:bg-teal-700 text-white font-semibold px-6 py-3.5 rounded-xl transition-colors">
+            <a href={TIIME_URL} className="flex-1 text-center bg-teal-600 hover:bg-teal-700 text-white font-semibold px-6 py-3.5 rounded-xl transition-colors">
               Decouvrir Tiime
             </a>
-            <a href={PENNYLANE_URL} target="_blank" rel="noopener sponsored" className="flex-1 text-center bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3.5 rounded-xl transition-colors">
+            <a href={PENNYLANE_URL} className="flex-1 text-center bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3.5 rounded-xl transition-colors">
               Decouvrir Pennylane
             </a>
             <Link href="/comparatif" className="flex-1 text-center border border-gray-200 hover:bg-gray-50 text-gray-700 font-semibold px-6 py-3.5 rounded-xl transition-colors">

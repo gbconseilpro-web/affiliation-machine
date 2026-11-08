@@ -9,7 +9,7 @@ function awinUrl(clickref: string, destination: string) {
 }
 
 const FREEBE_URL = awinUrl('freebe-vs-tiime', 'https://www.freebe.me/')
-const TIIME_URL = awinUrl('tiime-vs-freebe', 'https://tiime.fr/')
+const TIIME_URL = '/go/tiime'
 
 export const metadata: Metadata = {
   title: 'Freebe vs Tiime 2026 : quel logiciel pour freelance choisir ?',
@@ -148,8 +148,6 @@ export default function FreebeVsTiime() {
             </p>
             <a
               href={TIIME_URL}
-              target="_blank"
-              rel="noopener sponsored"
               className="inline-block w-full bg-teal-600 hover:bg-teal-700 text-white font-semibold py-3 px-5 rounded-xl transition-colors text-sm"
             >
               Essayer Tiime gratuitement

@@ -1,15 +1,9 @@
 import type { Metadata } from 'next'
 
 const SITE_URL = 'https://facturationpro.com'
-const AWIN_AFFID = '1957421'
-const AWIN_MID = '22751'
-
-function awinUrl(clickref: string, destination: string) {
-  return `https://www.awin1.com/cread.php?awinmid=${AWIN_MID}&awinaffid=${AWIN_AFFID}&clickref=${clickref}&p=${encodeURIComponent(destination)}`
-}
 
 const INDY_URL = 'https://www.indy.fr/?via=facturationpro&utm_source=facturationpro&utm_medium=affiliation&utm_campaign=indy-vs-pennylane'
-const PENNYLANE_URL = awinUrl('pennylane-vs-indy', 'https://www.pennylane.com/')
+const PENNYLANE_URL = '/go/pennylane'
 
 export const metadata: Metadata = {
   title: 'Indy vs Pennylane 2026 : lequel choisir pour votre comptabilite ?',
@@ -149,8 +143,6 @@ export default function IndyVsPennylane() {
             </p>
             <a
               href={PENNYLANE_URL}
-              target="_blank"
-              rel="noopener sponsored"
               className="inline-block w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-3 px-5 rounded-xl transition-colors text-sm"
             >
               Essayer Pennylane gratuitement

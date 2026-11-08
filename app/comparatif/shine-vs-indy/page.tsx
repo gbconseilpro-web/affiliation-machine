@@ -1,14 +1,8 @@
 import type { Metadata } from 'next'
 
 const SITE_URL = 'https://facturationpro.com'
-const AWIN_AFFID = '1957421'
-const AWIN_MID = '22751'
 
-function awinUrl(clickref: string, destination: string) {
-  return `https://www.awin1.com/cread.php?awinmid=${AWIN_MID}&awinaffid=${AWIN_AFFID}&clickref=${clickref}&p=${encodeURIComponent(destination)}`
-}
-
-const SHINE_URL = awinUrl('shine-vs-indy', 'https://shine.fr/')
+const SHINE_URL = '/go/shine'
 const INDY_URL = 'https://www.indy.fr/?via=facturationpro&utm_source=facturationpro&utm_medium=affiliation&utm_campaign=shine-vs-indy'
 
 export const metadata: Metadata = {
@@ -140,8 +134,6 @@ export default function ShineVsIndy() {
             </p>
             <a
               href={SHINE_URL}
-              target="_blank"
-              rel="noopener sponsored"
               className="inline-block w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-5 rounded-xl transition-colors text-sm"
             >
               Ouvrir un compte Shine
