@@ -242,7 +242,7 @@ const products = [
       'Moins ancré dans l\'écosystème expert-comptable français',
     ],
     ctaUrl: buildAffiliateLink({
-      baseUrl: 'https://www.finom.co/fr',
+      baseUrl: 'https://www.finom.co',
       network: 'direct',
       subId: 'comparatif-finom',
     }),

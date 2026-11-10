@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
 }
 
-const AFFILIATE_URL = 'https://finom.co/fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=avis-finom'
+const AFFILIATE_URL = 'https://finom.co/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=avis-finom'
 
 const jsonLd = {
   '@context': 'https://schema.org',
