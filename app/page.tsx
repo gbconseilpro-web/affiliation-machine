@@ -46,12 +46,7 @@ const logiciels = [
     badge: '⭐ Recommandé PME',
     price: 'À partir de 26€/mois',
     pdp: true,
-    url: buildAffiliateLink({
-      baseUrl: 'https://www.pennylane.com',
-      network: 'awin',
-      programId: '23751',
-      subId: 'homepage',
-    }),
+    url: 'https://www.pennylane.com/fr/inscription?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=homepage',
   },
   {
     id: 2,
@@ -60,12 +55,7 @@ const logiciels = [
     badge: '🏢 Recommandé ETI',
     price: 'À partir de 35€/mois',
     pdp: true,
-    url: buildAffiliateLink({
-      baseUrl: 'https://www.sellsy.fr',
-      network: 'awin',
-      programId: '23752',
-      subId: 'homepage',
-    }),
+    url: 'https://www.sellsy.fr?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=homepage',
   },
   {
     id: 3,
@@ -74,12 +64,7 @@ const logiciels = [
     badge: '🇫🇷 100% Français',
     price: 'À partir de 29€/mois',
     pdp: false,
-    url: buildAffiliateLink({
-      baseUrl: 'https://www.axonaut.com',
-      network: 'awin',
-      programId: '23753',
-      subId: 'homepage',
-    }),
+    url: 'https://www.axonaut.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=homepage',
   },
 ]
 

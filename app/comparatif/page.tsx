@@ -41,12 +41,7 @@ const products = [
       'Pas adapté aux PME avec comptabilité complexe',
       'Fonctions CRM absentes (outil facturation pur)',
     ],
-    ctaUrl: buildAffiliateLink({
-      baseUrl: 'https://www.freebe.me',
-      network: 'awin',
-      programId: '22751',
-      subId: 'comparatif-freebe',
-    }),
+    ctaUrl: 'https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=comparatif-freebe',
     ctaText: 'Essayer gratuitement',
     features: {
       'Format Factur-X': true,
