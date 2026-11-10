@@ -9,7 +9,7 @@ function awinUrl(clickref: string, destination: string) {
 }
 
 const FREEBE_URL = awinUrl('freebe-vs-tiime', 'https://www.freebe.me/')
-const TIIME_URL = '/go/tiime'
+const TIIME_URL = 'https://www.tiime.fr/inscription?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=freebe-vs-tiime'
 
 export const metadata: Metadata = {
   title: 'Freebe vs Tiime 2026 : quel logiciel pour freelance choisir ?',

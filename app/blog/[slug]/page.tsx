@@ -152,13 +152,13 @@ export default function BlogPostPage({ params }: Props) {
           <p className="text-sm text-gray-600 mb-4">Essayez Freebe ou Indy gratuitement, sans engagement ni carte bancaire requise.</p>
           <div className="flex flex-wrap gap-3">
             <a
-              href="/go/freebe"
+              href="https://www.awin1.com/cread.php?awinmid=22751&awinaffid=1957421&clickref=blog-freebe&p=https%3A%2F%2Fwww.freebe.me%2F"
               className="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-sm px-5 py-2.5 rounded-xl transition-colors"
             >
               Essayer Freebe
             </a>
             <a
-              href="/go/indy"
+              href="https://www.indy.fr/inscription?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog-indy"
               className="inline-flex items-center gap-2 bg-white border border-gray-200 hover:border-indigo-300 text-gray-700 hover:text-indigo-600 font-semibold text-sm px-5 py-2.5 rounded-xl transition-colors"
             >
               Essayer Indy

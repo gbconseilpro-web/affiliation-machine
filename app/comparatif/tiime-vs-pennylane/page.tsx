@@ -12,8 +12,8 @@ export const metadata: Metadata = {
   },
 }
 
-const TIIME_URL = '/go/tiime'
-const PENNYLANE_URL = '/go/pennylane'
+const TIIME_URL = 'https://www.tiime.fr/inscription?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=tiime-vs-pennylane'
+const PENNYLANE_URL = 'https://www.pennylane.com/fr/inscription?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=tiime-vs-pennylane'
 
 const jsonLd = {
   '@context': 'https://schema.org',
