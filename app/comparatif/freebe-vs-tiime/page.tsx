@@ -1,14 +1,7 @@
 import type { Metadata } from 'next'
 
 const SITE_URL = 'https://facturationpro.com'
-const AWIN_AFFID = '1957421'
-const AWIN_MID = '22751'
-
-function awinUrl(clickref: string, destination: string) {
-  return `https://www.awin1.com/cread.php?awinmid=${AWIN_MID}&awinaffid=${AWIN_AFFID}&clickref=${clickref}&p=${encodeURIComponent(destination)}`
-}
-
-const FREEBE_URL = awinUrl('freebe-vs-tiime', 'https://www.freebe.me/')
+const FREEBE_URL = 'https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=freebe-vs-tiime'
 const TIIME_URL = 'https://www.tiime.fr/inscription?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=freebe-vs-tiime'
 
 export const metadata: Metadata = {

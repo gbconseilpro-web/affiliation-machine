@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
 }
 
-const FREEBE_URL = 'https://www.awin1.com/cread.php?awinmid=22751&awinaffid=1957421&clickref=freebe-vs-pennylane&p=https%3A%2F%2Fwww.freebe.me%2F'
+const FREEBE_URL = 'https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=freebe-vs-pennylane'
 const PENNYLANE_URL = 'https://pennylane.com/fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=go-pennylane'
 
 const jsonLd = {

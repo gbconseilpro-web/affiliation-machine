@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
 }
 
-const AWIN_URL = 'https://www.awin1.com/cread.php?awinmid=22751&awinaffid=1957421&clickref=avis-freebe&p=https%3A%2F%2Fwww.freebe.me%2F'
+const AWIN_URL = 'https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=avis-freebe'
 
 const jsonLd = {
   '@context': 'https://schema.org',
