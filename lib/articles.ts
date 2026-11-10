@@ -17,29 +17,29 @@ export interface SeoData {
   canonical: string
 }
 
-// Liens Awin affiliation (publisher ID 1957421)
+// Liens directs affiliation (Awin 22751 inactif, remplacé par liens directs UTM)
 export const AWIN_LINKS = {
   'logiciel-facturation': {
     name: 'Freebe',
-    url: 'https://www.awin1.com/cread.php?awinmid=22751&awinaffid=1957421&clickref=logiciel-facturation&p=https%3A%2F%2Fwww.freebe.me%2F',
+    url: 'https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=logiciel-facturation',
     cta: 'Essayer Freebe gratuitement',
     desc: 'Logiciel de facturation pour freelances et auto-entrepreneurs'
   },
   'devis-gratuit': {
     name: 'Freebe',
-    url: 'https://www.awin1.com/cread.php?awinmid=22751&awinaffid=1957421&clickref=devis-gratuit&p=https%3A%2F%2Fwww.freebe.me%2F',
+    url: 'https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=devis-gratuit',
     cta: 'Créer un devis gratuit avec Freebe',
     desc: 'Créez des devis professionnels en quelques clics'
   },
   'micro-entrepreneur': {
     name: 'Freebe',
-    url: 'https://www.awin1.com/cread.php?awinmid=22751&awinaffid=1957421&clickref=micro-entrepreneur&p=https%3A%2F%2Fwww.freebe.me%2F',
+    url: 'https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=micro-entrepreneur',
     cta: 'Gérer mon activité avec Freebe',
     desc: 'La solution complète pour les micro-entrepreneurs'
   },
   'facture-en-ligne': {
     name: 'Freebe',
-    url: 'https://www.awin1.com/cread.php?awinmid=22751&awinaffid=1957421&clickref=facture-en-ligne&p=https%3A%2F%2Fwww.freebe.me%2F',
+    url: 'https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=facture-en-ligne',
     cta: 'Créer ma facture en ligne',
     desc: 'Facturation en ligne simple et rapide pour les indépendants'
   }
