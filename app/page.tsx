@@ -127,8 +127,6 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
             <div className="bg-white/10 backdrop-blur rounded-full px-5 py-2 text-white font-semibold flex items-center gap-2">
               <span className="text-yellow-400 text-lg">★★★★★</span>
-              <span className="text-white font-bold">4,9/5</span>
-              <span className="text-indigo-200">500+ avis Google</span>
             </div>
           </div>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
