@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
 }
 
-const AFFILIATE_URL = 'https://www.shine.fr/inscription?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=avis-shine'
+const AFFILIATE_URL = 'https://app.shine.fr/signup-select?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=avis-shine'
 
 const jsonLd = {
   '@context': 'https://schema.org',

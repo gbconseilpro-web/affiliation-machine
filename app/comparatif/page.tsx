@@ -204,7 +204,7 @@ const products = [
       'Courbe d\'apprentissage pour les fonctions CRM avancées',
     ],
     ctaUrl: buildAffiliateLink({
-      baseUrl: 'https://www.sellsy.fr',
+      baseUrl: 'https://www.sellsy.com/onboarding/quicktrial?lang=fr',
       network: 'direct',
       subId: 'comparatif-sellsy',
     }),

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 const SITE_URL = 'https://facturationpro.com'
 
-const SHINE_URL = 'https://www.shine.fr/inscription?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=shine-vs-indy'
+const SHINE_URL = 'https://app.shine.fr/signup-select?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=shine-vs-indy'
 const INDY_URL = 'https://www.indy.fr/?via=facturationpro&utm_source=facturationpro&utm_medium=affiliation&utm_campaign=shine-vs-indy'
 
 export const metadata: Metadata = {

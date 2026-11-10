@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
 }
 
-const AFFILIATE_URL = 'https://www.pennylane.com/fr/inscription?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=avis-pennylane'
+const AFFILIATE_URL = 'https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=avis-pennylane'
 
 const jsonLd = {
   '@context': 'https://schema.org',

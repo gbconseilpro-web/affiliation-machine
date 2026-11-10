@@ -46,7 +46,7 @@ const logiciels = [
     badge: '⭐ Recommandé PME',
     price: 'À partir de 26€/mois',
     pdp: true,
-    url: 'https://www.pennylane.com/fr/inscription?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=homepage',
+    url: 'https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=homepage',
   },
   {
     id: 2,
@@ -55,7 +55,7 @@ const logiciels = [
     badge: '🏢 Recommandé ETI',
     price: 'À partir de 35€/mois',
     pdp: true,
-    url: 'https://www.sellsy.fr?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=homepage',
+    url: 'https://www.sellsy.com/onboarding/quicktrial?lang=fr&utm_source=facturationpro&utm_medium=affiliation&utm_campaign=homepage',
   },
   {
     id: 3,

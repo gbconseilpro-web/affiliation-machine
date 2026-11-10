@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
 }
 
-const AFFILIATE_URL = 'https://www.tiime.fr/inscription?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=avis-tiime'
+const AFFILIATE_URL = 'https://www.tiime.fr?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=avis-tiime'
 
 const jsonLd = {
   '@context': 'https://schema.org',

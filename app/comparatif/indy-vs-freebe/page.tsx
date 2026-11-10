@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
 }
 
-const INDY_URL = 'https://www.indy.fr/inscription?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=go-indy'
+const INDY_URL = 'https://app.indy.fr/inscription?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=go-indy'
 const FREEBE_URL = 'https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=freebe-vs-indy'
 
 const jsonLd = {

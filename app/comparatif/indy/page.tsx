@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
 }
 
-const AFFILIATE_URL = 'https://www.indy.fr/inscription?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=avis-indy'
+const AFFILIATE_URL = 'https://app.indy.fr/inscription?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=avis-indy'
 
 const jsonLd = {
   '@context': 'https://schema.org',
