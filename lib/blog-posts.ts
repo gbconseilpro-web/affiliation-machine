@@ -30,7 +30,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Nous avons évalué chaque logiciel sur sept critères : facilité de prise en main, conformité légale des factures générées, qualité de la synchronisation bancaire, richesse des fonctionnalités (suivi de temps, notes de frais, relances automatiques), qualité du support client, rapport qualité/prix, et adaptation au statut juridique (micro-entrepreneur, SASU, EURL).</p>
 
 <h2>Freebe : la référence pour les freelances en société</h2>
-<p>Fondé en 2016, <a href="/go/freebe">Freebe</a> s'est imposé comme la solution premium pour les consultants, développeurs et créatifs qui exercent en SASU ou EURL. Avec plus de 50 000 freelances utilisateurs, il combine facturation professionnelle, suivi de temps, notes de frais et comptabilité simplifiée dans une interface claire.</p>
+<p>Fondé en 2016, <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> s'est imposé comme la solution premium pour les consultants, développeurs et créatifs qui exercent en SASU ou EURL. Avec plus de 50 000 freelances utilisateurs, il combine facturation professionnelle, suivi de temps, notes de frais et comptabilité simplifiée dans une interface claire.</p>
 
 <p><strong>Ce que nous avons apprécié :</strong> le timer intégré pour suivre le temps passé par projet est un vrai gain de productivité. La personnalisation des documents (logo, couleurs, mentions spécifiques) est simple et le résultat est professionnel. La synchronisation bancaire catégorise automatiquement les transactions, et l'export vers l'expert-comptable est standardisé.</p>
 
@@ -75,9 +75,9 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2>Récapitulatif : quel logiciel choisir selon votre profil ?</h2>
 <ul>
-<li><strong>Micro-entrepreneur ou auto-entrepreneur :</strong> <a href="/go/indy">Indy</a> — le meilleur rapport qualité/prix avec les alertes de seuil et les rappels URSSAF</li>
-<li><strong>Freelance en SASU ou EURL :</strong> <a href="/go/freebe">Freebe</a> — suivi de temps, notes de frais et export EC inclus</li>
-<li><strong>Freelance avec expert-comptable :</strong> <a href="/go/pennylane">Pennylane</a> — collaboration en temps réel qui réduit les honoraires comptables</li>
+<li><strong>Micro-entrepreneur ou auto-entrepreneur :</strong> <a href="https://www.indy.fr/?ae=2183">Indy</a> — le meilleur rapport qualité/prix avec les alertes de seuil et les rappels URSSAF</li>
+<li><strong>Freelance en SASU ou EURL :</strong> <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> — suivi de temps, notes de frais et export EC inclus</li>
+<li><strong>Freelance avec expert-comptable :</strong> <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> — collaboration en temps réel qui réduit les honoraires comptables</li>
 <li><strong>Débutant sans budget :</strong> Tiime en version gratuite, puis migration vers Indy</li>
 </ul>
 
@@ -213,7 +213,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>Notre verdict</h2>
 <p><strong>Note globale : 4,5/5.</strong> Freebe est le meilleur outil pour les freelances en société. Son seul point faible : l'absence d'un vrai module de comptabilité pour les profils qui veulent tout gérer en autonomie.</p>
 
-<p>Testez Freebe gratuitement pendant 30 jours via notre <a href="/go/freebe">lien affilié</a> (sans commission pour vous, mais une petite commission pour nous qui finance ce site).</p>
+<p>Testez Freebe gratuitement pendant 30 jours via notre <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">lien affilié</a> (sans commission pour vous, mais une petite commission pour nous qui finance ce site).</p>
     `.trim(),
   },
   {
@@ -247,7 +247,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Pour les <strong>micro-entrepreneurs</strong> sous le seuil de TVA : ajouter la mention "TVA non applicable en vertu de l'article 293 B du CGI". Pour les <strong>auto-entrepreneurs en BTP</strong> : mentionner le numéro d'assurance décennale. Pour les <strong>professions libérales réglementées</strong> : ajouter le numéro d'ordre ou d'inscription.</p>
 
 <h2>La solution la plus simple</h2>
-<p>Un bon logiciel de facturation intègre toutes ces mentions automatiquement. Avec <a href="/go/freebe">Freebe</a> ou <a href="/go/indy">Indy</a>, vous n'avez pas à vous en préoccuper : chaque facture générée est légalement conforme.</p>
+<p>Un bon logiciel de facturation intègre toutes ces mentions automatiquement. Avec <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> ou <a href="https://www.indy.fr/?ae=2183">Indy</a>, vous n'avez pas à vous en préoccuper : chaque facture générée est légalement conforme.</p>
     `.trim(),
   },
   {
@@ -274,7 +274,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Vous êtes en droit d'appliquer des <strong>pénalités de retard</strong> dès le premier jour de retard. Le taux légal minimum est de 3 fois le taux d'intérêt légal (soit environ 7-8% en 2026). Ajoutez l'indemnité forfaitaire de recouvrement de <strong>40€</strong>, obligatoire en B2B.</p>
 
 <h2>Automatiser les relances</h2>
-<p>Les logiciels comme <a href="/go/freebe">Freebe</a> proposent des relances automatiques par email à J+7, J+30... Ce gain de temps est considérable et améliore significativement votre taux de recouvrement.</p>
+<p>Les logiciels comme <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> proposent des relances automatiques par email à J+7, J+30... Ce gain de temps est considérable et améliore significativement votre taux de recouvrement.</p>
     `.trim(),
   },
   {
@@ -402,8 +402,8 @@ export const BLOG_POSTS: BlogPost[] = [
 </ul>
 
 <h2>Notre recommandation finale</h2>
-<p>Pour la grande majorité des auto-entrepreneurs, <strong><a href="/go/indy">Indy</a></strong> est le meilleur choix en 2026. Il combine une prise en main rapide, des fonctionnalités spécifiquement calibrées pour le régime micro, un suivi du CA avec alerte de seuil, et un rapport qualité/prix imbattable à 7 euros par mois.</p>
-<p>Si vous avez une activité de service à forte valeur ajoutée avec des projets complexes et un besoin de suivi du temps, optez pour <strong><a href="/go/freebe">Freebe</a></strong>. Le surcoût est justifié par le gain de productivité et la visibilité sur la rentabilité de chaque mission.</p>
+<p>Pour la grande majorité des auto-entrepreneurs, <strong><a href="https://www.indy.fr/?ae=2183">Indy</a></strong> est le meilleur choix en 2026. Il combine une prise en main rapide, des fonctionnalités spécifiquement calibrées pour le régime micro, un suivi du CA avec alerte de seuil, et un rapport qualité/prix imbattable à 7 euros par mois.</p>
+<p>Si vous avez une activité de service à forte valeur ajoutée avec des projets complexes et un besoin de suivi du temps, optez pour <strong><a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a></strong>. Le surcoût est justifié par le gain de productivité et la visibilité sur la rentabilité de chaque mission.</p>
 <p>Si vous débutez sans budget, commencez par Tiime en version gratuite. Vous passerez à Indy naturellement quand votre activité s'étoffe.</p>
 <p>Consultez notre <a href="/comparatif">tableau comparatif complet</a> pour comparer toutes les fonctionnalités en détail.</p>
     `.trim(),
@@ -505,8 +505,8 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>Quels logiciels sont deja conformes ou en cours de certification</h2>
 <p>Plusieurs editeurs de logiciels de facturation ont pris de l'avance sur la reforme :</p>
 <ul>
-<li><strong>Freebe</strong> : a annonce sa conformite Factur-X et son integration avec les PDP pour les freelances et TPE. <a href="/go/freebe">Tester Freebe</a></li>
-<li><strong>Pennylane</strong> : l'un des premiers a avoir integre la gestion de la facturation electronique dans son offre, avec une forte orientation vers les PME et leurs experts-comptables. <a href="/go/pennylane">Tester Pennylane</a></li>
+<li><strong>Freebe</strong> : a annonce sa conformite Factur-X et son integration avec les PDP pour les freelances et TPE. <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Tester Freebe</a></li>
+<li><strong>Pennylane</strong> : l'un des premiers a avoir integre la gestion de la facturation electronique dans son offre, avec une forte orientation vers les PME et leurs experts-comptables. <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Tester Pennylane</a></li>
 <li><strong>Sellsy</strong> : solution complete pour les PME, avec une PDP integree dans ses plans avances.</li>
 <li><strong>Sage</strong>, <strong>EBP</strong>, <strong>Cegid</strong> : les editeurs historiques sont tous en cours de mise en conformite.</li>
 </ul>
@@ -564,7 +564,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h3>Note globale : 4,5/5</h3>
 <p><strong>Avantages</strong> : interface tres bien con&ccedil;ue, fonctionnalites completes pour les freelances, excellent suivi du temps, synchronisation bancaire fiable, support reactif.<br>
 <strong>Inconvenients</strong> : pas de version gratuite, fonctionnalites de comptabilite limitees pour les profils avances, prix plus eleve qu'Indy pour le regime micro.</p>
-<p><a href="/go/freebe">Tester Freebe gratuitement pendant 30 jours</a></p>
+<p><a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Tester Freebe gratuitement pendant 30 jours</a></p>
 
 <h2>Indy : le meilleur rapport qualite/prix pour les micro-entrepreneurs</h2>
 <p>Indy (anciennement Georges) est ne du constat que les outils disponibles pour les micro-entrepreneurs etaient soit trop chers, soit trop compliques, soit trop basiques. En quelques annees, il est devenu la solution de reference pour les 200 000+ independants en regime micro.</p>
@@ -588,7 +588,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h3>Note globale : 4,3/5</h3>
 <p><strong>Avantages</strong> : prix tres competitif, prise en main immediate, fonctionnalites specifiques micro-entrepreneur, tres bon support client, application mobile soignee.<br>
 <strong>Inconvenients</strong> : insuffisant pour les societes (SASU, EURL), pas de suivi du temps, fonctionnalites de gestion de projet absentes.</p>
-<p><a href="/go/indy">Tester Indy gratuitement</a></p>
+<p><a href="https://www.indy.fr/?ae=2183">Tester Indy gratuitement</a></p>
 
 <h2>Pennylane : la vision collaborative avec l'expert-comptable</h2>
 <p>Pennylane a ete fonde par des anciens de Qonto et de McKinsey avec une vision differente : plutot que de remplacer l'expert-comptable, faciliter la collaboration entre le freelance et son EC grace a une interface partagee en temps reel.</p>
@@ -612,7 +612,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h3>Note globale : 4,2/5</h3>
 <p><strong>Avantages</strong> : meilleure solution pour la collaboration avec un EC, comptabilite tres complete, excellent pour les societes, interface claire.<br>
 <strong>Inconvenients</strong> : prix eleve pour un micro-entrepreneur, sur-dimensionne pour les profils simples, pas de suivi du temps integre.</p>
-<p><a href="/go/pennylane">Tester Pennylane</a></p>
+<p><a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Tester Pennylane</a></p>
 
 <h2>Tiime : la facturation gratuite pour debuter</h2>
 <p>Tiime a fait le pari du freemium : une facturation gratuite, illimitee, pour tous les freelances qui demarrent. Cette approche lui a permis de seduire des centaines de milliers d'utilisateurs, dont une partie convertie vers l'offre payante.</p>
@@ -636,7 +636,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h3>Note globale : 3,8/5</h3>
 <p><strong>Avantages</strong> : version gratuite genereuse, prise en main tres facile, facturation illimitee, bonne application mobile.<br>
 <strong>Inconvenients</strong> : pas de synchronisation bancaire, fonctionnalites avancees limitees, interface moins soignee que Freebe ou Indy, relances manuelles en version gratuite.</p>
-<p><a href="/go/tiime">Tester Tiime gratuitement</a></p>
+<p><a href="https://www.tiime.fr/?ae=1289">Tester Tiime gratuitement</a></p>
 
 <h2>Sellsy : la solution complete pour les freelances ambitieux</h2>
 <p>Sellsy est une solution CRM + facturation + tresorerie con&ccedil;ue pour les TPE et PME. Elle s'adresse aux freelances avec une activite structuree, plusieurs collaborateurs ou une forte activite commerciale a piloter.</p>
@@ -700,13 +700,13 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2>Notre verdict final par profil</h2>
 <h3>Micro-entrepreneur ou auto-entrepreneur</h3>
-<p><strong>Choix numero 1 : <a href="/go/indy">Indy</a></strong>. Le meilleur rapport qualite/prix du marche pour ce profil. Si budget zero, commencer par Tiime gratuit.</p>
+<p><strong>Choix numero 1 : <a href="https://www.indy.fr/?ae=2183">Indy</a></strong>. Le meilleur rapport qualite/prix du marche pour ce profil. Si budget zero, commencer par Tiime gratuit.</p>
 
 <h3>Freelance en SASU ou EURL, activite de service</h3>
-<p><strong>Choix numero 1 : <a href="/go/freebe">Freebe</a></strong>. La solution la plus complete et la mieux con&ccedil;ue pour ce profil. Le suivi du temps et la gestion de projet justifient le surcoût versus Indy.</p>
+<p><strong>Choix numero 1 : <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a></strong>. La solution la plus complete et la mieux con&ccedil;ue pour ce profil. Le suivi du temps et la gestion de projet justifient le surcoût versus Indy.</p>
 
 <h3>Freelance avec un expert-comptable</h3>
-<p><strong>Choix numero 1 : <a href="/go/pennylane">Pennylane</a></strong>. L'acces partage en temps reel avec votre EC reduit les frais comptables et accelere la cloture annuelle.</p>
+<p><strong>Choix numero 1 : <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a></strong>. L'acces partage en temps reel avec votre EC reduit les frais comptables et accelere la cloture annuelle.</p>
 
 <h3>Freelance avec activite commerciale importante</h3>
 <p><strong>Choix numero 1 : Sellsy</strong>. Le CRM integre et la gestion des opportunites commerciales font la difference si vous avez un pipeline actif a gerer.</p>
@@ -744,10 +744,10 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Consultez notre <a href="/comparatif">comparatif complet</a> pour voir le tableau de toutes les fonctionnalites en detail, ou accelez a chaque logiciel via nos liens :</p>
 <ul>
-<li><a href="/go/freebe">Freebe : essai gratuit 30 jours</a></li>
-<li><a href="/go/indy">Indy : essai gratuit</a></li>
-<li><a href="/go/pennylane">Pennylane : essai gratuit</a></li>
-<li><a href="/go/tiime">Tiime : version gratuite</a></li>
+<li><a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe : essai gratuit 30 jours</a></li>
+<li><a href="https://www.indy.fr/?ae=2183">Indy : essai gratuit</a></li>
+<li><a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane : essai gratuit</a></li>
+<li><a href="https://www.tiime.fr/?ae=1289">Tiime : version gratuite</a></li>
 </ul>
     `.trim(),
   },
@@ -821,7 +821,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Le changement d'outil au bon moment évite de perdre du temps sur des tâches administratives qui peuvent être automatisées.</p>
 
 <h2>Notre verdict pour les débutants</h2>
-<p>Si vous démarrez aujourd'hui en auto-entrepreneur : commencez avec <a href="/go/indy">Indy</a> (7 euros/mois), qui couvre tous les besoins essentiels avec une synchronisation bancaire et des alertes utiles. Si vous êtes en SASU ou que vous avez des projets complexes à gérer : <a href="/go/freebe">Freebe</a> est le choix logique. Dans les deux cas, l'essai gratuit de 30 jours vous permet de tester sans engagement.</p>
+<p>Si vous démarrez aujourd'hui en auto-entrepreneur : commencez avec <a href="https://www.indy.fr/?ae=2183">Indy</a> (7 euros/mois), qui couvre tous les besoins essentiels avec une synchronisation bancaire et des alertes utiles. Si vous êtes en SASU ou que vous avez des projets complexes à gérer : <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> est le choix logique. Dans les deux cas, l'essai gratuit de 30 jours vous permet de tester sans engagement.</p>
 
 <p>Consultez aussi notre <a href="/comparatif">comparatif complet</a> pour voir tous les logiciels côte à côte.</p>
     `.trim(),
@@ -889,7 +889,7 @@ export const BLOG_POSTS: BlogPost[] = [
 </ul>
 
 <h2>Notre recommandation</h2>
-<p>Pour un auto-entrepreneur qui veut simplifier au maximum le lien entre facturation et URSSAF : <a href="/go/indy">Indy</a> est le choix le plus adapté. La synchronisation bancaire automatique, les alertes de déclaration et le tableau de bord CA par période sont exactement ce qu'il faut pour ne plus jamais stresser à chaque échéance URSSAF.</p>
+<p>Pour un auto-entrepreneur qui veut simplifier au maximum le lien entre facturation et URSSAF : <a href="https://www.indy.fr/?ae=2183">Indy</a> est le choix le plus adapté. La synchronisation bancaire automatique, les alertes de déclaration et le tableau de bord CA par période sont exactement ce qu'il faut pour ne plus jamais stresser à chaque échéance URSSAF.</p>
 
 <p>Pour comparer toutes les options disponibles, consultez notre <a href="/comparatif">comparatif complet des logiciels de facturation</a>.</p>
     `.trim(),
@@ -909,7 +909,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2>Erreur n°1 : oublier des mentions obligatoires</h2>
 <p>C'est l'erreur numéro un chez les débutants. Une facture sans le numéro SIRET, sans mention TVA ou sans indemnité forfaitaire de recouvrement de 40 euros est juridiquement incomplète. Les conséquences : un client professionnel peut la refuser, et l'administration fiscale peut la rejeter lors d'un contrôle.</p>
-<p><strong>La solution :</strong> utiliser un logiciel qui génère toutes les mentions obligatoires automatiquement. Vous ne pouvez plus rien oublier, même sans les connaître par coeur. <a href="/go/indy">Indy</a> et <a href="/go/freebe">Freebe</a> intègrent tous les champs légaux obligatoires.</p>
+<p><strong>La solution :</strong> utiliser un logiciel qui génère toutes les mentions obligatoires automatiquement. Vous ne pouvez plus rien oublier, même sans les connaître par coeur. <a href="https://www.indy.fr/?ae=2183">Indy</a> et <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> intègrent tous les champs légaux obligatoires.</p>
 
 <h2>Erreur n°2 : une numérotation non chronologique</h2>
 <p>Beaucoup de freelances commencent à numéroter leurs factures au hasard (FACT-001, puis FACT-003 après une annulation, puis FACT-015 parce que ça sonne bien). La loi est claire : la numérotation doit être <strong>chronologique et continue, sans trous</strong>. Un trou dans la numérotation est un signal d'alarme pour un contrôleur fiscal.</p>
@@ -940,8 +940,8 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Découvrez notre sélection des meilleurs outils dans notre <a href="/comparatif">comparatif logiciels de facturation</a>, ou consultez directement les essais gratuits :</p>
 <ul>
-<li><a href="/go/indy">Indy : essai gratuit 30 jours</a> (idéal auto-entrepreneurs)</li>
-<li><a href="/go/freebe">Freebe : essai gratuit 30 jours</a> (idéal SASU/EURL et freelances)</li>
+<li><a href="https://www.indy.fr/?ae=2183">Indy : essai gratuit 30 jours</a> (idéal auto-entrepreneurs)</li>
+<li><a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe : essai gratuit 30 jours</a> (idéal SASU/EURL et freelances)</li>
 </ul>
     `.trim(),
   },
@@ -999,7 +999,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>Notre verdict Pennylane</h2>
 <p><strong>Note globale : 4,3/5.</strong> Pennylane est le meilleur choix si vous avez un expert-comptable ou si vous voulez une vision financiere tres rigoureuse. Pour un freelance solo sans EC qui cherche juste a facturer simplement, Freebe ou Indy seront plus adaptes et moins chers.</p>
 
-<p>Decouvrez Pennylane via notre <a href="/go/pennylane">lien de partenariat</a> ou comparez-le a Freebe dans notre <a href="/comparatif/freebe-vs-pennylane">comparatif Freebe vs Pennylane</a>.</p>
+<p>Decouvrez Pennylane via notre <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">lien de partenariat</a> ou comparez-le a Freebe dans notre <a href="/comparatif/freebe-vs-pennylane">comparatif Freebe vs Pennylane</a>.</p>
     `.trim(),
   },
   {
@@ -1081,7 +1081,7 @@ export const BLOG_POSTS: BlogPost[] = [
 </ul>
 
 <h2>Les logiciels de facturation adaptes a chaque statut</h2>
-<p>Que vous soyez en SASU ou EURL, les obligations de facturation sont identiques. Les logiciels comme <a href="/go/freebe">Freebe</a> et <a href="/go/pennylane">Pennylane</a> sont parfaitement adaptes aux deux statuts. Ils gerent la TVA, les mentions legales et l\'export comptable requis dans les deux cas.</p>
+<p>Que vous soyez en SASU ou EURL, les obligations de facturation sont identiques. Les logiciels comme <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> et <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> sont parfaitement adaptes aux deux statuts. Ils gerent la TVA, les mentions legales et l\'export comptable requis dans les deux cas.</p>
 
 <p>Pour approfondir le choix de votre logiciel de facturation, consultez notre <a href="/comparatif">comparatif complet</a>.</p>
     `.trim(),
@@ -1139,7 +1139,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>Notre verdict Indy</h2>
 <p><strong>Note globale : 4,4/5.</strong> Indy est le meilleur choix pour les auto-entrepreneurs et micro-entrepreneurs qui veulent une gestion simple et efficace. Pour les freelances en societe (SASU, EURL) avec des besoins plus avances, Freebe reste superieur.</p>
 
-<p>Essayez Indy gratuitement pendant 30 jours via notre <a href="/go/indy">lien affilie</a>, ou comparez-le a Freebe dans notre <a href="/comparatif/indy-vs-freebe">comparatif Indy vs Freebe</a>.</p>
+<p>Essayez Indy gratuitement pendant 30 jours via notre <a href="https://www.indy.fr/?ae=2183">lien affilie</a>, ou comparez-le a Freebe dans notre <a href="/comparatif/indy-vs-freebe">comparatif Indy vs Freebe</a>.</p>
     `.trim(),
   },
   {
@@ -1202,7 +1202,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2>Notre verdict Tiime</h2>
 <p><strong>Note globale : 4,2/5.</strong> Tiime est le meilleur choix pour les independants qui travaillent avec un expert-comptable et veulent fluidifier le partage des donnees. Pour ceux qui cherchent un suivi de temps ou une independance totale vis-a-vis d'un EC, Freebe ou Indy seront plus adaptes.</p>
-<p>Essayez Tiime gratuitement via notre <a href="/go/tiime">lien affilie</a>, ou comparez-le a Pennylane dans notre <a href="/comparatif/tiime-vs-pennylane">comparatif Tiime vs Pennylane</a>.</p>
+<p>Essayez Tiime gratuitement via notre <a href="https://www.tiime.fr/?ae=1289">lien affilie</a>, ou comparez-le a Pennylane dans notre <a href="/comparatif/tiime-vs-pennylane">comparatif Tiime vs Pennylane</a>.</p>
     `.trim(),
   },
   {
@@ -1264,7 +1264,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2>Notre verdict Shine</h2>
 <p><strong>Note globale : 4,3/5.</strong> Shine est le choix numero un si vous voulez une solution tout-en-un qui remplace a la fois votre compte bancaire pro et votre logiciel de facturation. Pour une gestion de projets poussee ou un suivi de temps, combinez-le avec un outil dedie.</p>
-<p>Ouvrez votre compte Shine via notre <a href="/go/shine">lien partenaire</a> pour beneficier des offres du moment.</p>
+<p>Ouvrez votre compte Shine via notre <a href="https://shine.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">lien partenaire</a> pour beneficier des offres du moment.</p>
     `.trim(),
   },
   {
@@ -1350,11 +1350,11 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>Les meilleurs logiciels de facturation pour artisans</h2>
 <p>Parmi les solutions que nous avons testees, voici notre selection pour les artisans :</p>
 
-<p><strong>Pennylane</strong> : tres complet, gere la comptabilite, les factures, les devis et s'integre avec de nombreux secteurs. Ideal pour les artisans avec une activite importante. Disponible via notre <a href="/go/pennylane">lien affilie</a>. Notre avis complet dans le <a href="/blog/pennylane-avis-test-complet">test Pennylane</a>.</p>
+<p><strong>Pennylane</strong> : tres complet, gere la comptabilite, les factures, les devis et s'integre avec de nombreux secteurs. Ideal pour les artisans avec une activite importante. Disponible via notre <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">lien affilie</a>. Notre avis complet dans le <a href="/blog/pennylane-avis-test-complet">test Pennylane</a>.</p>
 
-<p><strong>Indy</strong> : excellent pour les auto-entrepreneurs artisans, avec une gestion URSSAF integree. Parfait si votre activite est en micro-entreprise. Testez-le via notre <a href="/go/indy">lien partenaire</a>.</p>
+<p><strong>Indy</strong> : excellent pour les auto-entrepreneurs artisans, avec une gestion URSSAF integree. Parfait si votre activite est en micro-entreprise. Testez-le via notre <a href="https://www.indy.fr/?ae=2183">lien partenaire</a>.</p>
 
-<p><strong>Freebe</strong> : moins oriente batiment, mais tres bon pour les artisans qui facturent a l'heure (plombier en regie, electricien depannage). Essai via notre <a href="/go/freebe">lien affilie Freebe</a>.</p>
+<p><strong>Freebe</strong> : moins oriente batiment, mais tres bon pour les artisans qui facturent a l'heure (plombier en regie, electricien depannage). Essai via notre <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">lien affilie Freebe</a>.</p>
 
 <h2>La TVA dans le batiment : un point crucial</h2>
 <p>Les artisans du batiment doivent maitrisier les differents taux de TVA applicables :</p>
@@ -1531,7 +1531,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p>En cas de succes, le juge rend une ordonnance que vous faites signifier par huissier. Si le debiteur ne conteste pas sous 30 jours, la creance est executoire.</p>
 
 <h2>Logiciel de facturation : la prevention</h2>
-<p>La meilleure relance est celle que vous n'avez pas a ecrire. Un bon logiciel de facturation comme <a href="/go/freebe">Freebe</a>, <a href="/go/indy">Indy</a> ou <a href="/go/pennylane">Pennylane</a> vous permet de :</p>
+<p>La meilleure relance est celle que vous n'avez pas a ecrire. Un bon logiciel de facturation comme <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a>, <a href="https://www.indy.fr/?ae=2183">Indy</a> ou <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> vous permet de :</p>
 <ul>
 <li>Configurer des <strong>relances automatiques</strong> par email a J+1, J+7, J+15</li>
 <li>Suivre le statut de chaque facture en temps reel (brouillon, envoyee, en retard, payee)</li>
@@ -1615,7 +1615,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 </ul>
 
 <h2>Suivre ses cotisations avec un logiciel de facturation</h2>
-<p>Pour piloter efficacement vos finances en freelance, vous avez besoin d'un outil qui integre la dimension fiscale et sociale. Des logiciels comme <a href="/go/indy">Indy</a> calculent automatiquement vos provisions pour cotisations URSSAF et vous alertent sur vos obligations declaratives. <a href="/go/pennylane">Pennylane</a> va plus loin avec une vision comptable complete.</p>
+<p>Pour piloter efficacement vos finances en freelance, vous avez besoin d'un outil qui integre la dimension fiscale et sociale. Des logiciels comme <a href="https://www.indy.fr/?ae=2183">Indy</a> calculent automatiquement vos provisions pour cotisations URSSAF et vous alertent sur vos obligations declaratives. <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> va plus loin avec une vision comptable complete.</p>
 <p>Voir notre comparatif : <a href="/comparatif/indy-vs-pennylane">Indy vs Pennylane</a> et notre guide <a href="/blog/facturation-urssaf-logiciel">logiciel facturation et URSSAF</a>.</p>
 
 <p><strong>Peut-on reduire ses cotisations sociales legalement ?</strong> Oui, plusieurs dispositifs existent : choix du statut, prevoyance Madelin, exoneration ACRE en debut d'activite, arbitrage remuneration/dividendes en SASU. Toujours avec l'aide d'un comptable.</p>
@@ -1668,12 +1668,12 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li><strong>Entreprises en croissance</strong> : La solution scale facilement de 5 a 100 personnes</li>
 <li><strong>Secteur B2B</strong> : Les fonctionnalites de suivi client sont orientees business</li>
 </ul>
-<p>En revanche, si vous etes freelance ou auto-entrepreneur, Sellsy est surdimensionne et trop cher. Optez plutot pour <a href="/go/freebe">Freebe</a>, <a href="/go/tiime">Tiime</a> ou <a href="/go/indy">Indy</a>.</p>
+<p>En revanche, si vous etes freelance ou auto-entrepreneur, Sellsy est surdimensionne et trop cher. Optez plutot pour <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a>, <a href="https://www.tiime.fr/?ae=1289">Tiime</a> ou <a href="https://www.indy.fr/?ae=2183">Indy</a>.</p>
 
 <h2>Alternatives a Sellsy</h2>
 <p>Avant de souscrire, comparez avec :</p>
 <ul>
-<li><a href="/go/pennylane">Pennylane</a> : Moins cher, excellent pour les PME avec expert-comptable, mais sans CRM natif</li>
+<li><a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> : Moins cher, excellent pour les PME avec expert-comptable, mais sans CRM natif</li>
 <li>HubSpot CRM + Pennylane : Combinaison plus flexible si vous avez deja un CRM</li>
 <li>Salesforce + Quickbooks : Pour les grandes entreprises, mais hors budget PME</li>
 </ul>
@@ -1681,7 +1681,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 
 <h2>Verdict final : Sellsy vaut-il son prix ?</h2>
 <p>Sellsy est une excellente solution pour les PME qui ont besoin d'un vrai CRM couple a une facturation rigoureuse. Son positionnement 100% francais, son support de qualite et sa roadmap pro-facturation electronique 2026 en font un choix serieux. Le prix est la principale barriere, mais pour une equipe de 5+ personnes, le ROI peut etre rapidement atteint grace aux gains de temps sur la gestion commerciale.</p>
-<p>Si vous hesitez, profitez de l'essai gratuit de 15 jours pour tester la solution dans votre contexte. Essayez <a href="/go/sellsy">Sellsy gratuitement</a> pendant 15 jours.</p>
+<p>Si vous hesitez, profitez de l'essai gratuit de 15 jours pour tester la solution dans votre contexte. Essayez <a href="https://www.sellsy.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Sellsy gratuitement</a> pendant 15 jours.</p>
 
 <h2>FAQ : Sellsy</h2>
 <p><strong>Sellsy est-il certifie pour la facturation electronique 2026 ?</strong> Oui, Sellsy est sur la liste des PDP (Plateformes de Dematerialisation Partenaires) agreeees par la DGFiP pour l'obligation de facturation electronique.</p>
@@ -1719,7 +1719,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 </ul>
 <p>Pour une entreprise qui depense 5 000 EUR/mois, ca represente 50 a 150 EUR recupres chaque mois. Sur un an, l'abonnement peut etre largement amorti.</p>
 <h3>Facturation et comptabilite</h3>
-<p>Finom integre un module de facturation : devis, factures, relances. C'est moins complet que des solutions dedie comme <a href="/go/freebe">Freebe</a> ou <a href="/go/tiime">Tiime</a>, mais suffisant pour les besoins basiques. La connexion avec les logiciels de comptabilite se fait via export CSV ou API.</p>
+<p>Finom integre un module de facturation : devis, factures, relances. C'est moins complet que des solutions dedie comme <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> ou <a href="https://www.tiime.fr/?ae=1289">Tiime</a>, mais suffisant pour les besoins basiques. La connexion avec les logiciels de comptabilite se fait via export CSV ou API.</p>
 
 <h2>Tarifs Finom 2026</h2>
 <ul>
@@ -1735,7 +1735,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li><strong>Petites equipes</strong> : La gestion multi-cartes et les droits utilisateurs sont bien penses</li>
 <li><strong>Commerce et artisans</strong> : L'IBAN FR et la carte physique sont essentiels pour les paiements fournisseurs</li>
 </ul>
-<p>Si vous avez peu de depenses professionnelles, le cashback ne compense pas la difference de prix avec <a href="/go/shine">Shine</a> ou Qonto. Pour la facturation seule sans compte bancaire, preferez <a href="/go/freebe">Freebe</a>.</p>
+<p>Si vous avez peu de depenses professionnelles, le cashback ne compense pas la difference de prix avec <a href="https://shine.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Shine</a> ou Qonto. Pour la facturation seule sans compte bancaire, preferez <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a>.</p>
 
 <h2>Finom vs Shine : que choisir ?</h2>
 <p>Les deux sont des neobanques pro avec facturation integree, mais avec des profils differents :</p>
@@ -1784,7 +1784,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li>Points forts : Collaboration expert-comptable native, certification PDP facturation electronique, tresorerie temps reel</li>
 <li>Ideal pour : Startups, PME en croissance rapide, entreprises avec expert-comptable</li>
 </ul>
-<p>Essayez <a href="/go/pennylane">Pennylane gratuitement pendant 30 jours</a>.</p>
+<p>Essayez <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane gratuitement pendant 30 jours</a>.</p>
 
 <h3>2. Sellsy - Le meilleur pour les PME avec equipe commerciale</h3>
 <p>Si vous avez des commerciaux, Sellsy est la seule solution qui integre vraiment un CRM et la facturation. Plus besoin de synchroniser HubSpot et votre logiciel de facturation.</p>
@@ -1793,7 +1793,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li>Points forts : CRM natif, gestion de projets, facturation complete, support francais de qualite</li>
 <li>Ideal pour : PME B2B avec commerciaux, agences, ESN</li>
 </ul>
-<p>Essayez <a href="/go/sellsy">Sellsy gratuitement pendant 15 jours</a>.</p>
+<p>Essayez <a href="https://www.sellsy.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Sellsy gratuitement pendant 15 jours</a>.</p>
 
 <h3>3. Sage 50cloud - La solution des comptables traditionnels</h3>
 <p>Sage est la reference historique de la comptabilite PME en France. Sage 50cloud est la version cloud, compatible avec les cabinets d'expertise comptable et les banques traditionnelles.</p>
@@ -1919,13 +1919,13 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p>Le choix de votre logiciel depend de votre profil. Voici nos recommandations :</p>
 
 <h3>Pour les freelances et auto-entrepreneurs</h3>
-<p><strong><a href="/go/freebe">Freebe</a></strong> est la solution la plus adaptee aux micro-entrepreneurs. Simple, abordable (moins de 10 EUR/mois), il gere la facturation electronique en format Factur-X et est compatible avec le PPF. Sa force : une interface pensee pour les non-comptables.</p>
-<p><strong><a href="/go/indy">Indy</a></strong> (ex-Georges) combine compte bancaire et facturation pour les independants. Il prepare activement sa conformite PDP pour 2026 et offre un suivi fiscal automatise tres apprecie des freelances.</p>
-<p><strong><a href="/go/tiime">Tiime</a></strong> est une autre excellente option pour les independants, avec un accent sur la collaboration avec l'expert-comptable.</p>
+<p><strong><a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a></strong> est la solution la plus adaptee aux micro-entrepreneurs. Simple, abordable (moins de 10 EUR/mois), il gere la facturation electronique en format Factur-X et est compatible avec le PPF. Sa force : une interface pensee pour les non-comptables.</p>
+<p><strong><a href="https://www.indy.fr/?ae=2183">Indy</a></strong> (ex-Georges) combine compte bancaire et facturation pour les independants. Il prepare activement sa conformite PDP pour 2026 et offre un suivi fiscal automatise tres apprecie des freelances.</p>
+<p><strong><a href="https://www.tiime.fr/?ae=1289">Tiime</a></strong> est une autre excellente option pour les independants, avec un accent sur la collaboration avec l'expert-comptable.</p>
 
 <h3>Pour les PME (5 a 250 salaries)</h3>
-<p><strong><a href="/go/pennylane">Pennylane</a></strong> est probablement le choix numero un pour les PME francaises qui veulent une solution tout-en-un : facturation electronique conforme PDP, integration expert-comptable native, tableaux de bord financiers en temps reel. Prix : de 74 EUR a 199 EUR/mois selon le plan.</p>
-<p><strong><a href="/go/sellsy">Sellsy</a></strong> convient parfaitement aux PME avec une equipe commerciale : son CRM natif integre a la facturation et son statut PDP en font une solution tres complete.</p>
+<p><strong><a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a></strong> est probablement le choix numero un pour les PME francaises qui veulent une solution tout-en-un : facturation electronique conforme PDP, integration expert-comptable native, tableaux de bord financiers en temps reel. Prix : de 74 EUR a 199 EUR/mois selon le plan.</p>
+<p><strong><a href="https://www.sellsy.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Sellsy</a></strong> convient parfaitement aux PME avec une equipe commerciale : son CRM natif integre a la facturation et son statut PDP en font une solution tres complete.</p>
 
 <h3>Pour les artisans et commercants</h3>
 <p>Les solutions comme EBP, Sage ou Cegid offrent des versions adaptees aux metiers artisanaux. Ces logiciels traditionnels ont generalement obtenu ou sont en cours d'obtention de leur agrement PDP. Verifiez la date de mise a disposition de la fonctionnalite avant de renouveler votre contrat.</p>
@@ -2015,7 +2015,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 
 <h3>Comment facturer les debourses ?</h3>
 <p>Sur votre facture, mentionnez les debourses sur une ligne separee avec la mention "Debourse" ou "Frais refactures". Gardez precisement toutes les preuves (billets, tickets, factures) pour justifier ces remboursements en cas de controle.</p>
-<p>Un logiciel comme <a href="/go/freebe">Freebe</a> ou <a href="/go/indy">Indy</a> vous permet de gerer facilement ces debourses et de les integrer a vos factures.</p>
+<p>Un logiciel comme <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> ou <a href="https://www.indy.fr/?ae=2183">Indy</a> vous permet de gerer facilement ces debourses et de les integrer a vos factures.</p>
 
 <h2>Depenses professionnelles courantes pour auto-entrepreneurs</h2>
 <p>Meme si vous ne les deduisez pas fiscalement, il est important de suivre vos depenses professionnelles pour :</p>
@@ -2030,7 +2030,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p>Si vos charges reelles depassent l'abattement (ce qui arrive souvent pour les consultants avec peu de "materiaux"), cela plaide pour passer en regime reel via une EURL ou SASU.</p>
 
 <h3>Abonnements et logiciels</h3>
-<p>Votre logiciel de facturation (<a href="/go/freebe">Freebe</a>, <a href="/go/indy">Indy</a>...), votre suite bureautique, vos outils de marketing, votre stockage cloud... Tous ces abonnements sont des charges professionnelles a suivre.</p>
+<p>Votre logiciel de facturation (<a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a>, <a href="https://www.indy.fr/?ae=2183">Indy</a>...), votre suite bureautique, vos outils de marketing, votre stockage cloud... Tous ces abonnements sont des charges professionnelles a suivre.</p>
 
 <h3>Frais de deplacement</h3>
 <p>Les frais de deplacement (transport, carburant, peages) peuvent etre refactures en debourses si vous vous deplacez pour un client specifique. Si vous utilisez votre vehicule personnel pour des deplacements professionnels, vous pouvez appliquer le bareme kilometrique officiel pour calculer le cout reel et le refacturer a votre client.</p>
@@ -2054,13 +2054,13 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li>Conserver toutes vos factures d'achat pendant 10 ans</li>
 <li>Conserver toutes vos factures de vente emises pendant 10 ans</li>
 </ul>
-<p>Un logiciel de facturation pour auto-entrepreneur comme <a href="/go/freebe">Freebe</a> ou <a href="/go/indy">Indy</a> vous simplifie enormement cette gestion en automatisant la plupart de ces obligations.</p>
+<p>Un logiciel de facturation pour auto-entrepreneur comme <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> ou <a href="https://www.indy.fr/?ae=2183">Indy</a> vous simplifie enormement cette gestion en automatisant la plupart de ces obligations.</p>
 
 <h2>FAQ : Notes de frais et auto-entrepreneur</h2>
 <p><strong>Puis-je deduire mon abonnement internet de mes impots en auto-entrepreneur ?</strong> Non, en regime micro, vous ne pouvez pas deduire vos charges reelles. L'abattement forfaitaire est sense couvrir tous vos frais, y compris internet. Si votre activite genere beaucoup de frais, evaluez l'opportunite de passer en regime reel via une societe.</p>
 <p><strong>Comment refacturer mes frais de deplacement a un client ?</strong> Facturez-les en "debourses" sur votre facture : ligne separee, montant exact (avec justificatifs), pas de TVA si vous etes en franchise en base. Gardez bien tous vos titres de transport et tickets de carburant.</p>
 <p><strong>Un repas avec un client est-il deductible ?</strong> En regime micro, non. Vous pouvez refacturer au client un repas pris en son nom (si c'est un debourse), mais un repas d'affaires "relationnel" n'est pas deductible. En regime reel (EURL, SASU), il serait partiellement deductible.</p>
-<p><strong>Quel logiciel pour gerer mes frais en auto-entrepreneur ?</strong> <a href="/go/freebe">Freebe</a> est specialement concu pour les micro-entrepreneurs et integre la gestion des debourses et des notes de frais dans ses factures. <a href="/go/indy">Indy</a> offre une vue complete tresorerie + facturation tres pratique au quotidien.</p>
+<p><strong>Quel logiciel pour gerer mes frais en auto-entrepreneur ?</strong> <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> est specialement concu pour les micro-entrepreneurs et integre la gestion des debourses et des notes de frais dans ses factures. <a href="https://www.indy.fr/?ae=2183">Indy</a> offre une vue complete tresorerie + facturation tres pratique au quotidien.</p>
     `.trim(),
     date: '2026-11-10',
     category: 'Guides',
@@ -2118,7 +2118,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p>Tous les abonnements a des outils professionnels sont deductibles en totalite l'annee du paiement :</p>
 <ul>
 <li><strong>Suite bureautique</strong> : Microsoft 365, Google Workspace</li>
-<li><strong>Logiciel de facturation</strong> : <a href="/go/freebe">Freebe</a>, <a href="/go/indy">Indy</a>, <a href="/go/pennylane">Pennylane</a></li>
+<li><strong>Logiciel de facturation</strong> : <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a>, <a href="https://www.indy.fr/?ae=2183">Indy</a>, <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a></li>
 <li><strong>Outils de gestion de projet</strong> : Notion, Asana, Trello</li>
 <li><strong>Outils de communication</strong> : Slack, Zoom</li>
 <li><strong>Adobe Creative Cloud</strong> (pour graphistes, motion designers...)</li>
@@ -2222,7 +2222,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li>Sous-traitance de missions</li>
 <li>Graphiste, developpeur, prestataire externe</li>
 </ul>
-<p>Pour un freelance qui utilise <a href="/go/pennylane">Pennylane</a> ou <a href="/go/indy">Indy</a> et fait appel a un expert-comptable via la plateforme, les honoraires comptables sont souvent reduits et entierement deductibles.</p>
+<p>Pour un freelance qui utilise <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> ou <a href="https://www.indy.fr/?ae=2183">Indy</a> et fait appel a un expert-comptable via la plateforme, les honoraires comptables sont souvent reduits et entierement deductibles.</p>
 
 <h2>Micro-entrepreneur vs SASU/EURL : l'impact reel</h2>
 <p>Prenons un exemple concret pour illustrer l'interet du regime reel :</p>
@@ -2239,7 +2239,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li><strong>Saisir au fil de l'eau</strong> plutot qu'en fin d'annee</li>
 <li><strong>Categoriser correctement</strong> chaque depense dans votre logiciel comptable</li>
 </ul>
-<p>Un logiciel comme <a href="/go/pennylane">Pennylane</a> integre la gestion des notes de frais et la categorisation automatique des depenses par IA, ce qui simplifie enormement le travail comptable. <a href="/go/shine">Shine</a> offre aussi un excellent compte pro avec gestion des frais integree pour les independants.</p>
+<p>Un logiciel comme <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> integre la gestion des notes de frais et la categorisation automatique des depenses par IA, ce qui simplifie enormement le travail comptable. <a href="https://shine.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Shine</a> offre aussi un excellent compte pro avec gestion des frais integree pour les independants.</p>
 
 <h2>FAQ : Deductibilite des charges freelance</h2>
 <p><strong>Puis-je deduire mon abonnement Spotify en tant que freelance ?</strong> Non, Spotify est un abonnement personnel. En revanche, si vous etes musicien ou producteur de podcasts professionnels, un abonnement a une bibliotheque musicale professionnelle est deductible.</p>
@@ -2355,7 +2355,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 </ul>
 
 <h2>La signature electronique : valide juridiquement</h2>
-<p>La signature electronique qualifiee a la meme valeur juridique qu'une signature manuscrite en droit francais (article L100 du Code de commerce, reglement eIDAS europeen). Des outils comme DocuSign, SignRequest ou <a href="/go/pennylane">Pennylane</a> permettent de signer des contrats electroniquement de facon securisee.</p>
+<p>La signature electronique qualifiee a la meme valeur juridique qu'une signature manuscrite en droit francais (article L100 du Code de commerce, reglement eIDAS europeen). Des outils comme DocuSign, SignRequest ou <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> permettent de signer des contrats electroniquement de facon securisee.</p>
 <p>Pour vos contrats simples, un email d'acceptation explicite ("Je valide le devis et les conditions") peut aussi constituer une preuve suffisante, meme sans signature formelle.</p>
 
 <h2>Et si le client refuse de signer un contrat ?</h2>
@@ -2368,7 +2368,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 </ul>
 
 <h2>Gerer ses contrats et sa facturation avec un logiciel</h2>
-<p>Un bon logiciel de gestion freelance vous permet de creer, envoyer et suivre vos devis et contrats directement. <a href="/go/freebe">Freebe</a> integre la gestion des devis, factures et suivi des missions dans une interface simple pensee pour les freelances. <a href="/go/pennylane">Pennylane</a> propose une gestion complete incluant la signature electronique et le suivi comptable.</p>
+<p>Un bon logiciel de gestion freelance vous permet de creer, envoyer et suivre vos devis et contrats directement. <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> integre la gestion des devis, factures et suivi des missions dans une interface simple pensee pour les freelances. <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> propose une gestion complete incluant la signature electronique et le suivi comptable.</p>
 <p>Ces outils conservent un historique complet de vos documents et vous alertent sur les devis en attente de validation ou les factures impayees.</p>
 
 <h2>FAQ : Contrat freelance</h2>
@@ -2501,7 +2501,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 </ul>
 
 <h2>TJM et logiciel de facturation</h2>
-<p>Suivi des jours travailles, facturation a la journee, calcul automatique des depassements... Tout cela se gere simplement dans un logiciel de facturation adapte aux freelances. <a href="/go/freebe">Freebe</a> est concu specifiquement pour les freelances et propose un suivi du temps et des missions integre. <a href="/go/indy">Indy</a> combine gestion des factures et comptabilite avec une interface simple pour suivre votre activite au jour le jour.</p>
+<p>Suivi des jours travailles, facturation a la journee, calcul automatique des depassements... Tout cela se gere simplement dans un logiciel de facturation adapte aux freelances. <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> est concu specifiquement pour les freelances et propose un suivi du temps et des missions integre. <a href="https://www.indy.fr/?ae=2183">Indy</a> combine gestion des factures et comptabilite avec une interface simple pour suivre votre activite au jour le jour.</p>
 
 <h2>FAQ : TJM freelance</h2>
 <p><strong>TJM ou forfait : que choisir ?</strong> Le TJM est plus simple quand le perimetre est flou. Le forfait est plus avantageux quand vous etes tres efficace et pouvez livrer en moins de temps que prevu. Hybride possible : forfait avec TJM pour les depassements.</p>
@@ -2578,7 +2578,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p>Exception : si vous etes resident fiscal dans un pays etranger, les conventions fiscales bilaterales s'appliquent. Consultez un expert-comptable si vous etes en situation de double residence.</p>
 
 <h2>Logiciel de facturation et clients etrangers</h2>
-<p>Un bon logiciel de facturation comme <a href="/go/freebe">Freebe</a> ou <a href="/go/pennylane">Pennylane</a> gere les factures en devises etrangeres, les mentions d'autoliquidation et les clients internationaux. <a href="/go/pennylane">Pennylane</a> propose en outre une integration avec les comptes en devises et un suivi multi-devises particulierement utile si vous avez plusieurs clients etrangers.</p>
+<p>Un bon logiciel de facturation comme <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> ou <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> gere les factures en devises etrangeres, les mentions d'autoliquidation et les clients internationaux. <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> propose en outre une integration avec les comptes en devises et un suivi multi-devises particulierement utile si vous avez plusieurs clients etrangers.</p>
 
 <h2>FAQ : Facturer un client etranger</h2>
 <p><strong>Dois-je traduire ma facture en anglais ?</strong> Non, une facture en francais est valide pour un client etranger. En pratique, si votre client ne parle pas francais, il sera plus a l'aise avec une facture bilingue FR/EN. C'est une question de relation commerciale, pas d'obligation legale.</p>
@@ -2638,7 +2638,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <ul>
 <li><strong>Portage salarial</strong> : zero gestion administrative. La societe de portage gere la facturation, les relances, les declarations sociales et fiscales</li>
 <li><strong>Auto-entrepreneur</strong> : declarations URSSAF trimestrielles ou mensuelles, simple mais vous devez le faire vous-meme</li>
-<li><strong>SASU/EURL</strong> : comptabilite obligatoire, liasse fiscale, AG annuelle... complexite significative sauf si vous utilisez un logiciel comme <a href="/go/pennylane">Pennylane</a> ou <a href="/go/indy">Indy</a></li>
+<li><strong>SASU/EURL</strong> : comptabilite obligatoire, liasse fiscale, AG annuelle... complexite significative sauf si vous utilisez un logiciel comme <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> ou <a href="https://www.indy.fr/?ae=2183">Indy</a></li>
 </ul>
 
 <h3>Flexibilite et creation d'entreprise</h3>
@@ -2708,7 +2708,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li>Avez des charges deductibles significatives (materiel, sous-traitance...)</li>
 <li>Envisagez de developper votre activite (salaries, associes...)</li>
 </ul>
-<p>Pour la gestion quotidienne de votre facturation et comptabilite en freelance independant, des solutions comme <a href="/go/freebe">Freebe</a> (specialiste des freelances) ou <a href="/go/pennylane">Pennylane</a> (comptabilite et fiscalite integrees) simplifient enormement le travail.</p>
+<p>Pour la gestion quotidienne de votre facturation et comptabilite en freelance independant, des solutions comme <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> (specialiste des freelances) ou <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> (comptabilite et fiscalite integrees) simplifient enormement le travail.</p>
 
 <h2>Peut-on cumuler portage salarial et statut independant ?</h2>
 <p>Oui, c'est possible ! De nombreux professionnels utilisent le portage salarial pour certains grands comptes (qui le requis) et facturent leurs autres clients en direct via leur SASU ou auto-entreprise. C'est une strategie hybride interessante qui combine la protection sociale du portage avec la flexibilite et les revenus superieurs du statut independant.</p>
@@ -2774,7 +2774,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li>Redigez un email court (5 phrases max), ultra-personnalise, centre sur leur probleme</li>
 <li>Sequence de 3 emails maximum avec relances espacees de 5 jours</li>
 </ul>
-<p>Taux de reponse attendu : 5 a 15% si la cible et le message sont bons. Un CRM simple ou des outils comme <a href="/go/pennylane">Pennylane</a> vous aideront a suivre vos prospects et devis.</p>
+<p>Taux de reponse attendu : 5 a 15% si la cible et le message sont bons. Un CRM simple ou des outils comme <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> vous aideront a suivre vos prospects et devis.</p>
 
 <h2>5. Votre site web et votre SEO</h2>
 <p>Un site professionnel positionne sur vos mots-cles metier peut generer des leads en pilote automatique :</p>
@@ -2852,7 +2852,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li><strong>Diversifiez vos canaux</strong> : ne misez pas tout sur Malt ou sur le reseau</li>
 <li><strong>Fixez-vous des objectifs</strong> : X emails/semaine, Y posts LinkedIn/mois, Z meetings/mois</li>
 <li><strong>Gerez votre pipeline</strong> avec un simple tableau ou CRM</li>
-<li><strong>Tracez vos devis</strong> avec un logiciel comme <a href="/go/freebe">Freebe</a> qui vous permet de convertir rapidement un prospect en client</li>
+<li><strong>Tracez vos devis</strong> avec un logiciel comme <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> qui vous permet de convertir rapidement un prospect en client</li>
 </ul>
 
 <h2>FAQ : Trouver des clients freelance</h2>
