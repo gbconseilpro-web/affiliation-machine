@@ -1744,7 +1744,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li><strong>Shine</strong> : Meilleur pour les auto-entrepreneurs (mise de cote URSSAF/TVA automatique, plan gratuit avec fonctionnalites basiques)</li>
 </ul>
 <p>Notre recommandation : si vous payez plus de 2 000 EUR/mois en depenses pro, Finom est plus rentable. En dessous, Shine ou un logiciel de facturation dedie peut suffire.</p>
-<p>Essayez <a href="/go/finom">Finom gratuitement pendant 30 jours</a>.</p>
+<p>Essayez <a href="https://i07o.xyz/6af5b939b3f45" rel="nofollow sponsored noopener noreferrer" target="_blank">Finom gratuitement pendant 30 jours</a>.</p>
 
 <h2>FAQ : Finom</h2>
 <p><strong>Finom est-il une vraie banque ?</strong> Finom est un etablissement de monnaie electronique agree par la Banque de Lituanie (passeport europeen). Les fonds sont proteges jusqu'a 100 000 EUR par le Fonds de Garantie des Depots lituanien, ce qui est equivalent au systeme europeen.</p>
