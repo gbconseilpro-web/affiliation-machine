@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 APP_DIR="/home/ubuntu/affiliation-machine"
-PM2_NAME="affiliation"
+PM2_NAME="affiliation-machine"
 SITE_URL="https://facturationpro.com"
 echo "=============================="
 echo "==> DEPLOY START: $(date)"
@@ -10,8 +10,8 @@ cd "$APP_DIR"
 echo "==> [1/6] Repertoire : $APP_DIR"
 echo "==> [2/6] Git pull..."
 git pull origin main
-echo "==> [3/6] npm ci (toutes les dependances)..."
-npm ci
+echo "==> [3/6] rm -rf node_modules .next && npm ci (toutes les dependances)..."
+rm -rf node_modules .next && npm ci
 echo "==> [4/6] npm run build..."
 npm run build
 if [ ! -f ".next/standalone/server.js" ]; then
