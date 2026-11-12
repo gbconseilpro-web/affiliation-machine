@@ -158,7 +158,7 @@ export default function BlogPostPage({ params }: Props) {
               Essayer Freebe
             </a>
             <a
-              href="https://app.indy.fr/inscription?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog-indy"
+              href="https://www.indy.fr/?ae=2183"
               className="inline-flex items-center gap-2 bg-white border border-gray-200 hover:border-indigo-300 text-gray-700 hover:text-indigo-600 font-semibold text-sm px-5 py-2.5 rounded-xl transition-colors"
             >
               Essayer Indy

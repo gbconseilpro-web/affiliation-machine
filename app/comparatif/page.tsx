@@ -105,9 +105,8 @@ const products = [
       'Interface moins intuitive que Freebe pour la facturation pure',
     ],
     ctaUrl: buildAffiliateLink({
-      baseUrl: 'https://www.indy.fr',
-      network: 'direct',
-      subId: 'comparatif-indy',
+      baseUrl: 'https://www.indy.fr/?ae=2183',
+      network: 'custom',
     }),
     ctaText: 'Commencer gratuitement',
     features: {
@@ -138,9 +137,8 @@ const products = [
       'Moins autonome sans expert-comptable partenaire',
     ],
     ctaUrl: buildAffiliateLink({
-      baseUrl: 'https://www.tiime.fr',
-      network: 'direct',
-      subId: 'comparatif-tiime',
+      baseUrl: 'https://www.tiime.fr/?ae=1289',
+      network: 'custom',
     }),
     ctaText: 'Essai gratuit',
     features: {

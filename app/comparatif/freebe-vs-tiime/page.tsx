@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 const SITE_URL = 'https://facturationpro.com'
 const FREEBE_URL = 'https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=freebe-vs-tiime'
-const TIIME_URL = 'https://www.tiime.fr?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=freebe-vs-tiime'
+const TIIME_URL = 'https://www.tiime.fr/?ae=1289'
 
 export const metadata: Metadata = {
   title: 'Freebe vs Tiime 2026 : quel logiciel pour freelance choisir ?',

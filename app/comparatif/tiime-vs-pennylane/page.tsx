@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
 }
 
-const TIIME_URL = 'https://www.tiime.fr?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=tiime-vs-pennylane'
+const TIIME_URL = 'https://www.tiime.fr/?ae=1289'
 const PENNYLANE_URL = 'https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=tiime-vs-pennylane'
 
 const jsonLd = {

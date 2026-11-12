@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 const SITE_URL = 'https://facturationpro.com'
 
-const INDY_URL = 'https://www.indy.fr/?via=facturationpro&utm_source=facturationpro&utm_medium=affiliation&utm_campaign=indy-vs-pennylane'
+const INDY_URL = 'https://www.indy.fr/?ae=2183'
 const PENNYLANE_URL = 'https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=indy-vs-pennylane'
 
 export const metadata: Metadata = {

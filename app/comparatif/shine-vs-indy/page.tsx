@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 const SITE_URL = 'https://facturationpro.com'
 
 const SHINE_URL = 'https://app.shine.fr/signup-select?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=shine-vs-indy'
-const INDY_URL = 'https://www.indy.fr/?via=facturationpro&utm_source=facturationpro&utm_medium=affiliation&utm_campaign=shine-vs-indy'
+const INDY_URL = 'https://www.indy.fr/?ae=2183'
 
 export const metadata: Metadata = {
   title: 'Shine vs Indy 2026 : banque pro ou logiciel comptable pour freelance ?',
