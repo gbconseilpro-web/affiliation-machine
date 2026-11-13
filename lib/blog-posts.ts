@@ -3008,21 +3008,92 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
   {
     slug: 'pennylane-vs-indy',
     title: 'Pennylane vs Indy 2026 : lequel choisir pour votre freelance ?',
-    excerpt: 'Pennylane ou Indy ? Comparatif complet des deux leaders de la facturation/comptabilite freelance en France. Tarifs, fonctionnalites, scenarios d\'usage : on tranche.',
+    excerpt: 'Pennylane ou Indy ? Comparatif complet des deux leaders de la facturation/comptabilite freelance en France. Tarifs, fonctionnalites, tableau comparatif et scenarios d\'usage : on tranche.',
     date: '2026-11-13',
-    readTime: 10,
+    readTime: 12,
     category: 'Comparatifs',
-    keywords: ['pennylane vs indy', 'indy vs pennylane', 'comparatif pennylane indy', 'meilleur logiciel freelance 2026'],
+    keywords: ['pennylane vs indy', 'indy vs pennylane', 'comparatif pennylane indy', 'meilleur logiciel freelance 2026', 'pennylane ou indy', 'indy ou pennylane'],
     image: '/blog/pennylane-vs-indy.svg',
     content: `
 <h2>Pennylane vs Indy : deux approches differentes de la comptabilite freelance</h2>
 <p>Pennylane et Indy sont les deux solutions les plus populaires parmi les freelances francais en 2026. Ils visent le meme public (independants, SASU, EURL, TPE) mais avec des philosophies differentes : Pennylane est oriente "collaboration avec l'expert-comptable", tandis qu'Indy mise sur "l'autonomie du dirigeant avec une guidance integree".</p>
+<p>Dans ce comparatif, on passe en revue les tarifs 2026, les fonctionnalites cles, les avantages et limites de chaque solution, pour vous aider a choisir sans perdre de temps.</p>
 
-<h2>Comparaison des tarifs 2026</h2>
+<h2>Tableau comparatif Pennylane vs Indy 2026</h2>
+<div style="overflow-x:auto;margin:1.5rem 0;">
+<table style="width:100%;border-collapse:collapse;font-size:0.95rem;">
+  <thead>
+    <tr style="background:#f1f5f9;">
+      <th style="padding:10px 14px;text-align:left;border-bottom:2px solid #e2e8f0;font-weight:700;">Critere</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:2px solid #e2e8f0;font-weight:700;color:#059669;">Pennylane</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:2px solid #e2e8f0;font-weight:700;color:#4f46e5;">Indy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Tarif de base</td>
+      <td style="padding:9px 14px;text-align:center;">29 EUR/mois</td>
+      <td style="padding:9px 14px;text-align:center;">29 EUR/mois</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Essai gratuit</td>
+      <td style="padding:9px 14px;text-align:center;">14 jours</td>
+      <td style="padding:9px 14px;text-align:center;">30 jours</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Facturation conforme</td>
+      <td style="padding:9px 14px;text-align:center;">Oui</td>
+      <td style="padding:9px 14px;text-align:center;">Oui</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Synchro bancaire</td>
+      <td style="padding:9px 14px;text-align:center;">Oui (200+ banques)</td>
+      <td style="padding:9px 14px;text-align:center;">Oui (principales banques)</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Declaration TVA</td>
+      <td style="padding:9px 14px;text-align:center;">Oui (plan Plus+)</td>
+      <td style="padding:9px 14px;text-align:center;">Oui (plan Pro+)</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Collaboration expert-comptable</td>
+      <td style="padding:9px 14px;text-align:center;color:#059669;font-weight:600;">Avancee</td>
+      <td style="padding:9px 14px;text-align:center;">Basique</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Liasse fiscale guidee</td>
+      <td style="padding:9px 14px;text-align:center;">Non (via EC)</td>
+      <td style="padding:9px 14px;text-align:center;color:#4f46e5;font-weight:600;">Oui (plan Pro)</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Application mobile</td>
+      <td style="padding:9px 14px;text-align:center;">iOS + Android</td>
+      <td style="padding:9px 14px;text-align:center;">iOS + Android</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Multi-utilisateurs</td>
+      <td style="padding:9px 14px;text-align:center;color:#059669;font-weight:600;">Oui (Business+)</td>
+      <td style="padding:9px 14px;text-align:center;">Non</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Facturation electronique 2026</td>
+      <td style="padding:9px 14px;text-align:center;">En cours</td>
+      <td style="padding:9px 14px;text-align:center;">En cours</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Note utilisateurs (Trustpilot)</td>
+      <td style="padding:9px 14px;text-align:center;">4,2/5</td>
+      <td style="padding:9px 14px;text-align:center;">4,4/5</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>Comparaison des tarifs 2026 en detail</h2>
 <p><strong>Pennylane :</strong></p>
 <ul>
 <li>Essentiel : 29 EUR/mois (facturation + tableau de bord financier)</li>
-<li>Plus : 49 EUR/mois (+ TVA automatique + tresorerie)</li>
+<li>Plus : 49 EUR/mois (+ TVA automatique + tresorerie avancee)</li>
 <li>Business : 79 EUR/mois (+ collaboration EC avancee + multi-utilisateurs)</li>
 <li>Expert : tarif sur devis (EC integre inclus)</li>
 </ul>
@@ -3035,42 +3106,57 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p>Les tarifs sont proches sur les plans de base. Indy l'emporte sur le rapport qualite/prix des plans intermediaires (Pro 39 vs Plus 49 chez Pennylane pour des fonctionnalites similaires).</p>
 
 <h2>Comparaison des fonctionnalites cles</h2>
-<h3>Facturation</h3>
-<p>Les deux solutions proposent une facturation conforme avec toutes les mentions obligatoires legales francaises. Pennylane a un editeur de devis/factures plus complet avec personalisation poussee. Indy est plus simple et guide, ideal pour un debutant.</p>
+<h3>Facturation et devis</h3>
+<p>Les deux solutions proposent une facturation conforme avec toutes les mentions obligatoires legales francaises (numero de SIREN, mentions TVA, conditions de paiement, penalites de retard). Pennylane a un editeur de devis/factures plus complet avec personnalisation poussee et templates professionnels. Indy est plus simple et guide, ideal pour un debutant qui ne veut pas passer de temps a parametrer son outil.</p>
 <h3>Synchronisation bancaire</h3>
-<p>Les deux integrent les grandes banques francaises via Open Banking. Pennylane supporte plus d'etablissements (y compris les banques pro comme Qonto, Shine, Finom). Indy couvre l'essentiel.</p>
+<p>Les deux integrent les grandes banques francaises via Open Banking (DSP2). Pennylane supporte plus de 200 etablissements dont les banques pro (Qonto, Shine, Finom, Revolut Business). Indy couvre toutes les banques principales. Pour une structure avec plusieurs comptes bancaires, Pennylane est plus complet.</p>
 <h3>TVA et fiscalite</h3>
-<p>Indy a un avantage ici : la declaration de TVA est tres guidee, avec des ecrans explicatifs adaptes au non-comptable. Pennylane est plus puissant pour les situations complexes (TVA sur les debits/encaissements, deductions speciales).</p>
+<p>Indy a un avantage ici : la declaration de TVA est tres guidee, avec des ecrans explicatifs adaptes au non-comptable. Pennylane est plus puissant pour les situations complexes (TVA sur les debits/encaissements, regimes speciaux, deductions particulieres). Pour un freelance standard, les deux couvrent parfaitement les besoins.</p>
 <h3>Collaboration avec l'expert-comptable</h3>
-<p>Pennylane est clairement superieur sur ce point. L'espace de collaboration EC est son coeur de metier : votre EC valide les ecritures en temps reel, prepare le bilan depuis la plateforme, et vous alertez en cas d'anomalie. Indy propose aussi un espace EC, mais moins developpe.</p>
+<p>Pennylane est clairement superieur sur ce point. L'espace de collaboration EC est son coeur de metier : votre EC valide les ecritures en temps reel, prepare le bilan depuis la plateforme, et vous alerte en cas d'anomalie. Plus de 15 000 experts-comptables utiliseraient Pennylane en France. Indy propose aussi un espace EC, mais moins developpe.</p>
 <h3>Liasse fiscale et bilan</h3>
-<p>Indy est l'unique solution a proposer une aide guidee pour produire sa liasse fiscale en quasi-autonomie (plan Pro). Pennylane laisse cette partie a votre EC. Si vous voulez comprendre et piloter votre fiscalite vous-meme, Indy est plus pedagogique.</p>
+<p>Indy est unique en proposant une aide guidee pour produire sa liasse fiscale en quasi-autonomie (plan Pro). C'est une vraie distinction : pour un freelance qui veut reduire sa dependance a l'EC et matriser sa comptabilite de bout en bout, Indy est plus pedagogique. Pennylane laisse cette partie a votre expert-comptable.</p>
 
-<h2>Scenarios : qui choisir selon votre profil ?</h2>
-<ul>
-<li><strong>Auto-entrepreneur debutant</strong> : Indy (plus accessible, moins cher, guidance forte)</li>
-<li><strong>Freelance SASU avec EC partenaire</strong> : Pennylane si votre EC l'utilise, sinon Indy</li>
-<li><strong>TPE en croissance (2-5 personnes)</strong> : Pennylane Business (multi-utilisateurs, CRM basique)</li>
-<li><strong>Freelance qui veut comprendre sa comptabilite</strong> : Indy (tres pedagogique)</li>
-<li><strong>Freelance qui veut juste deleguer la compta</strong> : Pennylane Expert (EC integre)</li>
-</ul>
+<h2>Pour qui choisir Pennylane ou Indy ?</h2>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.5rem 0;">
+  <div style="background:#ecfdf5;border:1px solid #a7f3d0;border-radius:12px;padding:1rem;">
+    <p style="font-weight:700;color:#065f46;margin:0 0 0.75rem;">Choisissez Pennylane si...</p>
+    <ul style="margin:0;padding-left:1.25rem;color:#374151;">
+      <li>Vous travaillez avec un EC et voulez une collaboration fluide</li>
+      <li>Votre structure grandit (2-5 personnes)</li>
+      <li>Vous avez des besoins de reporting avances</li>
+      <li>Vous preferez un outil premium bien fini</li>
+    </ul>
+  </div>
+  <div style="background:#ede9fe;border:1px solid #c4b5fd;border-radius:12px;padding:1rem;">
+    <p style="font-weight:700;color:#4c1d95;margin:0 0 0.75rem;">Choisissez Indy si...</p>
+    <ul style="margin:0;padding-left:1.25rem;color:#374151;">
+      <li>Vous demarrez en independant avec un budget serre</li>
+      <li>Vous voulez comprendre votre comptabilite</li>
+      <li>Vous preferez le meilleur rapport qualite/prix</li>
+      <li>Vous voulez gerer votre liasse fiscale seul</li>
+    </ul>
+  </div>
+</div>
 
 <h2>Notre verdict : Pennylane vs Indy</h2>
 <p><strong>Choisissez Pennylane</strong> si vous travaillez avec un expert-comptable et voulez une collaboration fluide, si votre structure est en croissance et vous avez des besoins de reporting avances, ou si vous etes pret a payer un peu plus pour une solution premium.</p>
 <p><strong>Choisissez Indy</strong> si vous etes a la recherche du meilleur rapport qualite/prix, si vous souhaitez comprendre votre comptabilite et garder le controle, ou si vous demarrez en independant avec un budget serre.</p>
 <p>Les deux sont excellents. Profitez de leurs periodes d'essai gratuites pour tester :</p>
 <ul>
-<li><a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog-pennylane-vs-indy" rel="nofollow sponsored noopener">Essayer Pennylane gratuitement 1 mois</a></li>
+<li><a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog-pennylane-vs-indy" rel="nofollow sponsored noopener">Essayer Pennylane gratuitement 14 jours</a></li>
 <li><a href="https://www.indy.fr/?ae=2183" rel="nofollow sponsored noopener">Essayer Indy gratuitement 30 jours</a></li>
 </ul>
 <p>Pour aller plus loin, consultez aussi notre <a href="/comparatif/indy-vs-pennylane">comparatif Indy vs Pennylane en detail</a> ou notre <a href="/comparatif">comparatif global des 8 logiciels de facturation freelance</a>.</p>
 
 <h2>FAQ : Pennylane vs Indy</h2>
-<p><strong>Pennylane est-il vraiment meilleur qu'Indy ?</strong> Ca depend de votre usage. Pennylane est superieur pour la collaboration EC et les fonctionnalites avancees. Indy est meilleur pour l'autonomie et le rapport qualite/prix. Les deux sont d'excellentes solutions.</p>
+<p><strong>Pennylane est-il vraiment meilleur qu'Indy ?</strong> Ca depend de votre usage. Pennylane est superieur pour la collaboration avec un expert-comptable et les fonctionnalites avancees (multi-utilisateurs, reporting). Indy est meilleur pour l'autonomie et le rapport qualite/prix. Les deux sont d'excellentes solutions et vont continuer a evoluer.</p>
+<p><strong>Indy est-il gratuit ?</strong> Non, Indy n'est pas gratuit. Il propose un essai gratuit de 30 jours, puis les plans demandent a partir de 29 EUR/mois. Certaines fonctionnalites de base (creation de factures) peuvent etre testees gratuitement pendant la periode d'essai.</p>
 <p><strong>Peut-on migrer facilement d'Indy vers Pennylane (ou vice versa) ?</strong> Oui, les deux proposent des exports de donnees (CSV, PDF). La migration comptable doit se faire au debut d'un exercice fiscal pour simplifier les choses. Votre EC peut vous accompagner sur la cloture et la reprise de donnees.</p>
-<p><strong>Indy et Pennylane sont-ils conformes a la facturation electronique 2026 ?</strong> Oui, les deux sont en cours de mise en conformite avec les nouvelles obligations. Consultez notre <a href="/blog/facturation-electronique-2026-guide">guide facturation electronique 2026</a> pour tout comprendre.</p>
+<p><strong>Indy et Pennylane sont-ils conformes a la facturation electronique 2026 ?</strong> Oui, les deux sont en cours de mise en conformite avec les nouvelles obligations de facturation electronique entre entreprises (B2B). Consultez notre <a href="/blog/facturation-electronique-2026-guide">guide facturation electronique 2026</a> pour tout comprendre.</p>
+<p><strong>Quelle solution choisir pour une SASU ?</strong> Pour une SASU, Pennylane est souvent recommande car il facilite la collaboration avec un expert-comptable, indispensable pour gerer les obligations comptables d'une SASU (depot des comptes, IS, etc.). Indy convient aussi, surtout si vous avez un EC partenaire deja sur la plateforme.</p>
     `.trim(),
-    metaDescription: 'Pennylane ou Indy pour votre freelance en 2026 ? Comparatif complet : tarifs, fonctionnalites, scenarios d\'usage. On vous aide a choisir.',
+    metaDescription: 'Pennylane vs Indy 2026 : tableau comparatif complet, tarifs, fonctionnalites et scenarios d\'usage pour choisir le meilleur logiciel de comptabilite freelance.',
   },
   {
     slug: 'axonaut-avis-test-complet',
@@ -3217,13 +3303,85 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li>Overkill pour un freelance qui veut juste facturer et envoyer des devis</li>
 </ul>
 
-<h2>Comparatif fonctionnalites cles</h2>
-<p><strong>Facturation :</strong> les deux excellent, avec toutes les mentions legales francaises. Avantage Freebe sur le design, avantage Pennylane sur la richesse des options.</p>
-<p><strong>Devis et signatures :</strong> Freebe egalite ou avantage sur la facilite d'usage. Pennylane est plus complet sur les workflows.</p>
-<p><strong>Comptabilite :</strong> Pennylane ecrase Freebe. Freebe n'est pas un logiciel de comptabilite.</p>
-<p><strong>Synchronisation bancaire :</strong> uniquement Pennylane.</p>
-<p><strong>Time-tracking :</strong> Freebe l'emporte (integre nativement).</p>
-<p><strong>Prix :</strong> Freebe l'emporte largement.</p>
+<h2>Tableau comparatif Freebe vs Pennylane 2026</h2>
+<div style="overflow-x:auto;margin:1.5rem 0;">
+<table style="width:100%;border-collapse:collapse;font-size:0.95rem;">
+  <thead>
+    <tr style="background:#f1f5f9;">
+      <th style="padding:10px 14px;text-align:left;border-bottom:2px solid #e2e8f0;font-weight:700;">Critere</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:2px solid #e2e8f0;font-weight:700;color:#7c3aed;">Freebe</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:2px solid #e2e8f0;font-weight:700;color:#059669;">Pennylane</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Tarif de base</td>
+      <td style="padding:9px 14px;text-align:center;color:#7c3aed;font-weight:600;">9,90 EUR/mois</td>
+      <td style="padding:9px 14px;text-align:center;">29 EUR/mois</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Essai gratuit</td>
+      <td style="padding:9px 14px;text-align:center;">30 jours</td>
+      <td style="padding:9px 14px;text-align:center;">14 jours</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Facturation conforme</td>
+      <td style="padding:9px 14px;text-align:center;">Oui</td>
+      <td style="padding:9px 14px;text-align:center;">Oui</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Design des factures</td>
+      <td style="padding:9px 14px;text-align:center;color:#7c3aed;font-weight:600;">Excellent</td>
+      <td style="padding:9px 14px;text-align:center;">Bon</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Signatures electroniques</td>
+      <td style="padding:9px 14px;text-align:center;color:#7c3aed;font-weight:600;">Oui (natif)</td>
+      <td style="padding:9px 14px;text-align:center;">Oui</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Time-tracking</td>
+      <td style="padding:9px 14px;text-align:center;color:#7c3aed;font-weight:600;">Oui (natif)</td>
+      <td style="padding:9px 14px;text-align:center;">Non</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Synchronisation bancaire</td>
+      <td style="padding:9px 14px;text-align:center;">Non</td>
+      <td style="padding:9px 14px;text-align:center;color:#059669;font-weight:600;">Oui (200+ banques)</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Declaration TVA</td>
+      <td style="padding:9px 14px;text-align:center;">Non</td>
+      <td style="padding:9px 14px;text-align:center;color:#059669;font-weight:600;">Oui (automatise)</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Collaboration expert-comptable</td>
+      <td style="padding:9px 14px;text-align:center;">Basique</td>
+      <td style="padding:9px 14px;text-align:center;color:#059669;font-weight:600;">Avancee</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Gestion clients/projets</td>
+      <td style="padding:9px 14px;text-align:center;color:#7c3aed;font-weight:600;">Oui (portefeuille)</td>
+      <td style="padding:9px 14px;text-align:center;">Basique</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Application mobile</td>
+      <td style="padding:9px 14px;text-align:center;">iOS + Android</td>
+      <td style="padding:9px 14px;text-align:center;">iOS + Android</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Note utilisateurs</td>
+      <td style="padding:9px 14px;text-align:center;color:#7c3aed;font-weight:600;">4,7/5 (App Store)</td>
+      <td style="padding:9px 14px;text-align:center;">4,2/5 (Trustpilot)</td>
+    </tr>
+    <tr>
+      <td style="padding:9px 14px;font-weight:600;">Ideal pour</td>
+      <td style="padding:9px 14px;text-align:center;">Freelances creatifs, AE</td>
+      <td style="padding:9px 14px;text-align:center;">SASU, TPE avec EC</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 <h2>Notre verdict : Freebe ou Pennylane ?</h2>
 <p><strong>Choisissez Freebe si :</strong></p>
@@ -3297,10 +3455,86 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <h2>Tiime : l'option collaborative avec l'expert-comptable</h2>
 <p>Tiime est une solution interessante pour les agences qui travaillent etroitement avec leur expert-comptable. Tiime One (25 EUR/mois) couvre la facturation et la comptabilite basique. Tiime propose aussi Tiime AE pour les micro-entrepreneurs, et une version Tiime Comptable pour les EC partenaires. L'ecosysteme est pense pour la collaboration EC.</p>
 
-<h2>Comparatif rapide agences</h2>
-<p><strong>Budget < 50 EUR/mois (1-2 users) :</strong> Pennylane Essentiel ou Tiime One. Pas de gestion projets native.</p>
+<h2>Tableau comparatif logiciels facturation pour agences 2026</h2>
+<div style="overflow-x:auto;margin:1.5rem 0;">
+<table style="width:100%;border-collapse:collapse;font-size:0.9rem;">
+  <thead>
+    <tr style="background:#f1f5f9;">
+      <th style="padding:10px 12px;text-align:left;border-bottom:2px solid #e2e8f0;font-weight:700;">Critere</th>
+      <th style="padding:10px 12px;text-align:center;border-bottom:2px solid #e2e8f0;font-weight:700;color:#059669;">Pennylane Business</th>
+      <th style="padding:10px 12px;text-align:center;border-bottom:2px solid #e2e8f0;font-weight:700;color:#d97706;">Axonaut</th>
+      <th style="padding:10px 12px;text-align:center;border-bottom:2px solid #e2e8f0;font-weight:700;color:#7c3aed;">Sellsy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 12px;font-weight:600;">Tarif de base</td>
+      <td style="padding:9px 12px;text-align:center;">79 EUR/mois<br><small style="color:#6b7280;">5 users</small></td>
+      <td style="padding:9px 12px;text-align:center;">109 EUR/mois<br><small style="color:#6b7280;">2 users</small></td>
+      <td style="padding:9px 12px;text-align:center;">99 EUR/mois<br><small style="color:#6b7280;">2 users</small></td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 12px;font-weight:600;">Multi-utilisateurs</td>
+      <td style="padding:9px 12px;text-align:center;color:#059669;font-weight:600;">Oui (roles)</td>
+      <td style="padding:9px 12px;text-align:center;color:#d97706;font-weight:600;">Oui (roles)</td>
+      <td style="padding:9px 12px;text-align:center;color:#7c3aed;font-weight:600;">Oui (avance)</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 12px;font-weight:600;">Time-tracking</td>
+      <td style="padding:9px 12px;text-align:center;">Non natif</td>
+      <td style="padding:9px 12px;text-align:center;color:#d97706;font-weight:600;">Oui (natif)</td>
+      <td style="padding:9px 12px;text-align:center;color:#7c3aed;font-weight:600;">Oui (natif)</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 12px;font-weight:600;">Gestion de projets</td>
+      <td style="padding:9px 12px;text-align:center;">Non natif</td>
+      <td style="padding:9px 12px;text-align:center;color:#d97706;font-weight:600;">Oui</td>
+      <td style="padding:9px 12px;text-align:center;color:#7c3aed;font-weight:600;">Oui (avance)</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 12px;font-weight:600;">CRM integre</td>
+      <td style="padding:9px 12px;text-align:center;">Basique</td>
+      <td style="padding:9px 12px;text-align:center;color:#d97706;font-weight:600;">Oui</td>
+      <td style="padding:9px 12px;text-align:center;color:#7c3aed;font-weight:600;">Oui (puissant)</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 12px;font-weight:600;">Collaboration EC</td>
+      <td style="padding:9px 12px;text-align:center;color:#059669;font-weight:600;">Avancee (natif)</td>
+      <td style="padding:9px 12px;text-align:center;">Basique</td>
+      <td style="padding:9px 12px;text-align:center;">Bonne</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 12px;font-weight:600;">Declaration TVA</td>
+      <td style="padding:9px 12px;text-align:center;color:#059669;font-weight:600;">Automatisee</td>
+      <td style="padding:9px 12px;text-align:center;">Oui</td>
+      <td style="padding:9px 12px;text-align:center;">Oui</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 12px;font-weight:600;">Facturation acomptes/situations</td>
+      <td style="padding:9px 12px;text-align:center;">Oui</td>
+      <td style="padding:9px 12px;text-align:center;color:#d97706;font-weight:600;">Oui (avance)</td>
+      <td style="padding:9px 12px;text-align:center;color:#7c3aed;font-weight:600;">Oui (avance)</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 12px;font-weight:600;">Synchro bancaire</td>
+      <td style="padding:9px 12px;text-align:center;color:#059669;font-weight:600;">Oui (200+ banques)</td>
+      <td style="padding:9px 12px;text-align:center;">Oui</td>
+      <td style="padding:9px 12px;text-align:center;">Oui</td>
+    </tr>
+    <tr style="background:#f8fafc;">
+      <td style="padding:9px 12px;font-weight:600;">Ideal pour</td>
+      <td style="padding:9px 12px;text-align:center;">Agences avec EC<br>Comptabilite rigoureuse</td>
+      <td style="padding:9px 12px;text-align:center;">Agences 3-10 pers.<br>Tout-en-un</td>
+      <td style="padding:9px 12px;text-align:center;">Agences > 10 pers.<br>CRM avance</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h3>Synthese selon votre budget</h3>
+<p><strong>Budget &lt; 50 EUR/mois (1-2 users) :</strong> Pennylane Essentiel ou Tiime One. Pas de gestion projets native.</p>
 <p><strong>Budget 80-120 EUR/mois (2-5 users) :</strong> Pennylane Business pour la comptabilite, ou Axonaut pour le tout-en-un.</p>
-<p><strong>Budget > 150 EUR/mois, equipe > 5 :</strong> Sellsy ou Axonaut multi-users.</p>
+<p><strong>Budget &gt; 150 EUR/mois, equipe &gt; 5 :</strong> Sellsy ou Axonaut multi-users.</p>
 <p><strong>Priorite absolue : collaboration EC</strong> : Pennylane.</p>
 <p><strong>Priorite absolue : tout-en-un sans abonnements multiples</strong> : Axonaut.</p>
 
