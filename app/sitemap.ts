@@ -36,6 +36,9 @@ const blogSlugs = [
   'facturer-client-etranger-auto-entrepreneur',
   'portage-salarial-vs-freelance',
   'comment-trouver-clients-freelance',
+  'myunisoft-avis-test-complet',
+  'logiciel-facturation-sasu',
+  'pennylane-vs-indy',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
