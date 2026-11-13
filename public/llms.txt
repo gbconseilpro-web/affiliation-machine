@@ -1,0 +1,69 @@
+# FacturationPro - Logiciels de facturation pour independants et TPE en France
+
+> FacturationPro est un site de comparaison et d'avis sur les logiciels de facturation, comptabilite et neobanques pro pour freelances, auto-entrepreneurs, SASU et EURL en France.
+
+## A propos
+
+FacturationPro aide les independants et dirigeants de TPE a choisir les meilleurs outils de gestion : logiciels de facturation, solutions comptables, neobanques professionnelles. Tous les avis sont bases sur des tests reels et mis a jour en 2026.
+
+## Pages principales
+
+- [Comparatif logiciels de facturation 2026](https://facturationpro.com/comparatif)
+- [Blog - Guides et avis](https://facturationpro.com/blog)
+- [Barometre des prix logiciels comptables](https://facturationpro.com/barometre-prix)
+- [Guide facturation pour independants](https://facturationpro.com/guide)
+
+## Avis logiciels (tests complets 2026)
+
+- [Freebe avis 2026](https://facturationpro.com/blog/freebe-avis-test-complet) - Facturation freelance, 4,4/5
+- [Pennylane avis 2026](https://facturationpro.com/blog/pennylane-avis-test-complet) - Comptabilite + EC, 4,3/5
+- [Indy avis 2026](https://facturationpro.com/blog/indy-avis-test-complet) - Comptabilite autonome AE, 4,2/5
+- [Tiime avis 2026](https://facturationpro.com/blog/tiime-avis-test-complet) - Facturation gratuite micro-entrepreneur, 4,0/5
+- [Shine avis 2026](https://facturationpro.com/blog/shine-avis-test-complet) - Neobanque pro, 4,1/5
+- [Sellsy avis 2026](https://facturationpro.com/blog/sellsy-avis-test-complet) - CRM + facturation PME, 4,3/5
+- [Finom avis 2026](https://facturationpro.com/blog/finom-avis-test-complet) - Neobanque cashback 3%, 4,1/5
+- [MyUnisoft avis 2026](https://facturationpro.com/blog/myunisoft-avis-test-complet) - Comptabilite cabinet EC, 4,3/5
+- [Axonaut avis 2026](https://facturationpro.com/blog/axonaut-avis-test-complet) - CRM + ERP PME, 4,2/5
+
+## Comparatifs
+
+- [Pennylane vs Indy](https://facturationpro.com/blog/pennylane-vs-indy)
+- [Freebe vs Pennylane](https://facturationpro.com/blog/freebe-vs-pennylane)
+- [Freebe vs Pennylane (comparatif)](https://facturationpro.com/comparatif/freebe-vs-pennylane)
+- [Indy vs Freebe](https://facturationpro.com/comparatif/indy-vs-freebe)
+- [Tiime vs Pennylane](https://facturationpro.com/comparatif/tiime-vs-pennylane)
+- [Indy vs Pennylane](https://facturationpro.com/comparatif/indy-vs-pennylane)
+- [Freebe vs Tiime](https://facturationpro.com/comparatif/freebe-vs-tiime)
+- [Shine vs Indy](https://facturationpro.com/comparatif/shine-vs-indy)
+
+## Guides pratiques
+
+- [Meilleur logiciel de facturation freelance 2026](https://facturationpro.com/blog/meilleur-logiciel-facturation-freelance)
+- [Facturation electronique obligatoire 2026 : guide complet](https://facturationpro.com/blog/facturation-electronique-2026-guide)
+- [Logiciel facturation auto-entrepreneur 2026](https://facturationpro.com/blog/logiciel-facturation-auto-entrepreneur)
+- [Logiciel facturation SASU](https://facturationpro.com/blog/logiciel-facturation-sasu)
+- [Logiciel facturation PME comparatif](https://facturationpro.com/blog/logiciel-facturation-pme-comparatif)
+- [Logiciel facturation agence](https://facturationpro.com/blog/logiciel-facturation-agence)
+- [Logiciel facturation artisan](https://facturationpro.com/blog/logiciel-facturation-artisan)
+- [TVA auto-entrepreneur guide](https://facturationpro.com/blog/tva-auto-entrepreneur-guide)
+- [Mentions obligatoires facture France](https://facturationpro.com/blog/mentions-obligatoires-facture-france)
+- [Delai paiement facture freelance](https://facturationpro.com/blog/delai-paiement-facture-freelance)
+- [Relance facture impayee modele](https://facturationpro.com/blog/relance-facture-impayee-modele)
+- [Comment trouver des clients freelance](https://facturationpro.com/blog/comment-trouver-clients-freelance)
+- [SASU ou EURL : choisir son statut](https://facturationpro.com/blog/sasu-eurl-choisir-statut-freelance)
+- [Contrat freelance modele gratuit](https://facturationpro.com/blog/contrat-freelance-modele-gratuit)
+- [TJM freelance : comment calculer son taux journalier](https://facturationpro.com/blog/taux-journalier-moyen-freelance)
+- [Portage salarial vs freelance](https://facturationpro.com/blog/portage-salarial-vs-freelance)
+- [Facturer un client etranger en auto-entrepreneur](https://facturationpro.com/blog/facturer-client-etranger-auto-entrepreneur)
+- [Cotisations sociales freelance guide](https://facturationpro.com/blog/cotisations-sociales-freelance-guide)
+- [Deductibilite charges freelance](https://facturationpro.com/blog/deductibilite-charges-freelance)
+- [Note de frais freelance logiciel](https://facturationpro.com/blog/note-de-frais-freelance-logiciel)
+- [Note de frais auto-entrepreneur guide](https://facturationpro.com/blog/note-de-frais-auto-entrepreneur-guide)
+
+## Informations editoriales
+
+- Auteur : equipe FacturationPro
+- Mise a jour : novembre 2026
+- Methode : tests reels des logiciels, comparaison tarifaire, analyse fonctionnelle
+- Public cible : freelances, auto-entrepreneurs, SASU, EURL, TPE en France
+- Langue : francais
