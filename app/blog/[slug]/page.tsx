@@ -38,9 +38,126 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
+// CTA contextuel par outil / slug
+interface CtaConfig {
+  title: string
+  subtitle: string
+  buttons: Array<{
+    label: string
+    href: string
+    primary: boolean
+  }>
+}
+
+function getCtaForSlug(slug: string): CtaConfig {
+  const s = slug.toLowerCase()
+
+  if (s.includes('pennylane')) {
+    return {
+      title: 'Essayer Pennylane gratuitement',
+      subtitle: 'La solution comptable complete pour freelances et TPE. Essai gratuit 14 jours, sans carte bancaire.',
+      buttons: [
+        { label: 'Essayer Pennylane', href: 'https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Voir le comparatif', href: '/comparatif', primary: false },
+      ],
+    }
+  }
+  if (s.includes('shine')) {
+    return {
+      title: 'Ouvrir un compte Shine',
+      subtitle: 'Le compte pro tout-en-un pour independants. Facturation, IBAN pro et gestion en un seul endroit.',
+      buttons: [
+        { label: 'Essayer Shine', href: 'https://www.shine.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Voir le comparatif', href: '/comparatif', primary: false },
+      ],
+    }
+  }
+  if (s.includes('axonaut')) {
+    return {
+      title: 'Essayer Axonaut gratuitement',
+      subtitle: 'CRM + Facturation + Compta tout-en-un pour consultants et agences. 15 jours d\'essai gratuit.',
+      buttons: [
+        { label: 'Essayer Axonaut', href: 'https://axonaut.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Voir le comparatif', href: '/comparatif', primary: false },
+      ],
+    }
+  }
+  if (s.includes('finom')) {
+    return {
+      title: 'Ouvrir un compte Finom',
+      subtitle: 'Le compte pro europeen avec cashback. Facturation integree et IBAN multi-devises pour freelances.',
+      buttons: [
+        { label: 'Essayer Finom', href: 'https://finom.co/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Voir le comparatif', href: '/comparatif', primary: false },
+      ],
+    }
+  }
+  if (s.includes('sellsy')) {
+    return {
+      title: 'Essayer Sellsy gratuitement',
+      subtitle: 'La suite CRM + facturation pour PME. Devis, factures, relances et pipeline commercial centralises.',
+      buttons: [
+        { label: 'Essayer Sellsy', href: 'https://sellsy.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Voir le comparatif', href: '/comparatif', primary: false },
+      ],
+    }
+  }
+  if (s.includes('tiime')) {
+    return {
+      title: 'Essayer Tiime gratuitement',
+      subtitle: 'La facturation gratuite pour micro-entrepreneurs, synchronisee avec votre expert-comptable.',
+      buttons: [
+        { label: 'Essayer Tiime', href: 'https://www.tiime.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Voir le comparatif', href: '/comparatif', primary: false },
+      ],
+    }
+  }
+  if (s.includes('myunisoft')) {
+    return {
+      title: 'Essayer MyUnisoft gratuitement',
+      subtitle: 'Le logiciel de comptabilite et facturation pour cabinets et entreprises. Essai gratuit disponible.',
+      buttons: [
+        { label: 'Essayer MyUnisoft', href: 'https://www.myunisoft.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Voir le comparatif', href: '/comparatif', primary: false },
+      ],
+    }
+  }
+  if (s.includes('indy')) {
+    return {
+      title: 'Essayer Indy gratuitement',
+      subtitle: 'La comptabilite autonome pour independants. Synchronisation bancaire et declarations automatisees.',
+      buttons: [
+        { label: 'Essayer Indy', href: 'https://www.indy.fr/?ae=2183', primary: true },
+        { label: 'Voir le comparatif', href: '/comparatif', primary: false },
+      ],
+    }
+  }
+  if (s.includes('freebe')) {
+    return {
+      title: 'Essayer Freebe gratuitement',
+      subtitle: 'Le logiciel de facturation pense pour les freelances. Devis, factures et suivi TJM sans prise de tete.',
+      buttons: [
+        { label: 'Essayer Freebe', href: 'https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Voir le comparatif', href: '/comparatif', primary: false },
+      ],
+    }
+  }
+  // Default : comparatif complet
+  return {
+    title: 'Trouver le meilleur logiciel de facturation',
+    subtitle: 'Comparez Freebe, Pennylane, Indy, Tiime et bien d\'autres. Gratuit, sans engagement.',
+    buttons: [
+      { label: 'Voir le comparatif complet', href: '/comparatif', primary: true },
+      { label: 'Essayer Freebe', href: 'https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: false },
+    ],
+  }
+}
+
 export default function BlogPostPage({ params }: Props) {
   const post = getBlogPost(params.slug)
   if (!post) return notFound()
+
+  const cta = getCtaForSlug(params.slug)
 
   const ogImage = post.image
     ? `https://facturationpro.com${post.image}`
@@ -146,29 +263,30 @@ export default function BlogPostPage({ params }: Props) {
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
 
-        {/* CTA box */}
+        {/* CTA box contextuel */}
         <div className="mt-12 bg-indigo-50 border border-indigo-100 rounded-2xl p-6">
-          <p className="font-semibold text-gray-900 mb-2">Prêt à passer à un vrai logiciel de facturation ?</p>
-          <p className="text-sm text-gray-600 mb-4">Essayez Freebe ou Indy gratuitement, sans engagement ni carte bancaire requise.</p>
+          <p className="font-semibold text-gray-900 mb-2">{cta.title}</p>
+          <p className="text-sm text-gray-600 mb-4">{cta.subtitle}</p>
           <div className="flex flex-wrap gap-3">
-            <a
-              href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog-freebe"
-              className="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-sm px-5 py-2.5 rounded-xl transition-colors"
-            >
-              Essayer Freebe
-            </a>
-            <a
-              href="https://www.indy.fr/?ae=2183"
-              className="inline-flex items-center gap-2 bg-white border border-gray-200 hover:border-indigo-300 text-gray-700 hover:text-indigo-600 font-semibold text-sm px-5 py-2.5 rounded-xl transition-colors"
-            >
-              Essayer Indy
-            </a>
-            <a
-              href="/comparatif"
-              className="inline-flex items-center gap-2 text-sm text-indigo-600 hover:text-indigo-800 font-medium py-2.5"
-            >
-              Voir le comparatif complet →
-            </a>
+            {cta.buttons.map((btn, i) =>
+              btn.primary ? (
+                <a
+                  key={i}
+                  href={btn.href}
+                  className="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-sm px-5 py-2.5 rounded-xl transition-colors"
+                >
+                  {btn.label}
+                </a>
+              ) : (
+                <a
+                  key={i}
+                  href={btn.href}
+                  className="inline-flex items-center gap-2 bg-white border border-gray-200 hover:border-indigo-300 text-gray-700 hover:text-indigo-600 font-semibold text-sm px-5 py-2.5 rounded-xl transition-colors"
+                >
+                  {btn.label}
+                </a>
+              )
+            )}
           </div>
         </div>
 

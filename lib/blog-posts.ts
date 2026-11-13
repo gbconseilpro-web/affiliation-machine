@@ -3072,8 +3072,6 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
     `.trim(),
     metaDescription: 'Pennylane ou Indy pour votre freelance en 2026 ? Comparatif complet : tarifs, fonctionnalites, scenarios d\'usage. On vous aide a choisir.',
   },
-]
-
   {
     slug: 'axonaut-avis-test-complet',
     title: 'Axonaut avis 2026 : test complet du CRM-ERP pour freelances et TPE',
