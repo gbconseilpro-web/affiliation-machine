@@ -1,33 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#ecfdf5;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#d1fae5;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#f0fdf4"/>
+      <stop offset="100%" style="stop-color:#dcfce7"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#006666"/>
+      <stop offset="100%" style="stop-color:#00F872"/>
     </linearGradient>
   </defs>
-  <rect width="800" height="450" fill="url(#bg)" rx="16"/>
-  <!-- Logo P -->
-  <circle cx="140" cy="180" r="64" fill="#059669" opacity="0.12"/>
-  <text x="140" y="200" font-family="Arial Black,sans-serif" font-size="72" font-weight="900" fill="#059669" text-anchor="middle">P</text>
-  <!-- Stars -->
-  <text x="140" y="260" font-family="Arial,sans-serif" font-size="20" fill="#059669" text-anchor="middle">★★★★☆</text>
-  <text x="140" y="285" font-family="Arial,sans-serif" font-size="13" fill="#065f46" text-anchor="middle">4,3 / 5</text>
-  <!-- Title block -->
-  <rect x="240" y="80" width="510" height="290" rx="12" fill="white" opacity="0.7"/>
-  <text x="270" y="130" font-family="Arial Black,sans-serif" font-size="24" font-weight="900" fill="#064e3b">Pennylane</text>
-  <text x="270" y="160" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">Avis &amp; test complet 2026</text>
-  <!-- Key points -->
-  <circle cx="270" cy="196" r="5" fill="#059669"/>
-  <text x="285" y="201" font-family="Arial,sans-serif" font-size="13" fill="#374151">Reconciliation bancaire automatique</text>
-  <circle cx="270" cy="226" r="5" fill="#059669"/>
-  <text x="285" y="231" font-family="Arial,sans-serif" font-size="13" fill="#374151">Collaboration expert-comptable</text>
-  <circle cx="270" cy="256" r="5" fill="#059669"/>
-  <text x="285" y="261" font-family="Arial,sans-serif" font-size="13" fill="#374151">A partir de 26 EUR/mois</text>
-  <circle cx="270" cy="286" r="5" fill="#059669"/>
-  <text x="285" y="291" font-family="Arial,sans-serif" font-size="13" fill="#374151">Compatible facturation electronique 2026</text>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Decorative shapes -->
+  <circle cx="1100" cy="80" r="180" fill="#00F872" opacity="0.08"/>
+  <circle cx="80" cy="560" r="140" fill="#006666" opacity="0.07"/>
+  <rect x="0" y="0" width="8" height="630" fill="url(#accent)"/>
+  <!-- White card -->
+  <rect x="80" y="80" width="1040" height="470" rx="24" fill="white" opacity="0.75"/>
+  <!-- Logo Pennylane -->
+  <image href="https://www.pennylane.com/_nuxt/logo.BkRDgVYD.svg" x="380" y="130" width="440" height="88"/>
+  <!-- Divider -->
+  <rect x="460" y="248" width="280" height="3" rx="2" fill="url(#accent)" opacity="0.6"/>
+  <!-- Tagline -->
+  <text x="600" y="310" font-family="Arial,sans-serif" font-size="26" fill="#374151" text-anchor="middle">Comptabilite collaborative pour freelances et TPE</text>
+  <!-- Features row -->
+  <rect x="160" y="360" width="240" height="68" rx="12" fill="#f0fdf4"/>
+  <text x="280" y="389" font-family="Arial Black,sans-serif" font-size="14" fill="#006666" text-anchor="middle">Synchronisation bancaire</text>
+  <text x="280" y="411" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">automatique</text>
+  <rect x="480" y="360" width="240" height="68" rx="12" fill="#f0fdf4"/>
+  <text x="600" y="389" font-family="Arial Black,sans-serif" font-size="14" fill="#006666" text-anchor="middle">Collaboration</text>
+  <text x="600" y="411" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">expert-comptable</text>
+  <rect x="800" y="360" width="240" height="68" rx="12" fill="#f0fdf4"/>
+  <text x="920" y="389" font-family="Arial Black,sans-serif" font-size="14" fill="#006666" text-anchor="middle">Facturation</text>
+  <text x="920" y="411" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">electronique 2026</text>
   <!-- Badge -->
-  <rect x="270" y="320" width="180" height="32" rx="16" fill="#059669"/>
-  <text x="360" y="341" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle">RECOMMANDE EC</text>
-  <!-- FacturationPro watermark -->
-  <text x="720" y="440" font-family="Arial,sans-serif" font-size="11" fill="#9ca3af" text-anchor="end">facturationpro.com</text>
+  <rect x="460" y="462" width="280" height="44" rx="22" fill="#006666"/>
+  <text x="600" y="490" font-family="Arial Black,sans-serif" font-size="16" fill="white" text-anchor="middle">Avis &amp; Test complet 2026</text>
+  <!-- Footer -->
+  <text x="1120" y="610" font-family="Arial,sans-serif" font-size="13" fill="#9ca3af" text-anchor="end">facturationpro.com</text>
 </svg>
