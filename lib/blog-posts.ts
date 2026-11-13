@@ -17,12 +17,12 @@ export interface BlogPost {
 export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'logiciel-facturation-freelance-2026',
-    title: 'Meilleur logiciel de facturation pour freelance en 2026 : comparatif complet',
-    excerpt: 'Freebe, Pennylane, Indy, Tiime, Shine : on a testé les 5 solutions leaders pour les indépendants français. Critères, prix, profils et verdict détaillé.',
+    title: 'Meilleur logiciel de facturation pour freelance en 2026 : comparatif complet (7 outils testés)',
+    excerpt: 'Freebe, Pennylane, Indy, Tiime, Shine, Axonaut, Finom : on a testé les 7 solutions leaders pour les indépendants français. Critères, prix, profils, e-facturation 2026/2027 et verdict détaillé.',
     date: '2026-11-03',
-    readTime: 18,
+    readTime: 22,
     category: 'Comparatifs',
-    keywords: ['logiciel facturation freelance', 'meilleur logiciel facturation', 'facturation indépendant 2026', 'comparatif logiciel freelance', 'facturation auto-entrepreneur'],
+    keywords: ['logiciel facturation freelance', 'meilleur logiciel facturation', 'facturation indépendant 2026', 'comparatif logiciel freelance', 'facturation auto-entrepreneur', 'axonaut freelance', 'finom compte pro freelance'],
     image: '/blog/logiciel-facturation-freelance-2026.svg',
     content: `
 <h2>Pourquoi choisir un logiciel de facturation dédié en 2026 ?</h2>
