@@ -56,15 +56,16 @@ export const BLOG_POSTS: BlogPost[] = [
 <li><strong>Adaptation au statut :</strong> micro-entrepreneur, EI, SASU, EURL, portage salarial</li>
 </ul>
 
-<h2>Comparatif rapide : les 5 meilleurs logiciels en un tableau</h2>
+<h2>Comparatif rapide : les 7 meilleurs logiciels en un tableau</h2>
 <div style="overflow-x:auto;">
 <table style="width:100%;border-collapse:collapse;font-size:14px;">
 <thead>
 <tr style="background:#f1f5f9;">
 <th style="padding:10px 12px;text-align:left;border-bottom:2px solid #e2e8f0;">Logiciel</th>
 <th style="padding:10px 12px;text-align:left;border-bottom:2px solid #e2e8f0;">Prix d'entrée</th>
-<th style="padding:10px 12px;text-align:left;border-bottom:2px solid #e2e8f0;">Plan gratuit</th>
+<th style="padding:10px 12px;text-align:left;border-bottom:2px solid #e2e8f0;">Essai gratuit</th>
 <th style="padding:10px 12px;text-align:left;border-bottom:2px solid #e2e8f0;">Synchro bancaire</th>
+<th style="padding:10px 12px;text-align:left;border-bottom:2px solid #e2e8f0;">E-fact. 2027</th>
 <th style="padding:10px 12px;text-align:left;border-bottom:2px solid #e2e8f0;">Profil idéal</th>
 </tr>
 </thead>
@@ -72,22 +73,25 @@ export const BLOG_POSTS: BlogPost[] = [
 <tr style="border-bottom:1px solid #e2e8f0;">
 <td style="padding:10px 12px;"><strong><a href="https://www.indy.fr/?ae=2183">Indy</a></strong></td>
 <td style="padding:10px 12px;">7€/mois</td>
-<td style="padding:10px 12px;">Oui (limité)</td>
+<td style="padding:10px 12px;">30 jours</td>
 <td style="padding:10px 12px;">Incluse</td>
+<td style="padding:10px 12px;">En cours</td>
 <td style="padding:10px 12px;">Micro-entrepreneur, AE</td>
 </tr>
 <tr style="background:#f8fafc;border-bottom:1px solid #e2e8f0;">
 <td style="padding:10px 12px;"><strong><a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a></strong></td>
-<td style="padding:10px 12px;">9,99€/mois</td>
+<td style="padding:10px 12px;">9€/mois</td>
 <td style="padding:10px 12px;">30 jours</td>
 <td style="padding:10px 12px;">Incluse</td>
+<td style="padding:10px 12px;">Oui</td>
 <td style="padding:10px 12px;">Freelance SASU/EURL</td>
 </tr>
 <tr style="border-bottom:1px solid #e2e8f0;">
 <td style="padding:10px 12px;"><strong><a href="https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a></strong></td>
-<td style="padding:10px 12px;">19,99€/mois</td>
+<td style="padding:10px 12px;">26€/mois</td>
 <td style="padding:10px 12px;">14 jours</td>
 <td style="padding:10px 12px;">Incluse</td>
+<td style="padding:10px 12px;">Certifie</td>
 <td style="padding:10px 12px;">Avec expert-comptable</td>
 </tr>
 <tr style="background:#f8fafc;border-bottom:1px solid #e2e8f0;">
@@ -95,14 +99,32 @@ export const BLOG_POSTS: BlogPost[] = [
 <td style="padding:10px 12px;">Gratuit</td>
 <td style="padding:10px 12px;">Oui (complet)</td>
 <td style="padding:10px 12px;">Payant</td>
-<td style="padding:10px 12px;">Débutant, budget serré</td>
+<td style="padding:10px 12px;">Certifie</td>
+<td style="padding:10px 12px;">Debutant, budget serre</td>
 </tr>
 <tr style="border-bottom:1px solid #e2e8f0;">
 <td style="padding:10px 12px;"><strong><a href="https://www.shine.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Shine</a></strong></td>
-<td style="padding:10px 12px;">7,90€/mois</td>
-<td style="padding:10px 12px;">Non</td>
-<td style="padding:10px 12px;">Incluse (compte pro)</td>
-<td style="padding:10px 12px;">Ouvrir un compte pro + facturer</td>
+<td style="padding:10px 12px;">8€/mois</td>
+<td style="padding:10px 12px;">1 mois</td>
+<td style="padding:10px 12px;">Incluse (compte)</td>
+<td style="padding:10px 12px;">Oui</td>
+<td style="padding:10px 12px;">Compte pro + facturation</td>
+</tr>
+<tr style="background:#f8fafc;border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong><a href="https://axonaut.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Axonaut</a></strong></td>
+<td style="padding:10px 12px;">34€/mois</td>
+<td style="padding:10px 12px;">15 jours</td>
+<td style="padding:10px 12px;">Incluse</td>
+<td style="padding:10px 12px;">Oui</td>
+<td style="padding:10px 12px;">TPE avec CRM + facturation</td>
+</tr>
+<tr style="border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong><a href="https://finom.co/fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Finom</a></strong></td>
+<td style="padding:10px 12px;">0€/mois</td>
+<td style="padding:10px 12px;">Oui (compte gratuit)</td>
+<td style="padding:10px 12px;">Incluse</td>
+<td style="padding:10px 12px;">En cours</td>
+<td style="padding:10px 12px;">Compte pro + facturation EU</td>
 </tr>
 </tbody>
 </table>
@@ -218,6 +240,52 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p><strong>Notre verdict :</strong> le meilleur choix si vous cherchez à ouvrir un compte bancaire professionnel et gérer votre facturation avec un seul outil et un seul abonnement. Pas le plus puissant en facturation pure, mais le plus simple en setup global.</p>
 
+<h2>Axonaut : CRM et facturation tout-en-un pour les TPE ambitieuses</h2>
+<p><a href="https://axonaut.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Axonaut</a> est une solution francaise (Toulouse) qui se distingue en combinant un CRM commercial complet et un outil de facturation dans une interface unifiee. Si vous gerez un pipeline de prospects, des devis complexes avec suivi de relance, et souhaitez avoir visibilite sur votre CA previsionnel en meme temps que vos factures emises, Axonaut est probablement l'outil le plus complet de ce comparatif.</p>
+
+<p><strong>Ce qu'Axonaut apporte de unique :</strong></p>
+<ul>
+<li>Le <strong>CRM integre</strong> suit vos contacts, opportunites commerciales et l'historique complet de chaque relation client. Un devis cree depuis l'opportunite CRM se transforme en facture en un clic, sans ressaisie</li>
+<li>La <strong>gestion des projets et des taches</strong> permet de relier chaque facture a un projet, de suivre la rentabilite et d'affecter du temps. Utile si vous travaillez avec plusieurs collaborateurs</li>
+<li>Les <strong>relances automatiques personnalisees</strong> par niveau de retard (J+7, J+15, J+30) avec modeles de mails distincts selon l'anciennete de l'impaye</li>
+<li>Un <strong>module de comptabilite simplifie</strong> avec rapprochement bancaire, bilan de tresorerie et preparation des ecritures pour l'expert-comptable</li>
+<li>Hebergement 100% francais, RGPD natif, support en francais</li>
+</ul>
+
+<p><strong>Les limites :</strong></p>
+<ul>
+<li>Plus cher que les solutions mono-facturation : le prix d'entree de 34€/mois peut sembler eleve pour un freelance solo sans equipe commerciale</li>
+<li>L'interface est dense et necessite un temps de parametrage initial (comptez 1 a 2 heures pour configurer correctement produits, taxes, modeles de documents)</li>
+<li>Moins adapte aux micro-entrepreneurs sous le regime TVA franchise : les fonctionnalites CRM sont sur-dimensionnees pour une activite unipersonnelle simple</li>
+</ul>
+
+<p><strong>Prix :</strong> offre Solo a 34€/mois (1 utilisateur), offre Startup a 54€/mois (3 utilisateurs), offre TPE a 74€/mois (10 utilisateurs). Essai gratuit 15 jours sans carte bancaire.</p>
+
+<p><strong>Notre verdict :</strong> le meilleur choix pour un freelance ou une micro-agence qui gere un pipeline commercial actif avec plusieurs prospects simultanement. L'investissement se justifie quand vous fermez au moins 2 a 3 devis par mois et que le suivi CRM vous fait gagner du temps sur chaque cycle de vente.</p>
+
+<h2>Finom : le compte pro europeen avec facturation integree</h2>
+<p><a href="https://finom.co/fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Finom</a> est une fintech europeenne (Pays-Bas, agrement EMI) qui propose un compte professionnel avec IBAN europeen et un outil de facturation integre. Son positionnement : zero frais sur le compte de base, interface moderne, et ouverture en 15 minutes.</p>
+
+<p><strong>Ce que Finom apporte de specifique :</strong></p>
+<ul>
+<li>Le <strong>compte gratuit</strong> : IBAN europeen (NL), virements SEPA illimites, carte virtuelle Mastercard. Sans abonnement mensuel sur le plan de base, ce qui en fait le seul outil de ce comparatif utilisable sans budget</li>
+<li>La <strong>facturation integree</strong> avec modeles personnalisables, suivi des paiements et relances automatiques. Les encaissements sur le compte Finom sont automatiquement reconcilies avec les factures emises</li>
+<li>Un <strong>cashback sur les depenses professionnelles</strong> (0,1% a 3% selon le plan) : les freelances avec des depenses recurrentes (publicite, abonnements SaaS, fournitures) peuvent recuperer entre 50 et 200€/an</li>
+<li>L'<strong>ouverture 100% digitale</strong> sans rendez-vous, en francais, pour les residents europeens. Ideel pour les freelances qui travaillent avec des clients dans plusieurs pays de l'UE</li>
+</ul>
+
+<p><strong>Les limites :</strong></p>
+<ul>
+<li>L'IBAN est neerlandais (NL), pas francais (FR). La plupart des entreprises acceptent les IBAN europeens mais quelques administrations ou clients grands comptes peuvent bloquer sur ce point</li>
+<li>Pas de depot d'especes possible (compte 100% digital)</li>
+<li>Les fonctionnalites comptables sont limitees : pas de FEC, pas d'interface expert-comptable. Pour une SASU ou une EURL avec comptabilite externe, Pennylane ou Freebe restent plus adaptes</li>
+<li>La certification e-facturation 2027 n'est pas encore confirmee sur le site officiel</li>
+</ul>
+
+<p><strong>Prix :</strong> plan Solo gratuit (compte + facturation basique), plan Start a 14€/mois (relances, plusieurs comptes), plan Scale a 34€/mois (cashback ameliore, comptes multiples). Pas d'engagement.</p>
+
+<p><strong>Notre verdict :</strong> excellent pour un freelance en demarrage qui veut un compte pro gratuit avec facturation integree et travaille regulierement avec des clients europeens. Moins adapte si vous avez besoin d'un IBAN francais ou d'une integration comptable poussee.</p>
+
 <h2>Quel logiciel choisir selon votre profil ?</h2>
 
 <h3>Vous êtes micro-entrepreneur ou auto-entrepreneur</h3>
@@ -232,8 +300,14 @@ export const BLOG_POSTS: BlogPost[] = [
 <h3>Vous êtes souvent en déplacement et facturez depuis votre mobile</h3>
 <p>L'app mobile de <strong><a href="https://www.tiime.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Tiime</a></strong> est la plus intuitive du marché pour créer et envoyer une facture en quelques secondes depuis un chantier ou un rendez-vous client.</p>
 
-<h3>Vous voulez ouvrir un compte pro en même temps</h3>
-<p><strong><a href="https://www.shine.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Shine</a></strong> est votre solution : IBAN français, carte Visa, facturation et gestion des charges URSSAF en un seul abonnement à partir de 7,90€/mois.</p>
+<h3>Vous voulez ouvrir un compte pro en meme temps</h3>
+<p>Deux options selon votre situation. Si vous restez en France et avez besoin d'un IBAN francais, <strong><a href="https://www.shine.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Shine</a></strong> est votre solution : IBAN FR, carte Visa, facturation et gestion des charges URSSAF en un seul abonnement a partir de 8€/mois. Si vous avez des clients europeens et souhaitez demarrer sans budget, <strong><a href="https://finom.co/fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Finom</a></strong> propose un compte gratuit avec IBAN EU et facturation integree.</p>
+
+<h3>Vous gerez un pipeline commercial avec plusieurs prospects</h3>
+<p>Si vous passez du temps a relancer des prospects, a suivre l'etat de vos devis, ou a piloter plusieurs opportunites en parallele, <strong><a href="https://axonaut.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Axonaut</a></strong> est l'outil le plus adapte. Le CRM integre evite les allers-retours entre votre logiciel de facturation et un CRM separe (HubSpot, Notion, etc.). L'investissement de 34€/mois se justifie des lors que vous fermez 2 a 3 devis par mois.</p>
+
+<h3>Vous demarrez votre activite avec un budget nul</h3>
+<p>Deux solutions gratuite s'offrent a vous : <strong>Tiime</strong> pour la facturation pure (devis et factures conformes sans abonnement) et <strong><a href="https://finom.co/fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Finom</a></strong> pour combiner compte pro et facturation sans frais fixes. Les deux sont suffisants pour les 6 premiers mois d'activite.</p>
 
 <h2>La facturation électronique obligatoire en 2026 : ce que ça change pour vous</h2>
 <p>Depuis le 1er septembre 2026, toutes les entreprises françaises assujetties à la TVA doivent être capables de <strong>recevoir</strong> des factures électroniques via une plateforme agréée (PDP ou OD). Voici le calendrier d'obligation d'<strong>émission</strong> :</p>
@@ -258,9 +332,19 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p><strong>Comment bien préparer sa déclaration de CA URSSAF avec un logiciel de facturation ?</strong><br/>Les outils comme Indy calculent automatiquement le CA encaissé sur la période à déclarer (mensuelle ou trimestrielle) et affichent directement le montant à reporter sur autoentrepreneur.urssaf.fr. Vous n'avez plus à additionner vos encaissements à la main.</p>
 
-<p><strong>Quid de la e-facturation pour les micro-entrepreneurs ?</strong><br/>L'obligation d'émission de factures électroniques pour les micro-entrepreneurs s'applique à partir de septembre 2028. En attendant, prenez de l'avance en choisissant un outil déjà certifié (Tiime, Pennylane) ou en cours de certification (Indy). La transition sera ainsi transparente.</p>
+<p><strong>Quid de la e-facturation pour les micro-entrepreneurs ?</strong><br/>L'obligation d'emission de factures electroniques pour les micro-entrepreneurs s'applique a partir de septembre 2028. En attendant, prenez de l'avance en choisissant un outil deja certifie (Tiime, Pennylane) ou en cours de certification (Indy, Freebe). La transition sera ainsi transparente et ne necessitera pas de migration en urgence.</p>
 
-<p>Consultez notre <a href="/comparatif">comparatif détaillé avec tableau de fonctionnalités</a> pour comparer tous les critères en un coup d'oeil, ou nos avis détaillés sur <a href="/blog/pennylane-avis-test-complet">Pennylane</a>, <a href="/blog/indy-avis-test-complet">Indy</a>, <a href="/blog/freebe-avis-test-complet">Freebe</a> et <a href="/blog/tiime-avis-test-complet">Tiime</a>.</p>
+<p><strong>Vaut-il mieux un logiciel de facturation ou un logiciel de gestion complet ?</strong><br/>Tout depend de votre activite. Un micro-entrepreneur avec 5 a 10 factures par mois n'a pas besoin d'un ERP : Indy ou Tiime suffisent. Un freelance en SASU avec plusieurs clients et un expert-comptable beneficiera d'un outil comme Freebe ou Pennylane qui fait le pont entre facturation et comptabilite. Un independant qui gere aussi son pipeline commercial (devis, relances, suivi prospects) aura interet a regarder Axonaut, qui combine CRM et facturation dans une interface unique.</p>
+
+<p><strong>Est-il possible d'utiliser un logiciel de facturation sans compte bancaire pro ?</strong><br/>Oui, tous les logiciels de facturation purs (Freebe, Tiime, Axonaut) fonctionnent independamment de votre banque. La synchronisation bancaire se fait par Open Banking en ajoutant votre banque existante. Seuls Shine et Finom lient la facturation a leur propre compte bancaire. Si vous avez deja un compte pro chez une banque classique (BNP, Societe Generale, CIC), Indy ou Freebe s'y connectent sans probleme.</p>
+
+<p><strong>Comment choisir entre Shine et Finom pour un compte pro avec facturation ?</strong><br/>Choisissez Shine si vous avez besoin d'un IBAN francais (FR), d'un support francophone reactive et d'une integration avec les declarations URSSAF pour les micro-entrepreneurs. Choisissez Finom si vous demarrez avec un budget nul (compte gratuit), si vous avez des clients dans plusieurs pays europeens, ou si vous souhaitez beneficier du cashback sur vos depenses professionnelles.</p>
+
+<p><strong>Peut-on utiliser plusieurs logiciels de facturation en parallele ?</strong><br/>Techniquement oui, mais c'est deconseille. La numerotation des factures doit etre unique et chronologique : deux outils distincts risquent de creer des doublons ou des ruptures dans la sequence. Si vous changez d'outil, exportez d'abord votre FEC ou votre CSV, archivez vos anciennes factures, et recommencez une sequence dans le nouvel outil avec une logique de nommage distincte (ex : 2024-xxx dans l'ancien outil, 2026-xxx dans le nouveau).</p>
+
+<p><strong>Les logiciels de facturation sont-ils compatibles avec le portage salarial ?</strong><br/>En portage salarial, c'est la societe porteuse qui emet les factures a votre place. Vous n'avez donc pas besoin d'un logiciel de facturation pour l'activite portee. En revanche, si vous combinez portage salarial et activite independante en parallele (SASU ou micro-entreprise), un outil comme Freebe ou Indy vous permettra de gerer cette seconde activite facilement.</p>
+
+<p>Consultez notre <a href="/comparatif">comparatif detaille avec tableau de fonctionnalites</a> pour comparer tous les criteres en un coup d'oeil, ou nos avis detailles sur <a href="/blog/pennylane-avis-test-complet">Pennylane</a>, <a href="/blog/indy-avis-test-complet">Indy</a>, <a href="/blog/freebe-avis-test-complet">Freebe</a>, <a href="/blog/tiime-avis-test-complet">Tiime</a>, <a href="/blog/axonaut-avis-test-complet">Axonaut</a>, <a href="/blog/shine-avis-test-complet">Shine</a> et <a href="/blog/finom-avis-test-complet">Finom</a>.</p>
     `.trim(),
   },
   {
