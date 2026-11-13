@@ -52,6 +52,58 @@ interface CtaConfig {
 function getCtaForSlug(slug: string): CtaConfig {
   const s = slug.toLowerCase()
 
+  // Comparatifs VS : detecter avant les patterns simples
+  if (s.includes('pennylane') && s.includes('indy')) {
+    return {
+      title: 'Pennylane ou Indy : essayez les deux gratuitement',
+      subtitle: 'Testez chaque solution avant de choisir. Essais gratuits disponibles sans carte bancaire.',
+      buttons: [
+        { label: 'Essayer Pennylane', href: 'https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Essayer Indy', href: 'https://www.indy.fr/?ae=2183', primary: false },
+      ],
+    }
+  }
+  if (s.includes('freebe') && s.includes('pennylane')) {
+    return {
+      title: 'Freebe ou Pennylane : essayez les deux gratuitement',
+      subtitle: 'Facturation pure ou comptabilite integree ? Testez avant de vous decider.',
+      buttons: [
+        { label: 'Essayer Freebe', href: 'https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Essayer Pennylane', href: 'https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: false },
+      ],
+    }
+  }
+  if (s.includes('axonaut') && s.includes('sellsy')) {
+    return {
+      title: 'Axonaut ou Sellsy : essayez les deux gratuitement',
+      subtitle: 'Deux CRM-ERP puissants pour TPE et PME. Comparez par vous-meme avant de choisir.',
+      buttons: [
+        { label: 'Essayer Axonaut', href: 'https://axonaut.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Essayer Sellsy', href: 'https://sellsy.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: false },
+      ],
+    }
+  }
+  if (s.includes('pennylane') && s.includes('shine')) {
+    return {
+      title: 'Pennylane ou Shine : essayez les deux gratuitement',
+      subtitle: 'Comptabilite autonome ou compte pro tout-en-un ? Testez sans engagement.',
+      buttons: [
+        { label: 'Essayer Pennylane', href: 'https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Essayer Shine', href: 'https://www.shine.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: false },
+      ],
+    }
+  }
+  if (s.includes('indy') && s.includes('freebe')) {
+    return {
+      title: 'Indy ou Freebe : essayez les deux gratuitement',
+      subtitle: 'Comptabilite autonome ou facturation pure ? Testez avant de vous decider.',
+      buttons: [
+        { label: 'Essayer Indy', href: 'https://www.indy.fr/?ae=2183', primary: true },
+        { label: 'Essayer Freebe', href: 'https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: false },
+      ],
+    }
+  }
+
   if (s.includes('pennylane')) {
     return {
       title: 'Essayer Pennylane gratuitement',
