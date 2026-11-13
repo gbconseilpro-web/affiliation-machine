@@ -405,6 +405,18 @@ export default function GuidePage() {
                     <td className="py-2 text-orange-600">Partiel</td>
                     <td className="py-2 text-orange-600">Partiel</td>
                   </tr>
+                  <tr>
+                    <td className="py-2 font-medium"><a href="/blog/sellsy-avis-test-complet" className="text-primary-600 hover:underline">Sellsy</a></td>
+                    <td className="py-2 text-orange-600 font-medium">En cours</td>
+                    <td className="py-2 text-green-600">Oui</td>
+                    <td className="py-2 text-green-600">Oui</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 font-medium">Finom</td>
+                    <td className="py-2 text-gray-400 font-medium">Non concerne</td>
+                    <td className="py-2 text-gray-400">N/A</td>
+                    <td className="py-2 text-gray-400">N/A</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
