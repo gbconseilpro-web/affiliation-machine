@@ -155,13 +155,13 @@ export default function BarometrePrixPage() {
     url: `${SITE_URL}/barometre-prix`,
     datePublished: '2026-11-01',
     dateModified: '2026-11-12',
-    author: 'FacturationPro',
+    authorName: 'FacturationPro',
   })
 
   const faqJsonLd = buildFaqJsonLd(faqs)
   const breadcrumbJsonLd = buildBreadcrumbJsonLd([
-    { name: 'Accueil', url: SITE_URL },
-    { name: 'Barometre prix 2026', url: `${SITE_URL}/barometre-prix` },
+    { name: 'Accueil', path: '' },
+    { name: 'Barometre prix 2026', path: '/barometre-prix' },
   ])
 
   const prixAvecDonnees = prixLogiciels.filter(l => l.prixMensuel !== null)

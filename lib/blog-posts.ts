@@ -5,9 +5,13 @@ export interface BlogPost {
   date: string
   readTime: number
   category: string
-  keywords: string[]
+  keywords?: string[]
   image?: string
   content: string
+  author?: string
+  tags?: string[]
+  metaTitle?: string
+  metaDescription?: string
 }
 
 export const BLOG_POSTS: BlogPost[] = [
@@ -1976,11 +1980,10 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
     `.trim(),
     date: '2026-11-09',
     category: 'Guides',
-    readTime: '15 min',
+    readTime: 15,
     author: 'L\'equipe FacturationPro',
     image: '/blog/facturation-electronique-2026-guide.svg',
     tags: ['facturation electronique', 'obligation 2026', 'PDP', 'e-reporting', 'DGFiP'],
-    metaTitle: 'Facturation Electronique 2026 : Guide Complet Obligation France | FacturationPro',
     metaDescription: 'Tout comprendre sur l\'obligation de facturation electronique 2026 : calendrier, formats (Factur-X, UBL), PDP agreees, logiciels conformes et etapes de migration. Guide complet et a jour.',
   },
   {
@@ -2064,12 +2067,10 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
     `.trim(),
     date: '2026-11-10',
     category: 'Guides',
-    readTime: '10 min',
+    readTime: 10,
     author: 'L\'equipe FacturationPro',
     image: '/blog/note-de-frais-freelance-logiciel.svg',
     tags: ['note de frais', 'auto-entrepreneur', 'micro-entreprise', 'deduction', 'debourses'],
-    metaTitle: 'Note de Frais Auto-Entrepreneur 2026 : Ce que Vous Pouvez Deduire | FacturationPro',
-    metaDescription: 'Notes de frais et deductions pour auto-entrepreneur : debourses refacturables, frais de deplacement, materiel, logiciels. Guide complet pour micro-entrepreneurs 2026.',
   },
   {
     slug: 'deductibilite-charges-freelance',
@@ -2249,12 +2250,10 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
     `.trim(),
     date: '2026-11-11',
     category: 'Guides',
-    readTime: '12 min',
+    readTime: 12,
     author: 'L\'equipe FacturationPro',
     image: '/blog/deductibilite-charges-freelance.svg',
     tags: ['charges deductibles', 'freelance', 'SASU', 'EURL', 'fiscalite', 'comptabilite'],
-    metaTitle: 'Charges Deductibles Freelance 2026 : Guide Complet SASU EURL | FacturationPro',
-    metaDescription: 'Toutes les charges deductibles pour freelance en SASU ou EURL : materiel, logiciels, deplacement, repas, formation, bureau... Guide complet avec exemples chiffres 2026.',
   },
   {
     slug: 'contrat-freelance-modele-gratuit',
@@ -2379,12 +2378,10 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
     `.trim(),
     date: '2026-11-12',
     category: 'Guides',
-    readTime: '12 min',
+    readTime: 12,
     author: 'L\'equipe FacturationPro',
     image: '/blog/contrat-freelance-modele-gratuit.svg',
     tags: ['contrat freelance', 'modele contrat', 'propriete intellectuelle', 'NDA', 'CGV'],
-    metaTitle: 'Contrat Freelance 2026 : Modele Gratuit + Guide des Clauses Essentielles',
-    metaDescription: 'Modele de contrat freelance gratuit + guide complet des 10 clauses essentielles : mission, tarifs, propriete intellectuelle, confidentialite, resiliation. Protegez-vous des litiges.',
   },
   {
     slug: 'taux-journalier-moyen-freelance',
@@ -2510,12 +2507,10 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
     `.trim(),
     date: '2026-11-13',
     category: 'Guides',
-    readTime: '14 min',
+    readTime: 14,
     author: 'L\'equipe FacturationPro',
     image: '/blog/taux-journalier-moyen-freelance.svg',
     tags: ['TJM', 'taux journalier', 'tarif freelance', 'negociation', 'salaire freelance'],
-    metaTitle: 'TJM Freelance 2026 : Calculer son Taux Journalier Moyen et Negocier | FacturationPro',
-    metaDescription: 'Comment calculer votre TJM freelance en 2026 ? Formule, grille par metier (dev, design, conseil), simulateur et conseils pour negocier votre tarif. Guide complet.',
   },
   {
     slug: 'facturer-client-etranger-auto-entrepreneur',
@@ -2588,12 +2583,10 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
     `.trim(),
     date: '2026-11-14',
     category: 'Guides',
-    readTime: '11 min',
+    readTime: 11,
     author: 'L\'equipe FacturationPro',
     image: '/blog/facturer-client-etranger-auto-entrepreneur.svg',
     tags: ['client etranger', 'TVA intracommunautaire', 'auto-entrepreneur', 'facturation internationale', 'autoliquidation'],
-    metaTitle: 'Facturer Client Etranger Auto-Entrepreneur 2026 : TVA, Devise, Paiement | FacturationPro',
-    metaDescription: 'Comment facturer un client etranger en auto-entrepreneur ? TVA (autoliquidation, exoneration), mentions obligatoires, devises, paiements internationaux. Guide complet 2026.',
   },
   {
     slug: 'portage-salarial-vs-freelance',
@@ -2722,12 +2715,10 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
     `.trim(),
     date: '2026-11-15',
     category: 'Guides',
-    readTime: '13 min',
+    readTime: 13,
     author: 'L\'equipe FacturationPro',
     image: '/blog/portage-salarial-vs-freelance.svg',
     tags: ['portage salarial', 'freelance', 'statut', 'independant', 'protection sociale'],
-    metaTitle: 'Portage Salarial vs Freelance 2026 : Comparatif Complet Revenus et Avantages',
-    metaDescription: 'Portage salarial ou freelance independant ? Comparatif des revenus nets, protection sociale, administratif et situations ideales. Guide complet 2026 pour faire le bon choix.',
   },
   {
     slug: 'comment-trouver-clients-freelance',
@@ -2863,12 +2854,223 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
     `.trim(),
     date: '2026-11-16',
     category: 'Guides',
-    readTime: '15 min',
+    readTime: 15,
     author: 'L\'equipe FacturationPro',
     image: '/blog/comment-trouver-clients-freelance.svg',
     tags: ['trouver clients', 'prospection freelance', 'Malt', 'LinkedIn', 'cold emailing', 'reseau'],
-    metaTitle: 'Comment Trouver des Clients Freelance 2026 : 12 Strategies qui Marchent',
-    metaDescription: 'Plateformes Malt, LinkedIn, cold emailing, reseau, sous-traitance... 12 strategies concretes pour trouver des clients freelance rapidement et construire un portefeuille solide en 2026.',
+  },
+  {
+    slug: 'myunisoft-avis-test-complet',
+    title: 'MyUnisoft 2026 : Avis Complet du Logiciel Comptable pour Experts-Comptables',
+    excerpt: 'MyUnisoft, le logiciel comptable cloud 100% francais plebiscite par les cabinets EC. Notre avis complet : fonctionnalites, tarifs, avantages pour les freelances en relation avec leur expert-comptable.',
+    date: '2026-11-13',
+    readTime: 9,
+    category: 'Avis logiciels',
+    keywords: ['myunisoft avis', 'myunisoft logiciel comptable', 'myunisoft expert comptable', 'myunisoft tarif 2026'],
+    image: '/blog/myunisoft-avis-test-complet.svg',
+    content: `
+<h2>MyUnisoft : le logiciel comptable des cabinets EC modernes</h2>
+<p>MyUnisoft est un logiciel de comptabilite cloud cree en 2019 par des experts-comptables francais. Sa particularite : il est concu <strong>d'abord pour les cabinets d'expertise comptable</strong>, et donne ensuite acces a leurs clients (entreprises, freelances, TPE) a une interface collaborative. C'est l'inverse de Pennylane ou Indy qui partent du besoin des dirigeants.</p>
+<p>Notre note globale : <strong>4,3/5</strong></p>
+<ul>
+<li>Points forts : Made in France, interface EC tres complete, collaboration client/cabinet en temps reel, conformite totale aux normes francaises</li>
+<li>Points faibles : Acces uniquement via un cabinet EC partenaire, pas d'acces direct pour les freelances en solo, tarif non public</li>
+</ul>
+
+<h2>Fonctionnalites de MyUnisoft</h2>
+<h3>Module comptabilite complete</h3>
+<p>MyUnisoft couvre l'integralite de la chaine comptable : saisie, rapprochement bancaire automatique, grand livre, balance, bilan et compte de resultats. La synchronisation bancaire est directe avec les principaux etablissements francais (BNP, Societe Generale, Credit Agricole, etc.). Le moteur de reconnaissance automatique des ecritures apprend des habitudes du cabinet et propose les imputations comptables avec un taux de reconnaissance tres eleve.</p>
+<h3>Gestion de la TVA et fiscalite</h3>
+<p>MyUnisoft gere la TVA en temps reel : calcul automatique, pre-remplissage des declarations CA3/CA12, et teledeclaration directe via la DGFiP. Les echeances fiscales (IS, CFE, TVA) sont trackees dans un tableau de bord de suivi. Pour les freelances en SASU ou EURL, c'est un atout majeur si leur cabinet EC utilise MyUnisoft.</p>
+<h3>Facturation et gestion des creances</h3>
+<p>Les clients acces via leur cabinet peuvent emettre des devis et factures conformes directement depuis MyUnisoft. La facturation electronique B2B est deja geree pour anticiper l'obligation 2026-2027. Les devis sont convertibles en factures en un clic, et les relances automatiques sont parametrables.</p>
+<h3>Dossier client collaboratif</h3>
+<p>L'espace client MyUnisoft permet d'echanger des documents avec son cabinet EC en temps reel : upload de justificatifs, validation d'ecritures, consultation de bilans. Cela reduit drastiquement les allers-retours par email avec son expert-comptable.</p>
+
+<h2>Tarifs MyUnisoft 2026</h2>
+<p>MyUnisoft ne publie pas de tarifs publics. La facturation se fait via le cabinet EC, qui integre le cout dans sa prestation. Le cabinet paie un abonnement MyUnisoft par dossier client, et peut repercuter ou non ce cout.</p>
+<p>Pour une estimation : un cabinet EC facture generalement la tenue comptable via MyUnisoft entre 80 et 200 EUR/mois pour un freelance, selon le volume de pieces. C'est plus cher qu'un logiciel en autonomie comme Indy (29 EUR/mois) ou Tiime (12 EUR/mois), mais cela inclut le travail de l'expert-comptable.</p>
+<p>Si vous etes freelance et que votre EC utilise MyUnisoft, vous beneficiez d'un acces client inclus dans votre abonnement cabinet. Renseignez-vous directement aupres de votre expert-comptable.</p>
+
+<h2>MyUnisoft vs les alternatives : pour qui ?</h2>
+<p>MyUnisoft est fait pour vous si :</p>
+<ul>
+<li>Votre cabinet EC est utilisateur MyUnisoft (ou vous cherchez un cabinet moderne)</li>
+<li>Vous etes en SASU ou EURL avec des operations comptables complexes</li>
+<li>Vous avez besoin d'une collaboration fluide avec votre EC (validation en temps reel)</li>
+<li>Vous tenez a un outil 100% francais, conforme aux normes locales</li>
+</ul>
+<p>MyUnisoft n'est probablement pas fait pour vous si :</p>
+<ul>
+<li>Vous etes auto-entrepreneur cherchant un outil simple et pas cher : optez pour <a href="https://www.indy.fr/?ae=2183">Indy</a> ou <a href="https://app.tiime.fr/register?utm_source=facturationpro&ae=1289">Tiime</a></li>
+<li>Vous voulez gerer votre comptabilite en autonomie sans passer par un EC</li>
+<li>Votre EC utilise deja un autre logiciel (Sage, Cegid, ACD) : changer sera difficile</li>
+</ul>
+
+<h2>MyUnisoft en pratique : notre test</h2>
+<p>L'interface MyUnisoft est moderne et reactive, loin des logiciels comptables traditionnels aux interfaces des annees 2000. La navigation est intuitive pour un non-comptable, avec un tableau de bord personnalisable. La synchronisation bancaire fonctionne bien avec les grandes banques francaises, avec un delai de mise a jour de 24h.</p>
+<p>Le rapprochement automatique impressionne : apres quelques semaines d'utilisation, le taux de suggestion correcte depasse 90% pour des operations recurrentes. L'EC peut valider les ecritures en un clic, ce qui acelere enormement la cloture mensuelle.</p>
+<p>Un point negatif note : l'application mobile est encore limite par rapport au web. Pour les freelances tres mobiles, c'est a prendre en compte.</p>
+
+<h2>Conclusion : MyUnisoft vaut-il le coup ?</h2>
+<p>Si votre cabinet EC l'utilise ou y migre, MyUnisoft est une excellente solution qui modernise la relation client/EC et simplifie votre quotidien comptable. C'est l'un des outils les plus aboutis du marche francais pour la comptabilite professionnelle collaborative.</p>
+<p>Pour demarrer avec MyUnisoft, contactez directement <a href="https://www.myunisoft.fr/demande-demo?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog" rel="nofollow sponsored noopener">MyUnisoft via leur formulaire de demo</a> ou renseignez-vous aupres de votre expert-comptable actuel.</p>
+<p>Pour comparer avec d'autres solutions, consultez notre <a href="/comparatif">comparatif complet des logiciels de facturation</a> ou notre <a href="/comparatif/pennylane">avis Pennylane</a>, la solution qui se positionne aussi sur la collaboration EC.</p>
+
+<h2>FAQ : MyUnisoft pour les freelances</h2>
+<p><strong>Un freelance peut-il utiliser MyUnisoft directement sans passer par un EC ?</strong> Non, MyUnisoft est destine aux cabinets EC et leurs clients. L'acces se fait obligatoirement via un cabinet partenaire. Si vous etes en autonomie comptable, tournez-vous vers Indy, Tiime ou Pennylane.</p>
+<p><strong>MyUnisoft est-il compatible avec la facturation electronique obligatoire 2026 ?</strong> Oui, MyUnisoft supporte deja la facturation electronique B2B via le Portail Public de Facturation (PPF). Le logiciel sera conforme aux nouvelles obligations en temps voulu.</p>
+<p><strong>Quel est le prix de MyUnisoft pour un freelance ?</strong> Le tarif est inclus dans la prestation de votre expert-comptable. Comptez generalement 80 a 200 EUR/mois de tenue comptable globale, selon le volume et le cabinet.</p>
+    `.trim(),
+  },
+  {
+    slug: 'logiciel-facturation-sasu',
+    title: 'Meilleur logiciel de facturation pour SASU 2026 : comparatif complet',
+    excerpt: 'SASU : quel logiciel de facturation choisir en 2026 ? Comparatif Pennylane, Indy, Tiime, Sellsy. Fonctionnalites SASU, gestion TVA, IR/IS, bilan : on fait le tour.',
+    date: '2026-11-13',
+    readTime: 11,
+    category: 'Guides',
+    keywords: ['logiciel facturation SASU', 'meilleur logiciel SASU', 'facturation SASU 2026', 'comptabilite SASU freelance'],
+    image: '/blog/logiciel-facturation-sasu.svg',
+    content: `
+<h2>Logiciel de facturation SASU : les specificites a prendre en compte</h2>
+<p>Une SASU (Societe par Actions Simplifiee Unipersonnelle) est le statut favori des freelances en 2026. Mais elle implique des obligations comptables bien plus lourdes qu'une micro-entreprise : comptabilite d'engagement (et non de caisse), declaration de TVA, bilan annuel, liasse fiscale IS... Le choix du logiciel de facturation est donc crucial.</p>
+<p>Les 4 criteres cles pour une SASU :</p>
+<ul>
+<li><strong>Comptabilite d'engagement</strong> : enregistrement a la date de facturation, pas de paiement</li>
+<li><strong>Gestion de la TVA</strong> : declaration CA3 mensuelle ou trimestrielle</li>
+<li><strong>Collaboration expert-comptable</strong> : votre EC doit pouvoir acceder aux donnees</li>
+<li><strong>Conformite facturation electronique</strong> : obligation progressive 2026-2027</li>
+</ul>
+
+<h2>Comparatif logiciels facturation SASU 2026</h2>
+<h3>1. Pennylane : le meilleur pour SASU avec EC integre</h3>
+<p>Pennylane est probablement la solution la plus adaptee aux SASU en 2026. Son positionnement "comptabilite + facturation tout-en-un" correspond exactement aux besoins : creation de devis/factures conformes, synchronisation bancaire, TVA automatique, et surtout un espace de collaboration avec votre expert-comptable. L'EC voit vos donnees en temps reel et peut valider les ecritures directement.</p>
+<ul>
+<li>Tarif : a partir de 29 EUR/mois (plan Essentiel), 49 EUR/mois avec TVA auto (plan Plus)</li>
+<li>Avantage SASU : excellent pour la relation EC, TVA automatisee, bilan facilite</li>
+<li>Inconvenient : prix plus eleve que les alternatives simples</li>
+</ul>
+<p>Essayer <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog-sasu" rel="nofollow sponsored noopener">Pennylane gratuitement 1 mois</a></p>
+
+<h3>2. Indy : le bon rapport qualite/prix pour SASU simple</h3>
+<p>Indy est une solution franco-francaise qui a beaucoup evolue pour satisfaire les SASU. Son plan Pro (29 EUR/mois) couvre la facturation, la synchronisation bancaire, la declaration de TVA et meme la liasse fiscale en option. L'interface est tres accessible pour un non-comptable.</p>
+<ul>
+<li>Tarif : 29 EUR/mois en autonomie, 69 EUR/mois avec expert-comptable inclus</li>
+<li>Avantage SASU : liasse fiscale guidee, aide comptable integree, tres francais</li>
+<li>Inconvenient : moins adapte que Pennylane si votre EC a ses propres outils</li>
+</ul>
+<p>Decouvrir <a href="https://www.indy.fr/?ae=2183" rel="nofollow sponsored noopener">Indy pour votre SASU</a></p>
+
+<h3>3. Tiime : la solution economique pour debuter en SASU</h3>
+<p>Tiime est une tres bonne option pour les jeunes SASU avec un budget serre. Son plan Starter (12 EUR/mois) permet de gerer la facturation et de synchroniser son compte bancaire. Tiime s'integre nativement avec de nombreux cabinets EC francais via l'ecosysteme Tiime Accounts.</p>
+<ul>
+<li>Tarif : 12 EUR/mois (Starter), 22 EUR/mois (Pro avec TVA)</li>
+<li>Avantage SASU : prix tres competitif, bonne integration cabinets EC francais</li>
+<li>Inconvenient : fonctionnalites avancees limitees sur les plans bas de gamme</li>
+</ul>
+<p>Tester <a href="https://app.tiime.fr/register?utm_source=facturationpro&ae=1289" rel="nofollow sponsored noopener">Tiime gratuitement</a></p>
+
+<h3>4. Sellsy : la solution complete pour SASU avec salaries</h3>
+<p>Si votre SASU grossit et que vous avez des salaries ou un pipeline commercial a gerer, Sellsy devient pertinent. C'est une solution CRM + facturation + comptabilite complete. Plus chere, mais tres puissante pour les SASU qui depassent le stade du freelance solo.</p>
+<ul>
+<li>Tarif : a partir de 29 EUR/mois (facturation seule), jusqu'a 299 EUR/mois (suite complete)</li>
+<li>Avantage SASU : CRM integre, gestion des devis/commandes/factures en chaine</li>
+<li>Inconvenient : sur-dimensionne et cher pour un freelance solo</li>
+</ul>
+
+<h2>Quelle solution choisir pour votre SASU ?</h2>
+<p>Notre recommandation selon votre situation :</p>
+<ul>
+<li><strong>Demarrage / budget serre</strong> : Tiime (12 EUR/mois) ou Indy (29 EUR/mois)</li>
+<li><strong>SASU avec EC partenaire</strong> : Pennylane (si votre EC l'utilise) ou MyUnisoft (si votre cabinet est sur cet outil)</li>
+<li><strong>SASU en croissance (salaries, commercial)</strong> : Sellsy ou Pennylane Business</li>
+<li><strong>Priorite autonomie + guidance comptable</strong> : Indy (liasse fiscale guidee, EC optionnel)</li>
+</ul>
+
+<h2>Obligations comptables SASU : ce que votre logiciel doit gerer</h2>
+<p>Une SASU doit tenir une <strong>comptabilite d'engagement</strong> : les produits sont enregistres a la date de la facture, pas du paiement. C'est different de la comptabilite de caisse autorisee en micro-entreprise. Votre logiciel doit donc :</p>
+<ul>
+<li>Generer des factures conformes avec mentions obligatoires (numero SIREN, TVA si applicable, conditions de paiement)</li>
+<li>Synchroniser les mouvements bancaires et les pointer avec les factures</li>
+<li>Calculer et declarer la TVA (CA3 mensuelle ou trimestrielle)</li>
+<li>Produire les etats comptables necessaires au bilan annuel (votre EC peut le faire depuis les donnees)</li>
+</ul>
+<p>Consultez notre guide sur les <a href="/blog/mentions-obligatoires-facture-france">mentions obligatoires sur une facture en France</a> pour vous assurer de la conformite de vos factures SASU.</p>
+
+<h2>FAQ : Logiciel de facturation pour SASU</h2>
+<p><strong>Une SASU est-elle obligee d'avoir un expert-comptable ?</strong> Non, ce n'est pas une obligation legale. En revanche, la comptabilite d'une SASU est complexe (bilan, IS, liasse fiscale), et la grande majorite des SASU font appel a un EC. Des solutions comme Indy proposent une alternative a mi-chemin avec une guidance comptable integree.</p>
+<p><strong>Quel est le meilleur logiciel de facturation gratuit pour une SASU ?</strong> Il n'existe pas de solution vraiment gratuite et complete pour une SASU. Tiime propose le plan le moins cher (12 EUR/mois). Certains logiciels ont des periodes d'essai gratuites (1 mois chez Pennylane, 30 jours chez Indy).</p>
+<p><strong>Un auto-entrepreneur peut-il devenir SASU avec le meme logiciel ?</strong> Certains logiciels comme Indy et Pennylane accompagnent la transition. En revanche, les donnees ne sont pas toujours transposables directement : la comptabilite d'engagement demarre de zero a la date de creation de la SASU.</p>
+<p><strong>La facturation electronique s'applique-t-elle aux SASU ?</strong> Oui, les SASU sont soumises a l'obligation de facturation electronique B2B qui se deploie progressivement entre 2026 et 2027. Les logiciels mentionnes dans cet article sont tous en train de se mettre en conformite. Consultez notre <a href="/blog/facturation-electronique-2026-guide">guide sur la facturation electronique 2026</a>.</p>
+    `.trim(),
+  },
+  {
+    slug: 'pennylane-vs-indy',
+    title: 'Pennylane vs Indy 2026 : lequel choisir pour votre freelance ?',
+    excerpt: 'Pennylane ou Indy ? Comparatif complet des deux leaders de la facturation/comptabilite freelance en France. Tarifs, fonctionnalites, scenarios d\'usage : on tranche.',
+    date: '2026-11-13',
+    readTime: 10,
+    category: 'Comparatifs',
+    keywords: ['pennylane vs indy', 'indy vs pennylane', 'comparatif pennylane indy', 'meilleur logiciel freelance 2026'],
+    image: '/blog/pennylane-vs-indy.svg',
+    content: `
+<h2>Pennylane vs Indy : deux approches differentes de la comptabilite freelance</h2>
+<p>Pennylane et Indy sont les deux solutions les plus populaires parmi les freelances francais en 2026. Ils visent le meme public (independants, SASU, EURL, TPE) mais avec des philosophies differentes : Pennylane est oriente "collaboration avec l'expert-comptable", tandis qu'Indy mise sur "l'autonomie du dirigeant avec une guidance integree".</p>
+
+<h2>Comparaison des tarifs 2026</h2>
+<p><strong>Pennylane :</strong></p>
+<ul>
+<li>Essentiel : 29 EUR/mois (facturation + tableau de bord financier)</li>
+<li>Plus : 49 EUR/mois (+ TVA automatique + tresorerie)</li>
+<li>Business : 79 EUR/mois (+ collaboration EC avancee + multi-utilisateurs)</li>
+<li>Expert : tarif sur devis (EC integre inclus)</li>
+</ul>
+<p><strong>Indy :</strong></p>
+<ul>
+<li>Solo : 29 EUR/mois (facturation + compta de base + synchro bancaire)</li>
+<li>Pro : 39 EUR/mois (+ TVA + liasse fiscale guidee)</li>
+<li>Expert : 69 EUR/mois (+ expert-comptable certifie inclus)</li>
+</ul>
+<p>Les tarifs sont proches sur les plans de base. Indy l'emporte sur le rapport qualite/prix des plans intermediaires (Pro 39 vs Plus 49 chez Pennylane pour des fonctionnalites similaires).</p>
+
+<h2>Comparaison des fonctionnalites cles</h2>
+<h3>Facturation</h3>
+<p>Les deux solutions proposent une facturation conforme avec toutes les mentions obligatoires legales francaises. Pennylane a un editeur de devis/factures plus complet avec personalisation poussee. Indy est plus simple et guide, ideal pour un debutant.</p>
+<h3>Synchronisation bancaire</h3>
+<p>Les deux integrent les grandes banques francaises via Open Banking. Pennylane supporte plus d'etablissements (y compris les banques pro comme Qonto, Shine, Finom). Indy couvre l'essentiel.</p>
+<h3>TVA et fiscalite</h3>
+<p>Indy a un avantage ici : la declaration de TVA est tres guidee, avec des ecrans explicatifs adaptes au non-comptable. Pennylane est plus puissant pour les situations complexes (TVA sur les debits/encaissements, deductions speciales).</p>
+<h3>Collaboration avec l'expert-comptable</h3>
+<p>Pennylane est clairement superieur sur ce point. L'espace de collaboration EC est son coeur de metier : votre EC valide les ecritures en temps reel, prepare le bilan depuis la plateforme, et vous alertez en cas d'anomalie. Indy propose aussi un espace EC, mais moins developpe.</p>
+<h3>Liasse fiscale et bilan</h3>
+<p>Indy est l'unique solution a proposer une aide guidee pour produire sa liasse fiscale en quasi-autonomie (plan Pro). Pennylane laisse cette partie a votre EC. Si vous voulez comprendre et piloter votre fiscalite vous-meme, Indy est plus pedagogique.</p>
+
+<h2>Scenarios : qui choisir selon votre profil ?</h2>
+<ul>
+<li><strong>Auto-entrepreneur debutant</strong> : Indy (plus accessible, moins cher, guidance forte)</li>
+<li><strong>Freelance SASU avec EC partenaire</strong> : Pennylane si votre EC l'utilise, sinon Indy</li>
+<li><strong>TPE en croissance (2-5 personnes)</strong> : Pennylane Business (multi-utilisateurs, CRM basique)</li>
+<li><strong>Freelance qui veut comprendre sa comptabilite</strong> : Indy (tres pedagogique)</li>
+<li><strong>Freelance qui veut juste deleguer la compta</strong> : Pennylane Expert (EC integre)</li>
+</ul>
+
+<h2>Notre verdict : Pennylane vs Indy</h2>
+<p><strong>Choisissez Pennylane</strong> si vous travaillez avec un expert-comptable et voulez une collaboration fluide, si votre structure est en croissance et vous avez des besoins de reporting avances, ou si vous etes pret a payer un peu plus pour une solution premium.</p>
+<p><strong>Choisissez Indy</strong> si vous etes a la recherche du meilleur rapport qualite/prix, si vous souhaitez comprendre votre comptabilite et garder le controle, ou si vous demarrez en independant avec un budget serre.</p>
+<p>Les deux sont excellents. Profitez de leurs periodes d'essai gratuites pour tester :</p>
+<ul>
+<li><a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog-pennylane-vs-indy" rel="nofollow sponsored noopener">Essayer Pennylane gratuitement 1 mois</a></li>
+<li><a href="https://www.indy.fr/?ae=2183" rel="nofollow sponsored noopener">Essayer Indy gratuitement 30 jours</a></li>
+</ul>
+<p>Pour aller plus loin, consultez aussi notre <a href="/comparatif/indy-vs-pennylane">comparatif Indy vs Pennylane en detail</a> ou notre <a href="/comparatif">comparatif global des 8 logiciels de facturation freelance</a>.</p>
+
+<h2>FAQ : Pennylane vs Indy</h2>
+<p><strong>Pennylane est-il vraiment meilleur qu'Indy ?</strong> Ca depend de votre usage. Pennylane est superieur pour la collaboration EC et les fonctionnalites avancees. Indy est meilleur pour l'autonomie et le rapport qualite/prix. Les deux sont d'excellentes solutions.</p>
+<p><strong>Peut-on migrer facilement d'Indy vers Pennylane (ou vice versa) ?</strong> Oui, les deux proposent des exports de donnees (CSV, PDF). La migration comptable doit se faire au debut d'un exercice fiscal pour simplifier les choses. Votre EC peut vous accompagner sur la cloture et la reprise de donnees.</p>
+<p><strong>Indy et Pennylane sont-ils conformes a la facturation electronique 2026 ?</strong> Oui, les deux sont en cours de mise en conformite avec les nouvelles obligations. Consultez notre <a href="/blog/facturation-electronique-2026-guide">guide facturation electronique 2026</a> pour tout comprendre.</p>
+    `.trim(),
+    metaDescription: 'Pennylane ou Indy pour votre freelance en 2026 ? Comparatif complet : tarifs, fonctionnalites, scenarios d\'usage. On vous aide a choisir.',
   },
 ]
 
