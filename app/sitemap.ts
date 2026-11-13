@@ -39,6 +39,9 @@ const blogSlugs = [
   'myunisoft-avis-test-complet',
   'logiciel-facturation-sasu',
   'pennylane-vs-indy',
+  'axonaut-avis-test-complet',
+  'freebe-vs-pennylane',
+  'logiciel-facturation-agence',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {

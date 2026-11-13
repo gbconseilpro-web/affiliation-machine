@@ -3074,6 +3074,262 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
   },
 ]
 
+  {
+    slug: 'axonaut-avis-test-complet',
+    title: 'Axonaut avis 2026 : test complet du CRM-ERP pour freelances et TPE',
+    excerpt: 'Axonaut est-il le meilleur CRM-ERP tout-en-un pour les independants et petites entreprises ? Notre test complet : fonctionnalites, tarifs, avantages et limites.',
+    date: '2026-11-13',
+    readTime: 11,
+    category: 'Avis logiciels',
+    keywords: ['axonaut avis', 'axonaut test', 'axonaut crm', 'axonaut freelance', 'axonaut tarif'],
+    image: '/blog/axonaut-avis-test-complet.svg',
+    content: `
+<h2>Axonaut : qu'est-ce que c'est ?</h2>
+<p>Axonaut est un logiciel CRM-ERP francais tout-en-un cree en 2017 a Toulouse. Il s'adresse aux freelances, independants et TPE-PME (1 a 50 salaries) qui veulent gerer leur activite depuis un seul outil : prospection, devis, facturation, comptabilite, gestion de projets, ticketing, et meme ressources humaines. C'est son positionnement unique : la ou Pennylane ou Indy se concentrent sur la comptabilite, Axonaut ambitionne de couvrir tout le back-office d'une petite entreprise.</p>
+
+<h2>Fonctionnalites principales d'Axonaut</h2>
+<h3>CRM et pipeline commercial</h3>
+<p>Axonaut propose un CRM complet avec gestion des contacts, des opportunites commerciales, et un pipeline visuel en kanban. Vous pouvez tracker chaque prospect, noter les interactions, et automatiser certaines relances. Pour un freelance qui gere plusieurs clients et prospects simultanement, c'est un gain de temps considerable par rapport a un tableau Excel ou un Notion bricole.</p>
+<h3>Devis et facturation</h3>
+<p>Creation de devis et factures conformes aux normes francaises, numerotation automatique, gestion des avoirs, signatures electroniques des devis. L'editeur est fonctionnel sans etre le plus elegant du marche : il fait le travail.</p>
+<h3>Comptabilite et tresorerie</h3>
+<p>Axonaut inclut un tableau de bord de tresorerie, un suivi des depenses, la gestion de la TVA, et un export comptable FEC. Ce n'est pas aussi pousse qu'un Indy ou un Pennylane sur la partie comptabilite, mais ca couvre les besoins d'un independant ou d'une TPE sans expert-comptable au quotidien.</p>
+<h3>Gestion de projets</h3>
+<p>Module de gestion de taches et projets avec suivi du temps passe, assignation aux collaborateurs, et lien direct avec la facturation. Idee : vous gerez un projet, vous loggez vos heures, et Axonaut genere la facture automatiquement depuis ces donnees. Tres utile pour les freelances qui facturent au temps passe.</p>
+<h3>Helpdesk et ticketing</h3>
+<p>Module de support client integre avec gestion des tickets par email. Accessoire pour un independant solo, mais tres utile des que vous avez une petite equipe et des clients recurrents qui remontent des problemes.</p>
+<h3>RH et notes de frais</h3>
+<p>Gestion basique des conges, des notes de frais et des contrats salaries. Suffisant pour une TPE de 2 a 10 personnes, sans remplacer un vrai SIRH.</p>
+
+<h2>Tarifs Axonaut 2026</h2>
+<p>Axonaut pratique un tarif unique degressif selon la taille de l'equipe :</p>
+<ul>
+<li>1 utilisateur : 69,99 EUR/mois (ou 49,99 EUR/mois en annuel)</li>
+<li>2 utilisateurs : 109,99 EUR/mois</li>
+<li>3-5 utilisateurs : 149,99 EUR/mois</li>
+<li>6-10 utilisateurs : 199,99 EUR/mois</li>
+</ul>
+<p>Toutes les fonctionnalites sont incluses dans le plan unique, sans module supplementaire a acheter. L'essai gratuit est de 15 jours sans carte bancaire.</p>
+<p>Comparaison rapide : Axonaut solo (49,99 EUR/mois en annuel) vs Pennylane Business (79 EUR/mois). Axonaut est moins cher et plus complet (CRM + projets), mais moins performant sur la comptabilite pure.</p>
+
+<h2>Avantages d'Axonaut</h2>
+<ul>
+<li><strong>Tout-en-un vraiment tout-en-un</strong> : un seul outil pour CRM, facturation, compta, projets, RH. Zero integration a configurer entre des outils separes.</li>
+<li><strong>Solution 100% francaise</strong> : support en francais, interface en francais, pensee pour les normes fiscales et sociales francaises.</li>
+<li><strong>Tres bon rapport qualite/prix pour les TPE</strong> : a 2-3 utilisateurs, Axonaut est souvent moins cher que la combinaison CRM + logiciel compta separement.</li>
+<li><strong>Support client reactif</strong> : l'equipe Axonaut est connue pour sa disponibilite et sa reactivite, notamment via le chat integre.</li>
+</ul>
+
+<h2>Limites d'Axonaut</h2>
+<ul>
+<li><strong>Interface un peu dense</strong> : avec autant de fonctionnalites, l'interface peut paraitre complexe pour un debutant. La courbe d'apprentissage est reelle.</li>
+<li><strong>Comptabilite moins avancee</strong> : pour un freelance qui veut vraiment comprendre sa comptabilite ou travailler en profondeur avec un EC, Pennylane ou Indy sont superieure.</li>
+<li><strong>Prix eleve pour un solo</strong> : a 49,99 EUR/mois en solo annuel, c'est plus cher que Pennylane Essentiel (29 EUR) ou Indy Solo (29 EUR) si vous n'utilisez pas le CRM et la gestion de projets.</li>
+<li><strong>Application mobile basique</strong> : l'app mobile existe mais reste moins complete que le web.</li>
+</ul>
+
+<h2>Axonaut : pour qui ?</h2>
+<p><strong>Axonaut est ideal pour :</strong></p>
+<ul>
+<li>Les freelances consultants qui gerent plusieurs missions en parallele et ont besoin d'un CRM pour tracker leurs prospects</li>
+<li>Les TPE de 2 a 15 personnes qui veulent centraliser leur back-office sans accumuler les abonnements SaaS</li>
+<li>Les agences, cabinets de conseil, ESN qui facturent au temps passe et veulent lier projets et facturation</li>
+</ul>
+<p><strong>Axonaut est moins adapte si :</strong></p>
+<ul>
+<li>Vous etes auto-entrepreneur avec peu de clients et avez besoin d'une simple facturation : Freebe ou Tiime seront suffisants et moins chers</li>
+<li>Votre priorite est la comptabilite avancee et la collaboration EC : Pennylane ou Indy s'imposent</li>
+</ul>
+
+<h2>Notre verdict Axonaut</h2>
+<p>Axonaut est une solution solide et bien pensee pour les independants et TPE qui veulent unifier leur gestion. Son positionnement tout-en-un est son principal atout : fini le jonglage entre un CRM (Hubspot), un logiciel de facturation (Freebe), un outil de projets (Notion) et une comptabilite (Pennylane). Axonaut remplace tout ca avec un seul abonnement.</p>
+<p>Le prix solo peut rebuter si vous n'utilisez pas toutes les fonctionnalites. Mais pour un freelance actif avec plusieurs clients, plusieurs projets, et un besoin de suivi commercial, le retour sur investissement est reel.</p>
+<ul>
+<li><a href="https://axonaut.com" rel="nofollow noopener">Essayer Axonaut gratuitement 15 jours</a></li>
+</ul>
+<p>Pour comparer avec d'autres solutions, consultez notre <a href="/comparatif">comparatif des 8 meilleurs logiciels de facturation freelance</a>.</p>
+
+<h2>FAQ Axonaut</h2>
+<p><strong>Axonaut est-il adapte aux auto-entrepreneurs ?</strong> Oui, mais c'est surdimensionne si vous faites peu de facturation. Si vous avez aussi besoin d'un CRM pour gerer vos prospects, ca devient tres pertinent.</p>
+<p><strong>Axonaut remplace-t-il un expert-comptable ?</strong> Non. Axonaut vous aide a tenir votre comptabilite de facon simplifiee mais ne remplace pas les conseils d'un EC pour les declarations fiscales, le choix de statut, ou l'optimisation. Plusieurs EC travaillent en direct avec Axonaut via l'export FEC.</p>
+<p><strong>Axonaut est-il conforme a la facturation electronique 2026 ?</strong> Axonaut est en cours de mise en conformite avec les nouvelles obligations. Consultez leur site pour les derniers details ou notre <a href="/blog/facturation-electronique-2026-guide">guide facturation electronique 2026</a>.</p>
+    `.trim(),
+    metaDescription: 'Axonaut avis 2026 : test complet du CRM-ERP tout-en-un pour freelances et TPE. Tarifs, fonctionnalites, avantages et limites. Notre verdict.',
+  },
+  {
+    slug: 'freebe-vs-pennylane',
+    title: 'Freebe vs Pennylane 2026 : comparatif pour freelances et creatifs',
+    excerpt: 'Freebe ou Pennylane pour votre activite freelance ? Comparatif complet : tarifs, fonctionnalites, profils adaptes. On vous aide a choisir le bon outil.',
+    date: '2026-11-13',
+    readTime: 9,
+    category: 'Comparatifs',
+    keywords: ['freebe vs pennylane', 'pennylane vs freebe', 'comparatif freebe pennylane', 'logiciel facturation creatif'],
+    image: '/blog/freebe-vs-pennylane.svg',
+    content: `
+<h2>Freebe vs Pennylane : deux philosophies tres differentes</h2>
+<p>Freebe et Pennylane s'adressent tous deux aux freelances et independants francais, mais avec des approches radicalement differentes. Freebe est ne pour les freelances creatifs (graphistes, photographes, developpeurs, consultants) qui veulent une gestion simple et rapide. Pennylane est une plateforme comptable complete, pensee pour les freelances et TPE qui travaillent avec un expert-comptable et ont des besoins financiers evolutifs.</p>
+
+<h2>Comparaison des tarifs 2026</h2>
+<p><strong>Freebe :</strong></p>
+<ul>
+<li>Starter : 9,90 EUR/mois (facturation, devis, contacts)</li>
+<li>Pro : 14,90 EUR/mois (+ automatisations, signatures electroniques, relances auto)</li>
+<li>Business : 24,90 EUR/mois (+ portefeuille clients multiple, multi-projets)</li>
+</ul>
+<p><strong>Pennylane :</strong></p>
+<ul>
+<li>Essentiel : 29 EUR/mois</li>
+<li>Plus : 49 EUR/mois</li>
+<li>Business : 79 EUR/mois</li>
+<li>Expert : tarif sur devis (EC inclus)</li>
+</ul>
+<p>Freebe est sensiblement moins cher. Pour un freelance en debut d'activite ou avec peu de volume de facturation, l'ecart est significatif (9,90 EUR vs 29 EUR/mois).</p>
+
+<h2>Freebe : points forts</h2>
+<ul>
+<li><strong>Interface ultra-simple</strong> : onboarding en 5 minutes, premiere facture en moins de 10 minutes. Freebe est fait pour les non-comptables.</li>
+<li><strong>Design soigne</strong> : les devis et factures Freebe sont beaux par defaut. Tres apprecie par les creatifs qui soignent leur image.</li>
+<li><strong>Gestion de portefeuille clients et projets</strong> : vision claire de chaque client, chaque mission, chaque devis en cours. Parfait pour les freelances multi-clients.</li>
+<li><strong>Signatures electroniques</strong> : les devis se signent en ligne, sans sortir de l'outil.</li>
+<li><strong>Suivi des temps</strong> : module de time-tracking integre pour facturer au reel.</li>
+<li><strong>Tarif tres competitif</strong> : le moins cher des logiciels specialises freelance du marche.</li>
+</ul>
+
+<h2>Freebe : limites</h2>
+<ul>
+<li>Pas de synchronisation bancaire (pas de rapprochement automatique debit/credit)</li>
+<li>Comptabilite basique : pas de declaration TVA integree, pas de bilan, pas de collaboration EC native</li>
+<li>Non adapte aux SASU/EURL qui veulent une vraie comptabilite integree</li>
+</ul>
+
+<h2>Pennylane : points forts</h2>
+<ul>
+<li><strong>Synchronisation bancaire complete</strong> : toutes les transactions sont automatiquement categorisees et reconciliees.</li>
+<li><strong>TVA entierement automatisee</strong> : calcul, declaration, paiement guide. Zero risque d'erreur.</li>
+<li><strong>Collaboration expert-comptable native</strong> : votre EC acces directement a vos donnees en temps reel, valide les ecritures, prepare le bilan.</li>
+<li><strong>Reporting financier avance</strong> : tableau de bord P&L, tresorerie previsionnelle, suivi des creances.</li>
+<li><strong>Adapte aux SASU et structures en croissance</strong> : Pennylane scale avec vous, de l'auto-entrepreneur a la PME.</li>
+</ul>
+
+<h2>Pennylane : limites</h2>
+<ul>
+<li>Beaucoup plus cher que Freebe (3x a 5x selon les plans)</li>
+<li>Interface plus dense, courbe d'apprentissage plus importante</li>
+<li>Moins beau visuellement sur les devis/factures</li>
+<li>Overkill pour un freelance qui veut juste facturer et envoyer des devis</li>
+</ul>
+
+<h2>Comparatif fonctionnalites cles</h2>
+<p><strong>Facturation :</strong> les deux excellent, avec toutes les mentions legales francaises. Avantage Freebe sur le design, avantage Pennylane sur la richesse des options.</p>
+<p><strong>Devis et signatures :</strong> Freebe egalite ou avantage sur la facilite d'usage. Pennylane est plus complet sur les workflows.</p>
+<p><strong>Comptabilite :</strong> Pennylane ecrase Freebe. Freebe n'est pas un logiciel de comptabilite.</p>
+<p><strong>Synchronisation bancaire :</strong> uniquement Pennylane.</p>
+<p><strong>Time-tracking :</strong> Freebe l'emporte (integre nativement).</p>
+<p><strong>Prix :</strong> Freebe l'emporte largement.</p>
+
+<h2>Notre verdict : Freebe ou Pennylane ?</h2>
+<p><strong>Choisissez Freebe si :</strong></p>
+<ul>
+<li>Vous etes auto-entrepreneur, micro-entrepreneur, ou freelance avec un statut simple</li>
+<li>Votre priorite est la simplicite et la rapidite d'usage</li>
+<li>Vous voulez des devis et factures visuellement soignes sans vous prendre la tete</li>
+<li>Votre budget est serre</li>
+</ul>
+<p><strong>Choisissez Pennylane si :</strong></p>
+<ul>
+<li>Vous avez une SASU, EURL, ou vous y preparez</li>
+<li>Vous voulez (ou avez) un expert-comptable et souhaitez centraliser la collaboration</li>
+<li>Vous avez des besoins de comptabilite avancee (TVA, bilan, reporting)</li>
+<li>Votre activite genere suffisamment de CA pour justifier l'investissement</li>
+</ul>
+<p>Les deux proposent des essais gratuits :</p>
+<ul>
+<li><a href="https://www.freebe.me/?ae=2192" rel="nofollow sponsored noopener">Essayer Freebe gratuitement</a></li>
+<li><a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog-freebe-vs-pennylane" rel="nofollow sponsored noopener">Essayer Pennylane gratuitement 1 mois</a></li>
+</ul>
+<p>Consultez aussi notre <a href="/comparatif">comparatif global des 8 logiciels de facturation freelance</a> pour d'autres alternatives.</p>
+
+<h2>FAQ Freebe vs Pennylane</h2>
+<p><strong>Peut-on utiliser Freebe et Pennylane ensemble ?</strong> Certains freelances utilisent Freebe pour la facturation client (tres rapide) et Pennylane pour la comptabilite. Ca reste marginal et double le cout d'abonnement. Dans la plupart des cas, choisir l'un ou l'autre suffit.</p>
+<p><strong>Freebe convient-il aux SASU ?</strong> Freebe peut etre utilise en SASU pour la facturation, mais il ne gere pas la comptabilite d'engagement obligatoire pour les SASU. Vous aurez besoin d'un EC et d'un outil comptable complementaire.</p>
+<p><strong>Pennylane propose-t-il un time-tracking ?</strong> Pennylane ne propose pas de time-tracking integre. Des integrations tierces (Toggl, Harvest) sont possibles via Zapier, mais ce n'est pas natif.</p>
+    `.trim(),
+    metaDescription: 'Freebe ou Pennylane pour votre freelance en 2026 ? Comparatif complet tarifs, fonctionnalites, profils. On vous aide a faire le bon choix.',
+  },
+  {
+    slug: 'logiciel-facturation-agence',
+    title: 'Meilleur logiciel de facturation pour agence et TPE en 2026',
+    excerpt: 'Quelle solution choisir pour facturer en agence (communication, web, conseil) ? Comparatif des outils adaptes aux structures de 2 a 20 personnes avec gestion de projets.',
+    date: '2026-11-13',
+    readTime: 9,
+    category: 'Comparatifs',
+    keywords: ['logiciel facturation agence', 'facturation TPE', 'logiciel gestion agence communication', 'facturation equipe'],
+    image: '/blog/logiciel-facturation-agence.svg',
+    content: `
+<h2>Pourquoi les besoins d'une agence sont differents d'un freelance solo ?</h2>
+<p>Une agence de communication, une ESN, une agence web ou un cabinet de conseil de 2 a 20 personnes a des besoins specifiques que les logiciels penses pour les freelances solo ne couvrent pas toujours : multi-utilisateurs, gestion de projets avec suivi du temps, facturation d'acomptes et de situations, relances clients, et collaboration avec un expert-comptable. Voici les solutions adaptees en 2026.</p>
+
+<h2>Les criteres cles pour une agence</h2>
+<ul>
+<li><strong>Multi-utilisateurs</strong> : plusieurs collaborateurs doivent pouvoir acceder a l'outil avec des droits differents (commercial, dirigeant, DAF)</li>
+<li><strong>Gestion de projets et suivi des temps</strong> : pour facturer au reel et piloter la rentabilite par client</li>
+<li><strong>Facturation avancee</strong> : acomptes, situations, factures recurrentes, bons de commande</li>
+<li><strong>Collaboration expert-comptable</strong> : export FEC, bilan, liasse fiscale</li>
+<li><strong>Integrations</strong> : CRM, outils marketing, banque pro</li>
+</ul>
+
+<h2>Pennylane Business : la reference comptable pour agences</h2>
+<p>Pennylane Business (79 EUR/mois, jusqu'a 5 utilisateurs) est devenu la reference pour les agences qui veulent une comptabilite rigoureuse. Ses atouts pour les agences :</p>
+<ul>
+<li>Acces multi-utilisateurs avec roles differencies</li>
+<li>Collaboration EC native (votre expert-comptable valide les ecritures en direct)</li>
+<li>TVA automatique, rapprochement bancaire, bilan</li>
+<li>Tableau de bord financier complet (P&L, tresorerie, creances)</li>
+</ul>
+<p>Limite : pas de gestion de projets ni de time-tracking natif. Pour ca, il faut associer Pennylane a un outil comme Harvest, Toggl Track, ou Monday.com.</p>
+
+<h2>Axonaut : le tout-en-un pour agences sans DAF</h2>
+<p>Axonaut (a partir de 109 EUR/mois pour 2 utilisateurs) est l'alternative tout-en-un : CRM, devis, facturation, gestion de projets avec time-tracking, et comptabilite de base. L'atout majeur : tout est lie. Vous loggez du temps sur un projet, Axonaut le transforme en facture automatiquement.</p>
+<p>Idee pour une agence de 3 a 10 personnes qui veut eviter de multiplier les outils SaaS et ne dispose pas d'une DAF ou d'un comptable interne.</p>
+
+<h2>Sellsy : la solution premium pour agences ambitieuses</h2>
+<p>Sellsy est le CRM-facturation-comptabilite haut de gamme francais. A partir de 99 EUR/mois pour 2 utilisateurs, il propose un CRM avance, une gestion de projets complete, et une facturation flexible (acomptes, situations, abonnements). Son interface est plus moderne qu'Axonaut, et son CRM est plus puissant. La contrepartie : c'est le plus cher de notre selection.</p>
+<p>Ideal pour les agences en croissance (10 a 50 personnes) qui ont un DAF ou un pole compta interne.</p>
+
+<h2>Tiime : l'option collaborative avec l'expert-comptable</h2>
+<p>Tiime est une solution interessante pour les agences qui travaillent etroitement avec leur expert-comptable. Tiime One (25 EUR/mois) couvre la facturation et la comptabilite basique. Tiime propose aussi Tiime AE pour les micro-entrepreneurs, et une version Tiime Comptable pour les EC partenaires. L'ecosysteme est pense pour la collaboration EC.</p>
+
+<h2>Comparatif rapide agences</h2>
+<p><strong>Budget < 50 EUR/mois (1-2 users) :</strong> Pennylane Essentiel ou Tiime One. Pas de gestion projets native.</p>
+<p><strong>Budget 80-120 EUR/mois (2-5 users) :</strong> Pennylane Business pour la comptabilite, ou Axonaut pour le tout-en-un.</p>
+<p><strong>Budget > 150 EUR/mois, equipe > 5 :</strong> Sellsy ou Axonaut multi-users.</p>
+<p><strong>Priorite absolue : collaboration EC</strong> : Pennylane.</p>
+<p><strong>Priorite absolue : tout-en-un sans abonnements multiples</strong> : Axonaut.</p>
+
+<h2>Notre recommandation par profil d'agence</h2>
+<ul>
+<li><strong>Agence de communication 2-5 personnes</strong> : Axonaut (tout-en-un, suivi des temps, facturation projet)</li>
+<li><strong>Cabinet de conseil / ESN avec EC partenaire</strong> : Pennylane Business + outil de projets separe</li>
+<li><strong>Agence en croissance rapide > 10 personnes</strong> : Sellsy ou Axonaut multi-users</li>
+<li><strong>Freelance qui devient agence (1 a 2 personnes)</strong> : commencer par Pennylane Essentiel, upgrader selon les besoins</li>
+</ul>
+
+<p>Liens utiles :</p>
+<ul>
+<li><a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog-facturation-agence" rel="nofollow sponsored noopener">Essayer Pennylane gratuitement</a></li>
+<li><a href="https://axonaut.com" rel="nofollow noopener">Essayer Axonaut gratuitement 15 jours</a></li>
+</ul>
+<p>Pour les freelances solo, consultez notre <a href="/comparatif">comparatif des 8 logiciels de facturation freelance</a> ou notre guide <a href="/blog/meilleur-logiciel-facturation-freelance">meilleur logiciel de facturation freelance 2026</a>.</p>
+
+<h2>FAQ facturation agence</h2>
+<p><strong>Peut-on facturer des acomptes avec Pennylane ?</strong> Oui, Pennylane permet la creation de factures d'acompte depuis la version Essentiel. La gestion des situations (facturation par avancement) est disponible dans les plans superieurs.</p>
+<p><strong>Axonaut supporte-t-il la facturation electronique B2B obligatoire ?</strong> Axonaut est en cours de mise en conformite avec les nouvelles obligations de facturation electronique. Consultez leur site pour les details a jour ou notre <a href="/blog/facturation-electronique-2026-guide">guide facturation electronique 2026</a>.</p>
+<p><strong>Quel logiciel pour une agence avec des clients etrangers ?</strong> Pennylane et Sellsy gerent bien la facturation multi-devises et les specificites TVA intracommunautaire et export hors-UE. Axonaut est principalement oriente marche francais.</p>
+    `.trim(),
+    metaDescription: 'Meilleur logiciel de facturation pour agence et TPE en 2026. Pennylane, Axonaut, Sellsy : comparatif complet pour equipes de 2 a 20 personnes.',
+  },
+]
+
 export function getBlogPost(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find(p => p.slug === slug)
 }
