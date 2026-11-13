@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#eff6ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dbeafe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)" rx="16"/>
+  <rect x="60" y="50" width="680" height="90" rx="12" fill="white" opacity="0.8"/>
+  <text x="400" y="93" font-family="Arial Black,sans-serif" font-size="24" font-weight="900" fill="#1e3a5f" text-anchor="middle">Logiciel de facturation agence</text>
+  <text x="400" y="120" font-family="Arial,sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">Guide complet 2026 pour equipes 2 a 20 personnes</text>
+  <rect x="60" y="165" width="200" height="210" rx="12" fill="white" opacity="0.75"/>
+  <text x="160" y="200" font-family="Arial Black,sans-serif" font-size="15" font-weight="900" fill="#1e40af" text-anchor="middle">Pennylane</text>
+  <text x="160" y="222" font-family="Arial,sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">Compta avancee + EC</text>
+  <text x="160" y="250" font-family="Arial,sans-serif" font-size="20" fill="#2563eb" text-anchor="middle">★★★★★</text>
+  <rect x="60" y="340" width="200" height="28" rx="14" fill="#2563eb"/>
+  <text x="160" y="358" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle">des 79 EUR/mois</text>
+  <rect x="300" y="165" width="200" height="210" rx="12" fill="white" opacity="0.75"/>
+  <text x="400" y="200" font-family="Arial Black,sans-serif" font-size="15" font-weight="900" fill="#92400e" text-anchor="middle">Axonaut</text>
+  <text x="400" y="222" font-family="Arial,sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">CRM + projets + compta</text>
+  <text x="400" y="250" font-family="Arial,sans-serif" font-size="20" fill="#ca8a04" text-anchor="middle">★★★★☆</text>
+  <rect x="300" y="340" width="200" height="28" rx="14" fill="#ca8a04"/>
+  <text x="400" y="358" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle">des 109 EUR/mois</text>
+  <rect x="540" y="165" width="200" height="210" rx="12" fill="white" opacity="0.75"/>
+  <text x="640" y="200" font-family="Arial Black,sans-serif" font-size="15" font-weight="900" fill="#065f46" text-anchor="middle">Sellsy</text>
+  <text x="640" y="222" font-family="Arial,sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">CRM premium + agences</text>
+  <text x="640" y="250" font-family="Arial,sans-serif" font-size="20" fill="#059669" text-anchor="middle">★★★★☆</text>
+  <rect x="540" y="340" width="200" height="28" rx="14" fill="#059669"/>
+  <text x="640" y="358" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="white" text-anchor="middle">des 99 EUR/mois</text>
+  <text x="720" y="440" font-family="Arial,sans-serif" font-size="11" fill="#9ca3af" text-anchor="end">facturationpro.com</text>
+</svg>

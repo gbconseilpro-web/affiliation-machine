@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fefce8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fef9c3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)" rx="16"/>
+  <circle cx="140" cy="180" r="64" fill="#ca8a04" opacity="0.12"/>
+  <text x="140" y="200" font-family="Arial Black,sans-serif" font-size="72" font-weight="900" fill="#ca8a04" text-anchor="middle">A</text>
+  <text x="140" y="260" font-family="Arial,sans-serif" font-size="20" fill="#ca8a04" text-anchor="middle">★★★★☆</text>
+  <text x="140" y="285" font-family="Arial,sans-serif" font-size="13" fill="#92400e" text-anchor="middle">4,4 / 5</text>
+  <rect x="240" y="80" width="510" height="290" rx="12" fill="white" opacity="0.7"/>
+  <text x="270" y="130" font-family="Arial Black,sans-serif" font-size="24" font-weight="900" fill="#78350f">Axonaut</text>
+  <text x="270" y="160" font-family="Arial,sans-serif" font-size="14" fill="#6b7280">Avis &amp; test complet 2026</text>
+  <circle cx="270" cy="196" r="5" fill="#ca8a04"/>
+  <text x="285" y="201" font-family="Arial,sans-serif" font-size="13" fill="#374151">CRM + Facturation + Compta tout-en-un</text>
+  <circle cx="270" cy="226" r="5" fill="#ca8a04"/>
+  <text x="285" y="231" font-family="Arial,sans-serif" font-size="13" fill="#374151">Suivi de projets et time-tracking natif</text>
+  <circle cx="270" cy="256" r="5" fill="#ca8a04"/>
+  <text x="285" y="261" font-family="Arial,sans-serif" font-size="13" fill="#374151">A partir de 49,99 EUR/mois (solo annuel)</text>
+  <circle cx="270" cy="286" r="5" fill="#ca8a04"/>
+  <text x="285" y="291" font-family="Arial,sans-serif" font-size="13" fill="#374151">Ideal agences et consultants multi-clients</text>
+  <rect x="270" y="320" width="180" height="32" rx="16" fill="#ca8a04"/>
+  <text x="360" y="341" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle">TOUT-EN-UN</text>
+  <text x="720" y="440" font-family="Arial,sans-serif" font-size="11" fill="#9ca3af" text-anchor="end">facturationpro.com</text>
+</svg>
