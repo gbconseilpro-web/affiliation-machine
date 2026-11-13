@@ -1,56 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f8fafc"/>
-      <stop offset="100%" style="stop-color:#f1f5f9"/>
-    </linearGradient>
-    <linearGradient id="leftBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#f0fdf4"/>
-      <stop offset="100%" style="stop-color:#dcfce7"/>
-    </linearGradient>
-    <linearGradient id="rightBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f5f3ff"/>
-      <stop offset="100%" style="stop-color:#ede9fe"/>
+      <stop offset="100%" style="stop-color:#fefce8"/>
     </linearGradient>
   </defs>
-  <!-- Main background -->
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <!-- Left panel - Pennylane -->
-  <rect x="0" y="0" width="520" height="630" fill="url(#leftBg)" rx="0"/>
-  <!-- Right panel - Indy -->
-  <rect x="680" y="0" width="520" height="630" fill="url(#rightBg)" rx="0"/>
-  <!-- Center VS area -->
-  <rect x="510" y="0" width="180" height="630" fill="white"/>
-  <!-- VS decorative circles -->
-  <circle cx="600" cy="315" r="70" fill="#1e3a5f" opacity="0.08"/>
-  <circle cx="600" cy="315" r="55" fill="white"/>
-  <text x="600" y="334" font-family="Arial Black,sans-serif" font-size="36" font-weight="900" fill="#1e293b" text-anchor="middle">VS</text>
-  <!-- Vertical dividers -->
-  <line x1="510" y1="80" x2="510" y2="550" stroke="#e2e8f0" stroke-width="1"/>
-  <line x1="690" y1="80" x2="690" y2="550" stroke="#e2e8f0" stroke-width="1"/>
-  <!-- Pennylane logo left -->
-  <image href="https://www.pennylane.com/_nuxt/logo.BkRDgVYD.svg" x="80" y="160" width="360" height="72"/>
-  <!-- Pennylane features left -->
-  <text x="260" y="290" font-family="Arial,sans-serif" font-size="16" fill="#374151" text-anchor="middle">Collaboration expert-comptable</text>
-  <text x="260" y="320" font-family="Arial,sans-serif" font-size="16" fill="#374151" text-anchor="middle">Synchronisation bancaire</text>
-  <text x="260" y="350" font-family="Arial,sans-serif" font-size="16" fill="#374151" text-anchor="middle">Factures electroniques 2026</text>
-  <text x="260" y="380" font-family="Arial,sans-serif" font-size="16" fill="#374151" text-anchor="middle">A partir de 26€/mois</text>
-  <!-- Pennylane badge -->
-  <rect x="100" y="460" width="260" height="44" rx="22" fill="#006666" opacity="0.9"/>
-  <text x="230" y="488" font-family="Arial Black,sans-serif" font-size="14" fill="white" text-anchor="middle">Idéal : avec expert-comptable</text>
-  <!-- Indy logo right -->
-  <image href="https://www.indy.fr/wp-content/uploads/logo-indy-2.png" x="750" y="155" width="380" height="82"/>
-  <!-- Indy features right -->
-  <text x="940" y="290" font-family="Arial,sans-serif" font-size="16" fill="#374151" text-anchor="middle">Alertes seuil TVA temps reel</text>
-  <text x="940" y="320" font-family="Arial,sans-serif" font-size="16" fill="#374151" text-anchor="middle">Declarations URSSAF auto</text>
-  <text x="940" y="350" font-family="Arial,sans-serif" font-size="16" fill="#374151" text-anchor="middle">Synchronisation bancaire</text>
-  <text x="940" y="380" font-family="Arial,sans-serif" font-size="16" fill="#374151" text-anchor="middle">A partir de 7€/mois</text>
-  <!-- Indy badge -->
-  <rect x="840" y="460" width="260" height="44" rx="22" fill="#7c3aed" opacity="0.9"/>
-  <text x="970" y="488" font-family="Arial Black,sans-serif" font-size="14" fill="white" text-anchor="middle">Idéal : micro-entrepreneur</text>
-  <!-- Bottom title -->
-  <rect x="200" y="548" width="800" height="50" rx="8" fill="#1e293b" opacity="0.07"/>
-  <text x="600" y="580" font-family="Arial Black,sans-serif" font-size="22" font-weight="900" fill="#1e293b" text-anchor="middle">Comparatif complet 2026 : Pennylane vs Indy</text>
-  <!-- Footer -->
-  <text x="1120" y="618" font-family="Arial,sans-serif" font-size="12" fill="#9ca3af" text-anchor="end">facturationpro.com</text>
+  <rect x="0" y="0" width="600" height="630" fill="#f0fdf4" opacity="0.5"/>
+  <rect x="600" y="0" width="600" height="630" fill="#fefce8" opacity="0.5"/>
+  <rect x="80" y="70" width="1040" height="490" rx="24" fill="white" opacity="0.88"/>
+
+  <!-- VS separator -->
+  <circle cx="600" cy="210" r="38" fill="#1e1b4b"/>
+  <text x="600" y="223" font-family="Arial Black,sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="900">VS</text>
+
+  <!-- Pennylane side -->
+  <text x="300" y="185" font-family="Arial Black,sans-serif" font-size="48" font-weight="900" fill="#006666" text-anchor="middle" letter-spacing="-1">pennylane</text>
+  <text x="300" y="224" font-family="Arial,sans-serif" font-size="17" fill="#6b7280" text-anchor="middle">Collaboration avec EC</text>
+
+  <!-- Indy side -->
+  <text x="900" y="185" font-family="Arial Black,sans-serif" font-size="68" font-weight="900" fill="#a16207" text-anchor="middle" letter-spacing="-2">Indy</text>
+  <text x="900" y="224" font-family="Arial,sans-serif" font-size="17" fill="#6b7280" text-anchor="middle">Compta 100% autonome</text>
+
+  <rect x="130" y="268" width="940" height="44" rx="8" fill="#f8fafc"/>
+  <text x="600" y="296" font-family="Arial Black,sans-serif" font-size="16" fill="#374151" text-anchor="middle">Comparatif complet 2026 : freelances et micro-entrepreneurs</text>
+
+  <rect x="130" y="328" width="430" height="62" rx="10" fill="#f0fdf4" stroke="#d1fae5" stroke-width="1.5"/>
+  <text x="345" y="356" font-family="Arial Black,sans-serif" font-size="14" fill="#006666" text-anchor="middle">PDP certifie</text>
+  <text x="345" y="378" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">e-facturation ready 2026</text>
+
+  <rect x="640" y="328" width="430" height="62" rx="10" fill="#fefce8" stroke="#fde68a" stroke-width="1.5"/>
+  <text x="855" y="356" font-family="Arial Black,sans-serif" font-size="14" fill="#a16207" text-anchor="middle">IA + OCR</text>
+  <text x="855" y="378" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">saisie automatique</text>
+
+  <rect x="130" y="405" width="430" height="62" rx="10" fill="#f0fdf4" stroke="#d1fae5" stroke-width="1.5"/>
+  <text x="345" y="433" font-family="Arial Black,sans-serif" font-size="14" fill="#006666" text-anchor="middle">26 euro/mois</text>
+  <text x="345" y="455" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">Essai gratuit 30 jours</text>
+
+  <rect x="640" y="405" width="430" height="62" rx="10" fill="#fefce8" stroke="#fde68a" stroke-width="1.5"/>
+  <text x="855" y="433" font-family="Arial Black,sans-serif" font-size="14" fill="#a16207" text-anchor="middle">Gratuit ou 9.90 euro/mois</text>
+  <text x="855" y="455" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">Plan Pro avec tableau de bord</text>
+
+  <rect x="380" y="488" width="440" height="48" rx="24" fill="#1e1b4b"/>
+  <text x="600" y="517" font-family="Arial Black,sans-serif" font-size="17" fill="white" text-anchor="middle">Comparatif complet 2026</text>
+
+  <text x="1140" y="615" font-family="Arial,sans-serif" font-size="13" fill="#9ca3af" text-anchor="end">facturationpro.com</text>
 </svg>

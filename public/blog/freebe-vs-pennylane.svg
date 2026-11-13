@@ -1,56 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f8fafc"/>
-      <stop offset="100%" style="stop-color:#f1f5f9"/>
-    </linearGradient>
-    <linearGradient id="leftBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#eff6ff"/>
-      <stop offset="100%" style="stop-color:#dbeafe"/>
+      <stop offset="100%" style="stop-color:#f0fdf4"/>
     </linearGradient>
-    <linearGradient id="rightBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f0fdf4"/>
-      <stop offset="100%" style="stop-color:#dcfce7"/>
+    <linearGradient id="splitL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a56db"/>
+      <stop offset="100%" style="stop-color:#6FBBFF"/>
+    </linearGradient>
+    <linearGradient id="splitR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#006666"/>
+      <stop offset="100%" style="stop-color:#00c896"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <!-- Left panel - Freebe -->
-  <rect x="0" y="0" width="520" height="630" fill="url(#leftBg)"/>
-  <!-- Right panel - Pennylane -->
-  <rect x="680" y="0" width="520" height="630" fill="url(#rightBg)"/>
-  <!-- Center VS area -->
-  <rect x="510" y="0" width="180" height="630" fill="white"/>
-  <!-- VS badge -->
-  <circle cx="600" cy="315" r="70" fill="#1e3a5f" opacity="0.08"/>
-  <circle cx="600" cy="315" r="55" fill="white"/>
-  <text x="600" y="334" font-family="Arial Black,sans-serif" font-size="36" font-weight="900" fill="#1e293b" text-anchor="middle">VS</text>
-  <!-- Dividers -->
-  <line x1="510" y1="80" x2="510" y2="550" stroke="#e2e8f0" stroke-width="1"/>
-  <line x1="690" y1="80" x2="690" y2="550" stroke="#e2e8f0" stroke-width="1"/>
-  <!-- Freebe left: icon + text -->
-  <image href="https://cdn.prod.website-files.com/5d874b54ad1d4bcf0eff06d5/692d263bddc4e60adaaa8568_Logo_vecto.svg" x="140" y="145" width="80" height="80"/>
-  <text x="250" y="202" font-family="Arial Black,sans-serif" font-size="52" font-weight="900" fill="#1a56db">freebe</text>
-  <!-- Freebe features -->
-  <text x="260" y="290" font-family="Arial,sans-serif" font-size="16" fill="#374151" text-anchor="middle">Suivi de temps par projet</text>
-  <text x="260" y="320" font-family="Arial,sans-serif" font-size="16" fill="#374151" text-anchor="middle">Notes de frais integrees</text>
-  <text x="260" y="350" font-family="Arial,sans-serif" font-size="16" fill="#374151" text-anchor="middle">Signature electronique</text>
-  <text x="260" y="380" font-family="Arial,sans-serif" font-size="16" fill="#374151" text-anchor="middle">A partir de 9€/mois</text>
-  <!-- Freebe badge -->
-  <rect x="100" y="460" width="260" height="44" rx="22" fill="#2563eb" opacity="0.9"/>
-  <text x="230" y="488" font-family="Arial Black,sans-serif" font-size="14" fill="white" text-anchor="middle">Idéal : SASU / EURL</text>
-  <!-- Pennylane right logo -->
-  <image href="https://www.pennylane.com/_nuxt/logo.BkRDgVYD.svg" x="750" y="168" width="360" height="72"/>
-  <!-- Pennylane features -->
-  <text x="940" y="290" font-family="Arial,sans-serif" font-size="16" fill="#374151" text-anchor="middle">Collaboration expert-comptable</text>
-  <text x="940" y="320" font-family="Arial,sans-serif" font-size="16" fill="#374151" text-anchor="middle">Synchronisation bancaire</text>
-  <text x="940" y="350" font-family="Arial,sans-serif" font-size="16" fill="#374151" text-anchor="middle">Factures electroniques 2026</text>
-  <text x="940" y="380" font-family="Arial,sans-serif" font-size="16" fill="#374151" text-anchor="middle">A partir de 26€/mois</text>
-  <!-- Pennylane badge -->
-  <rect x="840" y="460" width="260" height="44" rx="22" fill="#006666" opacity="0.9"/>
-  <text x="970" y="488" font-family="Arial Black,sans-serif" font-size="14" fill="white" text-anchor="middle">Idéal : avec expert-comptable</text>
-  <!-- Bottom title -->
-  <rect x="200" y="548" width="800" height="50" rx="8" fill="#1e293b" opacity="0.07"/>
-  <text x="600" y="580" font-family="Arial Black,sans-serif" font-size="22" font-weight="900" fill="#1e293b" text-anchor="middle">Comparatif complet 2026 : Freebe vs Pennylane</text>
-  <!-- Footer -->
-  <text x="1120" y="618" font-family="Arial,sans-serif" font-size="12" fill="#9ca3af" text-anchor="end">facturationpro.com</text>
+  <rect x="0" y="0" width="600" height="630" fill="#eff6ff" opacity="0.5"/>
+  <rect x="600" y="0" width="600" height="630" fill="#f0fdf4" opacity="0.5"/>
+  <rect x="80" y="70" width="1040" height="490" rx="24" fill="white" opacity="0.88"/>
+
+  <!-- VS separator -->
+  <circle cx="600" cy="210" r="38" fill="#1e1b4b"/>
+  <text x="600" y="223" font-family="Arial Black,sans-serif" font-size="22" fill="white" text-anchor="middle" font-weight="900">VS</text>
+
+  <!-- Freebe side -->
+  <text x="300" y="185" font-family="Arial Black,sans-serif" font-size="58" font-weight="900" fill="#1a56db" text-anchor="middle" letter-spacing="-2">freebe</text>
+  <text x="300" y="224" font-family="Arial,sans-serif" font-size="17" fill="#6b7280" text-anchor="middle">Pour les freelances purs</text>
+
+  <!-- Pennylane side -->
+  <text x="900" y="185" font-family="Arial Black,sans-serif" font-size="52" font-weight="900" fill="#006666" text-anchor="middle" letter-spacing="-1">pennylane</text>
+  <text x="900" y="224" font-family="Arial,sans-serif" font-size="17" fill="#6b7280" text-anchor="middle">Pour les SASU/EURL avec EC</text>
+
+  <!-- Comparison table header -->
+  <rect x="130" y="268" width="940" height="44" rx="8" fill="#f8fafc"/>
+  <text x="600" y="296" font-family="Arial Black,sans-serif" font-size="16" fill="#374151" text-anchor="middle">Comparatif complet 2026 : prix, fonctionnalites, e-facturation</text>
+
+  <!-- Features comparison -->
+  <rect x="130" y="328" width="430" height="62" rx="10" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+  <text x="345" y="356" font-family="Arial Black,sans-serif" font-size="14" fill="#1a56db" text-anchor="middle">Dedie freelances</text>
+  <text x="345" y="378" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">Suivi temps + notes de frais</text>
+
+  <rect x="640" y="328" width="430" height="62" rx="10" fill="#f0fdf4" stroke="#d1fae5" stroke-width="1.5"/>
+  <text x="855" y="356" font-family="Arial Black,sans-serif" font-size="14" fill="#006666" text-anchor="middle">Collaboration EC</text>
+  <text x="855" y="378" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">Compta complete + bilan</text>
+
+  <rect x="130" y="405" width="430" height="62" rx="10" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+  <text x="345" y="433" font-family="Arial Black,sans-serif" font-size="14" fill="#1a56db" text-anchor="middle">A partir de 9.90 euro/mois</text>
+  <text x="345" y="455" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">Gratuit jusqu'a 20 factures</text>
+
+  <rect x="640" y="405" width="430" height="62" rx="10" fill="#f0fdf4" stroke="#d1fae5" stroke-width="1.5"/>
+  <text x="855" y="433" font-family="Arial Black,sans-serif" font-size="14" fill="#006666" text-anchor="middle">A partir de 26 euro/mois</text>
+  <text x="855" y="455" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">Essai gratuit 30 jours</text>
+
+  <!-- CTA -->
+  <rect x="380" y="488" width="440" height="48" rx="24" fill="#1e1b4b"/>
+  <text x="600" y="517" font-family="Arial Black,sans-serif" font-size="17" fill="white" text-anchor="middle">Comparatif complet 2026</text>
+
+  <text x="1140" y="615" font-family="Arial,sans-serif" font-size="13" fill="#9ca3af" text-anchor="end">facturationpro.com</text>
 </svg>

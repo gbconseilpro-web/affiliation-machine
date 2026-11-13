@@ -1,39 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f5f3ff"/>
-      <stop offset="100%" style="stop-color:#ddd6fe"/>
+      <stop offset="0%" style="stop-color:#f0f9ff"/>
+      <stop offset="100%" style="stop-color:#e0f2fe"/>
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#5b21b6"/>
-      <stop offset="100%" style="stop-color:#8b5cf6"/>
+      <stop offset="0%" style="stop-color:#0369a1"/>
+      <stop offset="100%" style="stop-color:#38bdf8"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <circle cx="1100" cy="80" r="180" fill="#8b5cf6" opacity="0.08"/>
-  <circle cx="80" cy="560" r="140" fill="#5b21b6" opacity="0.07"/>
+  <circle cx="1100" cy="80" r="200" fill="#38bdf8" opacity="0.1"/>
+  <circle cx="80" cy="560" r="150" fill="#0369a1" opacity="0.07"/>
   <rect x="0" y="0" width="8" height="630" fill="url(#accent)"/>
-  <!-- White card -->
-  <rect x="80" y="80" width="1040" height="470" rx="24" fill="white" opacity="0.75"/>
-  <!-- Sellsy logo -->
-  <image href="https://cdn.prod.website-files.com/6058a411307dccf59c654f37/69d4b073e2dd0bd8569326c8_TeamSystemSellsy_Color_SVG.svg" x="300" y="130" width="600" height="96"/>
-  <!-- Divider -->
-  <rect x="460" y="254" width="280" height="3" rx="2" fill="url(#accent)" opacity="0.6"/>
-  <!-- Tagline -->
-  <text x="600" y="316" font-family="Arial,sans-serif" font-size="26" fill="#374151" text-anchor="middle">Suite CRM et facturation pour PME et ETI</text>
-  <!-- Features -->
-  <rect x="160" y="366" width="240" height="68" rx="12" fill="#f5f3ff"/>
-  <text x="280" y="395" font-family="Arial Black,sans-serif" font-size="14" fill="#5b21b6" text-anchor="middle">Pipeline commercial</text>
-  <text x="280" y="417" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">et CRM integre</text>
-  <rect x="480" y="366" width="240" height="68" rx="12" fill="#f5f3ff"/>
-  <text x="600" y="395" font-family="Arial Black,sans-serif" font-size="14" fill="#5b21b6" text-anchor="middle">Relances</text>
-  <text x="600" y="417" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">automatiques</text>
-  <rect x="800" y="366" width="240" height="68" rx="12" fill="#f5f3ff"/>
-  <text x="920" y="395" font-family="Arial Black,sans-serif" font-size="14" fill="#5b21b6" text-anchor="middle">Devis + Factures</text>
-  <text x="920" y="417" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">centralises</text>
-  <!-- Badge -->
-  <rect x="460" y="462" width="280" height="44" rx="22" fill="#5b21b6"/>
-  <text x="600" y="490" font-family="Arial Black,sans-serif" font-size="16" fill="white" text-anchor="middle">Avis &amp; Test complet 2026</text>
-  <!-- Footer -->
-  <text x="1120" y="610" font-family="Arial,sans-serif" font-size="13" fill="#9ca3af" text-anchor="end">facturationpro.com</text>
+  <rect x="80" y="70" width="1040" height="490" rx="24" fill="white" opacity="0.82"/>
+
+  <!-- Sellsy logo inline - S mark -->
+  <rect x="406" y="118" width="84" height="90" rx="16" fill="#0369a1"/>
+  <text x="448" y="186" font-family="Arial Black,sans-serif" font-size="58" fill="white" text-anchor="middle" font-weight="900">S</text>
+  <!-- Wordmark -->
+  <text x="514" y="204" font-family="Arial Black,sans-serif" font-size="66" font-weight="900" fill="#0369a1" letter-spacing="-2">Sellsy</text>
+
+  <rect x="380" y="248" width="440" height="3" rx="2" fill="url(#accent)" opacity="0.7"/>
+  <text x="600" y="296" font-family="Arial,sans-serif" font-size="23" fill="#374151" text-anchor="middle">CRM, facturation et tresorerie pour PME</text>
+
+  <rect x="516" y="318" width="168" height="36" rx="18" fill="#0369a1"/>
+  <text x="600" y="341" font-family="Arial Black,sans-serif" font-size="15" fill="white" text-anchor="middle">Note : 4,0/5</text>
+
+  <rect x="130" y="378" width="260" height="72" rx="14" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1.5"/>
+  <text x="260" y="408" font-family="Arial Black,sans-serif" font-size="14" fill="#0369a1" text-anchor="middle">CRM avance</text>
+  <text x="260" y="430" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">pipeline + devis</text>
+
+  <rect x="470" y="378" width="260" height="72" rx="14" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1.5"/>
+  <text x="600" y="408" font-family="Arial Black,sans-serif" font-size="14" fill="#0369a1" text-anchor="middle">Tresorerie</text>
+  <text x="600" y="430" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">previsionnnelle</text>
+
+  <rect x="810" y="378" width="260" height="72" rx="14" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1.5"/>
+  <text x="940" y="408" font-family="Arial Black,sans-serif" font-size="14" fill="#0369a1" text-anchor="middle">Facturation</text>
+  <text x="940" y="430" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">electronique 2026</text>
+
+  <rect x="430" y="472" width="340" height="50" rx="25" fill="#0369a1"/>
+  <text x="600" y="502" font-family="Arial Black,sans-serif" font-size="17" fill="white" text-anchor="middle">Avis &amp; Test complet 2026</text>
+
+  <text x="1140" y="615" font-family="Arial,sans-serif" font-size="13" fill="#9ca3af" text-anchor="end">facturationpro.com</text>
 </svg>

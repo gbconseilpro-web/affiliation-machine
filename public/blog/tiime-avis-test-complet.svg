@@ -1,39 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#fff7ed"/>
-      <stop offset="100%" style="stop-color:#fed7aa"/>
+      <stop offset="0%" style="stop-color:#f5f3ff"/>
+      <stop offset="100%" style="stop-color:#ede9fe"/>
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#ea580c"/>
-      <stop offset="100%" style="stop-color:#fb923c"/>
+      <stop offset="0%" style="stop-color:#5b21b6"/>
+      <stop offset="100%" style="stop-color:#a78bfa"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <circle cx="1100" cy="80" r="180" fill="#fb923c" opacity="0.1"/>
-  <circle cx="80" cy="560" r="140" fill="#ea580c" opacity="0.07"/>
+  <circle cx="1100" cy="80" r="200" fill="#a78bfa" opacity="0.1"/>
+  <circle cx="80" cy="560" r="150" fill="#5b21b6" opacity="0.07"/>
   <rect x="0" y="0" width="8" height="630" fill="url(#accent)"/>
-  <!-- White card -->
-  <rect x="80" y="80" width="1040" height="470" rx="24" fill="white" opacity="0.75"/>
-  <!-- Logo Tiime -->
-  <image href="https://www.tiime.fr/hubfs/raw_assets/public/Tiime%202024/assets/img/logos/tiime-logo-color.svg" x="380" y="120" width="440" height="110"/>
-  <!-- Divider -->
-  <rect x="460" y="258" width="280" height="3" rx="2" fill="url(#accent)" opacity="0.6"/>
-  <!-- Tagline -->
-  <text x="600" y="318" font-family="Arial,sans-serif" font-size="26" fill="#374151" text-anchor="middle">Facturation et comptabilite pour micro-entrepreneurs</text>
-  <!-- Features -->
-  <rect x="160" y="368" width="240" height="68" rx="12" fill="#fff7ed"/>
-  <text x="280" y="397" font-family="Arial Black,sans-serif" font-size="14" fill="#ea580c" text-anchor="middle">Version gratuite</text>
-  <text x="280" y="419" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">vraiment utilisable</text>
-  <rect x="480" y="368" width="240" height="68" rx="12" fill="#fff7ed"/>
-  <text x="600" y="397" font-family="Arial Black,sans-serif" font-size="14" fill="#ea580c" text-anchor="middle">Application mobile</text>
-  <text x="600" y="419" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">complete</text>
-  <rect x="800" y="368" width="240" height="68" rx="12" fill="#fff7ed"/>
-  <text x="920" y="397" font-family="Arial Black,sans-serif" font-size="14" fill="#ea580c" text-anchor="middle">Plateforme agreee</text>
-  <text x="920" y="419" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">facturation 2026</text>
-  <!-- Badge -->
-  <rect x="460" y="462" width="280" height="44" rx="22" fill="#ea580c"/>
-  <text x="600" y="490" font-family="Arial Black,sans-serif" font-size="16" fill="white" text-anchor="middle">Avis &amp; Test complet 2026</text>
-  <!-- Footer -->
-  <text x="1120" y="610" font-family="Arial,sans-serif" font-size="13" fill="#9ca3af" text-anchor="end">facturationpro.com</text>
+  <rect x="80" y="70" width="1040" height="490" rx="24" fill="white" opacity="0.82"/>
+
+  <!-- Tiime logo inline - clock/T mark -->
+  <circle cx="440" cy="162" r="52" fill="#5b21b6"/>
+  <circle cx="440" cy="162" r="38" fill="white" opacity="0.25"/>
+  <line x1="440" y1="140" x2="440" y2="162" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  <line x1="440" y1="162" x2="458" y2="175" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <!-- Wordmark -->
+  <text x="514" y="204" font-family="Arial Black,sans-serif" font-size="72" font-weight="900" fill="#5b21b6" letter-spacing="-3">Tiime</text>
+
+  <rect x="380" y="248" width="440" height="3" rx="2" fill="url(#accent)" opacity="0.7"/>
+  <text x="600" y="296" font-family="Arial,sans-serif" font-size="24" fill="#374151" text-anchor="middle">Application comptable pour freelances certifiee PDP</text>
+
+  <rect x="516" y="318" width="168" height="36" rx="18" fill="#5b21b6"/>
+  <text x="600" y="341" font-family="Arial Black,sans-serif" font-size="15" fill="white" text-anchor="middle">Note : 4,4/5</text>
+
+  <rect x="130" y="378" width="260" height="72" rx="14" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1.5"/>
+  <text x="260" y="408" font-family="Arial Black,sans-serif" font-size="14" fill="#5b21b6" text-anchor="middle">PDP certifie</text>
+  <text x="260" y="430" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">e-facture 2026</text>
+
+  <rect x="470" y="378" width="260" height="72" rx="14" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1.5"/>
+  <text x="600" y="408" font-family="Arial Black,sans-serif" font-size="14" fill="#5b21b6" text-anchor="middle">Application mobile</text>
+  <text x="600" y="430" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">iOS et Android</text>
+
+  <rect x="810" y="378" width="260" height="72" rx="14" fill="#f5f3ff" stroke="#ddd6fe" stroke-width="1.5"/>
+  <text x="940" y="408" font-family="Arial Black,sans-serif" font-size="14" fill="#5b21b6" text-anchor="middle">Expert-comptable</text>
+  <text x="940" y="430" font-family="Arial,sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">integre en option</text>
+
+  <rect x="430" y="472" width="340" height="50" rx="25" fill="#5b21b6"/>
+  <text x="600" y="502" font-family="Arial Black,sans-serif" font-size="17" fill="white" text-anchor="middle">Avis &amp; Test complet 2026</text>
+
+  <text x="1140" y="615" font-family="Arial,sans-serif" font-size="13" fill="#9ca3af" text-anchor="end">facturationpro.com</text>
 </svg>
