@@ -1320,182 +1320,472 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'indy-avis-test-complet',
     title: 'Indy avis 2026 : test complet du logiciel pour auto-entrepreneurs et freelances',
-    excerpt: 'Indy est-il vraiment le meilleur logiciel pour micro-entrepreneurs ? Notre test apres 2 mois d\'utilisation intensive.',
+    excerpt: 'Indy est-il vraiment le meilleur logiciel pour micro-entrepreneurs ? Notre test apres 2 mois : tarifs, fonctionnalites, points forts et limites.',
     date: '2026-11-07',
-    readTime: 9,
+    readTime: 12,
     category: 'Avis logiciels',
-    keywords: ['indy avis', 'indy logiciel test', 'indy freelance', 'indy auto entrepreneur'],
+    keywords: ['indy avis', 'indy logiciel test', 'indy freelance', 'indy auto entrepreneur', 'indy avis 2026', 'indy vs pennylane'],
     image: '/blog/indy-avis-test-complet.svg',
+    metaDescription: 'Indy avis 2026 : notre test apres 2 mois d\'utilisation. Tarifs, synchro bancaire, declarations TVA, app mobile. Pour qui c\'est le meilleur choix vs Freebe et Pennylane ?',
     content: `
+<h2>Indy en bref : notre verdict 2026</h2>
+<div style="background:#eff6ff;border-left:4px solid #3b82f6;padding:1rem 1.25rem;border-radius:8px;margin:1rem 0;">
+  <p style="margin:0;font-weight:600;font-size:1.05rem;">Note globale : 4,4/5</p>
+  <p style="margin:0.5rem 0 0;color:#1d4ed8;">Le meilleur choix pour les micro-entrepreneurs et auto-entrepreneurs qui veulent une gestion ultra-simple. Interface la plus intuitive du marche. Moins adapte aux SASU/EURL avec des besoins avances.</p>
+</div>
+
 <h2>Presentation d\'Indy</h2>
-<p>Indy (anciennement Georges, rebaptise en 2021) est un logiciel de gestion pour independants francais fonde a Paris. Son positionnement est clair : simplifier au maximum la gestion administrative des micro-entrepreneurs et freelances, avec une promesse de 10 minutes par mois pour tenir sa comptabilite a jour.</p>
-<p>En 2026, Indy compte plus de 300 000 utilisateurs et s\'affirme comme le leader sur le segment micro-entrepreneur.</p>
-
-<h2>Les fonctionnalites</h2>
-<h3>Synchronisation bancaire</h3>
-<p>La connexion bancaire est le coeur d\'Indy. Elle importe vos transactions en temps reel, les categorise automatiquement et les attribue a la bonne colonne comptable. La reconnaissance automatique atteint 90%+ sur les comptes bien etablis.</p>
-
-<h3>Facturation</h3>
-<p>Indy permet de creer des factures et devis conformes. L\'interface est epuree et la creation d\'une facture prend moins de 2 minutes. Les fonctionnalites sont suffisantes pour la plupart des freelances, sans la richesse de Freebe (pas de suivi de temps integre, relances moins poussees).</p>
-
-<h3>Declaration de chiffre d\'affaires</h3>
-<p>Indy calcule automatiquement le CA a declarer chaque mois ou chaque trimestre sur l\'URSSAF. Il envoie aussi des alertes si vous approchez des seuils de TVA ou des plafonds du regime micro.</p>
-
-<h3>Application mobile</h3>
-<p>L\'application iOS et Android est une des plus soignees du marche. Scan de justificatifs, creation de devis, validation de transactions : tout est accessible en mobilite. Un vrai plus pour les freelances en deplacement.</p>
+<p>Indy (anciennement Georges, rebaptise en 2021) est un logiciel de gestion pour independants francais fonde a Paris. Son positionnement est clair : simplifier au maximum la gestion administrative des micro-entrepreneurs et freelances, avec une promesse de <strong>10 minutes par mois</strong> pour tenir sa comptabilite a jour.</p>
+<p>En 2026, Indy compte plus de 300 000 utilisateurs et s\'affirme comme le leader sur le segment micro-entrepreneur. L\'outil a fortement evolue depuis son rebapteme : declarations URSSAF integrees, collaboration EC, et plan Starter gratuit pour les debutants.</p>
 
 <h2>Tarifs Indy 2026</h2>
-<ul>
-<li><strong>Starter</strong> : gratuit - facturation de base, import de transactions limite</li>
-<li><strong>Solo</strong> : 9 EUR/mois - synchronisation bancaire illimitee, declarations, notes de frais</li>
-<li><strong>Pro</strong> : 18 EUR/mois - multi-compte, relances automatiques, export comptable avance</li>
-</ul>
-<p>Un essai gratuit 30 jours est disponible sur tous les plans payants.</p>
+<div style="overflow-x:auto;margin:1.5rem 0;">
+<table style="width:100%;border-collapse:collapse;font-size:0.95rem;">
+  <thead>
+    <tr style="background:#f1f5f9;">
+      <th style="padding:10px 14px;text-align:left;border-bottom:2px solid #e2e8f0;font-weight:700;">Plan</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:2px solid #e2e8f0;font-weight:700;">Tarif</th>
+      <th style="padding:10px 14px;text-align:left;border-bottom:2px solid #e2e8f0;font-weight:700;">Ce qui est inclus</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Starter</td>
+      <td style="padding:9px 14px;text-align:center;font-weight:600;color:#059669;">Gratuit</td>
+      <td style="padding:9px 14px;">Facturation de base, 1 compte bancaire, 10 transactions/mois</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Solo</td>
+      <td style="padding:9px 14px;text-align:center;font-weight:600;color:#3b82f6;">9 EUR/mois</td>
+      <td style="padding:9px 14px;">Synchro bancaire illimitee, declarations URSSAF, notes de frais, alertes seuils</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Pro</td>
+      <td style="padding:9px 14px;text-align:center;font-weight:600;color:#3b82f6;">18 EUR/mois</td>
+      <td style="padding:9px 14px;">+ Multi-compte, relances auto, export comptable avance, collaboration EC</td>
+    </tr>
+    <tr>
+      <td style="padding:9px 14px;font-weight:600;">Business</td>
+      <td style="padding:9px 14px;text-align:center;font-weight:600;color:#3b82f6;">29 EUR/mois</td>
+      <td style="padding:9px 14px;">+ Multi-utilisateurs, declarations TVA, bilans simplifies, suivi tresorerie</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p>Essai gratuit 30 jours sur les plans payants, sans carte bancaire requise. Facturation annuelle disponible avec reduction.</p>
+
+<h2>Les fonctionnalites en detail</h2>
+<h3>Synchronisation bancaire</h3>
+<p>La connexion bancaire est le coeur d\'Indy. Elle importe vos transactions en temps reel via Open Banking (150+ etablissements compatibles), les categorise automatiquement et les attribue a la bonne colonne comptable. La reconnaissance automatique depasse 90% sur les comptes bien etablis, ce qui reduit drastiquement la saisie manuelle. Particularite d\'Indy : la categorisation est pre-parametree pour les regimes micro, avec les categories URSSAF directement utilisables.</p>
+
+<h3>Facturation et devis</h3>
+<p>Indy permet de creer des factures et devis conformes aux exigences legales francaises. L\'interface est epuree et la creation d\'une facture prend moins de 2 minutes. Les fonctionnalites couvrent les besoins standards : logo, mentions obligatoires, envoi par email, factures recurrentes. Points faibles vs Freebe : pas de suivi de temps integre, signatures electroniques absentes du plan de base, relances moins configurables.</p>
+
+<h3>Declarations URSSAF et seuils</h3>
+<p>C\'est la killer feature d\'Indy pour les micro-entrepreneurs : calcul automatique du CA a declarer chaque mois ou trimestre, pre-remplissage de la declaration URSSAF, et surtout des <strong>alertes de seuils</strong> qui vous avertissent quand vous approchez du plafond TVA (36 800 EUR de CA pour les services) ou des limites du regime micro. Pour un AE qui ne veut pas de mauvaise surprise en fin d\'annee, c\'est rassurant.</p>
+
+<h3>Notes de frais</h3>
+<p>Scan photo des justificatifs (iOS et Android), reconnaissance automatique du montant et de la date, categorisation intelligente. L\'export est disponible en PDF et Excel. Pour les plans Solo et au-dessus, les notes de frais s\'integrent directement dans la comptabilite simplifee.</p>
+
+<h3>Application mobile</h3>
+<p>L\'application iOS et Android d\'Indy est l\'une des mieux notees du marche (4,7/5 sur l\'App Store). Toutes les fonctionnalites cles sont disponibles en mobilite : scan de justificatifs, creation de devis, validation de transactions, suivi du CA en temps reel. Un vrai point fort pour les freelances souvent en deplacement.</p>
+
+<h3>Collaboration expert-comptable</h3>
+<p>Depuis le plan Pro, votre EC accede a votre espace pour consulter les pieces et valider les ecritures. L\'integration est moins poussee que Pennylane (qui est concu pour ce use-case), mais couvre largement les besoins standards d\'un independant avec un EC externe.</p>
 
 <h2>Points forts et points faibles</h2>
 <h3>Ce qu\'on a aime</h3>
 <ul>
-<li>L\'interface, la plus intuitive du marche tous logiciels confondus</li>
-<li>La synchro bancaire vraiment efficace et rapide</li>
-<li>Les alertes de seuils de TVA et plafonds micro : une vraie securite</li>
-<li>Le plan gratuit accessible pour tester sans engagement</li>
+<li><strong>Interface la plus intuitive du marche</strong> : vraiment accessible aux non-comptables, onboarding en 10 minutes</li>
+<li><strong>Synchro bancaire excellente</strong> : 90%+ de categorisation auto, mise a jour en temps reel</li>
+<li><strong>Alertes de seuils et de TVA</strong> : unique sur le marche pour la securite des micro-entrepreneurs</li>
+<li><strong>Plan Starter gratuit</strong> : pour tester sans engagement ni carte bancaire</li>
+<li><strong>App mobile top</strong> : 4,7/5 sur l\'App Store, toutes les fonctionnalites en mobilite</li>
+<li><strong>Compatible facturation electronique 2026</strong> : formats requis supportes</li>
 </ul>
-<h3>Les limites</h3>
+<h3>Les limites a connaitre</h3>
 <ul>
-<li>Pas de suivi de temps integre : si vous facturez a l\'heure, tournez-vous vers Freebe</li>
-<li>La comptabilite reste simplifiee : pour une vraie collaboration avec un EC, Pennylane va plus loin</li>
-<li>Moins adapte aux societes (SASU/EURL) qu\'aux micro-entrepreneurs</li>
+<li><strong>Pas de time-tracking</strong> : si vous facturez a l\'heure ou au TJM, Freebe reste superieur</li>
+<li><strong>Collaboration EC moins poussee que Pennylane</strong> : pour une vraie comptabilite EC avec bilan, Pennylane va plus loin</li>
+<li><strong>Moins adapte aux societes (SASU/EURL)</strong> : certaines fonctionnalites avancees manquent pour les structures avec TVA et bilan annuel</li>
+<li><strong>Plan Starter tres limite</strong> : 10 transactions/mois seulement, peu utile au dela des premiers tests</li>
 </ul>
 
-<h2>Notre verdict Indy</h2>
-<p><strong>Note globale : 4,4/5.</strong> Indy est le meilleur choix pour les auto-entrepreneurs et micro-entrepreneurs qui veulent une gestion simple et efficace. Pour les freelances en societe (SASU, EURL) avec des besoins plus avances, Freebe reste superieur.</p>
+<h2>Pour qui Indy est-il ideal ?</h2>
+<ul>
+<li><strong>Auto-entrepreneur</strong> avec un CA regulier qui veut automatiser ses declarations URSSAF</li>
+<li><strong>Freelance debutant</strong> qui veut un outil simple sans courbe d\'apprentissage</li>
+<li><strong>Independant sous seuil TVA</strong> qui veut etre alerte avant de le franchir</li>
+<li><strong>Profil mobile</strong> qui gere beaucoup depuis son telephone</li>
+</ul>
+<p>Indy est <strong>moins adapte</strong> si vous facturez exclusivement au temps passe, si vous avez une SASU/EURL avec des besoins comptables avances, ou si votre expert-comptable a besoin d\'un acces profond et natif a votre dossier.</p>
 
-<p>Essayez Indy gratuitement pendant 30 jours via notre <a href="https://www.indy.fr/?ae=2183">lien affilie</a>, ou comparez-le a Freebe dans notre <a href="/comparatif/indy-vs-freebe">comparatif Indy vs Freebe</a>.</p>
+<h2>Comparaison Indy vs concurrents</h2>
+<div style="overflow-x:auto;margin:1.5rem 0;">
+<table style="width:100%;border-collapse:collapse;font-size:0.9rem;">
+  <thead>
+    <tr style="background:#f1f5f9;">
+      <th style="padding:9px 12px;text-align:left;border-bottom:2px solid #e2e8f0;font-weight:700;">Critere</th>
+      <th style="padding:9px 12px;text-align:center;border-bottom:2px solid #e2e8f0;font-weight:700;color:#3b82f6;">Indy</th>
+      <th style="padding:9px 12px;text-align:center;border-bottom:2px solid #e2e8f0;font-weight:700;color:#7c3aed;">Freebe</th>
+      <th style="padding:9px 12px;text-align:center;border-bottom:2px solid #e2e8f0;font-weight:700;color:#059669;">Pennylane</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:8px 12px;font-weight:600;">Prix min.</td>
+      <td style="padding:8px 12px;text-align:center;color:#059669;font-weight:600;">Gratuit</td>
+      <td style="padding:8px 12px;text-align:center;">9,90 EUR/mois</td>
+      <td style="padding:8px 12px;text-align:center;">26 EUR/mois</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:8px 12px;font-weight:600;">Alertes seuils micro/TVA</td>
+      <td style="padding:8px 12px;text-align:center;color:#3b82f6;font-weight:600;">Oui (unique)</td>
+      <td style="padding:8px 12px;text-align:center;">Non</td>
+      <td style="padding:8px 12px;text-align:center;">Non</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:8px 12px;font-weight:600;">Declaration URSSAF auto</td>
+      <td style="padding:8px 12px;text-align:center;color:#3b82f6;font-weight:600;">Oui</td>
+      <td style="padding:8px 12px;text-align:center;">Non</td>
+      <td style="padding:8px 12px;text-align:center;">Non</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:8px 12px;font-weight:600;">Time-tracking</td>
+      <td style="padding:8px 12px;text-align:center;">Non</td>
+      <td style="padding:8px 12px;text-align:center;color:#7c3aed;font-weight:600;">Oui (natif)</td>
+      <td style="padding:8px 12px;text-align:center;">Non</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:8px 12px;font-weight:600;">Collaboration EC</td>
+      <td style="padding:8px 12px;text-align:center;">Bonne</td>
+      <td style="padding:8px 12px;text-align:center;">Basique</td>
+      <td style="padding:8px 12px;text-align:center;color:#059669;font-weight:600;">Avancee</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 12px;font-weight:600;">Ideal pour</td>
+      <td style="padding:8px 12px;text-align:center;">AE, micro, debutants</td>
+      <td style="padding:8px 12px;text-align:center;">Freelances SASU</td>
+      <td style="padding:8px 12px;text-align:center;">SASU/EURL avec EC</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>FAQ Indy 2026</h2>
+<p><strong>Indy est-il gratuit ?</strong> Oui, Indy propose un plan Starter gratuit sans limitation de duree. Attention : ce plan est tres limite (10 transactions/mois, 1 compte bancaire, pas de synchro bancaire automatique complete). Pour un usage reel, le plan Solo a 9 EUR/mois est le minimum recommande. Un essai gratuit 30 jours du plan payant est disponible sans carte bancaire.</p>
+<p><strong>Indy convient-il aux micro-entrepreneurs ?</strong> C\'est son coeur de cible. Indy est l\'un des seuls logiciels a integrer nativement les declarations URSSAF et les alertes de seuils du regime micro. Si vous etes AE, Indy est probablement le logiciel le plus adapte a votre situation, avec Tiime AE comme alternative gratuite.</p>
+<p><strong>Quelle est la difference entre Indy et Freebe ?</strong> Indy cible en priorite les micro-entrepreneurs et AE, avec des fonctionnalites specifiques au regime micro (declarations URSSAF, alertes seuils). Freebe cible plutot les freelances en SASU/EURL et integre un time-tracking natif. Pour un AE : Indy. Pour un freelance en societe qui facture a la journee : Freebe. Notre <a href="/blog/pennylane-vs-indy">comparatif Pennylane vs Indy</a> va plus loin.</p>
+<p><strong>Indy est-il compatible avec la facturation electronique obligatoire 2026 ?</strong> Oui, Indy supporte les formats de facturation electronique requis par la reforme 2026. Consultez notre <a href="/blog/facturation-electronique-2026-guide">guide facturation electronique 2026</a> pour tout comprendre sur cette obligation.</p>
+
+<p>Essayez Indy gratuitement pendant 30 jours via notre <a href="https://www.indy.fr/?ae=2183">lien affilie</a>, ou decouvrez notre <a href="/blog/pennylane-vs-indy">comparatif Pennylane vs Indy</a>.</p>
     `.trim(),
   },
   {
     slug: 'tiime-avis-test-complet',
     title: 'Tiime Avis 2026 : test complet du logiciel de facturation',
-    excerpt: 'Notre avis detaille sur Tiime apres 30 jours de test. Fonctionnalites, tarifs, interface, comptabilite : tout ce que vous devez savoir avant de vous abonner.',
+    excerpt: 'Notre avis detaille sur Tiime apres 30 jours de test. Tarifs Tiime AE et Account, fonctionnalites, collaboration EC et comparatif concurrents.',
     date: '2026-11-01',
-    readTime: 9,
+    readTime: 12,
     category: 'Avis logiciels',
-    keywords: ['tiime avis', 'tiime test', 'tiime logiciel facturation', 'tiime comptabilite'],
+    keywords: ['tiime avis', 'tiime test', 'tiime logiciel facturation', 'tiime comptabilite', 'tiime avis 2026', 'tiime ae gratuit'],
     image: '/blog/tiime-avis-test-complet.svg',
+    metaDescription: 'Tiime avis 2026 : notre test apres 30 jours. Tarifs Tiime AE (gratuit) et Account, fonctionnalites, points forts et faibles. Pour qui c\'est le meilleur choix ?',
     content: `
-<h2>Tiime en bref : un logiciel pense pour les experts-comptables</h2>
-<p>Tiime se distingue de la concurrence par un positionnement original : il est concu pour fonctionner en collaboration etroite avec votre expert-comptable. La plateforme propose deux applications complementaires, Tiime Account (pour le professionnel) et Tiime AE (pour les auto-entrepreneurs), qui partagent les donnees en temps reel avec le cabinet comptable.</p>
-<p>Apres 30 jours d'utilisation intensive, voici notre verdict complet.</p>
+<h2>Tiime en bref : notre verdict 2026</h2>
+<div style="background:#faf5ff;border-left:4px solid #9333ea;padding:1rem 1.25rem;border-radius:8px;margin:1rem 0;">
+  <p style="margin:0;font-weight:600;font-size:1.05rem;">Note globale : 4,2/5</p>
+  <p style="margin:0.5rem 0 0;color:#7c3aed;">Tres bien positionne pour les independants qui travaillent avec un expert-comptable. Plan AE gratuit unique sur le marche. Moins adapte si vous voulez gerer en solo sans EC.</p>
+</div>
 
-<h2>Fonctionnalites principales de Tiime</h2>
-<p>Tiime couvre les besoins essentiels des independants et TPE :</p>
-<ul>
-<li><strong>Facturation et devis</strong> : creation rapide, personnalisation du template, envoi par email</li>
-<li><strong>Suivi des encaissements</strong> : relances automatiques, statut des paiements</li>
-<li><strong>Notes de frais</strong> : capture par photo, categorisation automatique par IA</li>
-<li><strong>Synchronisation bancaire</strong> : connexion Open Banking avec les principales banques</li>
-<li><strong>Espace collaboratif expert-comptable</strong> : partage en temps reel des pieces comptables</li>
-<li><strong>Declaration TVA</strong> : preparation et envoi direct a la DGFiP (plan pro)</li>
-</ul>
-
-<h2>L'interface Tiime : simple et efficace</h2>
-<p>L'interface de Tiime est epuree et intuitive. La creation d'une facture prend moins de 2 minutes pour un utilisateur experimente. Le tableau de bord donne une vue claire sur le chiffre d'affaires, les factures en attente et la tresorerie disponible.</p>
-<p>L'application mobile iOS et Android est bien concue et permet de creer des factures ou de photographier des notes de frais en deplacement. La synchronisation est instantanee.</p>
+<h2>Presentation de Tiime</h2>
+<p>Tiime se distingue de la concurrence par un positionnement original : il est concu pour fonctionner en collaboration etroite avec votre expert-comptable. La plateforme propose deux applications complementaires -- <strong>Tiime AE</strong> (pour les auto-entrepreneurs, gratuit) et <strong>Tiime Account</strong> (pour les TPE et independants en societe) -- qui partagent les donnees en temps reel avec le cabinet comptable.</p>
+<p>Rachetee par le groupe Cegid en 2022, Tiime s\'appuie sur un reseau de plus de 1 500 cabinets partenaires qui deploient l\'outil chez leurs clients. C\'est un avantage majeur si votre EC est dans ce reseau.</p>
 
 <h2>Tarifs Tiime 2026</h2>
-<p>Tiime propose une offre adaptee a differents profils :</p>
-<ul>
-<li><strong>Tiime AE (auto-entrepreneurs)</strong> : gratuit avec fonctionnalites de base, ou 9,90 EUR/mois pour la version complete</li>
-<li><strong>Tiime Account (TPE/independants)</strong> : a partir de 19 EUR/mois, avec acces expert-comptable inclus</li>
-<li><strong>Offres cabinet</strong> : tarification specifique pour les experts-comptables qui deploient Tiime chez leurs clients</li>
-</ul>
-<p>Le rapport qualite/prix est excellent, notamment pour les auto-entrepreneurs qui beneficient d'un plan gratuit fonctionnel.</p>
+<div style="overflow-x:auto;margin:1.5rem 0;">
+<table style="width:100%;border-collapse:collapse;font-size:0.95rem;">
+  <thead>
+    <tr style="background:#f1f5f9;">
+      <th style="padding:10px 14px;text-align:left;border-bottom:2px solid #e2e8f0;font-weight:700;">Plan</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:2px solid #e2e8f0;font-weight:700;">Tarif</th>
+      <th style="padding:10px 14px;text-align:left;border-bottom:2px solid #e2e8f0;font-weight:700;">Ce qui est inclus</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Tiime AE Gratuit</td>
+      <td style="padding:9px 14px;text-align:center;font-weight:600;color:#059669;">Gratuit</td>
+      <td style="padding:9px 14px;">Facturation illimitee, suivi CA, devis, 1 user (auto-entrepreneur uniquement)</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Tiime AE Pro</td>
+      <td style="padding:9px 14px;text-align:center;font-weight:600;color:#9333ea;">9,90 EUR/mois</td>
+      <td style="padding:9px 14px;">+ Synchro bancaire, notes de frais, relances, collaboration EC</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Tiime Account</td>
+      <td style="padding:9px 14px;text-align:center;font-weight:600;color:#9333ea;">19 EUR/mois</td>
+      <td style="padding:9px 14px;">SASU/EURL, declaration TVA, 2 users, espace EC avance, bilan simplifie</td>
+    </tr>
+    <tr>
+      <td style="padding:9px 14px;font-weight:600;">Offre Cabinet</td>
+      <td style="padding:9px 14px;text-align:center;font-weight:600;">Sur devis</td>
+      <td style="padding:9px 14px;">Pour experts-comptables qui deploient Tiime chez leurs clients</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p>Le plan AE gratuit est l\'un des seuls plans vraiment gratuits et sans limite de temps sur le marche. Parfait pour demarrer sans risque.</p>
 
-<h2>Tiime vs la concurrence</h2>
-<p>Face a <a href="/blog/freebe-avis-test-complet">Freebe</a> et <a href="/blog/indy-avis-test-complet">Indy</a>, Tiime se positionne differemment : il est moins oriente "suivi de temps" que Freebe, mais propose une integration expert-comptable plus poussee qu'Indy. C'est le choix ideal si vous collaborez avec un cabinet comptable.</p>
-<p>Vous pouvez aussi consulter notre <a href="/comparatif/tiime-vs-pennylane">comparatif Tiime vs Pennylane</a> pour voir comment il se mesure a l'un des acteurs les plus populaires du marche.</p>
+<h2>Fonctionnalites en detail</h2>
+<h3>Facturation et devis</h3>
+<p>Creation de factures et devis conformes aux exigences legales francaises. L\'interface est epuree et la creation d\'une facture prend moins de 2 minutes. Les templates sont personnalisables (logo, couleurs, mentions). Envoi par email integre avec suivi d\'ouverture. Factures recurrentes disponibles sur les plans payants. Compatible facturation electronique 2026 (Tiime est PDP agreee).</p>
+
+<h3>Collaboration expert-comptable</h3>
+<p>C\'est la differentiation cle de Tiime. Votre expert-comptable accede a votre espace via l\'interface Tiime Cabinet et voit en temps reel : toutes vos pieces comptables, vos transactions categorisees, vos notes de frais scannees. Il peut valider des ecritures, creer des annotations, prendre en charge la declaration de TVA. Pour les cabinets partenaires Tiime (1 500+), l\'integration est quasi-instantanee.</p>
+
+<h3>Synchronisation bancaire</h3>
+<p>Open Banking compatible avec les principales banques francaises (150+). Categorisation automatique des transactions avec IA. Sur le plan AE Pro et au-dessus, les transactions s\'integrent directement dans la comptabilite simplifee et sont visibles par l\'EC en temps reel. Taux de categorisation autour de 85%.</p>
+
+<h3>Notes de frais</h3>
+<p>Scan photo sur iOS et Android, reconnaissance automatique du montant et de la date par OCR. Les justificatifs sont classes et exportables en PDF. Sur le plan Account, ils s\'integrent dans la comptabilite TVA automatiquement.</p>
+
+<h3>Application mobile</h3>
+<p>Application iOS et Android bien concue. Creation de factures, scan de notes de frais, suivi du CA en temps reel. Interface plus simple que Freebe mais suffisante pour 90% des usages en mobilite.</p>
 
 <h2>Points forts et points faibles</h2>
-<p><strong>Points forts :</strong></p>
+<h3>Ce qui nous a convaincus</h3>
 <ul>
-<li>Collaboration expert-comptable native et fluide</li>
-<li>Interface claire et prise en main rapide</li>
-<li>Plan gratuit genereux pour les auto-entrepreneurs</li>
-<li>Capture automatique des notes de frais par IA</li>
-<li>Readiness facturation electronique 2026</li>
+<li><strong>Plan AE gratuit illimite</strong> : unique sur le marche, vraiment fonctionnel pour facturer sans rien payer</li>
+<li><strong>Collaboration EC native</strong> : le reseau Cegid de 1 500 cabinets est un avantage decisif</li>
+<li><strong>Interface epuree</strong> : prise en main tres rapide, meme pour les non-techniciens</li>
+<li><strong>PDP agreee facturation electronique 2026</strong> : obligation legale couverte</li>
+<li><strong>Notes de frais par IA</strong> : scan photo efficace</li>
 </ul>
-<p><strong>Points faibles :</strong></p>
+<h3>Ce qui peut freiner</h3>
 <ul>
-<li>Pas de suivi de temps integre (contrairement a Freebe)</li>
-<li>Moins adapte aux structures sans expert-comptable</li>
-<li>Fonctionnalites avancees reservees au plan payant</li>
+<li><strong>Pas de time-tracking</strong> : si vous facturez a l\'heure, Freebe reste superieur</li>
+<li><strong>Moins adapte sans EC</strong> : si vous gerez tout en solo, Indy ou Freebe sont plus autonomes</li>
+<li><strong>Synchro bancaire limitee sur Gratuit</strong> : il faut passer au plan payant pour l\'avoir completement</li>
+<li><strong>Moins de fonctionnalites SASU/EURL que Pennylane</strong> : pour une compta avancee avec EC, Pennylane va plus loin</li>
 </ul>
 
-<h2>Notre verdict Tiime</h2>
-<p><strong>Note globale : 4,2/5.</strong> Tiime est le meilleur choix pour les independants qui travaillent avec un expert-comptable et veulent fluidifier le partage des donnees. Pour ceux qui cherchent un suivi de temps ou une independance totale vis-a-vis d'un EC, Freebe ou Indy seront plus adaptes.</p>
-<p>Essayez Tiime gratuitement via notre <a href="https://www.tiime.fr/?ae=1289">lien affilie</a>, ou comparez-le a Pennylane dans notre <a href="/comparatif/tiime-vs-pennylane">comparatif Tiime vs Pennylane</a>.</p>
+<h2>Pour qui Tiime est-il ideal ?</h2>
+<ul>
+<li><strong>Auto-entrepreneur debutant</strong> qui veut facturer gratuitement sans s\'engager</li>
+<li><strong>Independant dont l\'EC est partenaire Tiime</strong> : l\'integration est alors parfaite</li>
+<li><strong>TPE de 1-3 personnes</strong> avec un cabinet comptable qui veut reduire les echanges manuels</li>
+<li><strong>AE qui veut la collaboration EC sans payer cher</strong> : Tiime AE Pro a 9,90 EUR/mois vs 29 EUR/mois pour Pennylane</li>
+</ul>
+
+<h2>Comparaison Tiime vs concurrents</h2>
+<div style="overflow-x:auto;margin:1.5rem 0;">
+<table style="width:100%;border-collapse:collapse;font-size:0.9rem;">
+  <thead>
+    <tr style="background:#f1f5f9;">
+      <th style="padding:9px 12px;text-align:left;border-bottom:2px solid #e2e8f0;font-weight:700;">Critere</th>
+      <th style="padding:9px 12px;text-align:center;border-bottom:2px solid #e2e8f0;font-weight:700;color:#9333ea;">Tiime</th>
+      <th style="padding:9px 12px;text-align:center;border-bottom:2px solid #e2e8f0;font-weight:700;color:#3b82f6;">Indy</th>
+      <th style="padding:9px 12px;text-align:center;border-bottom:2px solid #e2e8f0;font-weight:700;color:#059669;">Pennylane</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:8px 12px;font-weight:600;">Plan gratuit</td>
+      <td style="padding:8px 12px;text-align:center;color:#9333ea;font-weight:600;">Oui (AE)</td>
+      <td style="padding:8px 12px;text-align:center;">Oui (tres limite)</td>
+      <td style="padding:8px 12px;text-align:center;">Non</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:8px 12px;font-weight:600;">Collaboration EC</td>
+      <td style="padding:8px 12px;text-align:center;color:#9333ea;font-weight:600;">Avancee (Cegid)</td>
+      <td style="padding:8px 12px;text-align:center;">Bonne</td>
+      <td style="padding:8px 12px;text-align:center;">Avancee</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:8px 12px;font-weight:600;">Declaration TVA</td>
+      <td style="padding:8px 12px;text-align:center;">Oui (Account)</td>
+      <td style="padding:8px 12px;text-align:center;">Oui (Business)</td>
+      <td style="padding:8px 12px;text-align:center;color:#059669;font-weight:600;">Oui (Business)</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:8px 12px;font-weight:600;">Time-tracking</td>
+      <td style="padding:8px 12px;text-align:center;">Non</td>
+      <td style="padding:8px 12px;text-align:center;">Non</td>
+      <td style="padding:8px 12px;text-align:center;">Non</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 12px;font-weight:600;">Ideal pour</td>
+      <td style="padding:8px 12px;text-align:center;">AE + EC Cegid</td>
+      <td style="padding:8px 12px;text-align:center;">AE debutants</td>
+      <td style="padding:8px 12px;text-align:center;">SASU/EURL EC</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>FAQ Tiime 2026</h2>
+<p><strong>Tiime AE est-il vraiment gratuit ?</strong> Oui, le plan Tiime AE Gratuit est sans limite de duree et sans carte bancaire. Il inclut la facturation illimitee, le suivi du CA et les devis. La synchronisation bancaire et les notes de frais necessitent le plan AE Pro a 9,90 EUR/mois. C\'est l\'un des seuls plans veritablement gratuits et fonctionnels pour facturer.</p>
+<p><strong>Tiime convient-il si je n\'ai pas d\'expert-comptable ?</strong> Oui, mais vous perdez sa valeur ajoutee principale. Sans EC, Indy est souvent plus adapte (alertes de seuils, declarations URSSAF integrees). Tiime reste pertinent pour sa gratuite (plan AE) et son interface simple.</p>
+<p><strong>Tiime est-il compatible avec la reforme de facturation electronique 2026 ?</strong> Oui, Tiime est PDP (Plateforme de Dematerialisation Partenaire) agreee. Il supporte les formats Factur-X et UBL requis par la reforme. Consultez notre <a href="/blog/facturation-electronique-2026-guide">guide facturation electronique 2026</a>.</p>
+<p><strong>Quelle est la difference entre Tiime AE et Tiime Account ?</strong> Tiime AE est destine exclusivement aux auto-entrepreneurs (regime micro). Tiime Account couvre les freelances en societe (SASU, EURL, SARL) avec TVA, bilan simplifie et plusieurs utilisateurs. Si vous passez en societe, vous devrez migrer vers Tiime Account ou changer d\'outil.</p>
+
+<p>Essayez Tiime gratuitement via notre <a href="https://www.tiime.fr/?ae=1289">lien affilie</a>, ou comparez-le dans notre <a href="/comparatif/tiime-vs-pennylane">comparatif Tiime vs Pennylane</a>.</p>
     `.trim(),
   },
   {
     slug: 'shine-avis-test-complet',
     title: 'Shine Avis 2026 : test complet du compte pro pour freelances',
-    excerpt: 'Shine est-il vraiment le meilleur compte pro pour les freelances ? Notre test apres 30 jours : tarifs, fonctionnalites, cartes bancaires et service client.',
+    excerpt: 'Shine avis 2026 apres 30 jours de test : tarifs Basic/Plus/Pro, mise de cote automatique, IBAN pro, facturation et comparatif concurrents pour freelances et AE.',
     date: '2026-11-02',
-    readTime: 9,
+    readTime: 13,
     category: 'Avis logiciels',
-    keywords: ['shine avis', 'shine compte pro', 'shine freelance', 'shine test 2026'],
+    keywords: ['shine avis', 'shine compte pro', 'shine freelance', 'shine test 2026', 'shine tarif', 'shine vs indy', 'meilleur compte pro freelance'],
     image: '/blog/shine-avis-test-complet.svg',
+    metaDescription: 'Shine avis 2026 : notre test complet apres 30 jours. Tarifs Basic (7,90), Plus (13,90), Pro (24,90), mise de cote automatique, IBAN pro, facturation. Pour qui ?',
     content: `
-<h2>Shine : le compte pro qui simplifie la vie des independants</h2>
-<p>Shine n'est pas un simple logiciel de facturation : c'est un compte bancaire professionnel complet, concu specifiquement pour les freelances, auto-entrepreneurs et petites entreprises. Il integre IBAN francais, carte Mastercard, facturation, et outils de gestion en une seule application.</p>
-<p>Nous avons teste Shine pendant 30 jours pour vous donner un avis honnete et complet.</p>
+<h2>Shine en bref : notre verdict 2026</h2>
+<div style="background:#fef3c7;border-left:4px solid #f59e0b;padding:1rem 1.25rem;border-radius:8px;margin:1rem 0;">
+  <p style="margin:0;font-weight:600;font-size:1.05rem;">Note globale : 4,3/5</p>
+  <p style="margin:0.5rem 0 0;color:#92400e;">La solution tout-en-un la plus complete pour les freelances et AE qui veulent combiner compte bancaire pro et facturation. La mise de cote automatique est unique sur le marche. Pas le moins cher si vous avez deja une banque pro.</p>
+</div>
 
-<h2>Ce que propose Shine en 2026</h2>
-<p>Shine couvre a la fois la banque et la gestion :</p>
-<ul>
-<li><strong>Compte bancaire pro</strong> : IBAN francais, virement SEPA, prelevement, encaissement CB en ligne</li>
-<li><strong>Carte Mastercard</strong> : physique et virtuelle, avec plafonds personnalisables</li>
-<li><strong>Facturation integree</strong> : creation et envoi de factures et devis directement depuis l'app</li>
-<li><strong>Mise de cote automatique</strong> : provision automatique pour l'URSSAF, la TVA, les impots</li>
-<li><strong>Rappels de declarations</strong> : alertes pour ne pas oublier vos echeances fiscales</li>
-<li><strong>Support 7j/7</strong> : chat en ligne avec des conseillers humains</li>
-</ul>
+<h2>Presentation de Shine</h2>
+<p>Shine n'est pas un simple logiciel de facturation : c'est un <strong>compte bancaire professionnel complet</strong>, agreee par l'ACPR, concu specifiquement pour les freelances, auto-entrepreneurs et petites entreprises. Il integre IBAN francais, carte Mastercard, facturation, et outils de gestion en une seule application mobile et web.</p>
+<p>Fonde en 2017 et rachetee par le groupe Societe Generale en 2022, Shine compte aujourd'hui plus de 100 000 professionnels independants clients. C'est l'une des seules solutions qui combine veritablement banque et gestion dans un meme outil concu pour les indeps.</p>
 
 <h2>Tarifs Shine 2026</h2>
-<p>Shine propose trois formules :</p>
-<ul>
-<li><strong>Shine Basic</strong> : 7,90 EUR/mois - compte pro, IBAN, carte virtuelle, facturation de base</li>
-<li><strong>Shine Plus</strong> : 13,90 EUR/mois - carte physique, mise de cote, encaissement CB, 2 sous-comptes</li>
-<li><strong>Shine Pro</strong> : 24,90 EUR/mois - fonctionnalites avancees, plusieurs cartes, comptabilite exportable</li>
-</ul>
-<p>Ces tarifs incluent tout : pas de frais de tenue de compte, pas de commission sur les virements SEPA.</p>
+<div style="overflow-x:auto;margin:1.5rem 0;">
+<table style="width:100%;border-collapse:collapse;font-size:0.95rem;">
+  <thead>
+    <tr style="background:#f1f5f9;">
+      <th style="padding:10px 14px;text-align:left;border-bottom:2px solid #e2e8f0;font-weight:700;">Plan</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:2px solid #e2e8f0;font-weight:700;">Tarif</th>
+      <th style="padding:10px 14px;text-align:left;border-bottom:2px solid #e2e8f0;font-weight:700;">Ce qui est inclus</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Shine Basic</td>
+      <td style="padding:9px 14px;text-align:center;font-weight:600;color:#f59e0b;">7,90 EUR/mois</td>
+      <td style="padding:9px 14px;">IBAN pro, carte virtuelle Mastercard, facturation illimitee, app mobile, support chat</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Shine Plus</td>
+      <td style="padding:9px 14px;text-align:center;font-weight:600;color:#f59e0b;">13,90 EUR/mois</td>
+      <td style="padding:9px 14px;">+ Carte physique, mise de cote auto, 2 sous-comptes, encaissement CB en ligne, rappels fiscaux</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:9px 14px;font-weight:600;">Shine Pro</td>
+      <td style="padding:9px 14px;text-align:center;font-weight:600;color:#f59e0b;">24,90 EUR/mois</td>
+      <td style="padding:9px 14px;">+ 4 sous-comptes, 2 cartes physiques, export comptable, integrations avancees (Pennylane, etc.)</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p>Tous les plans incluent : pas de frais de tenue de compte, virements SEPA illimites, notifications en temps reel. Les tarifs sont HT.</p>
 
-<h2>L'outil de mise de cote : la vraie valeur ajoutee</h2>
-<p>La fonctionnalite de mise de cote automatique est ce qui distingue vraiment Shine. Des que vous recevez un paiement, Shine peut automatiquement provisionner un pourcentage pour vos charges URSSAF, votre TVA et votre impot sur le revenu. Pour un auto-entrepreneur, c'est une tranquillite d'esprit considerable : fini le stress des echeances.</p>
+<h2>Fonctionnalites en detail</h2>
+<h3>Compte bancaire professionnel</h3>
+<p>IBAN francais (FR76...) fourni sous 24-48h apres ouverture de compte. Compte agreee ACPR, fonds garanti jusqu'a 100 000 EUR par le Fonds de Garantie des Depots (meme protection qu'une vraie banque). Virement SEPA instantane disponible (frais selon plan). Prelevement autorise. Compatible avec tous les outils de paiement en ligne (Stripe, PayPal, etc.). Pas de decouvert autorise par defaut.</p>
 
-<h2>Shine vs les autres logiciels de facturation</h2>
-<p>Shine n'est pas directement comparable a <a href="/blog/freebe-avis-test-complet">Freebe</a> ou <a href="/blog/indy-avis-test-complet">Indy</a> car il integre un vrai compte bancaire. Si vous cherchez uniquement un logiciel de facturation, Freebe sera plus complet sur la gestion de projets. Mais si vous voulez centraliser votre banque et votre facturation, Shine est imbattable.</p>
-<p>Retrouvez Shine dans notre <a href="/comparatif">comparatif des logiciels de facturation</a>.</p>
+<h3>La mise de cote automatique (fonctionnalite phare)</h3>
+<p>C'est LA differentiation de Shine sur le marche. Des que vous recevez un paiement, Shine peut automatiquement provisionner un pourcentage pour : vos cotisations URSSAF (22% pour un AE en services), votre TVA (si applicable), votre impot sur le revenu. Les fonds sont places dans un sous-compte dedie, invisible au quotidien. Resultat : quand l'echeance arrive, l'argent est la. Cette fonctionnalite est disponible sur Shine Plus et Pro.</p>
+
+<h3>Facturation integree</h3>
+<p>Creation de factures et devis directement dans l'app Shine (mobile et web). Templates personnalisables, logo, mentions legales pre-remplies. Envoi par email avec suivi d'ouverture. Paiement en ligne integre (lien de paiement CB). Suivi du statut (envoye / vu / paye / en retard). La facturation Shine est fonctionnelle mais moins avancee que Freebe pour la gestion de projets ou Pennylane pour la comptabilite. Compatible facturation electronique 2026.</p>
+
+<h3>Cartes bancaires</h3>
+<p>Carte virtuelle Mastercard disponible des ouverture (Basic). Carte physique sur Shine Plus et Pro. Plafonds personnalisables. Carte de voyage avec conversion devises (frais de change appliques). Notifications push instantanees a chaque transaction. Blocage/deblocage en 1 clic depuis l'app.</p>
+
+<h3>Application mobile</h3>
+<p>Application iOS et Android notee 4,8/5 sur l'App Store (140 000+ avis). Interface tres soignee, fluide et rapide. Scan de justificatifs pour les notes de frais. Categorisation automatique des depenses. Consultation du solde en temps reel. Comparee aux apps bancaires traditionnelles, l'experience est incomparable.</p>
+
+<h3>Support client</h3>
+<p>Chat en ligne disponible 7j/7 avec des conseillers humains (pas de bot). Temps de reponse moyen sous 5 minutes en journee. Email et FAQ tres complets. C'est un point fort majeur par rapport aux neo-banques classiques ou le support est souvent inexistant ou lent.</p>
 
 <h2>Points forts et points faibles</h2>
-<p><strong>Points forts :</strong></p>
+<h3>Ce qui nous a convaincus</h3>
 <ul>
-<li>Compte bancaire + facturation en une seule app</li>
-<li>Mise de cote automatique pour les charges</li>
-<li>Interface mobile excellente</li>
-<li>Support client 7j/7 tres reactif</li>
-<li>Rappels automatiques des echeances fiscales</li>
+<li><strong>Mise de cote automatique</strong> : unique sur le marche, indispensable pour les AE qui galere avec les provisions URSSAF</li>
+<li><strong>IBAN pro agreeee ACPR</strong> : securite bancaire reelle, pas un simple compte de paiement</li>
+<li><strong>App mobile 4,8/5</strong> : la meilleure experience mobile de sa categorie</li>
+<li><strong>Support humain 7j/7</strong> : rare et precieux pour un independant qui a un probleme urgent</li>
+<li><strong>Tout-en-un</strong> : un seul outil pour la banque + la facturation + les provisions fiscales</li>
+<li><strong>Rachat Societe Generale</strong> : plus de visibilite long terme, infrastructure solide</li>
 </ul>
-<p><strong>Points faibles :</strong></p>
+<h3>Ce qui peut freiner</h3>
 <ul>
-<li>Fonctionnalites comptables moins avancees qu'un logiciel dedie</li>
-<li>Pas de suivi de temps</li>
-<li>Tarif plus eleve que des logiciels de facturation purs</li>
+<li><strong>Pas de suivi de temps</strong> : pour facturer a l'heure, il faut un autre outil (Freebe, Toggl, etc.)</li>
+<li><strong>Comptabilite moins avancee</strong> : pour la TVA et le bilan, Pennylane ou un EC restent necessaires en SASU/EURL</li>
+<li><strong>Tarif plus eleve si vous avez deja une banque</strong> : si vous avez deja un compte pro ailleurs, le Basic a 7,90 EUR/mois se justifie moins</li>
+<li><strong>Pas de plan gratuit</strong> : contrairement a Tiime AE, aucun plan free</li>
+<li><strong>Encaissement CB payant</strong> : disponible uniquement sur Plus et Pro, avec commission</li>
 </ul>
 
-<h2>Notre verdict Shine</h2>
-<p><strong>Note globale : 4,3/5.</strong> Shine est le choix numero un si vous voulez une solution tout-en-un qui remplace a la fois votre compte bancaire pro et votre logiciel de facturation. Pour une gestion de projets poussee ou un suivi de temps, combinez-le avec un outil dedie.</p>
-<p>Ouvrez votre compte Shine via notre <a href="https://shine.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">lien partenaire</a> pour beneficier des offres du moment.</p>
+<h2>Pour qui Shine est-il ideal ?</h2>
+<ul>
+<li><strong>Auto-entrepreneur avec un CA regulier</strong> qui veut centraliser sa banque pro et sa facturation sans jongler entre plusieurs outils</li>
+<li><strong>Freelance debutant</strong> qui ouvre son premier compte pro et veut une solution simple et fiable</li>
+<li><strong>Independant sous seuil TVA</strong> : la mise de cote URSSAF fait toute la difference quand on gere ses charges seul</li>
+<li><strong>Mobile first</strong> : si vous gerez votre activite depuis votre telephone, l'app Shine est sans egal</li>
+<li><strong>Pas pour les SASU/EURL complexes</strong> : pour une compta de societe avec bilan, TVA, etc., Pennylane + un EC s'impose</li>
+</ul>
+
+<h2>Comparaison Shine vs concurrents</h2>
+<div style="overflow-x:auto;margin:1.5rem 0;">
+<table style="width:100%;border-collapse:collapse;font-size:0.9rem;">
+  <thead>
+    <tr style="background:#f1f5f9;">
+      <th style="padding:9px 12px;text-align:left;border-bottom:2px solid #e2e8f0;font-weight:700;">Critere</th>
+      <th style="padding:9px 12px;text-align:center;border-bottom:2px solid #e2e8f0;font-weight:700;color:#f59e0b;">Shine</th>
+      <th style="padding:9px 12px;text-align:center;border-bottom:2px solid #e2e8f0;font-weight:700;color:#3b82f6;">Indy</th>
+      <th style="padding:9px 12px;text-align:center;border-bottom:2px solid #e2e8f0;font-weight:700;color:#7c3aed;">Freebe</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:8px 12px;font-weight:600;">IBAN pro inclus</td>
+      <td style="padding:8px 12px;text-align:center;color:#f59e0b;font-weight:600;">Oui (natif)</td>
+      <td style="padding:8px 12px;text-align:center;">Non</td>
+      <td style="padding:8px 12px;text-align:center;">Non</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:8px 12px;font-weight:600;">Mise de cote auto</td>
+      <td style="padding:8px 12px;text-align:center;color:#f59e0b;font-weight:600;">Oui (Plus+)</td>
+      <td style="padding:8px 12px;text-align:center;">Non</td>
+      <td style="padding:8px 12px;text-align:center;">Non</td>
+    </tr>
+    <tr style="border-bottom:1px solid #f1f5f9;">
+      <td style="padding:8px 12px;font-weight:600;">Time-tracking</td>
+      <td style="padding:8px 12px;text-align:center;">Non</td>
+      <td style="padding:8px 12px;text-align:center;">Non</td>
+      <td style="padding:8px 12px;text-align:center;color:#7c3aed;font-weight:600;">Oui</td>
+    </tr>
+    <tr style="background:#f8fafc;border-bottom:1px solid #f1f5f9;">
+      <td style="padding:8px 12px;font-weight:600;">Declaration URSSAF</td>
+      <td style="padding:8px 12px;text-align:center;">Rappels seuls</td>
+      <td style="padding:8px 12px;text-align:center;color:#3b82f6;font-weight:600;">Auto (Business)</td>
+      <td style="padding:8px 12px;text-align:center;">Non</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 12px;font-weight:600;">Ideal pour</td>
+      <td style="padding:8px 12px;text-align:center;">AE tout-en-un</td>
+      <td style="padding:8px 12px;text-align:center;">AE compta auto</td>
+      <td style="padding:8px 12px;text-align:center;">Freelance projet</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>FAQ Shine 2026</h2>
+<p><strong>Shine est-il une vraie banque ?</strong> Oui, Shine est un etablissement de paiement agreee par l'ACPR (Autorite de Controle Prudentiel et de Resolution), rattache au groupe Societe Generale depuis 2022. Les fonds sont garantis jusqu'a 100 000 EUR par le Fonds de Garantie des Depots. Ce n'est donc pas un simple "compte de paiement" comme certains concurrents.</p>
+<p><strong>Peut-on utiliser Shine sans etre auto-entrepreneur ?</strong> Oui, Shine fonctionne pour tous les statuts : AE, SASU, EURL, SARL, SAS. Cependant, pour une societe avec comptabilite complexe (TVA, bilan), Shine devra etre combine avec un logiciel comptable dedie comme Pennylane. Shine est optimise pour les profils simples (AE, solo).</p>
+<p><strong>Shine est-il compatible avec la facturation electronique 2026 ?</strong> Oui, Shine supporte les formats Factur-X pour la facturation electronique obligatoire a partir de 2026. La mise en conformite est assure sans action specifique de votre part.</p>
+<p><strong>Quelle est la difference entre Shine et Qonto ?</strong> Qonto et Shine sont deux neobanques pro qui se ressemblent. Shine est plus oriente auto-entrepreneurs (mise de cote, simplicite), tandis que Qonto vise plutot les PME avec plusieurs employes (gestion de depenses equipe, virements de masse). Pour un freelance seul, Shine est generalement plus adapte et moins cher.</p>
+
+<p>Ouvrez votre compte Shine via notre <a href="https://www.shine.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">lien partenaire</a>, ou comparez-le dans notre <a href="/comparatif">comparatif complet</a>.</p>
     `.trim(),
   },
   {
