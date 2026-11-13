@@ -3933,84 +3933,161 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
   {
     slug: 'axonaut-avis-test-complet',
     title: 'Axonaut avis 2026 : test complet du CRM-ERP pour freelances et TPE',
-    excerpt: 'Axonaut est-il le meilleur CRM-ERP tout-en-un pour les independants et petites entreprises ? Notre test complet : fonctionnalites, tarifs, avantages et limites.',
+    excerpt: 'Axonaut avis 2026 : CRM-ERP tout-en-un 100% francais pour freelances et TPE. Tarifs degressifs 49-199 EUR/mois, pipeline kanban, projets, facturation et compta dans un seul outil.',
     date: '2026-11-13',
-    readTime: 11,
+    readTime: 13,
     category: 'Avis logiciels',
-    keywords: ['axonaut avis', 'axonaut test', 'axonaut crm', 'axonaut freelance', 'axonaut tarif'],
+    keywords: ['axonaut avis', 'axonaut test', 'axonaut crm', 'axonaut freelance', 'axonaut tarif', 'axonaut avis 2026', 'axonaut vs pennylane', 'axonaut vs sellsy'],
     image: '/blog/axonaut-avis-test-complet.svg',
+    metaDescription: 'Axonaut avis 2026 : test complet du CRM-ERP tout-en-un pour freelances et TPE. Tarifs, fonctionnalites, comparaison Sellsy et Pennylane. Notre verdict 4,2/5.',
     content: `
-<h2>Axonaut : qu'est-ce que c'est ?</h2>
-<p>Axonaut est un logiciel CRM-ERP francais tout-en-un cree en 2017 a Toulouse. Il s'adresse aux freelances, independants et TPE-PME (1 a 50 salaries) qui veulent gerer leur activite depuis un seul outil : prospection, devis, facturation, comptabilite, gestion de projets, ticketing, et meme ressources humaines. C'est son positionnement unique : la ou Pennylane ou Indy se concentrent sur la comptabilite, Axonaut ambitionne de couvrir tout le back-office d'une petite entreprise.</p>
+<h2>Axonaut en bref : notre verdict 2026</h2>
+<div style="background:#fef3c7;border-left:4px solid #f59e0b;padding:1rem 1.25rem;border-radius:8px;margin:1rem 0;">
+  <p style="margin:0;font-weight:600;font-size:1.05rem;">Note globale : 4,2/5</p>
+  <p style="margin:0.5rem 0 0;color:#92400e;">CRM-ERP tout-en-un 100% francais pour freelances consultants et TPE 2-15 personnes. Pipeline kanban, facturation, projets et compta dans un seul outil. Meilleur rapport fonctionnalites/prix pour les agences et cabinets de conseil.</p>
+</div>
 
-<h2>Fonctionnalites principales d'Axonaut</h2>
-<h3>CRM et pipeline commercial</h3>
-<p>Axonaut propose un CRM complet avec gestion des contacts, des opportunites commerciales, et un pipeline visuel en kanban. Vous pouvez tracker chaque prospect, noter les interactions, et automatiser certaines relances. Pour un freelance qui gere plusieurs clients et prospects simultanement, c'est un gain de temps considerable par rapport a un tableau Excel ou un Notion bricole.</p>
-<h3>Devis et facturation</h3>
-<p>Creation de devis et factures conformes aux normes francaises, numerotation automatique, gestion des avoirs, signatures electroniques des devis. L'editeur est fonctionnel sans etre le plus elegant du marche : il fait le travail.</p>
-<h3>Comptabilite et tresorerie</h3>
-<p>Axonaut inclut un tableau de bord de tresorerie, un suivi des depenses, la gestion de la TVA, et un export comptable FEC. Ce n'est pas aussi pousse qu'un Indy ou un Pennylane sur la partie comptabilite, mais ca couvre les besoins d'un independant ou d'une TPE sans expert-comptable au quotidien.</p>
-<h3>Gestion de projets</h3>
-<p>Module de gestion de taches et projets avec suivi du temps passe, assignation aux collaborateurs, et lien direct avec la facturation. Idee : vous gerez un projet, vous loggez vos heures, et Axonaut genere la facture automatiquement depuis ces donnees. Tres utile pour les freelances qui facturent au temps passe.</p>
-<h3>Helpdesk et ticketing</h3>
-<p>Module de support client integre avec gestion des tickets par email. Accessoire pour un independant solo, mais tres utile des que vous avez une petite equipe et des clients recurrents qui remontent des problemes.</p>
-<h3>RH et notes de frais</h3>
-<p>Gestion basique des conges, des notes de frais et des contrats salaries. Suffisant pour une TPE de 2 a 10 personnes, sans remplacer un vrai SIRH.</p>
+<h2>Presentation d'Axonaut</h2>
+<p>Axonaut est un logiciel CRM-ERP francais tout-en-un cree en 2017 a Toulouse. Il s'adresse aux freelances, independants et TPE (1 a 50 salaries) qui veulent gerer toute leur activite depuis un seul outil : prospection, devis, facturation, comptabilite, gestion de projets, ticketing et ressources humaines. C'est son positionnement unique : la ou Pennylane ou Indy se concentrent sur la comptabilite, Axonaut ambitionne de couvrir tout le back-office d'une petite entreprise.</p>
+<p>Axonaut est utilise par plus de 10 000 freelances et TPE en France, avec un focus marque sur les agences, les cabinets de conseil et les ESN de petite taille qui facturent au temps passe.</p>
 
 <h2>Tarifs Axonaut 2026</h2>
-<p>Axonaut pratique un tarif unique degressif selon la taille de l'equipe :</p>
-<ul>
-<li>1 utilisateur : 69,99 EUR/mois (ou 49,99 EUR/mois en annuel)</li>
-<li>2 utilisateurs : 109,99 EUR/mois</li>
-<li>3-5 utilisateurs : 149,99 EUR/mois</li>
-<li>6-10 utilisateurs : 199,99 EUR/mois</li>
-</ul>
-<p>Toutes les fonctionnalites sont incluses dans le plan unique, sans module supplementaire a acheter. L'essai gratuit est de 15 jours sans carte bancaire.</p>
-<p>Comparaison rapide : Axonaut solo (49,99 EUR/mois en annuel) vs Pennylane Business (79 EUR/mois). Axonaut est moins cher et plus complet (CRM + projets), mais moins performant sur la comptabilite pure.</p>
+<div style="overflow-x:auto;margin:1.5rem 0;">
+<table style="width:100%;border-collapse:collapse;font-size:0.95rem;">
+  <thead>
+    <tr style="background:#fef9ec;">
+      <th style="padding:10px 14px;text-align:left;border-bottom:2px solid #fde68a;font-weight:700;">Equipe</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:2px solid #fde68a;font-weight:700;">Mensuel</th>
+      <th style="padding:10px 14px;text-align:center;border-bottom:2px solid #fde68a;font-weight:700;">Annuel</th>
+      <th style="padding:10px 14px;text-align:left;border-bottom:2px solid #fde68a;font-weight:700;">Inclus</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #fef9ec;">
+      <td style="padding:9px 14px;font-weight:600;">1 utilisateur</td>
+      <td style="padding:9px 14px;text-align:center;font-weight:600;color:#f59e0b;">69,99 EUR</td>
+      <td style="padding:9px 14px;text-align:center;font-weight:600;color:#d97706;">49,99 EUR</td>
+      <td style="padding:9px 14px;">Toutes fonctionnalites</td>
+    </tr>
+    <tr style="background:#fffbeb;border-bottom:1px solid #fef9ec;">
+      <td style="padding:9px 14px;font-weight:600;">2 utilisateurs</td>
+      <td style="padding:9px 14px;text-align:center;">109,99 EUR</td>
+      <td style="padding:9px 14px;text-align:center;">79,99 EUR</td>
+      <td style="padding:9px 14px;">Toutes fonctionnalites</td>
+    </tr>
+    <tr style="border-bottom:1px solid #fef9ec;">
+      <td style="padding:9px 14px;font-weight:600;">3-5 utilisateurs</td>
+      <td style="padding:9px 14px;text-align:center;">149,99 EUR</td>
+      <td style="padding:9px 14px;text-align:center;">109,99 EUR</td>
+      <td style="padding:9px 14px;">Toutes fonctionnalites</td>
+    </tr>
+    <tr style="background:#fffbeb;">
+      <td style="padding:9px 14px;font-weight:600;">6-10 utilisateurs</td>
+      <td style="padding:9px 14px;text-align:center;">199,99 EUR</td>
+      <td style="padding:9px 14px;text-align:center;">149,99 EUR</td>
+      <td style="padding:9px 14px;">Toutes fonctionnalites</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p>Toutes les fonctionnalites sont incluses dans le plan unique, sans module supplementaire. Essai gratuit 15 jours sans carte bancaire.</p>
 
-<h2>Avantages d'Axonaut</h2>
+<h2>Fonctionnalites en detail</h2>
+<h3>CRM et pipeline commercial kanban</h3>
+<p>Axonaut propose un CRM complet avec gestion des contacts, des opportunites commerciales, et un pipeline visuel en kanban. Chaque prospect est tracke avec l'historique complet des interactions, les documents envoyes, et les prochaines actions. Les relances peuvent etre automatisees avec des sequences d'emails. Pour un freelance qui gere 10 a 50 prospects simultanement, c'est un gain de temps considerable par rapport a un tableau Excel.</p>
+
+<h3>Devis, facturation et signatures electroniques</h3>
+<p>Creation de devis et factures conformes aux normes francaises, numerotation automatique, gestion des avoirs. Les devis se signent en ligne directement depuis Axonaut : le client recoit un lien, il signe, et la signature est archivee automatiquement. L'editeur de documents est fonctionnel sans etre le plus elegant du marche.</p>
+
+<h3>Gestion de projets et time-tracking</h3>
+<p>Module de gestion de taches et projets avec suivi du temps passe, Gantt, assignation aux collaborateurs, et lien direct avec la facturation. Le workflow est: vous gerez un projet, vous loggez les heures, Axonaut genere la facture automatiquement. Les agences qui facturent au temps passe gagnent 2 a 3 heures par semaine sur l'administration.</p>
+
+<h3>Comptabilite et tresorerie</h3>
+<p>Tableau de bord de tresorerie, suivi des depenses, gestion de la TVA (collectee et deductible), export FEC pour l'expert-comptable. Moins avance qu'Indy ou Pennylane sur la comptabilite pure, mais suffisant pour une TPE sans EC au quotidien ou avec un EC externe qui travaille sur le FEC.</p>
+
+<h3>Helpdesk, RH et notes de frais</h3>
+<p>Module de support client avec gestion des tickets par email. Gestion basique des conges, notes de frais et contrats salaries. Suffisant pour une TPE de 2 a 10 personnes sans remplacer un vrai SIRH.</p>
+
+<h2>Points forts et points faibles</h2>
+<h3>Ce qui nous a convaincus</h3>
 <ul>
-<li><strong>Tout-en-un vraiment tout-en-un</strong> : un seul outil pour CRM, facturation, compta, projets, RH. Zero integration a configurer entre des outils separes.</li>
-<li><strong>Solution 100% francaise</strong> : support en francais, interface en francais, pensee pour les normes fiscales et sociales francaises.</li>
-<li><strong>Tres bon rapport qualite/prix pour les TPE</strong> : a 2-3 utilisateurs, Axonaut est souvent moins cher que la combinaison CRM + logiciel compta separement.</li>
-<li><strong>Support client reactif</strong> : l'equipe Axonaut est connue pour sa disponibilite et sa reactivite, notamment via le chat integre.</li>
+<li><strong>Tout-en-un vraiment complet</strong> : CRM + facturation + projets + compta + RH dans un seul outil</li>
+<li><strong>100% francais</strong> : normes fiscales et sociales francaises, support en francais</li>
+<li><strong>Rapport qualite-prix excellent pour les TPE</strong> : a 2-3 utilisateurs, moins cher que CRM + compta separes</li>
+<li><strong>Support client reactif</strong> : reponse en moins de 24h, equipe disponible par chat</li>
+<li><strong>Time-tracking + facturation lies</strong> : ideal pour les agences et consultants au temps passe</li>
+</ul>
+<h3>Ce qui peut freiner</h3>
+<ul>
+<li><strong>Interface dense</strong> : courbe d'apprentissage reelle, surtout venant d'un outil simple</li>
+<li><strong>Comptabilite moins avancee</strong> : ne remplace pas Pennylane ou Indy pour une compta poussee avec EC</li>
+<li><strong>Prix eleve pour un solo</strong> : 49,99 EUR/mois en annuel vs 29 EUR pour Pennylane Essentiel</li>
+<li><strong>App mobile basique</strong> : experience web nettement superieure</li>
 </ul>
 
-<h2>Limites d'Axonaut</h2>
+<h2>Pour qui Axonaut est-il ideal ?</h2>
 <ul>
-<li><strong>Interface un peu dense</strong> : avec autant de fonctionnalites, l'interface peut paraitre complexe pour un debutant. La courbe d'apprentissage est reelle.</li>
-<li><strong>Comptabilite moins avancee</strong> : pour un freelance qui veut vraiment comprendre sa comptabilite ou travailler en profondeur avec un EC, Pennylane ou Indy sont superieure.</li>
-<li><strong>Prix eleve pour un solo</strong> : a 49,99 EUR/mois en solo annuel, c'est plus cher que Pennylane Essentiel (29 EUR) ou Indy Solo (29 EUR) si vous n'utilisez pas le CRM et la gestion de projets.</li>
-<li><strong>Application mobile basique</strong> : l'app mobile existe mais reste moins complete que le web.</li>
+<li><strong>Freelances consultants multi-clients</strong> qui ont besoin d'un CRM pour tracker leurs prospects</li>
+<li><strong>TPE 2-15 personnes</strong> qui veulent centraliser leur back-office sans accumuler les SaaS</li>
+<li><strong>Agences, cabinets de conseil, ESN</strong> qui facturent au temps passe et veulent lier projets et facturation</li>
+<li><strong>Independants avec pipeline commercial actif</strong> : plusieurs devis en cours, suivi de prospects regulier</li>
 </ul>
+<p>Axonaut est moins adapte pour les auto-entrepreneurs avec peu de clients (optez pour <a href="/blog/freebe-avis-test-complet">Freebe</a> ou <a href="/blog/tiime-avis-test-complet">Tiime</a>) et pour ceux qui privilegient la comptabilite avancee avec EC (<a href="/blog/pennylane-avis-test-complet">Pennylane</a> s'impose).</p>
 
-<h2>Axonaut : pour qui ?</h2>
-<p><strong>Axonaut est ideal pour :</strong></p>
-<ul>
-<li>Les freelances consultants qui gerent plusieurs missions en parallele et ont besoin d'un CRM pour tracker leurs prospects</li>
-<li>Les TPE de 2 a 15 personnes qui veulent centraliser leur back-office sans accumuler les abonnements SaaS</li>
-<li>Les agences, cabinets de conseil, ESN qui facturent au temps passe et veulent lier projets et facturation</li>
-</ul>
-<p><strong>Axonaut est moins adapte si :</strong></p>
-<ul>
-<li>Vous etes auto-entrepreneur avec peu de clients et avez besoin d'une simple facturation : Freebe ou Tiime seront suffisants et moins chers</li>
-<li>Votre priorite est la comptabilite avancee et la collaboration EC : Pennylane ou Indy s'imposent</li>
-</ul>
+<h2>Comparaison Axonaut vs alternatives</h2>
+<div style="overflow-x:auto;margin:1.5rem 0;">
+<table style="width:100%;border-collapse:collapse;font-size:0.9rem;">
+  <thead>
+    <tr style="background:#fef9ec;">
+      <th style="padding:9px 12px;text-align:left;border-bottom:2px solid #fde68a;font-weight:700;">Critere</th>
+      <th style="padding:9px 12px;text-align:center;border-bottom:2px solid #fde68a;font-weight:700;color:#f59e0b;">Axonaut</th>
+      <th style="padding:9px 12px;text-align:center;border-bottom:2px solid #fde68a;font-weight:700;color:#a855f7;">Sellsy</th>
+      <th style="padding:9px 12px;text-align:center;border-bottom:2px solid #fde68a;font-weight:700;color:#059669;">Pennylane</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #fef9ec;">
+      <td style="padding:8px 12px;font-weight:600;">CRM natif</td>
+      <td style="padding:8px 12px;text-align:center;color:#f59e0b;font-weight:600;">Oui</td>
+      <td style="padding:8px 12px;text-align:center;color:#a855f7;font-weight:600;">Oui (+ avance)</td>
+      <td style="padding:8px 12px;text-align:center;">Non</td>
+    </tr>
+    <tr style="background:#fffbeb;border-bottom:1px solid #fef9ec;">
+      <td style="padding:8px 12px;font-weight:600;">Gestion projets + temps</td>
+      <td style="padding:8px 12px;text-align:center;color:#f59e0b;font-weight:600;">Oui</td>
+      <td style="padding:8px 12px;text-align:center;color:#a855f7;font-weight:600;">Oui</td>
+      <td style="padding:8px 12px;text-align:center;">Non</td>
+    </tr>
+    <tr style="border-bottom:1px solid #fef9ec;">
+      <td style="padding:8px 12px;font-weight:600;">Facturation electronique PDP</td>
+      <td style="padding:8px 12px;text-align:center;">En cours</td>
+      <td style="padding:8px 12px;text-align:center;color:#a855f7;font-weight:600;">Oui (PDP agreee)</td>
+      <td style="padding:8px 12px;text-align:center;color:#059669;font-weight:600;">Oui (PDP agreee)</td>
+    </tr>
+    <tr style="background:#fffbeb;border-bottom:1px solid #fef9ec;">
+      <td style="padding:8px 12px;font-weight:600;">Tarif solo (annuel)</td>
+      <td style="padding:8px 12px;text-align:center;">49,99 EUR/mois</td>
+      <td style="padding:8px 12px;text-align:center;">39 EUR/mois</td>
+      <td style="padding:8px 12px;text-align:center;color:#059669;font-weight:600;">26 EUR/mois</td>
+    </tr>
+    <tr>
+      <td style="padding:8px 12px;font-weight:600;">Ideal pour</td>
+      <td style="padding:8px 12px;text-align:center;">Agences + conseil</td>
+      <td style="padding:8px 12px;text-align:center;">PME B2B 5-50p</td>
+      <td style="padding:8px 12px;text-align:center;">Solo + EC</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
-<h2>Notre verdict Axonaut</h2>
-<p>Axonaut est une solution solide et bien pensee pour les independants et TPE qui veulent unifier leur gestion. Son positionnement tout-en-un est son principal atout : fini le jonglage entre un CRM (Hubspot), un logiciel de facturation (Freebe), un outil de projets (Notion) et une comptabilite (Pennylane). Axonaut remplace tout ca avec un seul abonnement.</p>
-<p>Le prix solo peut rebuter si vous n'utilisez pas toutes les fonctionnalites. Mais pour un freelance actif avec plusieurs clients, plusieurs projets, et un besoin de suivi commercial, le retour sur investissement est reel.</p>
-<ul>
-<li><a href="https://axonaut.com" rel="nofollow noopener">Essayer Axonaut gratuitement 15 jours</a></li>
-</ul>
-<p>Pour comparer avec d'autres solutions, consultez notre <a href="/comparatif">comparatif des 8 meilleurs logiciels de facturation freelance</a>.</p>
+<h2>FAQ Axonaut 2026</h2>
+<p><strong>Axonaut est-il adapte aux auto-entrepreneurs ?</strong> Oui, mais c'est surdimensionne si vous faites peu de facturation. Freebe ou Tiime sont suffisants et moins chers. Si vous avez aussi un besoin CRM actif pour gerer des prospects, Axonaut devient tres pertinent.</p>
+<p><strong>Axonaut remplace-t-il un expert-comptable ?</strong> Non. Axonaut aide a tenir votre comptabilite de facon simplifiee mais ne remplace pas les conseils d'un EC. L'export FEC permet a votre EC externe de travailler dessus facilement.</p>
+<p><strong>Axonaut est-il conforme a la facturation electronique 2026 ?</strong> Axonaut est en cours de mise en conformite. Pour les entreprises avec obligation PDP immediate, Sellsy ou Pennylane sont plus avances. Consultez leur site pour les derniers details ou notre <a href="/blog/facturation-electronique-2026-guide">guide facturation electronique 2026</a>.</p>
+<p><strong>Axonaut vs Sellsy : comment choisir ?</strong> Axonaut est ideal pour les agences et TPE qui ont besoin d'un outil tout-en-un accessible et simple. Sellsy est plus adapte aux PME B2B avec des cycles commerciaux longs qui ont besoin d'un CRM plus avance et de la conformite PDP immediate.</p>
 
-<h2>FAQ Axonaut</h2>
-<p><strong>Axonaut est-il adapte aux auto-entrepreneurs ?</strong> Oui, mais c'est surdimensionne si vous faites peu de facturation. Si vous avez aussi besoin d'un CRM pour gerer vos prospects, ca devient tres pertinent.</p>
-<p><strong>Axonaut remplace-t-il un expert-comptable ?</strong> Non. Axonaut vous aide a tenir votre comptabilite de facon simplifiee mais ne remplace pas les conseils d'un EC pour les declarations fiscales, le choix de statut, ou l'optimisation. Plusieurs EC travaillent en direct avec Axonaut via l'export FEC.</p>
-<p><strong>Axonaut est-il conforme a la facturation electronique 2026 ?</strong> Axonaut est en cours de mise en conformite avec les nouvelles obligations. Consultez leur site pour les derniers details ou notre <a href="/blog/facturation-electronique-2026-guide">guide facturation electronique 2026</a>.</p>
+<p>Essayez Axonaut gratuitement 15 jours sur <a href="https://axonaut.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog" rel="nofollow sponsored noopener">axonaut.com</a>. Pour comparer avec d'autres solutions, consultez notre <a href="/comparatif">comparatif des logiciels de facturation</a>.</p>
     `.trim(),
-    metaDescription: 'Axonaut avis 2026 : test complet du CRM-ERP tout-en-un pour freelances et TPE. Tarifs, fonctionnalites, avantages et limites. Notre verdict.',
   },
   {
     slug: 'freebe-vs-pennylane',
