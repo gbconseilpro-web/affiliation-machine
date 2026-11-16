@@ -78,8 +78,8 @@ function getCtaForSlug(slug: string): CtaConfig {
       title: 'Axonaut ou Sellsy : essayez les deux gratuitement',
       subtitle: 'Deux CRM-ERP puissants pour TPE et PME. Comparez par vous-meme avant de choisir.',
       buttons: [
-        { label: 'Essayer Axonaut', href: 'https://axonaut.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
-        { label: 'Essayer Sellsy', href: 'https://sellsy.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: false },
+        { label: 'Essayer Axonaut', href: 'https://axonaut.com/?a=B7B10H14AC', primary: true },
+        { label: 'Essayer Sellsy', href: 'https://go.sellsy.com/landing/indirect-sellsy-partner-program?kfl_ln=gb-conseil', primary: false },
       ],
     }
   }
@@ -129,7 +129,7 @@ function getCtaForSlug(slug: string): CtaConfig {
       title: 'Essayer Axonaut gratuitement',
       subtitle: 'CRM + Facturation + Compta tout-en-un pour consultants et agences. 15 jours d\'essai gratuit.',
       buttons: [
-        { label: 'Essayer Axonaut', href: 'https://axonaut.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Essayer Axonaut', href: 'https://axonaut.com/?a=B7B10H14AC', primary: true },
         { label: 'Voir le comparatif', href: '/comparatif', primary: false },
       ],
     }

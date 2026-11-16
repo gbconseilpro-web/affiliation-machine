@@ -64,7 +64,7 @@ const logiciels = [
     badge: '🇫🇷 100% Français',
     price: 'À partir de 29€/mois',
     pdp: false,
-    url: 'https://www.axonaut.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=homepage',
+    url: 'https://axonaut.com/?a=B7B10H14AC',
   },
 ]
 

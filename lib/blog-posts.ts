@@ -111,7 +111,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <td style="padding:10px 12px;">Compte pro + facturation</td>
 </tr>
 <tr style="background:#f8fafc;border-bottom:1px solid #e2e8f0;">
-<td style="padding:10px 12px;"><strong><a href="https://axonaut.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Axonaut</a></strong></td>
+<td style="padding:10px 12px;"><strong><a href="https://axonaut.com/?a=B7B10H14AC">Axonaut</a></strong></td>
 <td style="padding:10px 12px;">34€/mois</td>
 <td style="padding:10px 12px;">15 jours</td>
 <td style="padding:10px 12px;">Incluse</td>
@@ -241,7 +241,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Notre verdict :</strong> le meilleur choix si vous cherchez à ouvrir un compte bancaire professionnel et gérer votre facturation avec un seul outil et un seul abonnement. Pas le plus puissant en facturation pure, mais le plus simple en setup global.</p>
 
 <h2>Axonaut : CRM et facturation tout-en-un pour les TPE ambitieuses</h2>
-<p><a href="https://axonaut.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Axonaut</a> est une solution francaise (Toulouse) qui se distingue en combinant un CRM commercial complet et un outil de facturation dans une interface unifiee. Si vous gerez un pipeline de prospects, des devis complexes avec suivi de relance, et souhaitez avoir visibilite sur votre CA previsionnel en meme temps que vos factures emises, Axonaut est probablement l'outil le plus complet de ce comparatif.</p>
+<p><a href="https://axonaut.com/?a=B7B10H14AC">Axonaut</a> est une solution francaise (Toulouse) qui se distingue en combinant un CRM commercial complet et un outil de facturation dans une interface unifiee. Si vous gerez un pipeline de prospects, des devis complexes avec suivi de relance, et souhaitez avoir visibilite sur votre CA previsionnel en meme temps que vos factures emises, Axonaut est probablement l'outil le plus complet de ce comparatif.</p>
 
 <p><strong>Ce qu'Axonaut apporte de unique :</strong></p>
 <ul>
@@ -304,7 +304,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Deux options selon votre situation. Si vous restez en France et avez besoin d'un IBAN francais, <strong><a href="https://www.shine.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Shine</a></strong> est votre solution : IBAN FR, carte Visa, facturation et gestion des charges URSSAF en un seul abonnement a partir de 8€/mois. Si vous avez des clients europeens et souhaitez demarrer sans budget, <strong><a href="https://finom.co/fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Finom</a></strong> propose un compte gratuit avec IBAN EU et facturation integree.</p>
 
 <h3>Vous gerez un pipeline commercial avec plusieurs prospects</h3>
-<p>Si vous passez du temps a relancer des prospects, a suivre l'etat de vos devis, ou a piloter plusieurs opportunites en parallele, <strong><a href="https://axonaut.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Axonaut</a></strong> est l'outil le plus adapte. Le CRM integre evite les allers-retours entre votre logiciel de facturation et un CRM separe (HubSpot, Notion, etc.). L'investissement de 34€/mois se justifie des lors que vous fermez 2 a 3 devis par mois.</p>
+<p>Si vous passez du temps a relancer des prospects, a suivre l'etat de vos devis, ou a piloter plusieurs opportunites en parallele, <strong><a href="https://axonaut.com/?a=B7B10H14AC">Axonaut</a></strong> est l'outil le plus adapte. Le CRM integre evite les allers-retours entre votre logiciel de facturation et un CRM separe (HubSpot, Notion, etc.). L'investissement de 34€/mois se justifie des lors que vous fermez 2 a 3 devis par mois.</p>
 
 <h3>Vous demarrez votre activite avec un budget nul</h3>
 <p>Deux solutions gratuite s'offrent a vous : <strong>Tiime</strong> pour la facturation pure (devis et factures conformes sans abonnement) et <strong><a href="https://finom.co/fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Finom</a></strong> pour combiner compte pro et facturation sans frais fixes. Les deux sont suffisants pour les 6 premiers mois d'activite.</p>
@@ -4338,7 +4338,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p><strong>Axonaut est-il conforme a la facturation electronique 2026 ?</strong> Axonaut est en cours de mise en conformite. Pour les entreprises avec obligation PDP immediate, Sellsy ou Pennylane sont plus avances. Consultez leur site pour les derniers details ou notre <a href="/blog/facturation-electronique-2026-guide">guide facturation electronique 2026</a>.</p>
 <p><strong>Axonaut vs Sellsy : comment choisir ?</strong> Axonaut est ideal pour les agences et TPE qui ont besoin d'un outil tout-en-un accessible et simple. Sellsy est plus adapte aux PME B2B avec des cycles commerciaux longs qui ont besoin d'un CRM plus avance et de la conformite PDP immediate.</p>
 
-<p>Essayez Axonaut gratuitement 15 jours sur <a href="https://axonaut.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog" rel="nofollow sponsored noopener">axonaut.com</a>. Pour comparer avec d'autres solutions, consultez notre <a href="/comparatif">comparatif des logiciels de facturation</a>.</p>
+<p>Essayez Axonaut gratuitement 15 jours sur <a href="https://axonaut.com/?a=B7B10H14AC" rel="nofollow sponsored noopener">axonaut.com</a>. Pour comparer avec d'autres solutions, consultez notre <a href="/comparatif">comparatif des logiciels de facturation</a>.</p>
     `.trim(),
   },
   {
@@ -4650,7 +4650,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p>Liens utiles :</p>
 <ul>
 <li><a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog-facturation-agence" rel="nofollow sponsored noopener">Essayer Pennylane gratuitement</a></li>
-<li><a href="https://axonaut.com" rel="nofollow noopener">Essayer Axonaut gratuitement 15 jours</a></li>
+<li><a href="https://axonaut.com/?a=B7B10H14AC" rel="nofollow noopener">Essayer Axonaut gratuitement 15 jours</a></li>
 </ul>
 <p>Pour les freelances solo, consultez notre <a href="/comparatif">comparatif des 8 logiciels de facturation freelance</a> ou notre guide <a href="/blog/meilleur-logiciel-facturation-freelance">meilleur logiciel de facturation freelance 2026</a>.</p>
 
