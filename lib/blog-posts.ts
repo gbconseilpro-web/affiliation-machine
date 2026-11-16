@@ -4661,6 +4661,352 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
     `.trim(),
     metaDescription: 'Meilleur logiciel de facturation pour agence et TPE en 2026. Pennylane, Axonaut, Sellsy : comparatif complet pour equipes de 2 a 20 personnes.',
   },
+  {
+    slug: 'facturation-electronique-auto-entrepreneur-2027',
+    title: 'Facturation electronique auto-entrepreneur 2027 : ce qui change vraiment au 1er septembre',
+    excerpt: 'Au 1er septembre 2027, les auto-entrepreneurs doivent emettre leurs factures via une plateforme agreee. Ce guide explique ce que ca change concretement, les penalites en cas de manquement, et comment choisir son outil avant la date limite.',
+    date: '2026-11-16',
+    readTime: 10,
+    category: 'Guides',
+    keywords: ['facturation electronique auto entrepreneur', 'facturation electronique 2027', 'obligation facturation electronique micro entrepreneur', 'PDP auto entrepreneur', 'e-facturation 2027'],
+    image: '/blog/facturation-electronique-auto-entrepreneur-2027.svg',
+    metaTitle: 'Facturation electronique auto-entrepreneur 2027 : obligations et calendrier',
+    metaDescription: 'Ce qui change au 1er septembre 2027 pour les auto-entrepreneurs : obligation d\'emission, plateformes agreees, e-reporting, penalites. Guide clair et pratique.',
+    content: `
+<h2>Recapitulatif : deux dates a connaitre absolument</h2>
+<p>La reforme de la facturation electronique touche les auto-entrepreneurs en deux temps. <strong>Depuis le 1er septembre 2026</strong>, toute entreprise francaise assujettie a la TVA doit pouvoir recevoir des factures electroniques via une plateforme agreee. C'est deja en vigueur. <strong>A partir du 1er septembre 2027</strong>, les micro-entrepreneurs devront aussi emettre leurs factures en format electronique structure et transmettre des donnees d'e-reporting a l'administration fiscale. Envoyer un PDF par email ne suffira plus pour les clients professionnels etablis en France.</p>
+<p>Si vous etes auto-entrepreneur sous la franchise de TVA (moins de 36 800 EUR de CA pour les services en 2026), vous n'etes pas concerne par l'e-invoicing B2B. En revanche, vous etes concerne par l'e-reporting des operations B2C et internationales.</p>
+
+<h2>E-invoicing ou e-reporting : quelle difference ?</h2>
+<p>Ces deux notions se confondent souvent. Voici la distinction precise :</p>
+<ul>
+<li><strong>E-invoicing :</strong> emission et reception de factures electroniques dans un format structure (Factur-X, UBL, CII). Obligatoire uniquement pour les operations B2B entre entreprises francaises assujetties a la TVA. Si vous facturez des entreprises en France, c'est ce qui vous concerne au 1er septembre 2027.</li>
+<li><strong>E-reporting :</strong> transmission de donnees de transaction a la DGFiP via votre plateforme agreee. Concerne les ventes aux particuliers (B2C), les operations avec des clients etrangers et certains secteurs exoneres. Meme si vous facturez uniquement des particuliers ou des clients a l'etranger, l'e-reporting vous concerne.</li>
+</ul>
+<p>En pratique, un auto-entrepreneur qui fait du B2B en France devra gerer les deux. Un auto-entrepreneur qui ne facture que des particuliers devra uniquement envoyer des donnees d'e-reporting via sa plateforme.</p>
+
+<h2>Ce qui change concretement sur vos factures</h2>
+<p>Independamment de la plateforme, plusieurs mentions font leur entree obligatoire sur les factures B2B a partir du 1er septembre 2027 :</p>
+<ul>
+<li><strong>Numero SIREN du client</strong> (et non plus seulement le votre)</li>
+<li><strong>Adresse de livraison</strong> si elle differe de l'adresse de facturation</li>
+<li><strong>Nature de l'operation</strong> : vente de bien, prestation de service, ou livraison a soi-meme</li>
+<li><strong>Option TVA sur les debits</strong> si applicable (regime reel)</li>
+</ul>
+<p>La reference legale de la mention franchise en base de TVA change aussi au 1er septembre 2026 : l'ancienne formulation "TVA non applicable - art. 293 B du CGI" reste acceptee pendant la periode de transition, mais la nouvelle reference est "TVA non applicable - art. 91 ter du CGI annexe III".</p>
+
+<h2>Les penalites en cas de manquement</h2>
+<p>La loi de finances 2026 a fixe les sanctions applicables :</p>
+<div style="overflow-x:auto;">
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead>
+<tr style="background:#fef3c7;">
+<th style="padding:10px 12px;text-align:left;border-bottom:2px solid #fde68a;">Manquement</th>
+<th style="padding:10px 12px;text-align:left;border-bottom:2px solid #fde68a;">Amende</th>
+<th style="padding:10px 12px;text-align:left;border-bottom:2px solid #fde68a;">Plafond annuel</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;">Facture non emise electroniquement</td>
+<td style="padding:10px 12px;"><strong>50 EUR par facture</strong></td>
+<td style="padding:10px 12px;">15 000 EUR</td>
+</tr>
+<tr style="background:#f8fafc;border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;">Transmission e-reporting omise</td>
+<td style="padding:10px 12px;"><strong>500 EUR par omission</strong></td>
+<td style="padding:10px 12px;">15 000 EUR</td>
+</tr>
+<tr style="border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;">Absence de plateforme agreee pour la reception</td>
+<td style="padding:10px 12px;"><strong>500 EUR apres mise en demeure</strong>, puis 1 000 EUR tous les 3 mois</td>
+<td style="padding:10px 12px;">Non plafonne</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Bonne nouvelle : la premiere infraction n'est pas sanctionnee si elle est corrigee spontanement ou dans les 30 jours d'une demande de l'administration, sous reserve qu'aucune autre infraction n'ait eu lieu dans l'annee precedente ou les trois dernieres annees.</p>
+
+<h2>Dois-je choisir une plateforme agreee ou un logiciel compatible ?</h2>
+<p>Deux types d'outils existent :</p>
+<ul>
+<li><strong>Plateforme de Dematérialisation Partenaire (PDP, ex-PDP) :</strong> immatriculee par l'Etat, elle emet, transmet, recoit les factures et remonte les donnees a la DGFiP directement. C'est l'option la plus sure.</li>
+<li><strong>Solution compatible (SC, ex-OD) :</strong> un logiciel qui s'appuie sur une PDP pour les echanges avec l'administration. Vous passez par votre logiciel habituel, qui fait le lien. C'est ce que proposent la plupart des solutions du marche.</li>
+</ul>
+<p>Concrètement, si votre logiciel de facturation affiche une conformite e-facturation 2027, il s'appuie sur une PDP pour vous. Vous n'avez pas a en choisir une directement.</p>
+
+<h2>Que faire maintenant, avant septembre 2027 ?</h2>
+<ul>
+<li><strong>Verifier que votre logiciel est ou sera conforme :</strong> Pennylane est deja certifie PDP. Indy, Tiime, Freebe et Axonaut ont des roadmaps de mise en conformite. Contactez votre editeur si ce point n'est pas clair.</li>
+<li><strong>Lister vos clients professionnels en France :</strong> c'est pour eux que l'e-invoicing sera obligatoire. Collectez leurs numeros SIREN maintenant.</li>
+<li><strong>Mettre a jour la mention TVA :</strong> si vous emettez encore des factures avec "art. 293 B du CGI", passez a "art. 91 ter du CGI annexe III" pour etre dans les clous des le 1er septembre 2026.</li>
+<li><strong>Ne pas attendre le dernier moment :</strong> la migration vers un outil conforme prend du temps (import des donnees, apprentissage, verification des modeles de facture).</li>
+</ul>
+
+<h2>Quel logiciel choisir pour etre pret en 2027 ?</h2>
+<p>Voici les solutions que nous recommandons selon votre profil :</p>
+<ul>
+<li><strong>Micro-entrepreneur debutant :</strong> <a href="https://www.indy.fr/?ae=2183">Indy</a> (7 EUR/mois, prise en main en moins de 10 minutes, 30 jours gratuits)</li>
+<li><strong>Freelance avec plusieurs clients pros :</strong> <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> (9 EUR/mois, suivi de temps integre, deja conforme)</li>
+<li><strong>Auto-entrepreneur avec comptable :</strong> <a href="https://www.tiime.fr/?ae=1289">Tiime</a> (gratuit, interface pensee pour le duo dirigeant/comptable)</li>
+<li><strong>Besoin de tout centraliser (compta, CRM, factures) :</strong> <a href="https://axonaut.com/?a=B7B10H14AC">Axonaut</a> (CRM + facturation + gestion, 300 EUR de commission par client parraine)</li>
+</ul>
+<p>Consultez notre <a href="/comparatif">comparatif complet des 8 logiciels de facturation</a> pour comparer les prix et fonctionnalites en detail, ou notre <a href="/blog/facturation-electronique-2026-guide">guide facturation electronique 2026</a> pour le contexte de la reforme.</p>
+
+<h2>FAQ facturation electronique auto-entrepreneur 2027</h2>
+<p><strong>Je suis en franchise de TVA : suis-je concerne ?</strong> Oui, partiellement. Vous n'avez pas d'e-invoicing B2B obligatoire puisque vous ne facturez pas de TVA. En revanche, si vous avez des clients professionnels en France, l'e-reporting des transactions s'applique. Et la reception de factures electroniques est deja obligatoire depuis le 1er septembre 2026.</p>
+<p><strong>Mon client peut-il encore accepter un PDF par email apres septembre 2027 ?</strong> Non, pour les clients professionnels etablis en France. La facture devra passer par une plateforme agreee dans un format structure. Le PDF par email restera accepte uniquement pour les particuliers et les clients etrangers.</p>
+<p><strong>Est-ce que je peux continuer a utiliser mon logiciel actuel ?</strong> Si votre editeur confirme une mise en conformite avant septembre 2027, oui. Si ce n'est pas le cas, anticipez la migration maintenant pour eviter une transition en urgence.</p>
+<p><strong>La plateforme publique de l'Etat (Chorus Pro) est-elle disponible pour les auto-entrepreneurs ?</strong> Le portail public (PPF) ne gere pas les factures privees entre entreprises. Il est reserve aux factures emises ou recues par des entites publiques. Pour le B2B prive, vous passez obligatoirement par une PDP ou une solution compatible.</p>
+    `.trim(),
+  },
+  {
+    slug: 'plateforme-agreee-facturation-electronique',
+    title: 'Plateforme agreee facturation electronique : comment choisir la bonne en 2026-2027',
+    excerpt: 'PDP, solution compatible, Pennylane, Indy, Tiime : comment choisir la plateforme de facturation electronique adaptee a votre statut avant septembre 2027. Comparatif des solutions et criteres de selection.',
+    date: '2026-11-16',
+    readTime: 9,
+    category: 'Guides',
+    keywords: ['plateforme agreee facturation electronique', 'PDP facturation electronique', 'logiciel facturation electronique', 'solution compatible facturation', 'e-facturation 2027 logiciel'],
+    image: '/blog/plateforme-agreee-facturation-electronique.svg',
+    metaTitle: 'Plateforme agreee facturation electronique : comparatif et guide de choix 2026',
+    metaDescription: 'Comment choisir votre plateforme de facturation electronique (PDP ou solution compatible) avant septembre 2027. Comparatif des logiciels compatibles pour freelances et TPE.',
+    content: `
+<h2>PDP, OD, SC : les sigles demystifies en 30 secondes</h2>
+<p>La reforme de la facturation electronique a genere un vocabulaire technique qui desarconné beaucoup d'independants. Voici ce que chaque terme veut dire concretement :</p>
+<ul>
+<li><strong>PDP (Plateforme de Dematérialisation Partenaire) :</strong> plateforme privee immatriculee par l'Etat francais. Elle emet, transmet et recoit les factures en format structure, et remonte les donnees a la DGFiP. C'est le niveau d'habilitation le plus eleve. Pennylane, par exemple, est certifie PDP.</li>
+<li><strong>OD (Operateur de Dematérialisation) :</strong> ancien terme, remplace par "Solution compatible" (SC). Il designe un logiciel qui s'appuie sur une PDP pour les echanges avec l'administration. Votre outil ne traite pas directement avec la DGFiP : il passe par une PDP.</li>
+<li><strong>SC (Solution compatible) :</strong> nouveau terme pour OD. La plupart des logiciels du marche (Indy, Freebe, Tiime...) fonctionnent en SC : ils integrent une PDP partenaire pour assurer la conformite.</li>
+<li><strong>PPF (Portail Public de Facturation) :</strong> plateforme de l'Etat, Chorus Pro. Reserve aux factures avec les entites publiques. Ne sert pas pour le B2B prive entre entreprises.</li>
+</ul>
+
+<h2>Dois-je choisir une PDP directement ou passer par une SC ?</h2>
+<p>Pour la grande majorite des auto-entrepreneurs et freelances, la reponse est : <strong>vous n'avez pas besoin de choisir une PDP vous-meme</strong>. Votre logiciel de facturation s'en charge. Si Indy annonce qu'il est conforme e-facturation 2027, c'est qu'il a une PDP partenaire qui gere les echanges avec la DGFiP en arriere-plan. Vous utilisez votre interface habituelle et la conformite est assuree.</p>
+<p>Choisir une PDP directement n'a de sens que si vous avez des volumes importants de factures, des besoins d'integration ERP specifiques, ou si vous evaluez des solutions pour une PME avec un DSI.</p>
+
+<h2>Comparatif des logiciels compatibles e-facturation 2027</h2>
+<div style="overflow-x:auto;">
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead>
+<tr style="background:#f1f5f9;">
+<th style="padding:10px 12px;text-align:left;border-bottom:2px solid #e2e8f0;">Logiciel</th>
+<th style="padding:10px 12px;text-align:left;border-bottom:2px solid #e2e8f0;">Type</th>
+<th style="padding:10px 12px;text-align:left;border-bottom:2px solid #e2e8f0;">Statut 2027</th>
+<th style="padding:10px 12px;text-align:left;border-bottom:2px solid #e2e8f0;">Prix d'entree</th>
+<th style="padding:10px 12px;text-align:left;border-bottom:2px solid #e2e8f0;">Profil ideal</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong><a href="https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a></strong></td>
+<td style="padding:10px 12px;">PDP certifiee</td>
+<td style="padding:10px 12px;color:#16a34a;"><strong>Conforme</strong></td>
+<td style="padding:10px 12px;">26 EUR/mois</td>
+<td style="padding:10px 12px;">PME avec expert-comptable</td>
+</tr>
+<tr style="background:#f8fafc;border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong><a href="https://www.indy.fr/?ae=2183">Indy</a></strong></td>
+<td style="padding:10px 12px;">SC (en cours)</td>
+<td style="padding:10px 12px;color:#d97706;"><strong>Roadmap 2027</strong></td>
+<td style="padding:10px 12px;">7 EUR/mois</td>
+<td style="padding:10px 12px;">Micro-entrepreneur, AE</td>
+</tr>
+<tr style="border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong><a href="https://www.tiime.fr/?ae=1289">Tiime</a></strong></td>
+<td style="padding:10px 12px;">SC (en cours)</td>
+<td style="padding:10px 12px;color:#d97706;"><strong>Roadmap 2027</strong></td>
+<td style="padding:10px 12px;">Gratuit</td>
+<td style="padding:10px 12px;">Duo dirigeant/comptable</td>
+</tr>
+<tr style="background:#f8fafc;border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong><a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a></strong></td>
+<td style="padding:10px 12px;">SC</td>
+<td style="padding:10px 12px;color:#d97706;"><strong>En cours</strong></td>
+<td style="padding:10px 12px;">9 EUR/mois</td>
+<td style="padding:10px 12px;">Freelance SASU/EURL</td>
+</tr>
+<tr style="border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong><a href="https://axonaut.com/?a=B7B10H14AC">Axonaut</a></strong></td>
+<td style="padding:10px 12px;">SC (en cours)</td>
+<td style="padding:10px 12px;color:#d97706;"><strong>Roadmap 2027</strong></td>
+<td style="padding:10px 12px;">34,90 EUR/mois</td>
+<td style="padding:10px 12px;">PME avec CRM integre</td>
+</tr>
+<tr style="background:#f8fafc;border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong><a href="https://go.sellsy.com/landing/indirect-sellsy-partner-program?kfl_ln=gb-conseil">Sellsy</a></strong></td>
+<td style="padding:10px 12px;">SC/PDP (en cours)</td>
+<td style="padding:10px 12px;color:#d97706;"><strong>Roadmap 2027</strong></td>
+<td style="padding:10px 12px;">29 EUR/mois</td>
+<td style="padding:10px 12px;">PME vente + facturation</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em>Statuts indicatifs au 16/11/2026. Verifiez la roadmap de votre editeur avant de vous engager.</em></p>
+
+<h2>5 criteres pour choisir votre solution</h2>
+<ul>
+<li><strong>Confirmation ecrite de la conformite 2027 :</strong> votre editeur doit pouvoir vous indiquer sa date de mise en conformite et son partenaire PDP. Evitez les editeurs qui restent vagues sur ce point.</li>
+<li><strong>E-reporting inclus :</strong> la conformite ne se limite pas a l'emission de factures electroniques. Verifiez que votre outil gere aussi l'e-reporting (transmission des donnees B2C et internationales a la DGFiP).</li>
+<li><strong>Import des donnees existantes :</strong> migration depuis un autre outil, import des factures historiques. Facilitez-vous le changement en choisissant une solution avec un bon support a la migration.</li>
+<li><strong>Acces de votre expert-comptable :</strong> si vous travaillez avec un comptable, verifiez qu'il peut acceder a votre espace ou exporter facilement les donnees.</li>
+<li><strong>Prix total de possession :</strong> certaines solutions sont moins chere a l'entree mais facturent le stockage des factures archivees ou les exports. Verifiez les conditions de conservation sur 10 ans.</li>
+</ul>
+
+<h2>Ce que Pennylane propose comme PDP certifiee</h2>
+<p>Pennylane est a ce jour l'un des rares editeurs de logiciels de facturation pour TPE/PME a avoir obtenu la certification PDP. Cela signifie que les factures emises et recues via Pennylane transitent directement entre les parties et la DGFiP, sans intermediaire. C'est la garantie de conformite la plus solide du marche pour une PME francaise en 2026-2027.</p>
+<p>Contrepartie : Pennylane n'est pas l'outil le moins cher. Les plans demarrent a 26 EUR/mois pour la facturation seule, et montent a 69-99 EUR/mois si vous integrez la comptabilite. Pour un freelance en micro-entreprise avec peu de factures B2B, Indy ou Tiime a 7 EUR/mois restent plus adaptes, en attendant leur propre mise en conformite.</p>
+
+<h2>FAQ plateformes agreees facturation electronique</h2>
+<p><strong>Est-ce que je dois m'inscrire sur une liste officielle en tant qu'emetteur ?</strong> Non, en tant qu'auto-entrepreneur emetteur, vous n'avez pas de demarche d'inscription personnelle aupres de la DGFiP. C'est votre logiciel (via sa PDP) qui s'occupe de vous identifier dans l'annuaire national. Vous avez en revanche l'obligation d'etre "accessible" pour recevoir des factures, ce qui signifie que votre SIREN doit etre associe a une plateforme capable de les recevoir.</p>
+<p><strong>Puis-je changer de logiciel apres septembre 2027 ?</strong> Oui, mais une migration en cours d'exercice fiscal est delicate. Anticipez le changement avant septembre 2027 pour eviter de gerer une transition et une mise en conformite simultanement.</p>
+<p><strong>Est-ce que Chorus Pro est suffisant pour les auto-entrepreneurs ?</strong> Non. Chorus Pro est reserve aux factures emises ou recues par des entites publiques (Etat, collectivites, hopitaux). Pour vos clients prives, vous avez besoin d'une PDP ou d'une solution compatible.</p>
+    `.trim(),
+  },
+  {
+    slug: 'mentions-obligatoires-facture-auto-entrepreneur',
+    title: 'Mentions obligatoires facture auto-entrepreneur 2026 : checklist complete',
+    excerpt: 'Toutes les mentions legales obligatoires sur une facture d\'auto-entrepreneur en 2026, avec les nouveautes TVA et les penalites en cas d\'oubli. Checklist pratique et exemples.',
+    date: '2026-11-16',
+    readTime: 8,
+    category: 'Guides',
+    keywords: ['mentions obligatoires facture auto entrepreneur', 'mentions obligatoires facture micro entrepreneur', 'facture auto entrepreneur 2026', 'mentions legales facture', 'erreur facture auto entrepreneur'],
+    image: '/blog/mentions-obligatoires-facture-auto-entrepreneur.svg',
+    metaTitle: 'Mentions obligatoires facture auto-entrepreneur 2026 : la checklist complete',
+    metaDescription: 'Toutes les mentions obligatoires sur une facture auto-entrepreneur : SIRET, TVA, penalites de retard, nouveautes 2026. Checklist avec exemples et modele.',
+    content: `
+<h2>Les 12 mentions obligatoires sur une facture auto-entrepreneur (B2B)</h2>
+<p>Une facture emise par un auto-entrepreneur a un client professionnel doit comporter les mentions suivantes. L'oubli d'une mention expose a une amende de 15 EUR par mention manquante, sans plafond specifique par facture.</p>
+<div style="overflow-x:auto;">
+<table style="width:100%;border-collapse:collapse;font-size:14px;">
+<thead>
+<tr style="background:#f1f5f9;">
+<th style="padding:10px 12px;text-align:left;border-bottom:2px solid #e2e8f0;">Mention</th>
+<th style="padding:10px 12px;text-align:left;border-bottom:2px solid #e2e8f0;">Exemple</th>
+<th style="padding:10px 12px;text-align:left;border-bottom:2px solid #e2e8f0;">Obligatoire B2C</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong>Numero de facture</strong> (chronologique, sans rupture)</td>
+<td style="padding:10px 12px;">FAC-2026-047</td>
+<td style="padding:10px 12px;">Oui</td>
+</tr>
+<tr style="background:#f8fafc;border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong>Date d'emission</strong></td>
+<td style="padding:10px 12px;">16 novembre 2026</td>
+<td style="padding:10px 12px;">Oui</td>
+</tr>
+<tr style="border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong>Nom, prenom et adresse</strong> de l'auto-entrepreneur</td>
+<td style="padding:10px 12px;">Jean Dupont EI, 12 rue de la Paix, 75001 Paris</td>
+<td style="padding:10px 12px;">Oui</td>
+</tr>
+<tr style="background:#f8fafc;border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong>Numero SIRET</strong></td>
+<td style="padding:10px 12px;">SIRET : 123 456 789 00012</td>
+<td style="padding:10px 12px;">Oui</td>
+</tr>
+<tr style="border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong>Mention "EI"</strong> (entreprise individuelle)</td>
+<td style="padding:10px 12px;">Jean Dupont EI</td>
+<td style="padding:10px 12px;">Oui</td>
+</tr>
+<tr style="background:#f8fafc;border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong>Raison sociale et adresse du client</strong></td>
+<td style="padding:10px 12px;">SARL Exemple, 5 avenue de la Republique, 69001 Lyon</td>
+<td style="padding:10px 12px;">Facultatif</td>
+</tr>
+<tr style="border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong>Designation de la prestation</strong></td>
+<td style="padding:10px 12px;">Redaction de 3 articles SEO (1500 mots chacun)</td>
+<td style="padding:10px 12px;">Oui</td>
+</tr>
+<tr style="background:#f8fafc;border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong>Quantite et prix unitaire HT</strong></td>
+<td style="padding:10px 12px;">3 x 150,00 EUR HT</td>
+<td style="padding:10px 12px;">Oui</td>
+</tr>
+<tr style="border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong>Mention TVA</strong> (franchise ou taux)</td>
+<td style="padding:10px 12px;">TVA non applicable - art. 91 ter du CGI annexe III</td>
+<td style="padding:10px 12px;">Oui</td>
+</tr>
+<tr style="background:#f8fafc;border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong>Montant total HT et TTC</strong></td>
+<td style="padding:10px 12px;">Total HT : 450,00 EUR / Total TTC : 450,00 EUR</td>
+<td style="padding:10px 12px;">Oui</td>
+</tr>
+<tr style="border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong>Date ou delai de paiement</strong></td>
+<td style="padding:10px 12px;">A regler avant le 16 decembre 2026</td>
+<td style="padding:10px 12px;">B2B uniquement</td>
+</tr>
+<tr style="background:#f8fafc;border-bottom:1px solid #e2e8f0;">
+<td style="padding:10px 12px;"><strong>Taux de penalites de retard + indemnite de 40 EUR</strong></td>
+<td style="padding:10px 12px;">Penalites de retard : 3 fois le taux d'interet legal. Indemnite forfaitaire pour frais de recouvrement : 40 EUR.</td>
+<td style="padding:10px 12px;">B2B uniquement</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h2>La mention TVA en 2026 : quelle formulation utiliser ?</h2>
+<p>C'est la mention qui genere le plus d'erreurs. Si vous etes auto-entrepreneur sous la franchise de TVA (CA inferieur a 36 800 EUR pour les services ou 91 900 EUR pour les ventes en 2026), vous ne facturez pas de TVA. Vous devez le preciser sur chaque facture.</p>
+<p><strong>Ancienne formulation (encore acceptee en transition) :</strong> "TVA non applicable - art. 293 B du CGI"</p>
+<p><strong>Nouvelle formulation en vigueur depuis le 1er septembre 2026 :</strong> "TVA non applicable - art. 91 ter du CGI annexe III"</p>
+<p>Les deux formulations sont acceptees pendant une periode de transition. Mais si vous etes en train de mettre a jour votre modele de facture, adoptez directement la nouvelle reference pour eviter d'avoir a le refaire.</p>
+<p>Si vous avez depasse le seuil de franchise et etes desormais assujetti a la TVA, la mention change : vous indiquez le montant HT, le taux de TVA applicable (20% en general pour les services), le montant de TVA et le montant TTC. Votre numero de TVA intracommunautaire doit aussi apparaitre.</p>
+
+<h2>Mentions specifiques pour les factures B2B (client professionnel)</h2>
+<p>Quand votre client est une entreprise, trois mentions supplementaires sont obligatoires :</p>
+<ul>
+<li><strong>Date ou delai de paiement :</strong> la loi LME impose un delai maximum de 60 jours date de facture (ou 45 jours fin de mois). Indiquez la date limite explicitement.</li>
+<li><strong>Taux de penalites de retard :</strong> le taux legal minimum est de 3 fois le taux d'interet legal. Vous pouvez indiquer un taux superieur dans vos conditions generales, mais jamais inferieur.</li>
+<li><strong>Indemnite forfaitaire de 40 EUR :</strong> due de plein droit en cas de retard de paiement, sans qu'il soit necessaire de la reclamer. Elle doit figurer sur la facture.</li>
+</ul>
+<p>A partir du <strong>1er septembre 2027</strong>, les factures B2B devront aussi inclure le numero SIREN de votre client, l'adresse de livraison si elle differe de la facturation, et la nature de l'operation (bien, service ou livraison a soi-meme).</p>
+
+<h2>Mentions specifiques par secteur d'activite</h2>
+<ul>
+<li><strong>Artisan :</strong> mention de l'assurance professionnelle obligatoire (nom de l'assureur, coordonnees, zone geographique couverte)</li>
+<li><strong>Professionnel du batiment :</strong> mention de la garantie decennale si applicable</li>
+<li><strong>Professions reglementees (avocat, medecin, architecte...) :</strong> numero d'inscription a l'ordre professionnel</li>
+<li><strong>E-commerce :</strong> droit de retractation de 14 jours si vente a des particuliers</li>
+</ul>
+
+<h2>Checklist avant d'envoyer une facture</h2>
+<ul>
+<li>Numero chronologique correct (aucune rupture depuis la derniere facture)</li>
+<li>Date d'emission presente</li>
+<li>Vos coordonnees completes avec SIRET et mention EI</li>
+<li>Coordonnees du client (B2B : obligatoire)</li>
+<li>Description precise de la prestation</li>
+<li>Prix unitaire HT et quantite</li>
+<li>Mention TVA a jour (franchise ou taux)</li>
+<li>Total HT et TTC</li>
+<li>Conditions de paiement avec date limite (B2B)</li>
+<li>Penalites de retard et indemnite de 40 EUR (B2B)</li>
+<li>Mention assurance pro si artisan</li>
+</ul>
+
+<h2>Quel logiciel genere automatiquement toutes ces mentions ?</h2>
+<p>Un bon logiciel de facturation genere toutes ces mentions sans que vous ayez a y penser. Il vous alerte si une information est manquante avant l'envoi et met a jour automatiquement les references legales (comme le changement de l'article TVA en septembre 2026).</p>
+<ul>
+<li><strong>Pour les micro-entrepreneurs :</strong> <a href="https://www.indy.fr/?ae=2183">Indy</a> (7 EUR/mois) et <a href="https://www.tiime.fr/?ae=1289">Tiime</a> (gratuit) sont les plus simples a prendre en main</li>
+<li><strong>Pour les freelances en societe (SASU, EURL) :</strong> <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> (9 EUR/mois) ou <a href="https://axonaut.com/?a=B7B10H14AC">Axonaut</a></li>
+<li><strong>Pour les PME avec expert-comptable :</strong> <a href="https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a></li>
+</ul>
+<p>Consultez notre <a href="/comparatif">comparatif complet</a> pour voir les prix et fonctionnalites cote a cote, ou notre guide <a href="/blog/facturation-electronique-auto-entrepreneur-2027">facturation electronique auto-entrepreneur 2027</a> pour les prochaines obligations.</p>
+
+<h2>FAQ mentions obligatoires facture auto-entrepreneur</h2>
+<p><strong>Dois-je indiquer mon numero de TVA si je suis en franchise ?</strong> Non. En franchise de TVA, vous n'avez pas de numero de TVA intracommunautaire. Vous indiquez uniquement votre SIRET et la mention de franchise. Si votre client vous reclame un numero de TVA, expliquez-lui que vous etes en franchise.</p>
+<p><strong>Puis-je facturer en anglais ou dans une autre langue ?</strong> En France, les factures doivent etre redigees en francais. Si votre client est etranger, vous pouvez joindre une traduction, mais la version en francais fait foi en cas de litige.</p>
+<p><strong>Quelle est la difference entre facture et note d'honoraires ?</strong> En France, le terme "note d'honoraires" est utilise par les professions liberales reglementees (medecins, avocats, notaires). Pour la majorite des auto-entrepreneurs, le terme "facture" est generique et correct. Les deux documents ont les memes obligations de contenu.</p>
+<p><strong>Combien de temps dois-je conserver mes factures ?</strong> 10 ans a compter de la date de cloture de l'exercice comptable. Depuis 2016, l'archivage doit garantir l'integrite, l'authenticite et la lisibilite de la facture pendant toute la duree de conservation.</p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
