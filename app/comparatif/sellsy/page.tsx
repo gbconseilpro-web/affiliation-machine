@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
 }
 
-const AFFILIATE_URL = 'https://www.sellsy.com/onboarding/quicktrial?lang=fr&utm_source=facturationpro&utm_medium=affiliation&utm_campaign=avis-sellsy'
+const AFFILIATE_URL = 'https://go.sellsy.com/landing/indirect-sellsy-partner-program?kfl_ln=gb-conseil'
 
 const jsonLd = {
   '@context': 'https://schema.org',

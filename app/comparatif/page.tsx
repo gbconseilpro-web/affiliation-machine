@@ -201,11 +201,7 @@ const products = [
       'Tarif plus élevé, moins adapté aux très petites structures',
       'Courbe d\'apprentissage pour les fonctions CRM avancées',
     ],
-    ctaUrl: buildAffiliateLink({
-      baseUrl: 'https://www.sellsy.com/onboarding/quicktrial?lang=fr',
-      network: 'direct',
-      subId: 'comparatif-sellsy',
-    }),
+    ctaUrl: 'https://go.sellsy.com/landing/indirect-sellsy-partner-program?kfl_ln=gb-conseil',
     ctaText: 'Demander une démo gratuite',
     features: {
       'Format Factur-X': true,

@@ -55,7 +55,7 @@ const logiciels = [
     badge: '🏢 Recommandé ETI',
     price: 'À partir de 35€/mois',
     pdp: true,
-    url: 'https://www.sellsy.com/onboarding/quicktrial?lang=fr&utm_source=facturationpro&utm_medium=affiliation&utm_campaign=homepage',
+    url: 'https://go.sellsy.com/landing/indirect-sellsy-partner-program?kfl_ln=gb-conseil',
   },
   {
     id: 3,
