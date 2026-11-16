@@ -1,0 +1,25 @@
+name: PM2 Startup Systemd (one-shot)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  pm2-startup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure PM2 systemd startup
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: 149.56.210.132
+          username: ubuntu
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            echo "==> PM2 startup systemd..."
+            pm2 startup systemd -u ubuntu --hp /home/ubuntu | tail -1 | bash || true
+            pm2 save
+            echo "==> Verification service systemd..."
+            systemctl is-enabled pm2-ubuntu || sudo systemctl enable pm2-ubuntu || true
+            systemctl status pm2-ubuntu --no-pager || true
+            echo "==> PM2 liste des process :"
+            pm2 list
+            echo "==> DONE"
