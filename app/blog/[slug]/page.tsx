@@ -205,6 +205,27 @@ function getCtaForSlug(slug: string): CtaConfig {
   }
 }
 
+function extractFaqFromHtml(html: string): Array<{ question: string; answer: string }> {
+  const faqs: Array<{ question: string; answer: string }> = []
+  // Chercher les sections FAQ (h2 contenant "FAQ" ou "faq")
+  const faqSectionRegex = /<h2[^>]*>.*?[Ff][Aa][Qq].*?<\/h2>([\s\S]*?)(?=<h2|$)/gi
+  let sectionMatch
+  while ((sectionMatch = faqSectionRegex.exec(html)) !== null) {
+    const sectionContent = sectionMatch[1]
+    // Extraire les paires question/reponse: <p><strong>question</strong><br/>reponse</p>
+    const qaRegex = /<p[^>]*>\s*<strong[^>]*>([\s\S]*?)<\/strong>\s*(?:<br\s*\/?>|<br>)\s*([\s\S]*?)\s*<\/p>/gi
+    let qaMatch
+    while ((qaMatch = qaRegex.exec(sectionContent)) !== null) {
+      const question = qaMatch[1].replace(/<[^>]+>/g, '').trim()
+      const answer = qaMatch[2].replace(/<[^>]+>/g, '').trim()
+      if (question && answer) {
+        faqs.push({ question, answer })
+      }
+    }
+  }
+  return faqs
+}
+
 export default function BlogPostPage({ params }: Props) {
   const post = getBlogPost(params.slug)
   if (!post) return notFound()
@@ -250,6 +271,20 @@ export default function BlogPostPage({ params }: Props) {
     ],
   }
 
+  const faqItems = extractFaqFromHtml(post.content)
+  const faqSchema = faqItems.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.map(({ question, answer }) => ({
+      '@type': 'Question',
+      name: question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: answer,
+      },
+    })),
+  } : null
+
   const categoryColors: Record<string, string> = {
     'Comparatifs': 'bg-indigo-100 text-indigo-700',
     'Guides': 'bg-emerald-100 text-emerald-700',
@@ -266,6 +301,12 @@ export default function BlogPostPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <div className="max-w-3xl mx-auto px-4 sm:px-6 py-10">
         {/* Breadcrumb */}
         <nav className="text-sm text-gray-500 mb-6">
