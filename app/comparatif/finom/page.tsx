@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
 }
 
-const AFFILIATE_URL = 'https://i08o.xyz/6af5b939b3f45'
+const AFFILIATE_URL = 'https://o10o.xyz/dpl/6af5b939b3f45?url=https%3A%2F%2Ffinom.co%2Ffr-fr%2F'
 
 const jsonLd = {
   '@context': 'https://schema.org',

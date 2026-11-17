@@ -119,7 +119,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <td style="padding:10px 12px;">TPE avec CRM + facturation</td>
 </tr>
 <tr style="border-bottom:1px solid #e2e8f0;">
-<td style="padding:10px 12px;"><strong><a href="https://i08o.xyz/6af5b939b3f45">Finom</a></strong></td>
+<td style="padding:10px 12px;"><strong><a href="https://o10o.xyz/dpl/6af5b939b3f45?url=https%3A%2F%2Ffinom.co%2Ffr-fr%2F">Finom</a></strong></td>
 <td style="padding:10px 12px;">0€/mois</td>
 <td style="padding:10px 12px;">Oui (compte gratuit)</td>
 <td style="padding:10px 12px;">Incluse</td>
@@ -264,7 +264,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Notre verdict :</strong> le meilleur choix pour un freelance ou une micro-agence qui gere un pipeline commercial actif avec plusieurs prospects simultanement. L'investissement se justifie quand vous fermez au moins 2 a 3 devis par mois et que le suivi CRM vous fait gagner du temps sur chaque cycle de vente.</p>
 
 <h2>Finom : le compte pro europeen avec facturation integree</h2>
-<p><a href="https://i08o.xyz/6af5b939b3f45">Finom</a> est une fintech europeenne (Pays-Bas, agrement EMI) qui propose un compte professionnel avec IBAN europeen et un outil de facturation integre. Son positionnement : zero frais sur le compte de base, interface moderne, et ouverture en 15 minutes.</p>
+<p><a href="https://o10o.xyz/dpl/6af5b939b3f45?url=https%3A%2F%2Ffinom.co%2Ffr-fr%2F">Finom</a> est une fintech europeenne (Pays-Bas, agrement EMI) qui propose un compte professionnel avec IBAN europeen et un outil de facturation integre. Son positionnement : zero frais sur le compte de base, interface moderne, et ouverture en 15 minutes.</p>
 
 <p><strong>Ce que Finom apporte de specifique :</strong></p>
 <ul>
@@ -301,13 +301,13 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>L'app mobile de <strong><a href="https://c3po.link/QsBurabSNE">Tiime</a></strong> est la plus intuitive du marché pour créer et envoyer une facture en quelques secondes depuis un chantier ou un rendez-vous client.</p>
 
 <h3>Vous voulez ouvrir un compte pro en meme temps</h3>
-<p>Deux options selon votre situation. Si vous restez en France et avez besoin d'un IBAN francais, <strong><a href="https://c3po.link/nQR5AyKCjc">Shine</a></strong> est votre solution : IBAN FR, carte Visa, facturation et gestion des charges URSSAF en un seul abonnement a partir de 8€/mois. Si vous avez des clients europeens et souhaitez demarrer sans budget, <strong><a href="https://i08o.xyz/6af5b939b3f45">Finom</a></strong> propose un compte gratuit avec IBAN EU et facturation integree.</p>
+<p>Deux options selon votre situation. Si vous restez en France et avez besoin d'un IBAN francais, <strong><a href="https://c3po.link/nQR5AyKCjc">Shine</a></strong> est votre solution : IBAN FR, carte Visa, facturation et gestion des charges URSSAF en un seul abonnement a partir de 8€/mois. Si vous avez des clients europeens et souhaitez demarrer sans budget, <strong><a href="https://o10o.xyz/dpl/6af5b939b3f45?url=https%3A%2F%2Ffinom.co%2Ffr-fr%2F">Finom</a></strong> propose un compte gratuit avec IBAN EU et facturation integree.</p>
 
 <h3>Vous gerez un pipeline commercial avec plusieurs prospects</h3>
 <p>Si vous passez du temps a relancer des prospects, a suivre l'etat de vos devis, ou a piloter plusieurs opportunites en parallele, <strong><a href="https://axonaut.com/?a=B7B10H14AC">Axonaut</a></strong> est l'outil le plus adapte. Le CRM integre evite les allers-retours entre votre logiciel de facturation et un CRM separe (HubSpot, Notion, etc.). L'investissement de 34€/mois se justifie des lors que vous fermez 2 a 3 devis par mois.</p>
 
 <h3>Vous demarrez votre activite avec un budget nul</h3>
-<p>Deux solutions gratuite s'offrent a vous : <strong>Tiime</strong> pour la facturation pure (devis et factures conformes sans abonnement) et <strong><a href="https://i08o.xyz/6af5b939b3f45">Finom</a></strong> pour combiner compte pro et facturation sans frais fixes. Les deux sont suffisants pour les 6 premiers mois d'activite.</p>
+<p>Deux solutions gratuite s'offrent a vous : <strong>Tiime</strong> pour la facturation pure (devis et factures conformes sans abonnement) et <strong><a href="https://o10o.xyz/dpl/6af5b939b3f45?url=https%3A%2F%2Ffinom.co%2Ffr-fr%2F">Finom</a></strong> pour combiner compte pro et facturation sans frais fixes. Les deux sont suffisants pour les 6 premiers mois d'activite.</p>
 
 <h2>La facturation électronique obligatoire en 2026 : ce que ça change pour vous</h2>
 <p>Depuis le 1er septembre 2026, toutes les entreprises françaises assujetties à la TVA doivent être capables de <strong>recevoir</strong> des factures électroniques via une plateforme agréée (PDP ou OD). Voici le calendrier d'obligation d'<strong>émission</strong> :</p>
@@ -2695,7 +2695,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p><strong>Finom est-il compatible avec la facturation electronique 2026 ?</strong> Finom propose de la facturation integree mais la certification PDP (Plateforme de Dematerialisation Partenaire) pour l'obligation 2026 n'est pas encore confirmee. Pour la facturation electronique certifiee, tournez-vous vers <a href="/blog/pennylane-avis-test-complet">Pennylane</a> ou <a href="/blog/sellsy-avis-test-complet">Sellsy</a>, qui sont deja agrees DGFiP.</p>
 <p><strong>Finom vs Qonto : lequel choisir ?</strong> Qonto est plus etabli (plus de 500 000 clients), avec un meilleur service client et des intégrations comptables plus larges, mais pas de cashback. Finom est plus recents mais son cashback le rend plus rentable pour les grosses depenses. Pour une equipe de 10+ personnes, Qonto est generalement preferable.</p>
 
-<p>Essayez <a href="https://i08o.xyz/6af5b939b3f45" rel="nofollow sponsored noopener noreferrer" target="_blank">Finom gratuitement pendant 30 jours</a>, ou consultez notre <a href="/comparatif">comparatif complet</a>.</p>
+<p>Essayez <a href="https://o10o.xyz/dpl/6af5b939b3f45?url=https%3A%2F%2Ffinom.co%2Ffr-fr%2F" rel="nofollow sponsored noopener noreferrer" target="_blank">Finom gratuitement pendant 30 jours</a>, ou consultez notre <a href="/comparatif">comparatif complet</a>.</p>
     `.trim(),
   },
   {

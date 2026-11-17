@@ -227,7 +227,7 @@ const products = [
       'Moins ancré dans l\'écosystème expert-comptable français',
     ],
     ctaUrl: buildAffiliateLink({
-      baseUrl: 'https://i08o.xyz/6af5b939b3f45',
+      baseUrl: 'https://o10o.xyz/dpl/6af5b939b3f45?url=https%3A%2F%2Ffinom.co%2Ffr-fr%2F',
       network: 'custom',
     }),
     ctaText: 'Essayer Finom gratuitement',
