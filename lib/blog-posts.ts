@@ -5396,6 +5396,211 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p><strong>Faut-il un contrat de maintenance ecrit avant de facturer ?</strong> Oui, absolument. Sans contrat, vous n'avez aucun recours si le client conteste la facture ou refuse de payer. Un contrat de maintenance definit le perimetre (nombre de corrections incluses, temps de reponse, exclusions), la duree, le prix mensuel et les conditions de resiliation. Les logiciels comme Axonaut vous permettent de les gerer directement.</p>
     `.trim(),
   },
+  {
+    slug: 'logiciel-facturation-auto-entrepreneur',
+    title: 'Logiciel de facturation pour auto-entrepreneur : guide complet 2026 (gratuit ou payant ?)',
+    excerpt: 'Tiime, Indy, Freebe, Pennylane : quel logiciel de facturation choisir quand on est auto-entrepreneur ou micro-entrepreneur ? Comparatif complet avec options gratuites, mentions obligatoires et conformite e-facturation 2027.',
+    date: '2026-11-17',
+    readTime: 14,
+    category: 'Guides debutants',
+    keywords: ['logiciel facturation auto entrepreneur', 'facturation micro entreprise', 'logiciel facturation gratuit auto entrepreneur', 'meilleur logiciel facturation auto entrepreneur 2026', 'facturation micro entrepreneur gratuit', 'application facturation auto entrepreneur'],
+    image: '/blog/logiciel-facturation-auto-entrepreneur.svg',
+    metaTitle: 'Logiciel de facturation auto-entrepreneur : comparatif 2026 (gratuit + payant)',
+    metaDescription: 'Quel logiciel de facturation pour auto-entrepreneur en 2026 ? Tiime (gratuit), Indy, Freebe, Pennylane. Mentions obligatoires, TVA, e-facturation. Guide complet.',
+    content: `
+<h2>Logiciel de facturation pour auto-entrepreneur : notre selection 2026</h2>
+<div style="background:#eff6ff;border-left:4px solid #3b82f6;padding:1rem 1.25rem;border-radius:8px;margin:1rem 0;">
+  <p style="margin:0;font-weight:600;font-size:1.05rem;">Resume rapide</p>
+  <p style="margin:0.5rem 0 0;color:#1e40af;">Pour debuter : <strong>Tiime</strong> (gratuit, sans engagement). Pour aller plus loin avec synchro bancaire : <strong>Indy</strong> a 7€/mois. Pour une gestion complete devis-factures-CA : <strong>Freebe</strong> a 9€/mois. Comparatif detaille ci-dessous.</p>
+</div>
+<p>En France, plus de 2 millions d'auto-entrepreneurs emettent des factures chaque mois. La bonne nouvelle : il existe des solutions gratuites et conformes pour les micro-entreprises. La mauvaise nouvelle : beaucoup utilisent encore Word ou Excel, ce qui les expose a des factures non conformes et des complications fiscales.</p>
+<p>Ce guide vous aide a choisir le bon logiciel selon votre situation : si vous demarrez, si vous avez deja du volume, si vous voulez une solution qui evolue avec vous.</p>
+
+<h2>Quelle est la difference entre auto-entrepreneur et micro-entrepreneur ?</h2>
+<p>Depuis 2016, les termes sont officiellement synonymes : le regime de l'auto-entrepreneur a ete integre dans le regime micro-entreprise. Dans cet article, nous utilisons les deux termes de facon interchangeable. Ce qui compte pour votre logiciel de facturation, c'est votre situation :</p>
+<ul>
+  <li><strong>Micro-entreprise sous le seuil de franchise TVA</strong> (moins de 36 800€ de CA annuel pour les prestations de services) : vous ne facturez pas la TVA, vous mentionnez "TVA non applicable - art. 293 B du CGI"</li>
+  <li><strong>Micro-entreprise assujettie a la TVA</strong> (au-dela du seuil ou option volontaire) : vous collectez la TVA et devez la declarer</li>
+  <li><strong>Auto-entrepreneur avec option versement liberatoire</strong> : votre logiciel doit suivre votre CA mensuel ou trimestriel pour votre declaration URSSAF</li>
+</ul>
+
+<h2>Les mentions obligatoires sur une facture auto-entrepreneur</h2>
+<p>Une facture auto-entrepreneur non conforme peut entrainer un refus de paiement du client, un redressement fiscal, ou une amende. Voici les mentions que tout logiciel de facturation conforme doit generer automatiquement :</p>
+<ul>
+  <li><strong>Vos coordonnees completes :</strong> nom, prenom, adresse, telephone, email</li>
+  <li><strong>Votre numero SIRET</strong> (14 chiffres)</li>
+  <li><strong>La forme juridique :</strong> "Entreprise individuelle" ou "Micro-entreprise"</li>
+  <li><strong>Un numero de facture unique et chronologique</strong> (ex : FAC-2026-001)</li>
+  <li><strong>La date d'emission de la facture</strong></li>
+  <li><strong>Les coordonnees du client</strong> (nom ou raison sociale, adresse)</li>
+  <li><strong>Le detail des prestations ou produits</strong> avec quantite et prix unitaire HT</li>
+  <li><strong>La mention TVA</strong> : soit le taux et le montant, soit "TVA non applicable - art. 293 B du CGI" si vous etes en franchise de base</li>
+  <li><strong>La date limite de paiement</strong> et les conditions de reglement</li>
+  <li><strong>Les penalites de retard</strong> : obligatoires entre professionnels (au minimum 3 fois le taux d'interet legal)</li>
+</ul>
+<p>Un bon logiciel de facturation integre toutes ces mentions par defaut et vous empeche d'envoyer une facture incomplete.</p>
+
+<h2>Comparatif des meilleurs logiciels de facturation pour auto-entrepreneurs</h2>
+<table style="width:100%;border-collapse:collapse;font-size:0.9rem;margin:1rem 0;">
+  <thead>
+    <tr style="background:#f1f5f9;">
+      <th style="padding:0.75rem;text-align:left;border-bottom:2px solid #e2e8f0;">Logiciel</th>
+      <th style="padding:0.75rem;text-align:left;border-bottom:2px solid #e2e8f0;">Prix/mois</th>
+      <th style="padding:0.75rem;text-align:left;border-bottom:2px solid #e2e8f0;">Gratuit ?</th>
+      <th style="padding:0.75rem;text-align:left;border-bottom:2px solid #e2e8f0;">Synchro bancaire</th>
+      <th style="padding:0.75rem;text-align:left;border-bottom:2px solid #e2e8f0;">Suivi CA URSSAF</th>
+      <th style="padding:0.75rem;text-align:left;border-bottom:2px solid #e2e8f0;">E-fact. 2027</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#f0fdf4;">
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;font-weight:700;"><a href="https://c3po.link/QsBurabSNE" rel="nofollow sponsored">Tiime</a></td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;font-weight:700;color:#16a34a;">0€ (gratuit)</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;">Oui, sans limite</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;">Plan payant</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;">Oui</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;">Oui</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;font-weight:700;"><a href="https://www.indy.fr/?ae=2183" rel="nofollow sponsored">Indy</a></td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;">7€</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;">30j essai</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;">Incluse</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;">Oui</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;">En cours</td>
+    </tr>
+    <tr style="background:#f8fafc;">
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;font-weight:700;"><a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog-ae" rel="nofollow sponsored">Freebe</a></td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;">9€</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;">30j essai</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;">Incluse</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;">Oui</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;">Oui</td>
+    </tr>
+    <tr style="background:#ffffff;">
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;font-weight:700;"><a href="https://c3po.link/nQR5AyKCjc" rel="nofollow sponsored">Shine</a></td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;">7,90€</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;">Non</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;">Incluse (compte pro)</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;">Oui</td>
+      <td style="padding:0.75rem;border-bottom:1px solid #e2e8f0;">En cours</td>
+    </tr>
+    <tr style="background:#f8fafc;">
+      <td style="padding:0.75rem;font-weight:700;"><a href="https://app.pennylane.com/partners/affiliation_links/1a9a9c8e-7ee5-432e-9524-61b2ea91d2b3" rel="nofollow sponsored">Pennylane</a></td>
+      <td style="padding:0.75rem;">26€</td>
+      <td style="padding:0.75rem;">14j essai</td>
+      <td style="padding:0.75rem;">Incluse</td>
+      <td style="padding:0.75rem;">Oui</td>
+      <td style="padding:0.75rem;">Certifie</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Tiime : le meilleur logiciel de facturation gratuit pour auto-entrepreneur</h2>
+<p><a href="https://c3po.link/QsBurabSNE" rel="nofollow sponsored">Tiime</a> propose un plan entierement gratuit, sans limite de factures, sans engagement. C'est notre recommandation numero 1 pour les auto-entrepreneurs qui demarrent ou qui emettent peu de factures par mois.</p>
+<p>Ce que vous obtenez gratuitement :</p>
+<ul>
+  <li>Creation et envoi de factures conformes en PDF illimitees</li>
+  <li>Devis convertibles en factures</li>
+  <li>Suivi des paiements (paye / en attente / en retard)</li>
+  <li>Tableau de bord CA mensuel et annuel</li>
+  <li>Modeles de factures personnalisables avec votre logo</li>
+  <li>Application mobile iOS et Android</li>
+</ul>
+<p>Limite du plan gratuit : pas de synchronisation bancaire automatique. Vous devez saisir manuellement vos encaissements. C'est suffisant si vous avez moins de 5-10 factures par mois.</p>
+<p>Le plan payant Tiime (11€/mois) ajoute la synchro bancaire, la categorisation automatique des transactions et les relances automatiques. <a href="https://c3po.link/QsBurabSNE" rel="nofollow sponsored">Essayer Tiime gratuitement</a></p>
+
+<h2>Indy : la solution a 7€/mois avec synchro bancaire incluse</h2>
+<p><a href="https://www.indy.fr/?ae=2183" rel="nofollow sponsored">Indy</a> est taille pour les micro-entrepreneurs qui veulent gagner du temps sur leur comptabilite. A 7€/mois, c'est l'un des rapports qualite-prix les plus eleves du marche.</p>
+<p>Points forts d'Indy pour les auto-entrepreneurs :</p>
+<ul>
+  <li><strong>Synchronisation bancaire automatique</strong> avec plus de 300 banques francaises</li>
+  <li><strong>Categorisation intelligente</strong> des depenses pour votre comptabilite</li>
+  <li><strong>Suivi URSSAF integre</strong> : calcul automatique de vos cotisations en fonction de votre CA</li>
+  <li><strong>Declaration simplifiee</strong> : Indy vous calcule ce que vous devez declarer chaque mois ou trimestre</li>
+  <li><strong>Facturation complete</strong> : factures, devis, avoirs, avec mentions legales automatiques</li>
+  <li><strong>Application mobile complète</strong> pour facturer depuis votre smartphone</li>
+</ul>
+<p>Indy est ideal si vous voulez arreter de jongler entre votre banque, un tableau Excel et vos factures. <a href="https://www.indy.fr/?ae=2183" rel="nofollow sponsored">Essayer Indy 30 jours gratuitement</a></p>
+
+<h2>Freebe : pour les freelances qui veulent gerer toute leur activite</h2>
+<p><a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog-ae" rel="nofollow sponsored">Freebe</a> est l'outil le plus complet pour les auto-entrepreneurs qui ont deja un volume d'activite regulier et veulent une vision 360 de leur business.</p>
+<p>Ce qui distingue Freebe des autres :</p>
+<ul>
+  <li><strong>Tableau de bord previsionnel</strong> : visualisez votre CA prevu sur les 3 prochains mois</li>
+  <li><strong>Suivi du temps integre</strong> : comptez vos heures par client et par projet</li>
+  <li><strong>Pipeline commercial</strong> : suivez vos prospects du devis signe a la facture payee</li>
+  <li><strong>Notes de frais</strong> : photographiez vos tickets de caisse avec votre telephone</li>
+  <li><strong>Alerte seuil TVA</strong> : Freebe vous alerte automatiquement quand vous approchez du seuil de franchise de TVA</li>
+  <li><strong>Export comptable</strong> : generez votre FEC (Fichier des Ecritures Comptables) si votre expert-comptable en a besoin</li>
+</ul>
+<p>A 9€/mois avec 30 jours d'essai gratuit. <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog-ae" rel="nofollow sponsored">Tester Freebe gratuitement</a></p>
+
+<h2>Dois-je facturer la TVA en tant qu'auto-entrepreneur ?</h2>
+<p>La reponse depend de votre chiffre d'affaires et de votre activite. En 2026, le seuil de franchise de TVA est de :</p>
+<ul>
+  <li><strong>36 800€/an</strong> pour les prestations de services (consultants, formateurs, developpeurs, graphistes, etc.)</li>
+  <li><strong>91 900€/an</strong> pour les activites commerciales et l'hebergement</li>
+  <li><strong>47 700€/an</strong> pour les avocats, auteurs et artistes-interpretes</li>
+</ul>
+<p>Si votre CA reste sous ces seuils : vous ne facturez pas la TVA et vous mentionnez sur chaque facture "TVA non applicable - art. 293 B du CGI". Votre client ne paie que le montant HT.</p>
+<p>Si vous depassez ces seuils (ou si vous optez volontairement pour la TVA) : vous devez collecter la TVA et la reverser a l'administration fiscale. Votre logiciel de facturation doit gerer les taux de TVA, les declarations et le calcul automatique.</p>
+<p>Attention : le depassement du seuil ne se traduit pas par une TVA immediate. Vous avez jusqu'au 31 decembre de l'annee du depassement pour commencer a facturer la TVA. Mais mieux vaut anticiper en choisissant un logiciel qui peut switcher facilement.</p>
+
+<h2>Quelle est la difference entre une facture et un recu ?</h2>
+<p>Un <strong>recu</strong> est un document que vous remettez apres encaissement (pour confirmer que le paiement a ete recu). Une <strong>facture</strong> est un document commercial et fiscal que vous emettez pour reclamer un paiement ou confirmer une vente.</p>
+<p>En tant qu'auto-entrepreneur, vous devez emettre une facture dans deux cas :</p>
+<ul>
+  <li>Pour toute prestation a un autre professionnel (B2B)</li>
+  <li>Pour toute prestation a un particulier si ce dernier le demande, ou si le montant depasse 25€ TTC</li>
+</ul>
+<p>Ne confondez pas non plus la facture avec le devis (document commercial avant la prestation) ou l'avoir (correction d'une facture emise en trop).</p>
+
+<h2>E-facturation 2027 : ce que les auto-entrepreneurs doivent savoir</h2>
+<p>La reforme de la facturation electronique entree en vigueur progressivement en France concerne aussi les auto-entrepreneurs. Voici ce qui change :</p>
+<ul>
+  <li><strong>Depuis septembre 2026</strong> : toutes les entreprises peuvent recevoir des factures electroniques via les nouvelles plateformes</li>
+  <li><strong>A partir de 2027-2028 (selon la taille de l'entreprise)</strong> : obligation d'emettre des factures electroniques pour les transactions B2B</li>
+  <li><strong>Pour les auto-entrepreneurs</strong> : l'obligation d'emission interviendra en dernier (PME et micro-entreprises en 2027-2028)</li>
+</ul>
+<p>Ce que cela change concretement : vos factures devront transiter par une Plateforme de Dematerialisation Partenaire (PDP) ou par le Portail Public de Facturation (PPF). Les logiciels comme Tiime, Pennylane et Freebe sont deja en train de s'adapter. C'est une raison supplementaire de passer a un outil dedie plutot que de rester sur Word.</p>
+
+<h2>Peut-on vraiment facturer gratuitement en tant qu'auto-entrepreneur ?</h2>
+<p>Oui. Plusieurs solutions permettent de facturer sans payer d'abonnement :</p>
+<ul>
+  <li><strong>Tiime (plan gratuit)</strong> : factures et devis illimites, 100% conforme</li>
+  <li><strong>facturationpro.com</strong> : generateur de factures en ligne gratuit, sans inscription</li>
+  <li><strong>Google Docs avec un modele</strong> : fonctionnel mais risque d'oublis de mentions obligatoires</li>
+</ul>
+<p>La question n'est pas "est-ce que je peux facturer gratuitement" mais "est-ce que le temps que je perds a gerer mes factures manuellement vaut plus que 7-9€/mois". Pour la plupart des auto-entrepreneurs actifs, la reponse est oui.</p>
+<p>Un logiciel de facturation vous fait gagner 1 a 2 heures par mois en moyenne. Si votre TJM est de 300€, c'est 50-100€ de temps economise pour 7-9€ d'abonnement.</p>
+
+<h2>Notre recommandation selon votre profil</h2>
+<div style="background:#f0fdf4;border:1px solid #bbf7d0;padding:1rem 1.25rem;border-radius:8px;margin:1rem 0;">
+  <p style="margin:0;font-weight:700;color:#15803d;">Vous venez de creer votre auto-entreprise</p>
+  <p style="margin:0.5rem 0 0;color:#166534;">Commencez avec <a href="https://c3po.link/QsBurabSNE" rel="nofollow sponsored">Tiime gratuit</a>. Zero risque, zero engagement. Vous passerez a un plan paye quand vous aurez un volume regulier de factures.</p>
+</div>
+<div style="background:#eff6ff;border:1px solid #bfdbfe;padding:1rem 1.25rem;border-radius:8px;margin:1rem 0;">
+  <p style="margin:0;font-weight:700;color:#1d4ed8;">Vous avez deja une activite reguliere (5+ clients/mois)</p>
+  <p style="margin:0.5rem 0 0;color:#1e40af;"><a href="https://www.indy.fr/?ae=2183" rel="nofollow sponsored">Indy a 7€/mois</a> avec synchro bancaire incluse. La categorisation automatique de vos transactions vaut largement l'abonnement si vous avez des achats professionnels reguliers.</p>
+</div>
+<div style="background:#fef3c7;border:1px solid #fde68a;padding:1rem 1.25rem;border-radius:8px;margin:1rem 0;">
+  <p style="margin:0;font-weight:700;color:#92400e;">Vous voulez une vision complete de votre activite freelance</p>
+  <p style="margin:0.5rem 0 0;color:#78350f;"><a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog-ae" rel="nofollow sponsored">Freebe a 9€/mois</a> est fait pour vous. Pipeline, suivi du temps, previsionnel CA et alerte seuil TVA en un seul outil.</p>
+</div>
+<div style="background:#fdf4ff;border:1px solid #e9d5ff;padding:1rem 1.25rem;border-radius:8px;margin:1rem 0;">
+  <p style="margin:0;font-weight:700;color:#6b21a8;">Vous travaillez avec un expert-comptable</p>
+  <p style="margin:0.5rem 0 0;color:#581c87;"><a href="https://app.pennylane.com/partners/affiliation_links/1a9a9c8e-7ee5-432e-9524-61b2ea91d2b3" rel="nofollow sponsored">Pennylane a 26€/mois</a> est la reference pour partager en temps reel votre comptabilite avec votre EC. Les echanges de fichiers Excel disparaissent.</p>
+</div>
+
+<h2>FAQ logiciel facturation auto-entrepreneur</h2>
+<p><strong>Un auto-entrepreneur doit-il conserver ses factures ? Combien de temps ?</strong> Oui. Les factures doivent etre conservees pendant 10 ans (articles L123-22 et R123-173 du Code de commerce). En version papier ou electronique, avec garantie d'integrite. Tous les logiciels de facturation gardes dans cet article assurent l'archivage automatique dans le cloud.</p>
+<p><strong>Puis-je utiliser un modele Word pour facturer en tant qu'auto-entrepreneur ?</strong> Techniquement oui, mais c'est risque. Les modeles Word ne numerotent pas les factures automatiquement, ne garantissent pas les mentions obligatoires et ne vous alertent pas en cas d'oubli. En cas de controle fiscal, une facture non conforme peut entrainer une requalification des charges. Un logiciel dedie elimine ce risque.</p>
+<p><strong>Est-ce que Tiime est vraiment gratuit ou y a-t-il des frais caches ?</strong> Le plan Tiime facturation est gratuit sans limite de factures, sans carte de credit requise. Les fonctionnalites avancees (synchro bancaire, relances auto) sont sur plan payant a partir de 11€/mois. Pas de frais caches sur le plan gratuit.</p>
+<p><strong>Comment passer a la TVA quand je depasse le seuil de franchise ?</strong> Vous devez contacter l'administration fiscale pour obtenir un numero de TVA intracommunautaire. Dans votre logiciel, vous activez le parametre TVA et choisissez votre regime (mensuel ou trimestriel). Vos prochaines factures incluront automatiquement la TVA. Les factures emises avant le depassement restent en franchise.</p>
+<p><strong>Puis-je utiliser mon logiciel de facturation pour ma declaration URSSAF ?</strong> Les logiciels comme Indy et Freebe vous donnent un recapitulatif de votre CA par periode (mensuel ou trimestriel) que vous utilisez pour votre declaration sur autoentrepreneur.urssaf.fr. Ils ne declarent pas automatiquement a votre place (cela necessite votre identifiant URSSAF), mais le calcul est fait pour vous.
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
