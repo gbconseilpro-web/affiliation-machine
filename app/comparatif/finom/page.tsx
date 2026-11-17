@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
 }
 
-const AFFILIATE_URL = 'https://i07o.xyz/6af5b939b3f45'
+const AFFILIATE_URL = 'https://i08o.xyz/6af5b939b3f45'
 
 const jsonLd = {
   '@context': 'https://schema.org',

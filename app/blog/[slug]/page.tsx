@@ -139,7 +139,7 @@ function getCtaForSlug(slug: string): CtaConfig {
       title: 'Ouvrir un compte Finom',
       subtitle: 'Le compte pro europeen avec cashback. Facturation integree et IBAN multi-devises pour freelances.',
       buttons: [
-        { label: 'Essayer Finom', href: 'https://i07o.xyz/6af5b939b3f45', primary: true },
+        { label: 'Essayer Finom', href: 'https://i08o.xyz/6af5b939b3f45', primary: true },
         { label: 'Voir le comparatif', href: '/comparatif', primary: false },
       ],
     }
