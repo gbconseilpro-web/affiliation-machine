@@ -95,7 +95,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <td style="padding:10px 12px;">Avec expert-comptable</td>
 </tr>
 <tr style="background:#f8fafc;border-bottom:1px solid #e2e8f0;">
-<td style="padding:10px 12px;"><strong><a href="https://www.tiime.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Tiime</a></strong></td>
+<td style="padding:10px 12px;"><strong><a href="https://www.tiime.fr/?ae=1289">Tiime</a></strong></td>
 <td style="padding:10px 12px;">Gratuit</td>
 <td style="padding:10px 12px;">Oui (complet)</td>
 <td style="padding:10px 12px;">Payant</td>
@@ -119,7 +119,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <td style="padding:10px 12px;">TPE avec CRM + facturation</td>
 </tr>
 <tr style="border-bottom:1px solid #e2e8f0;">
-<td style="padding:10px 12px;"><strong><a href="https://finom.co/fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Finom</a></strong></td>
+<td style="padding:10px 12px;"><strong><a href="https://i07o.xyz/6af5b939b3f45">Finom</a></strong></td>
 <td style="padding:10px 12px;">0€/mois</td>
 <td style="padding:10px 12px;">Oui (compte gratuit)</td>
 <td style="padding:10px 12px;">Incluse</td>
@@ -197,7 +197,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Notre verdict :</strong> excellent si vous avez un expert-comptable et souhaitez réduire ses honoraires en réduisant son temps de travail. Trop cher et trop complexe si vous gérez votre comptabilité seul.</p>
 
 <h2>Tiime : la meilleure option gratuite pour débuter</h2>
-<p><a href="https://www.tiime.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Tiime</a> est le seul outil de notre sélection à proposer une version gratuite réellement utilisable pour une activité débutante. Sa force : l'application mobile, l'une des meilleures du marché pour facturer depuis son smartphone.</p>
+<p><a href="https://www.tiime.fr/?ae=1289">Tiime</a> est le seul outil de notre sélection à proposer une version gratuite réellement utilisable pour une activité débutante. Sa force : l'application mobile, l'une des meilleures du marché pour facturer depuis son smartphone.</p>
 
 <p><strong>Ce qui le distingue :</strong></p>
 <ul>
@@ -264,7 +264,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Notre verdict :</strong> le meilleur choix pour un freelance ou une micro-agence qui gere un pipeline commercial actif avec plusieurs prospects simultanement. L'investissement se justifie quand vous fermez au moins 2 a 3 devis par mois et que le suivi CRM vous fait gagner du temps sur chaque cycle de vente.</p>
 
 <h2>Finom : le compte pro europeen avec facturation integree</h2>
-<p><a href="https://finom.co/fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Finom</a> est une fintech europeenne (Pays-Bas, agrement EMI) qui propose un compte professionnel avec IBAN europeen et un outil de facturation integre. Son positionnement : zero frais sur le compte de base, interface moderne, et ouverture en 15 minutes.</p>
+<p><a href="https://i07o.xyz/6af5b939b3f45">Finom</a> est une fintech europeenne (Pays-Bas, agrement EMI) qui propose un compte professionnel avec IBAN europeen et un outil de facturation integre. Son positionnement : zero frais sur le compte de base, interface moderne, et ouverture en 15 minutes.</p>
 
 <p><strong>Ce que Finom apporte de specifique :</strong></p>
 <ul>
@@ -298,16 +298,16 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>L'interface partagée en temps réel de <strong><a href="https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a></strong> va réduire le temps de votre EC sur votre dossier, ce qui devrait se traduire par des honoraires moins élevés. L'investissement de 49,99€/mois se justifie si votre EC facture plus de 1 500€/an.</p>
 
 <h3>Vous êtes souvent en déplacement et facturez depuis votre mobile</h3>
-<p>L'app mobile de <strong><a href="https://www.tiime.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Tiime</a></strong> est la plus intuitive du marché pour créer et envoyer une facture en quelques secondes depuis un chantier ou un rendez-vous client.</p>
+<p>L'app mobile de <strong><a href="https://www.tiime.fr/?ae=1289">Tiime</a></strong> est la plus intuitive du marché pour créer et envoyer une facture en quelques secondes depuis un chantier ou un rendez-vous client.</p>
 
 <h3>Vous voulez ouvrir un compte pro en meme temps</h3>
-<p>Deux options selon votre situation. Si vous restez en France et avez besoin d'un IBAN francais, <strong><a href="https://c3po.link/nQR5AyKCjc">Shine</a></strong> est votre solution : IBAN FR, carte Visa, facturation et gestion des charges URSSAF en un seul abonnement a partir de 8€/mois. Si vous avez des clients europeens et souhaitez demarrer sans budget, <strong><a href="https://finom.co/fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Finom</a></strong> propose un compte gratuit avec IBAN EU et facturation integree.</p>
+<p>Deux options selon votre situation. Si vous restez en France et avez besoin d'un IBAN francais, <strong><a href="https://c3po.link/nQR5AyKCjc">Shine</a></strong> est votre solution : IBAN FR, carte Visa, facturation et gestion des charges URSSAF en un seul abonnement a partir de 8€/mois. Si vous avez des clients europeens et souhaitez demarrer sans budget, <strong><a href="https://i07o.xyz/6af5b939b3f45">Finom</a></strong> propose un compte gratuit avec IBAN EU et facturation integree.</p>
 
 <h3>Vous gerez un pipeline commercial avec plusieurs prospects</h3>
 <p>Si vous passez du temps a relancer des prospects, a suivre l'etat de vos devis, ou a piloter plusieurs opportunites en parallele, <strong><a href="https://axonaut.com/?a=B7B10H14AC">Axonaut</a></strong> est l'outil le plus adapte. Le CRM integre evite les allers-retours entre votre logiciel de facturation et un CRM separe (HubSpot, Notion, etc.). L'investissement de 34€/mois se justifie des lors que vous fermez 2 a 3 devis par mois.</p>
 
 <h3>Vous demarrez votre activite avec un budget nul</h3>
-<p>Deux solutions gratuite s'offrent a vous : <strong>Tiime</strong> pour la facturation pure (devis et factures conformes sans abonnement) et <strong><a href="https://finom.co/fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Finom</a></strong> pour combiner compte pro et facturation sans frais fixes. Les deux sont suffisants pour les 6 premiers mois d'activite.</p>
+<p>Deux solutions gratuite s'offrent a vous : <strong>Tiime</strong> pour la facturation pure (devis et factures conformes sans abonnement) et <strong><a href="https://i07o.xyz/6af5b939b3f45">Finom</a></strong> pour combiner compte pro et facturation sans frais fixes. Les deux sont suffisants pour les 6 premiers mois d'activite.</p>
 
 <h2>La facturation électronique obligatoire en 2026 : ce que ça change pour vous</h2>
 <p>Depuis le 1er septembre 2026, toutes les entreprises françaises assujetties à la TVA doivent être capables de <strong>recevoir</strong> des factures électroniques via une plateforme agréée (PDP ou OD). Voici le calendrier d'obligation d'<strong>émission</strong> :</p>
@@ -2544,7 +2544,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p><strong>Quelle est la difference entre Sellsy et Pennylane ?</strong> Pennylane est avant tout un logiciel de facturation + comptabilite avec collaboration EC, optimise pour les independants et TPE. Sellsy ajoute un CRM complet, la gestion de projets et des automatisations, mais coute 1,5 a 3x plus cher et est moins adapte aux solos. Voir notre <a href="/comparatif">comparatif complet</a>.</p>
 <p><strong>Sellsy propose-t-il un essai gratuit ?</strong> Oui, Sellsy propose un essai gratuit de 15 jours sans carte bancaire, avec acces a toutes les fonctionnalites du plan Business. C'est suffisant pour tester le CRM, la facturation et les automatisations dans votre contexte.</p>
 
-<p>Essayez <a href="https://www.sellsy.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Sellsy gratuitement pendant 15 jours</a>, ou consultez notre <a href="/comparatif">comparatif complet</a>.</p>
+<p>Essayez <a href="https://go.sellsy.com/landing/indirect-sellsy-partner-program?kfl_ln=gb-conseil">Sellsy gratuitement pendant 15 jours</a>, ou consultez notre <a href="/comparatif">comparatif complet</a>.</p>
     `.trim(),
   },
   {
@@ -2739,7 +2739,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li>Points forts : CRM natif, gestion de projets, facturation complete, support francais de qualite</li>
 <li>Ideal pour : PME B2B avec commerciaux, agences, ESN</li>
 </ul>
-<p>Essayez <a href="https://www.sellsy.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Sellsy gratuitement pendant 15 jours</a>.</p>
+<p>Essayez <a href="https://go.sellsy.com/landing/indirect-sellsy-partner-program?kfl_ln=gb-conseil">Sellsy gratuitement pendant 15 jours</a>.</p>
 
 <h3>3. Sage 50cloud - La solution des comptables traditionnels</h3>
 <p>Sage est la reference historique de la comptabilite PME en France. Sage 50cloud est la version cloud, compatible avec les cabinets d'expertise comptable et les banques traditionnelles.</p>
@@ -2871,7 +2871,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 
 <h3>Pour les PME (5 a 250 salaries)</h3>
 <p><strong><a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a></strong> est probablement le choix numero un pour les PME francaises qui veulent une solution tout-en-un : facturation electronique conforme PDP, integration expert-comptable native, tableaux de bord financiers en temps reel. Prix : de 74 EUR a 199 EUR/mois selon le plan.</p>
-<p><strong><a href="https://www.sellsy.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Sellsy</a></strong> convient parfaitement aux PME avec une equipe commerciale : son CRM natif integre a la facturation et son statut PDP en font une solution tres complete.</p>
+<p><strong><a href="https://go.sellsy.com/landing/indirect-sellsy-partner-program?kfl_ln=gb-conseil">Sellsy</a></strong> convient parfaitement aux PME avec une equipe commerciale : son CRM natif integre a la facturation et son statut PDP en font une solution tres complete.</p>
 
 <h3>Pour les artisans et commercants</h3>
 <p>Les solutions comme EBP, Sage ou Cegid offrent des versions adaptees aux metiers artisanaux. Ces logiciels traditionnels ont generalement obtenu ou sont en cours d'obtention de leur agrement PDP. Verifiez la date de mise a disposition de la fonctionnalite avant de renouveler votre contrat.</p>

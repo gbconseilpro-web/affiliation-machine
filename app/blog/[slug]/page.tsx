@@ -139,7 +139,7 @@ function getCtaForSlug(slug: string): CtaConfig {
       title: 'Ouvrir un compte Finom',
       subtitle: 'Le compte pro europeen avec cashback. Facturation integree et IBAN multi-devises pour freelances.',
       buttons: [
-        { label: 'Essayer Finom', href: 'https://finom.co/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Essayer Finom', href: 'https://i07o.xyz/6af5b939b3f45', primary: true },
         { label: 'Voir le comparatif', href: '/comparatif', primary: false },
       ],
     }
@@ -149,7 +149,7 @@ function getCtaForSlug(slug: string): CtaConfig {
       title: 'Essayer Sellsy gratuitement',
       subtitle: 'La suite CRM + facturation pour PME. Devis, factures, relances et pipeline commercial centralises.',
       buttons: [
-        { label: 'Essayer Sellsy', href: 'https://sellsy.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Essayer Sellsy', href: 'https://go.sellsy.com/landing/indirect-sellsy-partner-program?kfl_ln=gb-conseil', primary: true },
         { label: 'Voir le comparatif', href: '/comparatif', primary: false },
       ],
     }
@@ -159,7 +159,7 @@ function getCtaForSlug(slug: string): CtaConfig {
       title: 'Essayer Tiime gratuitement',
       subtitle: 'La facturation gratuite pour micro-entrepreneurs, synchronisee avec votre expert-comptable.',
       buttons: [
-        { label: 'Essayer Tiime', href: 'https://www.tiime.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Essayer Tiime', href: 'https://www.tiime.fr/?ae=1289', primary: true },
         { label: 'Voir le comparatif', href: '/comparatif', primary: false },
       ],
     }
