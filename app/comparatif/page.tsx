@@ -137,7 +137,7 @@ const products = [
       'Moins autonome sans expert-comptable partenaire',
     ],
     ctaUrl: buildAffiliateLink({
-      baseUrl: 'https://www.tiime.fr/?ae=1289',
+      baseUrl: 'https://c3po.link/QsBurabSNE',
       network: 'custom',
     }),
     ctaText: 'Essai gratuit',

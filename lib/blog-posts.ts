@@ -95,7 +95,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <td style="padding:10px 12px;">Avec expert-comptable</td>
 </tr>
 <tr style="background:#f8fafc;border-bottom:1px solid #e2e8f0;">
-<td style="padding:10px 12px;"><strong><a href="https://www.tiime.fr/?ae=1289">Tiime</a></strong></td>
+<td style="padding:10px 12px;"><strong><a href="https://c3po.link/QsBurabSNE">Tiime</a></strong></td>
 <td style="padding:10px 12px;">Gratuit</td>
 <td style="padding:10px 12px;">Oui (complet)</td>
 <td style="padding:10px 12px;">Payant</td>
@@ -197,7 +197,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Notre verdict :</strong> excellent si vous avez un expert-comptable et souhaitez réduire ses honoraires en réduisant son temps de travail. Trop cher et trop complexe si vous gérez votre comptabilité seul.</p>
 
 <h2>Tiime : la meilleure option gratuite pour débuter</h2>
-<p><a href="https://www.tiime.fr/?ae=1289">Tiime</a> est le seul outil de notre sélection à proposer une version gratuite réellement utilisable pour une activité débutante. Sa force : l'application mobile, l'une des meilleures du marché pour facturer depuis son smartphone.</p>
+<p><a href="https://c3po.link/QsBurabSNE">Tiime</a> est le seul outil de notre sélection à proposer une version gratuite réellement utilisable pour une activité débutante. Sa force : l'application mobile, l'une des meilleures du marché pour facturer depuis son smartphone.</p>
 
 <p><strong>Ce qui le distingue :</strong></p>
 <ul>
@@ -298,7 +298,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>L'interface partagée en temps réel de <strong><a href="https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a></strong> va réduire le temps de votre EC sur votre dossier, ce qui devrait se traduire par des honoraires moins élevés. L'investissement de 49,99€/mois se justifie si votre EC facture plus de 1 500€/an.</p>
 
 <h3>Vous êtes souvent en déplacement et facturez depuis votre mobile</h3>
-<p>L'app mobile de <strong><a href="https://www.tiime.fr/?ae=1289">Tiime</a></strong> est la plus intuitive du marché pour créer et envoyer une facture en quelques secondes depuis un chantier ou un rendez-vous client.</p>
+<p>L'app mobile de <strong><a href="https://c3po.link/QsBurabSNE">Tiime</a></strong> est la plus intuitive du marché pour créer et envoyer une facture en quelques secondes depuis un chantier ou un rendez-vous client.</p>
 
 <h3>Vous voulez ouvrir un compte pro en meme temps</h3>
 <p>Deux options selon votre situation. Si vous restez en France et avez besoin d'un IBAN francais, <strong><a href="https://c3po.link/nQR5AyKCjc">Shine</a></strong> est votre solution : IBAN FR, carte Visa, facturation et gestion des charges URSSAF en un seul abonnement a partir de 8€/mois. Si vous avez des clients europeens et souhaitez demarrer sans budget, <strong><a href="https://i07o.xyz/6af5b939b3f45">Finom</a></strong> propose un compte gratuit avec IBAN EU et facturation integree.</p>
@@ -1014,7 +1014,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h3>Note globale : 3,8/5</h3>
 <p><strong>Avantages</strong> : version gratuite genereuse, prise en main tres facile, facturation illimitee, bonne application mobile.<br>
 <strong>Inconvenients</strong> : pas de synchronisation bancaire, fonctionnalites avancees limitees, interface moins soignee que Freebe ou Indy, relances manuelles en version gratuite.</p>
-<p><a href="https://www.tiime.fr/?ae=1289">Tester Tiime gratuitement</a></p>
+<p><a href="https://c3po.link/QsBurabSNE">Tester Tiime gratuitement</a></p>
 
 <h2>Sellsy : la solution complete pour les freelances ambitieux</h2>
 <p>Sellsy est une solution CRM + facturation + tresorerie con&ccedil;ue pour les TPE et PME. Elle s'adresse aux freelances avec une activite structuree, plusieurs collaborateurs ou une forte activite commerciale a piloter.</p>
@@ -1125,7 +1125,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <li><a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe : essai gratuit 30 jours</a></li>
 <li><a href="https://www.indy.fr/?ae=2183">Indy : essai gratuit</a></li>
 <li><a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane : essai gratuit</a></li>
-<li><a href="https://www.tiime.fr/?ae=1289">Tiime : version gratuite</a></li>
+<li><a href="https://c3po.link/QsBurabSNE">Tiime : version gratuite</a></li>
 </ul>
     `.trim(),
   },
@@ -1883,7 +1883,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Tiime est-il compatible avec la reforme de facturation electronique 2026 ?</strong> Oui, Tiime est PDP (Plateforme de Dematerialisation Partenaire) agreee. Il supporte les formats Factur-X et UBL requis par la reforme. Consultez notre <a href="/blog/facturation-electronique-2026-guide">guide facturation electronique 2026</a>.</p>
 <p><strong>Quelle est la difference entre Tiime AE et Tiime Account ?</strong> Tiime AE est destine exclusivement aux auto-entrepreneurs (regime micro). Tiime Account couvre les freelances en societe (SASU, EURL, SARL) avec TVA, bilan simplifie et plusieurs utilisateurs. Si vous passez en societe, vous devrez migrer vers Tiime Account ou changer d\'outil.</p>
 
-<p>Essayez Tiime gratuitement via notre <a href="https://www.tiime.fr/?ae=1289">lien affilie</a>, ou comparez-le dans notre <a href="/comparatif/tiime-vs-pennylane">comparatif Tiime vs Pennylane</a>.</p>
+<p>Essayez Tiime gratuitement via notre <a href="https://c3po.link/QsBurabSNE">lien affilie</a>, ou comparez-le dans notre <a href="/comparatif/tiime-vs-pennylane">comparatif Tiime vs Pennylane</a>.</p>
     `.trim(),
   },
   {
@@ -2867,7 +2867,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <h3>Pour les freelances et auto-entrepreneurs</h3>
 <p><strong><a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a></strong> est la solution la plus adaptee aux micro-entrepreneurs. Simple, abordable (moins de 10 EUR/mois), il gere la facturation electronique en format Factur-X et est compatible avec le PPF. Sa force : une interface pensee pour les non-comptables.</p>
 <p><strong><a href="https://www.indy.fr/?ae=2183">Indy</a></strong> (ex-Georges) combine compte bancaire et facturation pour les independants. Il prepare activement sa conformite PDP pour 2026 et offre un suivi fiscal automatise tres apprecie des freelances.</p>
-<p><strong><a href="https://www.tiime.fr/?ae=1289">Tiime</a></strong> est une autre excellente option pour les independants, avec un accent sur la collaboration avec l'expert-comptable.</p>
+<p><strong><a href="https://c3po.link/QsBurabSNE">Tiime</a></strong> est une autre excellente option pour les independants, avec un accent sur la collaboration avec l'expert-comptable.</p>
 
 <h3>Pour les PME (5 a 250 salaries)</h3>
 <p><strong><a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a></strong> est probablement le choix numero un pour les PME francaises qui veulent une solution tout-en-un : facturation electronique conforme PDP, integration expert-comptable native, tableaux de bord financiers en temps reel. Prix : de 74 EUR a 199 EUR/mois selon le plan.</p>
@@ -3993,7 +3993,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li>Avantage SASU : prix tres competitif, bonne integration cabinets EC francais</li>
 <li>Inconvenient : fonctionnalites avancees limitees sur les plans bas de gamme</li>
 </ul>
-<p>Tester <a href="https://app.tiime.fr/register?utm_source=facturationpro&ae=1289" rel="nofollow sponsored noopener">Tiime gratuitement</a></p>
+<p>Tester <a href="https://c3po.link/QsBurabSNE" rel="nofollow sponsored noopener">Tiime gratuitement</a></p>
 
 <h3>4. Sellsy : la solution complete pour SASU avec salaries</h3>
 <p>Si votre SASU grossit et que vous avez des salaries ou un pipeline commercial a gerer, Sellsy devient pertinent. C'est une solution CRM + facturation + comptabilite complete. Plus chere, mais tres puissante pour les SASU qui depassent le stade du freelance solo.</p>
@@ -4748,7 +4748,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <ul>
 <li><strong>Micro-entrepreneur debutant :</strong> <a href="https://www.indy.fr/?ae=2183">Indy</a> (7 EUR/mois, prise en main en moins de 10 minutes, 30 jours gratuits)</li>
 <li><strong>Freelance avec plusieurs clients pros :</strong> <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> (9 EUR/mois, suivi de temps integre, deja conforme)</li>
-<li><strong>Auto-entrepreneur avec comptable :</strong> <a href="https://www.tiime.fr/?ae=1289">Tiime</a> (gratuit, interface pensee pour le duo dirigeant/comptable)</li>
+<li><strong>Auto-entrepreneur avec comptable :</strong> <a href="https://c3po.link/QsBurabSNE">Tiime</a> (gratuit, interface pensee pour le duo dirigeant/comptable)</li>
 <li><strong>Besoin de tout centraliser (compta, CRM, factures) :</strong> <a href="https://axonaut.com/?a=B7B10H14AC">Axonaut</a> (CRM + facturation + gestion, 300 EUR de commission par client parraine)</li>
 </ul>
 <p>Consultez notre <a href="/comparatif">comparatif complet des 8 logiciels de facturation</a> pour comparer les prix et fonctionnalites en detail, ou notre <a href="/blog/facturation-electronique-2026-guide">guide facturation electronique 2026</a> pour le contexte de la reforme.</p>
@@ -4813,7 +4813,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <td style="padding:10px 12px;">Micro-entrepreneur, AE</td>
 </tr>
 <tr style="border-bottom:1px solid #e2e8f0;">
-<td style="padding:10px 12px;"><strong><a href="https://www.tiime.fr/?ae=1289">Tiime</a></strong></td>
+<td style="padding:10px 12px;"><strong><a href="https://c3po.link/QsBurabSNE">Tiime</a></strong></td>
 <td style="padding:10px 12px;">SC (en cours)</td>
 <td style="padding:10px 12px;color:#d97706;"><strong>Roadmap 2027</strong></td>
 <td style="padding:10px 12px;">Gratuit</td>
@@ -4994,7 +4994,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <h2>Quel logiciel genere automatiquement toutes ces mentions ?</h2>
 <p>Un bon logiciel de facturation genere toutes ces mentions sans que vous ayez a y penser. Il vous alerte si une information est manquante avant l'envoi et met a jour automatiquement les references legales (comme le changement de l'article TVA en septembre 2026).</p>
 <ul>
-<li><strong>Pour les micro-entrepreneurs :</strong> <a href="https://www.indy.fr/?ae=2183">Indy</a> (7 EUR/mois) et <a href="https://www.tiime.fr/?ae=1289">Tiime</a> (gratuit) sont les plus simples a prendre en main</li>
+<li><strong>Pour les micro-entrepreneurs :</strong> <a href="https://www.indy.fr/?ae=2183">Indy</a> (7 EUR/mois) et <a href="https://c3po.link/QsBurabSNE">Tiime</a> (gratuit) sont les plus simples a prendre en main</li>
 <li><strong>Pour les freelances en societe (SASU, EURL) :</strong> <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> (9 EUR/mois) ou <a href="https://axonaut.com/?a=B7B10H14AC">Axonaut</a></li>
 <li><strong>Pour les PME avec expert-comptable :</strong> <a href="https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a></li>
 </ul>
@@ -5235,7 +5235,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p><a href="https://www.indy.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog&ae=2183" rel="nofollow sponsored">Essayer Indy gratuitement pendant 30 jours</a></p>
 
 <h2>Tiime : pour le graphiste qui veut une interface soignee</h2>
-<p><a href="https://www.tiime.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog&ae=1289" rel="nofollow sponsored">Tiime</a> est l'outil qu'on recommande aux graphistes qui accordent de l'importance au detail visuel jusque dans leurs outils. L'application est reellement belle et bien pensee.</p>
+<p><a href="https://c3po.link/QsBurabSNE" rel="nofollow sponsored">Tiime</a> est l'outil qu'on recommande aux graphistes qui accordent de l'importance au detail visuel jusque dans leurs outils. L'application est reellement belle et bien pensee.</p>
 <ul>
   <li>Interface moderne tres agreable a utiliser</li>
   <li>Modeles de devis et factures personnalisables</li>
@@ -5243,7 +5243,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
   <li>Connexion avec Tiime Account pour la comptabilite</li>
   <li>Compatible e-facturation 2027</li>
 </ul>
-<p><a href="https://www.tiime.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog&ae=1289" rel="nofollow sponsored">Tester Tiime gratuitement</a></p>
+<p><a href="https://c3po.link/QsBurabSNE" rel="nofollow sponsored">Tester Tiime gratuitement</a></p>
 
 <h2>Comment structurer une facture de graphiste : droits et creation</h2>
 <p>La question des droits d'auteur est specifique aux graphistes et creatifs. En France, le Code de la propriete intellectuelle reconnait aux graphistes un droit d'auteur sur leurs creations. Quand vous cedez ces droits a un client, vous pouvez (et devez) le facturer separement.</p>

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
 }
 
-const AFFILIATE_URL = 'https://www.tiime.fr/?ae=1289'
+const AFFILIATE_URL = 'https://c3po.link/QsBurabSNE'
 
 const jsonLd = {
   '@context': 'https://schema.org',

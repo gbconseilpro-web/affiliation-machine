@@ -159,7 +159,7 @@ function getCtaForSlug(slug: string): CtaConfig {
       title: 'Essayer Tiime gratuitement',
       subtitle: 'La facturation gratuite pour micro-entrepreneurs, synchronisee avec votre expert-comptable.',
       buttons: [
-        { label: 'Essayer Tiime', href: 'https://www.tiime.fr/?ae=1289', primary: true },
+        { label: 'Essayer Tiime', href: 'https://c3po.link/QsBurabSNE', primary: true },
         { label: 'Voir le comparatif', href: '/comparatif', primary: false },
       ],
     }
