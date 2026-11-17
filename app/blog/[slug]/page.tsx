@@ -89,7 +89,7 @@ function getCtaForSlug(slug: string): CtaConfig {
       subtitle: 'Comptabilite autonome ou compte pro tout-en-un ? Testez sans engagement.',
       buttons: [
         { label: 'Essayer Pennylane', href: 'https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
-        { label: 'Essayer Shine', href: 'https://www.shine.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: false },
+        { label: 'Essayer Shine', href: 'https://c3po.link/nQR5AyKCjc', primary: false },
       ],
     }
   }
@@ -119,7 +119,7 @@ function getCtaForSlug(slug: string): CtaConfig {
       title: 'Ouvrir un compte Shine',
       subtitle: 'Le compte pro tout-en-un pour independants. Facturation, IBAN pro et gestion en un seul endroit.',
       buttons: [
-        { label: 'Essayer Shine', href: 'https://www.shine.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Essayer Shine', href: 'https://c3po.link/nQR5AyKCjc', primary: true },
         { label: 'Voir le comparatif', href: '/comparatif', primary: false },
       ],
     }

@@ -168,11 +168,7 @@ const products = [
       'Pas de comptabilité complète (pas de bilan)',
       'Frais bancaires sur certaines opérations',
     ],
-    ctaUrl: buildAffiliateLink({
-      baseUrl: 'https://www.shine.fr',
-      network: 'direct',
-      subId: 'comparatif-shine',
-    }),
+    ctaUrl: 'https://c3po.link/nQR5AyKCjc',
     ctaText: 'Ouvrir un compte Shine',
     features: {
       'Format Factur-X': true,

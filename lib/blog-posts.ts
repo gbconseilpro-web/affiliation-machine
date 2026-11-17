@@ -103,7 +103,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <td style="padding:10px 12px;">Debutant, budget serre</td>
 </tr>
 <tr style="border-bottom:1px solid #e2e8f0;">
-<td style="padding:10px 12px;"><strong><a href="https://www.shine.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Shine</a></strong></td>
+<td style="padding:10px 12px;"><strong><a href="https://c3po.link/nQR5AyKCjc">Shine</a></strong></td>
 <td style="padding:10px 12px;">8€/mois</td>
 <td style="padding:10px 12px;">1 mois</td>
 <td style="padding:10px 12px;">Incluse (compte)</td>
@@ -219,7 +219,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Notre verdict :</strong> idéal pour tester la facturation en ligne sans engagement. Migrez vers Indy quand votre activité se développe et que vous avez besoin de la synchronisation bancaire et des alertes TVA.</p>
 
 <h2>Shine : le compte pro tout-en-un pour simplifier son setup</h2>
-<p><a href="https://www.shine.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Shine</a> n'est pas seulement un logiciel de facturation : c'est une néobanque professionnelle qui intègre la facturation dans un compte bancaire dédié. Si vous cherchez à simplifier au maximum votre organisation financière (un seul outil, un seul abonnement), c'est une option très sérieuse.</p>
+<p><a href="https://c3po.link/nQR5AyKCjc">Shine</a> n'est pas seulement un logiciel de facturation : c'est une néobanque professionnelle qui intègre la facturation dans un compte bancaire dédié. Si vous cherchez à simplifier au maximum votre organisation financière (un seul outil, un seul abonnement), c'est une option très sérieuse.</p>
 
 <p><strong>Ce que Shine apporte de unique :</strong></p>
 <ul>
@@ -301,7 +301,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>L'app mobile de <strong><a href="https://www.tiime.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Tiime</a></strong> est la plus intuitive du marché pour créer et envoyer une facture en quelques secondes depuis un chantier ou un rendez-vous client.</p>
 
 <h3>Vous voulez ouvrir un compte pro en meme temps</h3>
-<p>Deux options selon votre situation. Si vous restez en France et avez besoin d'un IBAN francais, <strong><a href="https://www.shine.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Shine</a></strong> est votre solution : IBAN FR, carte Visa, facturation et gestion des charges URSSAF en un seul abonnement a partir de 8€/mois. Si vous avez des clients europeens et souhaitez demarrer sans budget, <strong><a href="https://finom.co/fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Finom</a></strong> propose un compte gratuit avec IBAN EU et facturation integree.</p>
+<p>Deux options selon votre situation. Si vous restez en France et avez besoin d'un IBAN francais, <strong><a href="https://c3po.link/nQR5AyKCjc">Shine</a></strong> est votre solution : IBAN FR, carte Visa, facturation et gestion des charges URSSAF en un seul abonnement a partir de 8€/mois. Si vous avez des clients europeens et souhaitez demarrer sans budget, <strong><a href="https://finom.co/fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Finom</a></strong> propose un compte gratuit avec IBAN EU et facturation integree.</p>
 
 <h3>Vous gerez un pipeline commercial avec plusieurs prospects</h3>
 <p>Si vous passez du temps a relancer des prospects, a suivre l'etat de vos devis, ou a piloter plusieurs opportunites en parallele, <strong><a href="https://axonaut.com/?a=B7B10H14AC">Axonaut</a></strong> est l'outil le plus adapte. Le CRM integre evite les allers-retours entre votre logiciel de facturation et un CRM separe (HubSpot, Notion, etc.). L'investissement de 34€/mois se justifie des lors que vous fermez 2 a 3 devis par mois.</p>
@@ -2037,7 +2037,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Shine est-il compatible avec la facturation electronique 2026 ?</strong> Oui, Shine supporte les formats Factur-X pour la facturation electronique obligatoire a partir de 2026. La mise en conformite est assure sans action specifique de votre part.</p>
 <p><strong>Quelle est la difference entre Shine et Qonto ?</strong> Qonto et Shine sont deux neobanques pro qui se ressemblent. Shine est plus oriente auto-entrepreneurs (mise de cote, simplicite), tandis que Qonto vise plutot les PME avec plusieurs employes (gestion de depenses equipe, virements de masse). Pour un freelance seul, Shine est generalement plus adapte et moins cher.</p>
 
-<p>Ouvrez votre compte Shine via notre <a href="https://www.shine.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">lien partenaire</a>, ou comparez-le dans notre <a href="/comparatif">comparatif complet</a>.</p>
+<p>Ouvrez votre compte Shine via notre <a href="https://c3po.link/nQR5AyKCjc">lien partenaire</a>, ou comparez-le dans notre <a href="/comparatif">comparatif complet</a>.</p>
     `.trim(),
   },
   {
@@ -3182,7 +3182,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li><strong>Saisir au fil de l'eau</strong> plutot qu'en fin d'annee</li>
 <li><strong>Categoriser correctement</strong> chaque depense dans votre logiciel comptable</li>
 </ul>
-<p>Un logiciel comme <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> integre la gestion des notes de frais et la categorisation automatique des depenses par IA, ce qui simplifie enormement le travail comptable. <a href="https://shine.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Shine</a> offre aussi un excellent compte pro avec gestion des frais integree pour les independants.</p>
+<p>Un logiciel comme <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> integre la gestion des notes de frais et la categorisation automatique des depenses par IA, ce qui simplifie enormement le travail comptable. <a href="https://c3po.link/nQR5AyKCjc">Shine</a> offre aussi un excellent compte pro avec gestion des frais integree pour les independants.</p>
 
 <h2>FAQ : Deductibilite des charges freelance</h2>
 <p><strong>Puis-je deduire mon abonnement Spotify en tant que freelance ?</strong> Non, Spotify est un abonnement personnel. En revanche, si vous etes musicien ou producteur de podcasts professionnels, un abonnement a une bibliotheque musicale professionnelle est deductible.</p>
