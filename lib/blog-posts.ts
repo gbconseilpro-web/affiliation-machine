@@ -4964,7 +4964,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p>Tarif : 26€ HT/mois. Essai gratuit 15 jours. <a href="https://app.pennylane.com/partners/affiliation_links/1a9a9c8e-7ee5-432e-9524-61b2ea91d2b3" rel="nofollow sponsored">Tester Pennylane gratuitement</a></p>
 
 <h2>Axonaut : pour les consultants qui gerent plusieurs clients en parallele</h2>
-<p><a href="https://axonaut.com/?ref=B7B10H14AC" rel="nofollow sponsored">Axonaut</a> est l'outil le plus complet pour un consultant qui jongle entre plusieurs missions simultanees. C'est un ERP leger qui integre CRM, projets, facturation et comptabilite.</p>
+<p><a href="https://axonaut.com/?a=B7B10H14AC" rel="nofollow sponsored">Axonaut</a> est l'outil le plus complet pour un consultant qui jongle entre plusieurs missions simultanees. C'est un ERP leger qui integre CRM, projets, facturation et comptabilite.</p>
 <ul>
   <li><strong>Pipeline commercial</strong> : suivez vos prospects et convertissez-les en missions</li>
   <li><strong>Gestion de projets integree</strong> : chaque mission est un projet avec ses taches, ses jalons et son budget</li>
@@ -4972,7 +4972,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
   <li><strong>Devis professionnels</strong> avec conditions particulieres et termes contractuels</li>
   <li><strong>Tableau de bord rentabilite</strong> : cout de mission vs revenus par client</li>
 </ul>
-<p>Tarif : 34,99€ HT/mois (fonctionnalites illimitees). <a href="https://axonaut.com/?ref=B7B10H14AC" rel="nofollow sponsored">Essayer Axonaut 15 jours gratuits</a></p>
+<p>Tarif : 34,99€ HT/mois (fonctionnalites illimitees). <a href="https://axonaut.com/?a=B7B10H14AC" rel="nofollow sponsored">Essayer Axonaut 15 jours gratuits</a></p>
 
 <h2>Indy : l'option economique pour le consultant en micro-entreprise</h2>
 <p>Si vous etes consultant en micro-entreprise avec un chiffre d'affaires modere (sous 36 500€/an), <a href="https://www.indy.fr/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog&ae=2183" rel="nofollow sponsored">Indy</a> offre un bon rapport qualite-prix.</p>
@@ -5217,7 +5217,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 </table>
 
 <h2>Axonaut : ideal pour les developpeurs avec des contrats recurrents</h2>
-<p>Si vous avez plusieurs clients en maintenance mensuelle, <a href="https://axonaut.com/?ref=B7B10H14AC" rel="nofollow sponsored">Axonaut</a> est l'outil qui va changer votre vie. La gestion des contrats recurrents est son point fort : vous configurez une fois, et les factures sont generees automatiquement chaque mois.</p>
+<p>Si vous avez plusieurs clients en maintenance mensuelle, <a href="https://axonaut.com/?a=B7B10H14AC" rel="nofollow sponsored">Axonaut</a> est l'outil qui va changer votre vie. La gestion des contrats recurrents est son point fort : vous configurez une fois, et les factures sont generees automatiquement chaque mois.</p>
 <ul>
   <li><strong>Contrats recurrents</strong> : creez un contrat de maintenance une fois, les factures se generent chaque mois</li>
   <li><strong>Suivi du temps integre</strong> : chronometre dans l'application pour facturer exactement les heures passees</li>
@@ -5225,7 +5225,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
   <li><strong>CRM integre</strong> : suivez vos clients et vos opportunites depuis le meme outil</li>
   <li><strong>Tableau de bord MRR</strong> : visualisez votre revenu mensuel recurrent</li>
 </ul>
-<p>Tarif : 34,99€ HT/mois. <a href="https://axonaut.com/?ref=B7B10H14AC" rel="nofollow sponsored">Essayer Axonaut 15 jours gratuits</a></p>
+<p>Tarif : 34,99€ HT/mois. <a href="https://axonaut.com/?a=B7B10H14AC" rel="nofollow sponsored">Essayer Axonaut 15 jours gratuits</a></p>
 
 <h2>Pennylane : pour le dev freelance avec TVA et clients grands comptes</h2>
 <p><a href="https://app.pennylane.com/partners/affiliation_links/1a9a9c8e-7ee5-432e-9524-61b2ea91d2b3" rel="nofollow sponsored">Pennylane</a> est ideal si vous facturez des entreprises avec des TJMs eleves (au-dela de 450€/jour, vous depassez vite les seuils de franchise de TVA).</p>
