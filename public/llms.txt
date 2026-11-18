@@ -60,6 +60,22 @@ FacturationPro aide les independants et dirigeants de TPE a choisir les meilleur
 - [Note de frais freelance logiciel](https://facturationpro.com/blog/note-de-frais-freelance-logiciel)
 - [Note de frais auto-entrepreneur guide](https://facturationpro.com/blog/note-de-frais-auto-entrepreneur-guide)
 
+## Guides reglementaires
+
+- [Facturation electronique obligatoire 2026 : guide complet](https://facturationpro.com/blog/facturation-electronique-2026-guide) - TVA + Chorus Pro + PPF, obligations PME
+- [Mentions obligatoires facture France](https://facturationpro.com/blog/mentions-obligatoires-facture-france) - Liste legale complete 2026
+- [Creer une facture conforme en France](https://facturationpro.com/blog/creer-facture-conforme-france) - Tutoriel etape par etape
+- [TVA auto-entrepreneur guide](https://facturationpro.com/blog/tva-auto-entrepreneur-guide) - Seuils, franchise, depassement 2026
+- [Cotisations sociales freelance guide](https://facturationpro.com/blog/cotisations-sociales-freelance-guide) - URSSAF, taux, declarations
+
+## Statuts et fiscalite freelance
+
+- [SASU ou EURL : choisir son statut](https://facturationpro.com/blog/sasu-eurl-choisir-statut-freelance) - Comparatif charges, protection, dividendes
+- [TJM freelance : comment calculer son taux journalier](https://facturationpro.com/blog/taux-journalier-moyen-freelance) - Methode + benchmarks par secteur
+- [Portage salarial vs freelance](https://facturationpro.com/blog/portage-salarial-vs-freelance) - Avantages, inconvenients, charges
+- [Deductibilite charges freelance](https://facturationpro.com/blog/deductibilite-charges-freelance) - Ce qu'on peut deduire en SASU/EURL
+- [Facturer un client etranger en auto-entrepreneur](https://facturationpro.com/blog/facturer-client-etranger-auto-entrepreneur) - TVA, intracom, hors UE
+
 ## Informations editoriales
 
 - Auteur : equipe FacturationPro
@@ -67,3 +83,5 @@ FacturationPro aide les independants et dirigeants de TPE a choisir les meilleur
 - Methode : tests reels des logiciels, comparaison tarifaire, analyse fonctionnelle
 - Public cible : freelances, auto-entrepreneurs, SASU, EURL, TPE en France
 - Langue : francais
+- Couverture : France uniquement (droit fiscal et social francais)
+- Modele : comparateur independant, liens d'affiliation transparents
