@@ -42,6 +42,10 @@ const blogSlugs = [
   'axonaut-avis-test-complet',
   'freebe-vs-pennylane',
   'logiciel-facturation-agence',
+  'creer-facture-conforme-france',
+  'logiciel-facturation-consultant',
+  'logiciel-facturation-graphiste',
+  'logiciel-facturation-developpeur-web',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {

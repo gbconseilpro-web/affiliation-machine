@@ -5470,6 +5470,146 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p><strong>Puis-je utiliser mon logiciel de facturation pour ma declaration URSSAF ?</strong> Les logiciels comme Indy et Freebe vous donnent un recapitulatif de votre CA par periode (mensuel ou trimestriel) que vous utilisez pour votre declaration sur autoentrepreneur.urssaf.fr. Ils ne declarent pas automatiquement a votre place (cela necessite votre identifiant URSSAF), mais le calcul est fait pour vous.
     `.trim(),
   },
+  {
+    slug: 'creer-facture-conforme-france',
+    title: 'Creer une facture conforme en France : guide complet 2026 (mentions, modele, outils)',
+    excerpt: 'Comment creer une facture conforme aux exigences legales francaises ? Mentions obligatoires, numerotation, TVA, archivage, e-facturation 2027. Guide pas a pas avec modeles et outils gratuits.',
+    date: '2026-11-18',
+    readTime: 12,
+    category: 'Guides debutants',
+    keywords: ['creer facture conforme france', 'mentions obligatoires facture', 'modele facture conforme', 'facture legale france', 'comment faire une facture conforme', 'facture freelance conforme'],
+    image: '/blog/creer-facture-conforme-france.svg',
+    metaTitle: 'Creer une facture conforme en France 2026 : guide + mentions obligatoires',
+    metaDescription: 'Toutes les mentions obligatoires pour creer une facture conforme en France en 2026. Modele, numerotation, TVA, archivage, e-facturation. Guide complet gratuit.',
+    content: `
+<h2>Creer une facture conforme en France : les bases</h2>
+<div style="background:#eff6ff;border-left:4px solid #3b82f6;padding:1rem 1.25rem;border-radius:8px;margin:1rem 0;">
+  <p style="margin:0;font-weight:600;font-size:1.05rem;">Resume en 30 secondes</p>
+  <p style="margin:0.5rem 0 0;color:#1e40af;">Une facture conforme doit contenir 10 mentions obligatoires, une numerotation chronologique unique, et etre archivee 10 ans. Pour eviter toute erreur : utilisez <a href="https://c3po.link/QsBurabSNE" rel="nofollow sponsored">Tiime (gratuit)</a> ou <a href="https://www.indy.fr/?ae=2183" rel="nofollow sponsored">Indy (7€/mois)</a> qui les generent automatiquement.</p>
+</div>
+<p>En France, une facture non conforme expose a des risques concrets : refus de paiement par le client, rejet des charges par l'administration fiscale, et amende pouvant atteindre 75 000€ pour une personne morale. Pourtant, 38% des independants emettent encore des factures non conformes (source : enquete INPI 2025).</p>
+<p>Ce guide couvre toutes les exigences legales pour 2026, avec des exemples concrets et les outils qui automatisent la conformite.</p>
+
+<h2>Les 10 mentions obligatoires sur une facture en France</h2>
+<p>Voici les mentions que toute facture doit imperativement contenir selon l'article L441-9 du Code de commerce :</p>
+
+<h3>1. Identification du vendeur (vous)</h3>
+<ul>
+  <li><strong>Nom ou denomination sociale</strong> : votre nom complet (prenom + nom) pour une EI ou micro-entreprise, ou la raison sociale pour une societe</li>
+  <li><strong>Adresse du domicile professionnel</strong> ou siege social</li>
+  <li><strong>Numero SIRET</strong> (14 chiffres) - obligatoire depuis 2015</li>
+  <li><strong>Forme juridique</strong> : "Micro-entreprise", "EI", "SASU", "EURL", "SAS"...</li>
+  <li><strong>Capital social</strong> : obligatoire pour les societes (SASU, EURL, SAS, SARL)</li>
+  <li><strong>Numero TVA intracommunautaire</strong> si vous etes assujetti a la TVA (format FR + 2 chiffres + SIREN)</li>
+</ul>
+
+<h3>2. Identification du client</h3>
+<ul>
+  <li><strong>Nom ou denomination sociale du client</strong></li>
+  <li><strong>Adresse de facturation</strong> (peut etre differente de l'adresse de livraison)</li>
+  <li><strong>Numero TVA intracommunautaire du client</strong> si c'est une entreprise assujettie a la TVA</li>
+</ul>
+
+<h3>3. Identification de la facture</h3>
+<ul>
+  <li><strong>Numero de facture unique</strong> : chronologique et sans rupture (ex : FAC-2026-001, FAC-2026-002...)</li>
+  <li><strong>Date d'emission de la facture</strong></li>
+  <li><strong>Numero du bon de commande</strong> si votre client en a emis un (surtout important pour les grands comptes)</li>
+</ul>
+
+<h3>4. Description de la prestation ou du produit</h3>
+<ul>
+  <li><strong>Denomination precise</strong> de chaque prestation ou produit</li>
+  <li><strong>Quantite</strong> (heures, jours, nombre d'articles...)</li>
+  <li><strong>Prix unitaire HT</strong></li>
+  <li><strong>Remises et rabais</strong> si applicable</li>
+  <li><strong>Montant HT total</strong> par ligne, puis total general HT</li>
+</ul>
+
+<h3>5. Informations sur la TVA</h3>
+<ul>
+  <li>Si vous etes assujetti : <strong>taux de TVA applicable</strong> (20%, 10%, 5,5% ou 2,1%) et <strong>montant de TVA</strong> par taux</li>
+  <li>Si vous etes en franchise de base (micro-entreprise sous seuil) : mention <strong>"TVA non applicable - art. 293 B du CGI"</strong></li>
+  <li>Si la TVA est due par le client (autoliquidation, services intracommunautaires) : mention <strong>"Autoliquidation - TVA due par le preneur"</strong></li>
+</ul>
+
+<h3>6. Montants et conditions de paiement</h3>
+<ul>
+  <li><strong>Montant TTC</strong> (ou montant HT si TVA non applicable)</li>
+  <li><strong>Date limite de paiement</strong> (obligatoire depuis la loi LME 2008)</li>
+  <li><strong>Conditions de paiement</strong> : virement, cheque, paiement en ligne, echeances...</li>
+  <li><strong>Taux des penalites de retard</strong> : obligatoire entre professionnels, minimum 3 fois le taux d'interet legal (actuellement environ 10,76% en 2026). Exemple : "En cas de retard de paiement, penalites au taux de 10,76% par an."</li>
+  <li><strong>Indemnite forfaitaire de recouvrement</strong> : 40€ fixes, obligatoire sur les factures B2B</li>
+</ul>
+
+<h2>Exemple de numero de facture conforme</h2>
+<p>La numerotation doit etre <strong>chronologique, unique et sans trou</strong>. Voici des formats acceptes :</p>
+<div style="background:#f8fafc;border:1px solid #e2e8f0;padding:1rem 1.25rem;border-radius:8px;margin:1rem 0;font-family:monospace;">
+  <p style="margin:0 0 0.5rem;font-weight:600;">Formats acceptes :</p>
+  <p style="margin:0.25rem 0;">FAC-2026-001 / FAC-2026-002 / FAC-2026-003...</p>
+  <p style="margin:0.25rem 0;">2026-001 / 2026-002 / 2026-003...</p>
+  <p style="margin:0.25rem 0;">F20260001 / F20260002 / F20260003...</p>
+  <p style="margin:0.75rem 0 0;color:#ef4444;font-weight:600;">Formats non conformes :</p>
+  <p style="margin:0.25rem 0;color:#ef4444;">FAC-2026-001 puis FAC-2026-003 (trou dans la sequence)</p>
+  <p style="margin:0.25rem 0;color:#ef4444;">FAC-001 (sans l'annee - risque de doublon d'une annee sur l'autre)</p>
+</div>
+<p>Attention : <strong>une facture emise ne peut pas etre modifiee ni supprimee</strong>. En cas d'erreur, vous devez emettre un avoir (facture negative) et refaire une nouvelle facture. Les logiciels de facturation gerent cette contrainte automatiquement.</p>
+
+<h2>Les cas particuliers de TVA</h2>
+<h3>Franchise en base de TVA (micro-entrepreneurs)</h3>
+<p>Si votre chiffre d'affaires est inferieur aux seuils (36 800€ pour les prestations de services, 91 900€ pour les ventes de marchandises en 2026), vous etes en franchise de base. Vos factures doivent mentionner :</p>
+<div style="background:#fefce8;border:1px solid #fde047;padding:1rem 1.25rem;border-radius:8px;margin:1rem 0;">
+  <p style="margin:0;font-weight:700;">"TVA non applicable - art. 293 B du CGI"</p>
+  <p style="margin:0.5rem 0 0;font-size:0.9rem;">Vous ne facturez pas de TVA, vous n'en recuparez pas non plus. Cette mention est obligatoire et remplace le montant TVA.</p>
+</div>
+
+<h3>Autoliquidation (services a l'etranger)</h3>
+<p>Si vous facturez une entreprise etablie dans un autre pays de l'UE, la TVA est due par votre client (autoliquidation). Vos factures doivent mentionner :</p>
+<div style="background:#fefce8;border:1px solid #fde047;padding:1rem 1.25rem;border-radius:8px;margin:1rem 0;">
+  <p style="margin:0;font-weight:700;">"Autoliquidation - TVA due par le preneur - Article 196 de la Directive 2006/112/CE"</p>
+  <p style="margin:0.5rem 0 0;font-size:0.9rem;">Votre numero TVA intracommunautaire et celui de votre client sont obligatoires sur cette facture.</p>
+</div>
+
+<h2>Obligation d'archivage des factures</h2>
+<p>Toutes les factures emises et recues doivent etre conservees pendant <strong>10 ans</strong> (article L123-22 et R123-173 du Code de commerce). Cette obligation s'applique aux factures papier comme electroniques.</p>
+<p>Pour les factures electroniques, vous devez garantir :</p>
+<ul>
+  <li><strong>L'authenticite de l'origine</strong> (qui a emis la facture ?)</li>
+  <li><strong>L'integrite du contenu</strong> (la facture n'a pas ete modifiee)</li>
+  <li><strong>La lisibilite</strong> (la facture doit rester lisible pendant 10 ans)</li>
+</ul>
+<p>Un logiciel de facturation cloud comme <a href="https://www.indy.fr/?ae=2183" rel="nofollow sponsored">Indy</a> ou <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog" rel="nofollow sponsored">Freebe</a> garantit automatiquement ces trois conditions et conserve vos factures dans le cloud.</p>
+
+<h2>La facturation electronique obligatoire a partir de 2027</h2>
+<p>A partir de septembre 2027 pour les grandes entreprises et 2028 pour les TPE/PME, toutes les factures B2B devront transiter via une Plateforme de Dematerialisation Partenaire (PDP) ou par le Portail Public de Facturation (PPF). Pour les micro-entrepreneurs qui facturent des entreprises, choisir un logiciel compatible des maintenant evite une migration forcee en urgence.</p>
+<p>Logiciels en cours de certification PDP : <a href="https://app.pennylane.com/partners/affiliation_links/1a9a9c8e-7ee5-432e-9524-61b2ea91d2b3" rel="nofollow sponsored">Pennylane</a>, <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog" rel="nofollow sponsored">Freebe</a>. <a href="https://c3po.link/QsBurabSNE" rel="nofollow sponsored">Tiime</a> est deja certifie.</p>
+
+<h2>Outils pour creer des factures conformes sans effort</h2>
+<p>Creer une facture conforme manuellement (Word, Excel) est risque : oubli de mention, mauvaise numerotation, pas d'archivage garanti. Les logiciels dedies generent automatiquement des factures conformes en 2 minutes.</p>
+
+<div style="background:#f0fdf4;border:1px solid #86efac;padding:1rem 1.25rem;border-radius:8px;margin:1rem 0;">
+  <p style="margin:0;font-weight:700;color:#15803d;">Option gratuite : Tiime</p>
+  <p style="margin:0.5rem 0 0;color:#166534;"><a href="https://c3po.link/QsBurabSNE" rel="nofollow sponsored">Tiime factures</a> est totalement gratuit, sans limite de factures, avec toutes les mentions legales pre-remplies. Ideal pour demarrer. Synchro bancaire disponible sur plan payant (11€/mois).</p>
+</div>
+
+<div style="background:#eff6ff;border:1px solid #93c5fd;padding:1rem 1.25rem;border-radius:8px;margin:1rem 0;">
+  <p style="margin:0;font-weight:700;color:#1d4ed8;">Option complete : Indy a 7€/mois</p>
+  <p style="margin:0.5rem 0 0;color:#1e40af;"><a href="https://www.indy.fr/?ae=2183" rel="nofollow sponsored">Indy</a> inclut facturation conforme + synchro bancaire + suivi CA URSSAF + relances auto. 1er mois offert. La solution la plus populaire chez les micro-entrepreneurs (200 000+ utilisateurs).</p>
+</div>
+
+<div style="background:#fdf4ff;border:1px solid #e9d5ff;padding:1rem 1.25rem;border-radius:8px;margin:1rem 0;">
+  <p style="margin:0;font-weight:700;color:#6b21a8;">Pour les SASU/EURL avec comptable : Pennylane</p>
+  <p style="margin:0.5rem 0 0;color:#581c87;"><a href="https://app.pennylane.com/partners/affiliation_links/1a9a9c8e-7ee5-432e-9524-61b2ea91d2b3" rel="nofollow sponsored">Pennylane a 26€/mois</a> integre votre expert-comptable directement dans la plateforme. Facturation certifiee e-facturation 2027.</p>
+</div>
+
+<h2>FAQ : creer une facture conforme</h2>
+<p><strong>Puis-je creer une facture avec Word ou Excel ?</strong> Techniquement oui, mais c'est risque. Sans logiciel dedie, vous devez gerer manuellement la numerotation chronologique, les mentions obligatoires et l'archivage 10 ans. Un seul oubli (ex : penalites de retard manquantes) rend votre facture non conforme. Avec un logiciel comme Tiime (gratuit), la conformite est garantie automatiquement.</p>
+<p><strong>Que se passe-t-il si j'oublie une mention obligatoire ?</strong> Votre client peut legitimement refuser de payer en attendant une facture corrigee. En cas de controle fiscal, une facture non conforme peut etre rejetee comme justificatif de charge (pour votre client) et comme preuve de chiffre d'affaires (pour vous). L'amende maximale est de 75 000€ pour une societe, 15 000€ pour un particulier.</p>
+<p><strong>Comment corriger une facture deja envoyee ?</strong> Une facture emise ne peut jamais etre modifiee ni supprimee. Pour corriger une erreur, vous devez : (1) emettre un avoir (facture negative du meme montant), (2) creer une nouvelle facture corrigee avec un nouveau numero. Gardez les trois documents (facture originale, avoir, nouvelle facture) dans vos archives.</p>
+<p><strong>Dois-je numerote mes factures en continu sur plusieurs annees ?</strong> Oui et non. La loi exige une numerotation chronologique sans rupture, mais vous pouvez reinitialiser a chaque annee civile (ex : FAC-2026-001 en janvier 2026, puis FAC-2027-001 en janvier 2027). L'important est que chaque numero soit unique et qu'il n'y ait pas de trou dans la sequence sur une annee donnee.</p>
+<p><strong>Est-ce que je dois envoyer mes factures en PDF ?</strong> Le format PDF est fortement recommande car il garantit l'integrite du document (difficile a modifier). La loi n'impose pas le PDF, mais impose que la facture electronique soit lisible et integre. Certains clients grands comptes exigent contractuellement le PDF. Les logiciels de facturation exportent en PDF automatiquement.</p>
+    `.trim(),
+  },
 ]
 
 export function getBlogPost(slug: string): BlogPost | undefined {
