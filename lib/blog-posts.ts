@@ -87,7 +87,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <td style="padding:10px 12px;">Freelance SASU/EURL</td>
 </tr>
 <tr style="border-bottom:1px solid #e2e8f0;">
-<td style="padding:10px 12px;"><strong><a href="https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a></strong></td>
+<td style="padding:10px 12px;"><strong><a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a></strong></td>
 <td style="padding:10px 12px;">26€/mois</td>
 <td style="padding:10px 12px;">14 jours</td>
 <td style="padding:10px 12px;">Incluse</td>
@@ -175,7 +175,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Notre verdict :</strong> le meilleur choix pour un freelance en SASU ou EURL qui veut piloter sa rentabilité projet par projet. Particulièrement adapté aux consultants, développeurs et créatifs avec plusieurs clients simultanés.</p>
 
 <h2>Pennylane : pour les freelances qui travaillent avec un expert-comptable</h2>
-<p><a href="https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> a créé une catégorie à part : un outil de comptabilité partagée en temps réel entre le freelance et son expert-comptable. Si vous faites appel à un EC et souhaitez optimiser cette collaboration tout en gardant une vision complète de vos finances, c'est la solution la plus aboutie du marché.</p>
+<p><a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a> a créé une catégorie à part : un outil de comptabilité partagée en temps réel entre le freelance et son expert-comptable. Si vous faites appel à un EC et souhaitez optimiser cette collaboration tout en gardant une vision complète de vos finances, c'est la solution la plus aboutie du marché.</p>
 
 <p><strong>Ce qui le distingue radicalement :</strong></p>
 <ul>
@@ -295,7 +295,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Vous avez besoin de suivi de temps, de gestion de projets et d'un export comptable propre pour votre EC. <strong><a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe à 9,99€/mois</a></strong> est fait pour vous.</p>
 
 <h3>Vous travaillez avec un expert-comptable</h3>
-<p>L'interface partagée en temps réel de <strong><a href="https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a></strong> va réduire le temps de votre EC sur votre dossier, ce qui devrait se traduire par des honoraires moins élevés. L'investissement de 49,99€/mois se justifie si votre EC facture plus de 1 500€/an.</p>
+<p>L'interface partagée en temps réel de <strong><a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a></strong> va réduire le temps de votre EC sur votre dossier, ce qui devrait se traduire par des honoraires moins élevés. L'investissement de 49,99€/mois se justifie si votre EC facture plus de 1 500€/an.</p>
 
 <h3>Vous êtes souvent en déplacement et facturez depuis votre mobile</h3>
 <p>L'app mobile de <strong><a href="https://c3po.link/QsBurabSNE">Tiime</a></strong> est la plus intuitive du marché pour créer et envoyer une facture en quelques secondes depuis un chantier ou un rendez-vous client.</p>
@@ -753,7 +753,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Plusieurs editeurs de logiciels de facturation ont pris de l'avance sur la reforme :</p>
 <ul>
 <li><strong>Freebe</strong> : a annonce sa conformite Factur-X et son integration avec les PDP pour les freelances et TPE. <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Tester Freebe</a></li>
-<li><strong>Pennylane</strong> : l'un des premiers a avoir integre la gestion de la facturation electronique dans son offre, avec une forte orientation vers les PME et leurs experts-comptables. <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Tester Pennylane</a></li>
+<li><strong>Pennylane</strong> : l'un des premiers a avoir integre la gestion de la facturation electronique dans son offre, avec une forte orientation vers les PME et leurs experts-comptables. <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Tester Pennylane</a></li>
 <li><strong>Sellsy</strong> : solution complete pour les PME, avec une PDP integree dans ses plans avances.</li>
 <li><strong>Sage</strong>, <strong>EBP</strong>, <strong>Cegid</strong> : les editeurs historiques sont tous en cours de mise en conformite.</li>
 </ul>
@@ -859,7 +859,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h3>Note globale : 4,2/5</h3>
 <p><strong>Avantages</strong> : meilleure solution pour la collaboration avec un EC, comptabilite tres complete, excellent pour les societes, interface claire.<br>
 <strong>Inconvenients</strong> : prix eleve pour un micro-entrepreneur, sur-dimensionne pour les profils simples, pas de suivi du temps integre.</p>
-<p><a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Tester Pennylane</a></p>
+<p><a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Tester Pennylane</a></p>
 
 <h2>Tiime : la facturation gratuite pour debuter</h2>
 <p>Tiime a fait le pari du freemium : une facturation gratuite, illimitee, pour tous les freelances qui demarrent. Cette approche lui a permis de seduire des centaines de milliers d'utilisateurs, dont une partie convertie vers l'offre payante.</p>
@@ -953,7 +953,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Choix numero 1 : <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a></strong>. La solution la plus complete et la mieux con&ccedil;ue pour ce profil. Le suivi du temps et la gestion de projet justifient le surcoût versus Indy.</p>
 
 <h3>Freelance avec un expert-comptable</h3>
-<p><strong>Choix numero 1 : <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a></strong>. L'acces partage en temps reel avec votre EC reduit les frais comptables et accelere la cloture annuelle.</p>
+<p><strong>Choix numero 1 : <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a></strong>. L'acces partage en temps reel avec votre EC reduit les frais comptables et accelere la cloture annuelle.</p>
 
 <h3>Freelance avec activite commerciale importante</h3>
 <p><strong>Choix numero 1 : Sellsy</strong>. Le CRM integre et la gestion des opportunites commerciales font la difference si vous avez un pipeline actif a gerer.</p>
@@ -993,7 +993,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <ul>
 <li><a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe : essai gratuit 30 jours</a></li>
 <li><a href="https://www.indy.fr/?ae=2183">Indy : essai gratuit</a></li>
-<li><a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane : essai gratuit</a></li>
+<li><a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane : essai gratuit</a></li>
 <li><a href="https://c3po.link/QsBurabSNE">Tiime : version gratuite</a></li>
 </ul>
     `.trim(),
@@ -1351,7 +1351,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Pennylane est-il compatible avec la facturation electronique obligatoire 2026 ?</strong> Oui, Pennylane est PDP (Plateforme de Dematerialisation Partenaire) agreee par l\'administration fiscale. Il peut emettre et recevoir des factures electroniques au format Factur-X (hybride PDF/XML) et UBL. Consultez notre <a href="/blog/facturation-electronique-2026-guide">guide facturation electronique 2026</a> pour tout comprendre.</p>
 <p><strong>Peut-on utiliser Pennylane sans expert-comptable ?</strong> Oui, le plan Essentiel est concu pour les independants qui se gere seuls. Vous perdez en revanche la fonctionnalite cle de Pennylane (collaboration EC). Dans ce cas, Indy ou Freebe peuvent etre plus adaptes selon votre profil.</p>
 
-<p>Decouvrez Pennylane via notre <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">lien de partenariat</a> ou comparez-le dans notre <a href="/blog/pennylane-vs-indy">comparatif Pennylane vs Indy</a>.</p>
+<p>Decouvrez Pennylane via notre <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">lien de partenariat</a> ou comparez-le dans notre <a href="/blog/pennylane-vs-indy">comparatif Pennylane vs Indy</a>.</p>
     `.trim(),
   },
   {
@@ -1433,7 +1433,7 @@ export const BLOG_POSTS: BlogPost[] = [
 </ul>
 
 <h2>Les logiciels de facturation adaptes a chaque statut</h2>
-<p>Que vous soyez en SASU ou EURL, les obligations de facturation sont identiques. Les logiciels comme <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> et <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> sont parfaitement adaptes aux deux statuts. Ils gerent la TVA, les mentions legales et l\'export comptable requis dans les deux cas.</p>
+<p>Que vous soyez en SASU ou EURL, les obligations de facturation sont identiques. Les logiciels comme <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> et <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a> sont parfaitement adaptes aux deux statuts. Ils gerent la TVA, les mentions legales et l\'export comptable requis dans les deux cas.</p>
 
 <p>Pour approfondir le choix de votre logiciel de facturation, consultez notre <a href="/comparatif">comparatif complet</a>.</p>
     `.trim(),
@@ -1992,7 +1992,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>Les meilleurs logiciels de facturation pour artisans</h2>
 <p>Parmi les solutions que nous avons testees, voici notre selection pour les artisans :</p>
 
-<p><strong>Pennylane</strong> : tres complet, gere la comptabilite, les factures, les devis et s'integre avec de nombreux secteurs. Ideal pour les artisans avec une activite importante. Disponible via notre <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">lien affilie</a>. Notre avis complet dans le <a href="/blog/pennylane-avis-test-complet">test Pennylane</a>.</p>
+<p><strong>Pennylane</strong> : tres complet, gere la comptabilite, les factures, les devis et s'integre avec de nombreux secteurs. Ideal pour les artisans avec une activite importante. Disponible via notre <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">lien affilie</a>. Notre avis complet dans le <a href="/blog/pennylane-avis-test-complet">test Pennylane</a>.</p>
 
 <p><strong>Indy</strong> : excellent pour les auto-entrepreneurs artisans, avec une gestion URSSAF integree. Parfait si votre activite est en micro-entreprise. Testez-le via notre <a href="https://www.indy.fr/?ae=2183">lien partenaire</a>.</p>
 
@@ -2173,7 +2173,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p>En cas de succes, le juge rend une ordonnance que vous faites signifier par huissier. Si le debiteur ne conteste pas sous 30 jours, la creance est executoire.</p>
 
 <h2>Logiciel de facturation : la prevention</h2>
-<p>La meilleure relance est celle que vous n'avez pas a ecrire. Un bon logiciel de facturation comme <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a>, <a href="https://www.indy.fr/?ae=2183">Indy</a> ou <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> vous permet de :</p>
+<p>La meilleure relance est celle que vous n'avez pas a ecrire. Un bon logiciel de facturation comme <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a>, <a href="https://www.indy.fr/?ae=2183">Indy</a> ou <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a> vous permet de :</p>
 <ul>
 <li>Configurer des <strong>relances automatiques</strong> par email a J+1, J+7, J+15</li>
 <li>Suivre le statut de chaque facture en temps reel (brouillon, envoyee, en retard, payee)</li>
@@ -2257,7 +2257,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 </ul>
 
 <h2>Suivre ses cotisations avec un logiciel de facturation</h2>
-<p>Pour piloter efficacement vos finances en freelance, vous avez besoin d'un outil qui integre la dimension fiscale et sociale. Des logiciels comme <a href="https://www.indy.fr/?ae=2183">Indy</a> calculent automatiquement vos provisions pour cotisations URSSAF et vous alertent sur vos obligations declaratives. <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> va plus loin avec une vision comptable complete.</p>
+<p>Pour piloter efficacement vos finances en freelance, vous avez besoin d'un outil qui integre la dimension fiscale et sociale. Des logiciels comme <a href="https://www.indy.fr/?ae=2183">Indy</a> calculent automatiquement vos provisions pour cotisations URSSAF et vous alertent sur vos obligations declaratives. <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a> va plus loin avec une vision comptable complete.</p>
 <p>Voir notre comparatif : <a href="/comparatif/indy-vs-pennylane">Indy vs Pennylane</a> et notre guide <a href="/blog/facturation-urssaf-logiciel">logiciel facturation et URSSAF</a>.</p>
 
 <p><strong>Peut-on reduire ses cotisations sociales legalement ?</strong> Oui, plusieurs dispositifs existent : choix du statut, prevoyance Madelin, exoneration ACRE en debut d'activite, arbitrage remuneration/dividendes en SASU. Toujours avec l'aide d'un comptable.</p>
@@ -2599,7 +2599,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li>Points forts : Collaboration expert-comptable native, certification PDP facturation electronique, tresorerie temps reel</li>
 <li>Ideal pour : Startups, PME en croissance rapide, entreprises avec expert-comptable</li>
 </ul>
-<p>Essayez <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane gratuitement pendant 30 jours</a>.</p>
+<p>Essayez <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane gratuitement pendant 30 jours</a>.</p>
 
 <h3>2. Sellsy - Le meilleur pour les PME avec equipe commerciale</h3>
 <p>Si vous avez des commerciaux, Sellsy est la seule solution qui integre vraiment un CRM et la facturation. Plus besoin de synchroniser HubSpot et votre logiciel de facturation.</p>
@@ -2739,7 +2739,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p><strong><a href="https://c3po.link/QsBurabSNE">Tiime</a></strong> est une autre excellente option pour les independants, avec un accent sur la collaboration avec l'expert-comptable.</p>
 
 <h3>Pour les PME (5 a 250 salaries)</h3>
-<p><strong><a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a></strong> est probablement le choix numero un pour les PME francaises qui veulent une solution tout-en-un : facturation electronique conforme PDP, integration expert-comptable native, tableaux de bord financiers en temps reel. Prix : de 74 EUR a 199 EUR/mois selon le plan.</p>
+<p><strong><a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a></strong> est probablement le choix numero un pour les PME francaises qui veulent une solution tout-en-un : facturation electronique conforme PDP, integration expert-comptable native, tableaux de bord financiers en temps reel. Prix : de 74 EUR a 199 EUR/mois selon le plan.</p>
 <p><strong><a href="https://go.sellsy.com/landing/indirect-sellsy-partner-program?kfl_ln=gb-conseil">Sellsy</a></strong> convient parfaitement aux PME avec une equipe commerciale : son CRM natif integre a la facturation et son statut PDP en font une solution tres complete.</p>
 
 <h3>Pour les artisans et commercants</h3>
@@ -2930,7 +2930,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p>Tous les abonnements a des outils professionnels sont deductibles en totalite l'annee du paiement :</p>
 <ul>
 <li><strong>Suite bureautique</strong> : Microsoft 365, Google Workspace</li>
-<li><strong>Logiciel de facturation</strong> : <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a>, <a href="https://www.indy.fr/?ae=2183">Indy</a>, <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a></li>
+<li><strong>Logiciel de facturation</strong> : <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a>, <a href="https://www.indy.fr/?ae=2183">Indy</a>, <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a></li>
 <li><strong>Outils de gestion de projet</strong> : Notion, Asana, Trello</li>
 <li><strong>Outils de communication</strong> : Slack, Zoom</li>
 <li><strong>Adobe Creative Cloud</strong> (pour graphistes, motion designers...)</li>
@@ -3034,7 +3034,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li>Sous-traitance de missions</li>
 <li>Graphiste, developpeur, prestataire externe</li>
 </ul>
-<p>Pour un freelance qui utilise <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> ou <a href="https://www.indy.fr/?ae=2183">Indy</a> et fait appel a un expert-comptable via la plateforme, les honoraires comptables sont souvent reduits et entierement deductibles.</p>
+<p>Pour un freelance qui utilise <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a> ou <a href="https://www.indy.fr/?ae=2183">Indy</a> et fait appel a un expert-comptable via la plateforme, les honoraires comptables sont souvent reduits et entierement deductibles.</p>
 
 <h2>Micro-entrepreneur vs SASU/EURL : l'impact reel</h2>
 <p>Prenons un exemple concret pour illustrer l'interet du regime reel :</p>
@@ -3051,7 +3051,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li><strong>Saisir au fil de l'eau</strong> plutot qu'en fin d'annee</li>
 <li><strong>Categoriser correctement</strong> chaque depense dans votre logiciel comptable</li>
 </ul>
-<p>Un logiciel comme <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> integre la gestion des notes de frais et la categorisation automatique des depenses par IA, ce qui simplifie enormement le travail comptable. <a href="https://c3po.link/nQR5AyKCjc">Shine</a> offre aussi un excellent compte pro avec gestion des frais integree pour les independants.</p>
+<p>Un logiciel comme <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a> integre la gestion des notes de frais et la categorisation automatique des depenses par IA, ce qui simplifie enormement le travail comptable. <a href="https://c3po.link/nQR5AyKCjc">Shine</a> offre aussi un excellent compte pro avec gestion des frais integree pour les independants.</p>
 
 <h2>FAQ : Deductibilite des charges freelance</h2>
 <p><strong>Puis-je deduire mon abonnement Spotify en tant que freelance ?</strong> Non, Spotify est un abonnement personnel. En revanche, si vous etes musicien ou producteur de podcasts professionnels, un abonnement a une bibliotheque musicale professionnelle est deductible.</p>
@@ -3165,7 +3165,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 </ul>
 
 <h2>La signature electronique : valide juridiquement</h2>
-<p>La signature electronique qualifiee a la meme valeur juridique qu'une signature manuscrite en droit francais (article L100 du Code de commerce, reglement eIDAS europeen). Des outils comme DocuSign, SignRequest ou <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> permettent de signer des contrats electroniquement de facon securisee.</p>
+<p>La signature electronique qualifiee a la meme valeur juridique qu'une signature manuscrite en droit francais (article L100 du Code de commerce, reglement eIDAS europeen). Des outils comme DocuSign, SignRequest ou <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a> permettent de signer des contrats electroniquement de facon securisee.</p>
 <p>Pour vos contrats simples, un email d'acceptation explicite ("Je valide le devis et les conditions") peut aussi constituer une preuve suffisante, meme sans signature formelle.</p>
 
 <h2>Et si le client refuse de signer un contrat ?</h2>
@@ -3178,7 +3178,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 </ul>
 
 <h2>Gerer ses contrats et sa facturation avec un logiciel</h2>
-<p>Un bon logiciel de gestion freelance vous permet de creer, envoyer et suivre vos devis et contrats directement. <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> integre la gestion des devis, factures et suivi des missions dans une interface simple pensee pour les freelances. <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> propose une gestion complete incluant la signature electronique et le suivi comptable.</p>
+<p>Un bon logiciel de gestion freelance vous permet de creer, envoyer et suivre vos devis et contrats directement. <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> integre la gestion des devis, factures et suivi des missions dans une interface simple pensee pour les freelances. <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a> propose une gestion complete incluant la signature electronique et le suivi comptable.</p>
 <p>Ces outils conservent un historique complet de vos documents et vous alertent sur les devis en attente de validation ou les factures impayees.</p>
 
 <h2>FAQ : Contrat freelance</h2>
@@ -3384,7 +3384,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p>Exception : si vous etes resident fiscal dans un pays etranger, les conventions fiscales bilaterales s'appliquent. Consultez un expert-comptable si vous etes en situation de double residence.</p>
 
 <h2>Logiciel de facturation et clients etrangers</h2>
-<p>Un bon logiciel de facturation comme <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> ou <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> gere les factures en devises etrangeres, les mentions d'autoliquidation et les clients internationaux. <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> propose en outre une integration avec les comptes en devises et un suivi multi-devises particulierement utile si vous avez plusieurs clients etrangers.</p>
+<p>Un bon logiciel de facturation comme <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> ou <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a> gere les factures en devises etrangeres, les mentions d'autoliquidation et les clients internationaux. <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a> propose en outre une integration avec les comptes en devises et un suivi multi-devises particulierement utile si vous avez plusieurs clients etrangers.</p>
 
 <h2>FAQ : Facturer un client etranger</h2>
 <p><strong>Dois-je traduire ma facture en anglais ?</strong> Non, une facture en francais est valide pour un client etranger. En pratique, si votre client ne parle pas francais, il sera plus a l'aise avec une facture bilingue FR/EN. C'est une question de relation commerciale, pas d'obligation legale.</p>
@@ -3442,7 +3442,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <ul>
 <li><strong>Portage salarial</strong> : zero gestion administrative. La societe de portage gere la facturation, les relances, les declarations sociales et fiscales</li>
 <li><strong>Auto-entrepreneur</strong> : declarations URSSAF trimestrielles ou mensuelles, simple mais vous devez le faire vous-meme</li>
-<li><strong>SASU/EURL</strong> : comptabilite obligatoire, liasse fiscale, AG annuelle... complexite significative sauf si vous utilisez un logiciel comme <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> ou <a href="https://www.indy.fr/?ae=2183">Indy</a></li>
+<li><strong>SASU/EURL</strong> : comptabilite obligatoire, liasse fiscale, AG annuelle... complexite significative sauf si vous utilisez un logiciel comme <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a> ou <a href="https://www.indy.fr/?ae=2183">Indy</a></li>
 </ul>
 
 <h3>Flexibilite et creation d'entreprise</h3>
@@ -3512,7 +3512,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li>Avez des charges deductibles significatives (materiel, sous-traitance...)</li>
 <li>Envisagez de developper votre activite (salaries, associes...)</li>
 </ul>
-<p>Pour la gestion quotidienne de votre facturation et comptabilite en freelance independant, des solutions comme <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> (specialiste des freelances) ou <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> (comptabilite et fiscalite integrees) simplifient enormement le travail.</p>
+<p>Pour la gestion quotidienne de votre facturation et comptabilite en freelance independant, des solutions comme <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> (specialiste des freelances) ou <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a> (comptabilite et fiscalite integrees) simplifient enormement le travail.</p>
 
 <h2>Peut-on cumuler portage salarial et statut independant ?</h2>
 <p>Oui, c'est possible ! De nombreux professionnels utilisent le portage salarial pour certains grands comptes (qui le requis) et facturent leurs autres clients en direct via leur SASU ou auto-entreprise. C'est une strategie hybride interessante qui combine la protection sociale du portage avec la flexibilite et les revenus superieurs du statut independant.</p>
@@ -3576,7 +3576,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li>Redigez un email court (5 phrases max), ultra-personnalise, centre sur leur probleme</li>
 <li>Sequence de 3 emails maximum avec relances espacees de 5 jours</li>
 </ul>
-<p>Taux de reponse attendu : 5 a 15% si la cible et le message sont bons. Un CRM simple ou des outils comme <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a> vous aideront a suivre vos prospects et devis.</p>
+<p>Taux de reponse attendu : 5 a 15% si la cible et le message sont bons. Un CRM simple ou des outils comme <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a> vous aideront a suivre vos prospects et devis.</p>
 
 <h2>5. Votre site web et votre SEO</h2>
 <p>Un site professionnel positionne sur vos mots-cles metier peut generer des leads en pilote automatique :</p>
@@ -3844,7 +3844,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <li>Avantage SASU : excellent pour la relation EC, TVA automatisee, bilan facilite</li>
 <li>Inconvenient : prix plus eleve que les alternatives simples</li>
 </ul>
-<p>Essayer <a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog-sasu" rel="nofollow sponsored noopener">Pennylane gratuitement 1 mois</a></p>
+<p>Essayer <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier" rel="nofollow sponsored noopener">Pennylane gratuitement 1 mois</a></p>
 
 <h3>2. Indy : le bon rapport qualite/prix pour SASU simple</h3>
 <p>Indy est une solution franco-francaise qui a beaucoup evolue pour satisfaire les SASU. Son plan Pro (29 EUR/mois) couvre la facturation, la synchronisation bancaire, la declaration de TVA et meme la liasse fiscale en option. L'interface est tres accessible pour un non-comptable.</p>
@@ -4037,7 +4037,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p><strong>Choisissez Indy</strong> si vous etes a la recherche du meilleur rapport qualite/prix, si vous souhaitez comprendre votre comptabilite et garder le controle, ou si vous demarrez en independant avec un budget serre.</p>
 <p>Les deux sont excellents. Profitez de leurs periodes d'essai gratuites pour tester :</p>
 <ul>
-<li><a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog-pennylane-vs-indy" rel="nofollow sponsored noopener">Essayer Pennylane gratuitement 14 jours</a></li>
+<li><a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier" rel="nofollow sponsored noopener">Essayer Pennylane gratuitement 14 jours</a></li>
 <li><a href="https://www.indy.fr/?ae=2183" rel="nofollow sponsored noopener">Essayer Indy gratuitement 30 jours</a></li>
 </ul>
 <p>Pour aller plus loin, consultez aussi notre <a href="/comparatif/indy-vs-pennylane">comparatif Indy vs Pennylane en detail</a> ou notre <a href="/comparatif">comparatif global des 8 logiciels de facturation freelance</a>.</p>
@@ -4371,7 +4371,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p>Les deux proposent des essais gratuits :</p>
 <ul>
 <li><a href="https://www.freebe.me/?ae=2192" rel="nofollow sponsored noopener">Essayer Freebe gratuitement</a></li>
-<li><a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog-freebe-vs-pennylane" rel="nofollow sponsored noopener">Essayer Pennylane gratuitement 1 mois</a></li>
+<li><a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier" rel="nofollow sponsored noopener">Essayer Pennylane gratuitement 1 mois</a></li>
 </ul>
 <p>Consultez aussi notre <a href="/comparatif">comparatif global des 8 logiciels de facturation freelance</a> pour d'autres alternatives.</p>
 
@@ -4518,7 +4518,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 
 <p>Liens utiles :</p>
 <ul>
-<li><a href="https://start.pennylane.com?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog-facturation-agence" rel="nofollow sponsored noopener">Essayer Pennylane gratuitement</a></li>
+<li><a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier" rel="nofollow sponsored noopener">Essayer Pennylane gratuitement</a></li>
 <li><a href="https://axonaut.com/?a=B7B10H14AC" rel="nofollow noopener">Essayer Axonaut gratuitement 15 jours</a></li>
 </ul>
 <p>Pour les freelances solo, consultez notre <a href="/comparatif">comparatif des 8 logiciels de facturation freelance</a> ou notre guide <a href="/blog/meilleur-logiciel-facturation-freelance">meilleur logiciel de facturation freelance 2026</a>.</p>
@@ -4668,7 +4668,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 </thead>
 <tbody>
 <tr style="border-bottom:1px solid #e2e8f0;">
-<td style="padding:10px 12px;"><strong><a href="https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a></strong></td>
+<td style="padding:10px 12px;"><strong><a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a></strong></td>
 <td style="padding:10px 12px;">PDP certifiee</td>
 <td style="padding:10px 12px;color:#16a34a;"><strong>Conforme</strong></td>
 <td style="padding:10px 12px;">26 EUR/mois</td>
@@ -4865,7 +4865,7 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <ul>
 <li><strong>Pour les micro-entrepreneurs :</strong> <a href="https://www.indy.fr/?ae=2183">Indy</a> (7 EUR/mois) et <a href="https://c3po.link/QsBurabSNE">Tiime</a> (gratuit) sont les plus simples a prendre en main</li>
 <li><strong>Pour les freelances en societe (SASU, EURL) :</strong> <a href="https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Freebe</a> (9 EUR/mois) ou <a href="https://axonaut.com/?a=B7B10H14AC">Axonaut</a></li>
-<li><strong>Pour les PME avec expert-comptable :</strong> <a href="https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog">Pennylane</a></li>
+<li><strong>Pour les PME avec expert-comptable :</strong> <a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier">Pennylane</a></li>
 </ul>
 <p>Consultez notre <a href="/comparatif">comparatif complet</a> pour voir les prix et fonctionnalites cote a cote, ou notre guide <a href="/blog/facturation-electronique-auto-entrepreneur-2027">facturation electronique auto-entrepreneur 2027</a> pour les prochaines obligations.</p>
 

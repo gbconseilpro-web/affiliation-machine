@@ -58,7 +58,7 @@ function getCtaForSlug(slug: string): CtaConfig {
       title: 'Pennylane ou Indy : essayez les deux gratuitement',
       subtitle: 'Testez chaque solution avant de choisir. Essais gratuits disponibles sans carte bancaire.',
       buttons: [
-        { label: 'Essayer Pennylane', href: 'https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Essayer Pennylane', href: 'https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier', primary: true },
         { label: 'Essayer Indy', href: 'https://www.indy.fr/?ae=2183', primary: false },
       ],
     }
@@ -69,7 +69,7 @@ function getCtaForSlug(slug: string): CtaConfig {
       subtitle: 'Facturation pure ou comptabilite integree ? Testez avant de vous decider.',
       buttons: [
         { label: 'Essayer Freebe', href: 'https://www.freebe.me/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
-        { label: 'Essayer Pennylane', href: 'https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: false },
+        { label: 'Essayer Pennylane', href: 'https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier', primary: false },
       ],
     }
   }
@@ -88,7 +88,7 @@ function getCtaForSlug(slug: string): CtaConfig {
       title: 'Pennylane ou Shine : essayez les deux gratuitement',
       subtitle: 'Comptabilite autonome ou compte pro tout-en-un ? Testez sans engagement.',
       buttons: [
-        { label: 'Essayer Pennylane', href: 'https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Essayer Pennylane', href: 'https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier', primary: true },
         { label: 'Essayer Shine', href: 'https://c3po.link/nQR5AyKCjc', primary: false },
       ],
     }
@@ -109,7 +109,7 @@ function getCtaForSlug(slug: string): CtaConfig {
       title: 'Essayer Pennylane gratuitement',
       subtitle: 'La solution comptable complete pour freelances et TPE. Essai gratuit 14 jours, sans carte bancaire.',
       buttons: [
-        { label: 'Essayer Pennylane', href: 'https://www.pennylane.com/?utm_source=facturationpro&utm_medium=affiliation&utm_campaign=blog', primary: true },
+        { label: 'Essayer Pennylane', href: 'https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=792&lp=https%3A%2F%2Fwww.pennylane.com%2Ffr%3Futm_source%3Dafl%26utm_campaign%3Dpennylane-fr%26utm_medium%3Dguillaume-berthier', primary: true },
         { label: 'Voir le comparatif', href: '/comparatif', primary: false },
       ],
     }
