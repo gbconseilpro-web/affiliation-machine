@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     default: 'FacturationPro : Facturation électronique obligatoire 2026',
     template: '%s | FacturationPro',
   },
-  description: 'Tout comprendre sur la facturation électronique obligatoire en France. Comparatif des meilleurs logiciels conformes, guide pratique et checklist de mise en conformité.',
+  description: 'Facturation électronique obligatoire 2026 : comparatif des meilleurs logiciels conformes, guide pratique et checklist de mise en conformité.',
   robots: {
     index: true,
     follow: true,
