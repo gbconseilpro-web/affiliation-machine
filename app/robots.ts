@@ -63,6 +63,11 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
         disallow: ['/go/'],
       },
+      {
+        userAgent: 'Google-Extended',
+        allow: '/',
+        disallow: ['/go/'],
+      },
     ],
     sitemap: 'https://facturationpro.com/sitemap.xml',
     host: 'https://facturationpro.com',

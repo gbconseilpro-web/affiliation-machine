@@ -146,21 +146,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  // Redirect pages (go/*)
-  const goPages: MetadataRoute.Sitemap = [
-    { url: `${SITE_URL}/go/freebe`, lastModified: lastMonth, changeFrequency: 'monthly' as const, priority: 0.4 },
-    { url: `${SITE_URL}/go/indy`, lastModified: lastMonth, changeFrequency: 'monthly' as const, priority: 0.4 },
-    { url: `${SITE_URL}/go/pennylane`, lastModified: lastMonth, changeFrequency: 'monthly' as const, priority: 0.4 },
-    { url: `${SITE_URL}/go/tiime`, lastModified: lastMonth, changeFrequency: 'monthly' as const, priority: 0.4 },
-    { url: `${SITE_URL}/go/shine`, lastModified: lastMonth, changeFrequency: 'monthly' as const, priority: 0.4 },
-    { url: `${SITE_URL}/go/sellsy`, lastModified: lastMonth, changeFrequency: 'monthly' as const, priority: 0.4 },
-    { url: `${SITE_URL}/go/finom`, lastModified: lastMonth, changeFrequency: 'monthly' as const, priority: 0.4 },
-  ]
-
+  // Note : les pages /go/ (redirects affilies) sont intentionnellement
+  // exclues du sitemap pour eviter les alertes GSC noindex/redirection.
   return [
     ...staticPages,
     ...comparatifVsPages,
     ...blogPages,
-    ...goPages,
   ]
 }
