@@ -6,6 +6,10 @@
 
 FacturationPro aide les independants et dirigeants de TPE a choisir les meilleurs outils de gestion : logiciels de facturation, solutions comptables, neobanques professionnelles. Tous les avis sont bases sur des tests reels et mis a jour en 2026.
 
+## Barometre des prix logiciels de facturation freelance 2026 - En bref
+
+Sur les 8 logiciels de facturation analyses (Pennylane, Indy, Tiime, Freebe, Shine, Sellsy, Finom, MyUnisoft), le prix mensuel moyen s'etablit a 23 euros/mois (facturation mensuelle) et 18 euros/mois (facturation annuelle), soit une economie moyenne de 22 % en optant pour l'annuel. Cinq logiciels sur huit proposent un plan gratuit permanent ou un essai sans CB : Tiime (plan gratuit permanent), Freebe (3 factures/mois gratuites), Indy (30 jours gratuits), Finom et Shine (essai gratuit). La fourchette va de 0 euro (plan gratuit Tiime) a 49 euros/mois (Sellsy). Source : prix publics releves sur les sites editeurs le 12 novembre 2026, sans remises commerciales. URL : https://facturationpro.com/barometre-prix
+
 ## Pages principales
 
 - [Comparatif logiciels de facturation 2026](https://facturationpro.com/comparatif)

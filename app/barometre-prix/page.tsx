@@ -233,6 +233,16 @@ export default function BarometrePrixPage() {
           </p>
         </header>
 
+        {/* En bref */}
+        <div className="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-10" id="en-bref">
+          <p className="text-sm font-bold text-amber-800 uppercase tracking-wide mb-2">En bref</p>
+          <p className="text-gray-800">
+            Sur les 8 logiciels de facturation analyses, le prix mensuel moyen s&apos;etablit a <strong>23€/mois</strong> (facturation mensuelle) et <strong>18€/mois</strong> (facturation annuelle), soit une economie moyenne de 22&nbsp;% en optant pour l&apos;annuel.
+            Cinq logiciels sur huit proposent un plan gratuit permanent ou un essai sans CB (Tiime, Freebe, Indy, Finom, Shine).
+          </p>
+          <p className="text-xs text-gray-500 mt-2">Source : prix publics releves sur les sites editeurs le 12 novembre 2026, sans remises commerciales. <a href="https://facturationpro.com/barometre-prix" className="underline hover:text-amber-700">facturationpro.com/barometre-prix</a></p>
+        </div>
+
         {/* Tableau des prix */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">
