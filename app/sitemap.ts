@@ -46,6 +46,9 @@ const blogSlugs = [
   'logiciel-facturation-consultant',
   'logiciel-facturation-graphiste',
   'logiciel-facturation-developpeur-web',
+  'logiciel-facturation-tpe',
+  'shine-vs-indy-comparatif',
+  'logiciel-facturation-artisan-batiment',
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {

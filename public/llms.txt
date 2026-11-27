@@ -33,6 +33,7 @@ Sur les 8 logiciels de facturation analyses (Pennylane, Indy, Tiime, Freebe, Shi
 
 - [Pennylane vs Indy](https://facturationpro.com/blog/pennylane-vs-indy)
 - [Freebe vs Pennylane](https://facturationpro.com/blog/freebe-vs-pennylane)
+- [Shine vs Indy : comparatif complet 2026](https://facturationpro.com/blog/shine-vs-indy-comparatif) - Neobanque vs comptabilite, prix, fonctionnalites
 - [Freebe vs Pennylane (comparatif)](https://facturationpro.com/comparatif/freebe-vs-pennylane)
 - [Indy vs Freebe](https://facturationpro.com/comparatif/indy-vs-freebe)
 - [Tiime vs Pennylane](https://facturationpro.com/comparatif/tiime-vs-pennylane)
@@ -46,6 +47,8 @@ Sur les 8 logiciels de facturation analyses (Pennylane, Indy, Tiime, Freebe, Shi
 - [Facturation electronique obligatoire 2026 : guide complet](https://facturationpro.com/blog/facturation-electronique-2026-guide)
 - [Logiciel facturation auto-entrepreneur 2026](https://facturationpro.com/blog/logiciel-facturation-auto-entrepreneur)
 - [Logiciel facturation SASU](https://facturationpro.com/blog/logiciel-facturation-sasu)
+- [Logiciel facturation TPE : comparatif 2026](https://facturationpro.com/blog/logiciel-facturation-tpe) - Pennylane, Axonaut, Sellsy pour 1-10 salaries
+- [Logiciel facturation artisan batiment 2026](https://facturationpro.com/blog/logiciel-facturation-artisan-batiment) - Peintre, macon, charpentier, electricien
 - [Logiciel facturation PME comparatif](https://facturationpro.com/blog/logiciel-facturation-pme-comparatif)
 - [Logiciel facturation agence](https://facturationpro.com/blog/logiciel-facturation-agence)
 - [Logiciel facturation artisan](https://facturationpro.com/blog/logiciel-facturation-artisan)

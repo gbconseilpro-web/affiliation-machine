@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://facturationpro.com/sitemap.xml
+
+# Liens affilies : ne pas indexer les redirections
+Disallow: /go/
+
+# Fichiers systeme
+Disallow: /_next/
+Allow: /_next/static/
+
+# AI crawlers : autoriser l'acces
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /

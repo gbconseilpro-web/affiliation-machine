@@ -5723,6 +5723,314 @@ A defaut, je me verrai contraint d'engager une procedure judiciaire d'injonction
 <p><strong>Un logiciel certifie PDP suffit-il pour l\'e-reporting ?</strong> Oui, dans la quasi-totalite des cas. Un logiciel certifie PDP (comme Tiime ou Pennylane) genere et transmet automatiquement l\'e-reporting a la DGFiP en meme temps qu\'il traite vos factures. Vous n\'avez pas a faire de demarche supplementaire - l\'e-reporting est integre dans le flux de certification PDP.</p>
     `.trim(),
   },
+  {
+    slug: 'logiciel-facturation-tpe',
+    title: 'Meilleur Logiciel de Facturation pour TPE : Comparatif 2026',
+    excerpt: 'Quel logiciel de facturation choisir pour une TPE ? Comparatif complet Pennylane, Axonaut, Sellsy avec prix, fonctionnalites et avis utilisateurs 2026.',
+    content: `
+<h1>Meilleur Logiciel de Facturation pour TPE : Comparatif 2026</h1>
+<p>Pour une TPE (1 a 10 salaries), le meilleur logiciel de facturation est celui qui centralise devis, factures, paiements et relances sans multiplier les outils. En 2026, trois solutions se detachent : <strong>Pennylane</strong> (comptabilite integree), <strong>Axonaut</strong> (ERP complet CRM+facturation) et <strong>Sellsy</strong> (CRM+facturation+tresorerie). Ce comparatif vous aide a choisir selon votre taille et vos besoins.</p>
+
+<h2>Pourquoi une TPE a des besoins specifiques en facturation ?</h2>
+<p>Une TPE n'est ni un freelance ni une PME. Vous gerez des salaries, plusieurs clients, parfois plusieurs projets simultanement, et vous avez besoin d'un suivi de tresorerie serieux. Les outils pensés pour les freelances (Freebe, Tiime) sont souvent trop legers. Les ERP complets (SAP, Sage) sont surdimensionnes et trop chers. La bonne solution pour une TPE est entre les deux.</p>
+
+<h2>Comparatif des meilleurs logiciels de facturation TPE</h2>
+
+<h3>Pennylane : la comptabilite integree</h3>
+<p>Pennylane est probablement le logiciel le plus complet pour une TPE qui veut gerer facturation ET comptabilite dans le meme outil. Il remplace votre logiciel de facturation ET votre logiciel de comptabilite.</p>
+<ul>
+<li><strong>Prix</strong> : a partir de 69 EUR/mois (plan Essentiel) jusqu'a 199 EUR/mois (plan Avance)</li>
+<li><strong>Points forts</strong> : synchro bancaire automatique, rapprochement bancaire, bilan et liasse fiscale directement dans l'outil, interface expert-comptable incluse</li>
+<li><strong>Facturation electronique</strong> : certifie PDP pour 2027, Factur-X integre</li>
+<li><strong>Ideal pour</strong> : TPE de 2 a 10 salaries qui veulent reduire le temps passe avec leur expert-comptable</li>
+</ul>
+<p>Pennylane vise notamment a reduire de 50% le temps de comptabilite. Les devis et factures sont generes en quelques clics, puis les ecritures comptables sont automatiquement generees lors de chaque encaissement.</p>
+<p><a href="https://app.pennylane.com/partners/affiliation_links/1a9a9c8e-7ee5-432e-9524-61b2ea91d2b3" rel="nofollow sponsored">Essayer Pennylane gratuitement</a></p>
+
+<h3>Axonaut : l'ERP CRM pour TPE ambitieuses</h3>
+<p>Axonaut est un ERP francais concu pour les TPE et PME. Il integre CRM, facturation, gestion de projets, ticketing, RH et comptabilite basique dans un seul outil. Si vous cherchez un outil tout-en-un pour piloter votre activite commerciale ET votre gestion, Axonaut est difficile a battre.</p>
+<ul>
+<li><strong>Prix</strong> : a partir de 99 EUR/mois pour 5 utilisateurs, puis 15 EUR/utilisateur supplementaire</li>
+<li><strong>Points forts</strong> : CRM complet avec suivi des opportunites, gestion de projets integree, facturation recurrente, portail client</li>
+<li><strong>Particularite</strong> : module de signature electronique integre, tres utile pour les devis</li>
+<li><strong>Ideal pour</strong> : TPE avec une forte activite commerciale (beaucoup de devis, suivi des leads, projets multi-clients)</li>
+</ul>
+<p>Axonaut se distingue notamment par son module CRM tres complet, qui permet de suivre chaque prospect depuis la premiere prise de contact jusqu'au paiement de la facture finale.</p>
+<p><a href="https://www.axonaut.com/?utm_source=facturationpro&utm_medium=affiliation" rel="nofollow sponsored">Tester Axonaut 15 jours gratuits</a></p>
+
+<h3>Sellsy : facturation et tresorerie</h3>
+<p>Sellsy est une solution francaise qui associe CRM, facturation et gestion de tresorerie. Son point fort est le tableau de bord de tresorerie en temps reel, particulierement utile pour les TPE qui veulent anticiper leurs flux de cash.</p>
+<ul>
+<li><strong>Prix</strong> : a partir de 29 EUR/mois (plan Starter), jusqu'a 99 EUR/mois (plan Business) par utilisateur</li>
+<li><strong>Points forts</strong> : tableau de bord tresorerie en temps reel, relances automatiques des factures impayees, paiement en ligne integre</li>
+<li><strong>Facturation electronique</strong> : certifie PDP, prend en charge Factur-X et les formats europeens</li>
+<li><strong>Ideal pour</strong> : TPE avec des problemes d'impayes ou qui veulent piloter leur tresorerie de pres</li>
+</ul>
+<p><a href="https://www.sellsy.fr/?utm_source=facturationpro" rel="nofollow sponsored">Decouvrir Sellsy</a></p>
+
+<h2>Tableau comparatif logiciels facturation TPE</h2>
+<table>
+<thead>
+<tr><th>Logiciel</th><th>Prix/mois</th><th>CRM</th><th>Comptabilite</th><th>Fact. electronique</th><th>Ideal pour</th></tr>
+</thead>
+<tbody>
+<tr><td>Pennylane</td><td>69 a 199 EUR</td><td>Basique</td><td>Oui (complete)</td><td>Oui (PDP)</td><td>TPE avec EC</td></tr>
+<tr><td>Axonaut</td><td>99 EUR + 15/user</td><td>Complet</td><td>Basique</td><td>Oui</td><td>TPE commerciale</td></tr>
+<tr><td>Sellsy</td><td>29 a 99 EUR/user</td><td>Oui</td><td>Partielle</td><td>Oui (PDP)</td><td>TPE tresorerie</td></tr>
+</tbody>
+</table>
+
+<h2>Quels criteres privilegier pour choisir ?</h2>
+
+<h3>Vous avez deja un expert-comptable</h3>
+<p>Si votre EC travaille sur Pennylane, le choix est simple : prendre Pennylane vous permettra de partager l'acces directement avec lui et de diviser par deux le temps de saisie comptable. Si votre EC utilise un autre outil, Axonaut ou Sellsy exportent facilement les donnees comptables au format FEC.</p>
+
+<h3>Votre activite est fortement commerciale</h3>
+<p>Si vous gerez beaucoup de prospects, de devis et de projets en parallele, le CRM d'Axonaut vous fera gagner un temps precieux. Le tunnel commercial integre (prospect > devis > commande > facture > paiement) est l'un des meilleurs du marche pour ce prix.</p>
+
+<h3>Les impayes sont votre principal probleme</h3>
+<p>Sellsy excelle dans la gestion des relances et le suivi de tresorerie. Son module de relances automatiques envoie des rappels par email a vos clients au moment exact que vous avez programme, sans que vous ayez a y penser.</p>
+
+<h2>Faut-il s'equiper maintenant pour la facturation electronique 2027 ?</h2>
+<p>Oui. Les TPE doivent emettre leurs factures electroniquement a partir du 1er septembre 2027 (echeance actuelle). Pennylane et Sellsy sont deja certifies PDP. Axonaut est en cours de certification. Si vous changez de logiciel de toute facon, autant choisir un outil deja pret pour 2027.</p>
+<p>Pour en savoir plus : <a href="/blog/facturation-electronique-2026-guide">Guide complet facturation electronique obligatoire</a> et <a href="/comparatif">Comparatif logiciels de facturation</a>.</p>
+
+<h2>FAQ : logiciel de facturation pour TPE</h2>
+<p><strong>Quel est le meilleur logiciel de facturation gratuit pour une TPE ?</strong> Il n'existe pas de logiciel gratuit vraiment complet pour les TPE. Tiime propose un plan gratuit mais il est limite aux micro-entrepreneurs. Pour une TPE avec salaries, les solutions a partir de 29 EUR/mois (Sellsy Starter) sont les moins cheres du marche.</p>
+<p><strong>Pennylane est-il adapte a une TPE de 5 salaries ?</strong> Oui, Pennylane est tres bien adapte aux TPE de 2 a 20 salaries. Son plan Essentiel a 69 EUR/mois inclut plusieurs utilisateurs et couvre la majorite des besoins : facturation, synchro bancaire, notes de frais, rapprochement comptable.</p>
+<p><strong>Axonaut remplace-t-il un expert-comptable ?</strong> Non. Axonaut facilite la gestion quotidienne mais ne remplace pas votre expert-comptable pour l'etablissement du bilan, la liasse fiscale et les obligations declaratives. En revanche, il reduit significativement le temps de preparation des documents pour votre EC.</p>
+<p><strong>Quelle est la difference entre un logiciel de facturation TPE et PME ?</strong> Les logiciels PME (EBP, Sage 100, Cegid) sont congus pour des entreprises de 10 a 500 salaries avec des workflows valides complexes, des plans comptables personnalises et des contraintes multi-etablissements. Pour une TPE de 1 a 10 salaries, ces outils sont surdimensionnes et trop couteux (souvent 300 a 500 EUR/mois minimum).</p>
+<p><strong>Un logiciel de facturation TPE inclut-il la gestion de la paie ?</strong> Non, en general. Pennylane, Axonaut et Sellsy ne gèrent pas la paie. Pour la paie de vos salaries, vous avez besoin d'un logiciel dedie (PayFit, Silae, Lucca) ou vous passez par votre expert-comptable.</p>
+    `.trim(),
+    date: '2026-11-27',
+    readTime: '10 min',
+    category: 'Comparatifs',
+    image: '/blog/logiciel-facturation-tpe.svg',
+    author: "L'equipe FacturationPro",
+    tags: ['TPE', 'logiciel facturation', 'Pennylane', 'Axonaut', 'Sellsy', 'comparatif'],
+  },
+  {
+    slug: 'shine-vs-indy-comparatif',
+    title: 'Shine vs Indy : Lequel Choisir en 2026 ? Comparatif Complet',
+    excerpt: 'Shine ou Indy ? Comparatif detaille des prix, fonctionnalites, comptabilite et banque pro pour freelances et auto-entrepreneurs en 2026.',
+    content: `
+<h1>Shine vs Indy : Lequel Choisir en 2026 ?</h1>
+<p>Shine et Indy sont deux des outils les plus populaires chez les freelances francais, mais ils n'ont pas les memes priorites : <strong>Shine est d'abord une neobanque pro</strong> avec des fonctionnalites de facturation, tandis qu'<strong>Indy est d'abord un logiciel de comptabilite</strong> avec un compte bancaire en option. Ce comparatif vous aide a choisir selon votre situation.</p>
+
+<h2>Shine vs Indy : differences essentielles</h2>
+<p>Pour aller droit au but :</p>
+<ul>
+<li><strong>Choisissez Shine</strong> si vous voulez ouvrir un compte pro avec carte bancaire, et avez besoin de facturation simple</li>
+<li><strong>Choisissez Indy</strong> si vous avez deja un compte bancaire pro et cherchez un logiciel de comptabilite pour auto-entrepreneur ou SASU/EURL, avec declaration URSSAF facilitee</li>
+</ul>
+
+<h2>Shine : la neobanque pro pour independants</h2>
+<p>Shine a ete rachetee par la Societe Generale en 2020. C'est une neobanque BtoB reservee aux professionnels (freelances, auto-entrepreneurs, SASU, EURL). Elle propose un vrai compte bancaire professionnel (IBAN francais, carte Visa, virements SEPA) avec des outils de gestion integres.</p>
+
+<h3>Ce que fait Shine</h3>
+<ul>
+<li><strong>Compte bancaire pro</strong> : IBAN francais, carte Visa Debit, virements et prelevements</li>
+<li><strong>Facturation</strong> : creation de devis et factures depuis l'appli, paiement en ligne</li>
+<li><strong>Gestion des depenses</strong> : categorisation des depenses, notes de frais</li>
+<li><strong>Administratif</strong> : domiciliation, siege social, aide a la creation d'entreprise</li>
+<li><strong>Assurance pro</strong> : RC Pro incluse dans certains plans</li>
+</ul>
+
+<h3>Prix Shine 2026</h3>
+<ul>
+<li>Plan Basic : gratuit (avec 5 virements/mois, fonctionnalites limitees)</li>
+<li>Plan Pro : 9,90 EUR/mois (virements illimites, factures illimitees)</li>
+<li>Plan Business : 24,90 EUR/mois (RC Pro incluse, carte premium, dedié aux SASU/EURL)</li>
+</ul>
+<p><a href="https://lb.affilae.com/r/?p=608019f0b27a1f2e0480a96d&af=2417" rel="nofollow sponsored">Ouvrir un compte Shine gratuitement</a></p>
+
+<h2>Indy : le logiciel de comptabilite pour independants</h2>
+<p>Indy (anciennement George) est un logiciel de comptabilite autonome pour freelances, auto-entrepreneurs et dirigeants de SASU/EURL. Son point fort est la simplification de la comptabilite et des declarations fiscales (declaration TVA, declaration IR, cotisations URSSAF).</p>
+
+<h3>Ce que fait Indy</h3>
+<ul>
+<li><strong>Comptabilite automatisee</strong> : synchro bancaire, categorisation des operations, bilan comptable</li>
+<li><strong>Declarations fiscales</strong> : aide a la declaration IR (2042-C-PRO), declaration TVA</li>
+<li><strong>Facturation</strong> : devis et factures conformes, suivi des encaissements</li>
+<li><strong>URSSAF</strong> : calcul et paiement des cotisations simplifie</li>
+<li><strong>Compte bancaire en option</strong> : Indy propose un compte bancaire Indy depuis 2023, mais c'est un complementaire, pas le coeur du service</li>
+</ul>
+
+<h3>Prix Indy 2026</h3>
+<ul>
+<li>Plan Gratuit : 0 EUR/mois (facturation limitee, sans compta avancee)</li>
+<li>Plan Solo : 9,90 EUR/mois (comptabilite complete pour micro-entrepreneur)</li>
+<li>Plan Pro : 19,90 EUR/mois (SASU/EURL, bilan, liasse fiscale)</li>
+</ul>
+<p><a href="https://www.indy.fr/?ae=2183" rel="nofollow sponsored">Essayer Indy 30 jours gratuits</a></p>
+
+<h2>Comparatif Shine vs Indy : fonctionnalite par fonctionnalite</h2>
+<table>
+<thead>
+<tr><th>Fonctionnalite</th><th>Shine</th><th>Indy</th></tr>
+</thead>
+<tbody>
+<tr><td>Compte bancaire pro</td><td>Oui (natif)</td><td>Optionnel</td></tr>
+<tr><td>Carte bancaire Visa</td><td>Oui</td><td>Optionnel</td></tr>
+<tr><td>Facturation</td><td>Oui (basique)</td><td>Oui (avancee)</td></tr>
+<tr><td>Comptabilite complete</td><td>Partielle</td><td>Oui (cœur du produit)</td></tr>
+<tr><td>Declaration URSSAF</td><td>Non</td><td>Oui</td></tr>
+<tr><td>Declaration TVA</td><td>Non</td><td>Oui</td></tr>
+<tr><td>Liasse fiscale (SASU/EURL)</td><td>Non</td><td>Plan Pro uniquement</td></tr>
+<tr><td>RC Pro incluse</td><td>Oui (Business)</td><td>Non</td></tr>
+<tr><td>Prix d'entree</td><td>Gratuit</td><td>Gratuit</td></tr>
+<tr><td>Prix plan complet</td><td>24,90 EUR/mois</td><td>19,90 EUR/mois</td></tr>
+</tbody>
+</table>
+
+<h2>Peut-on utiliser Shine ET Indy ensemble ?</h2>
+<p>Oui, et c'est une combinaison utilisee par de nombreux freelances. Vous ouvrez un compte Shine pour votre banque pro (IBAN, carte, virements) et vous connectez ce compte a Indy pour la comptabilite. Indy synchronise automatiquement les operations bancaires Shine et les categorise. Vous gerez vos paiements dans Shine et votre comptabilite dans Indy.</p>
+<p>Cette combinaison coute environ 30 EUR/mois (Shine Pro 9,90 + Indy Solo 9,90 environ, selon les formules choisies), soit un budget raisonnable pour un freelance qui veut etre bien carre sur les deux aspects.</p>
+
+<h2>Shine vs Indy : pour quel profil ?</h2>
+
+<h3>Choisissez Shine si vous...</h3>
+<ul>
+<li>Demarrez votre activite et cherchez une banque pro simple a ouvrir</li>
+<li>Avez besoin d'une carte Visa pour vos depenses professionnelles</li>
+<li>Faites de la facturation simple (peu de devis complexes)</li>
+<li>Etes auto-entrepreneur avec peu d'obligations comptables</li>
+<li>Voulez inclure votre RC Pro dans votre abonnement</li>
+</ul>
+
+<h3>Choisissez Indy si vous...</h3>
+<ul>
+<li>Avez deja un compte bancaire pro (ou utilisez votre banque habituelle)</li>
+<li>Voulez simplifier vos declarations fiscales et URSSAF</li>
+<li>Etes en SASU ou EURL et avez besoin d'un bilan annuel</li>
+<li>Cherchez a reduire votre dependance a un expert-comptable</li>
+<li>Avez besoin d'une vue complete de votre comptabilite</li>
+</ul>
+
+<h2>Alternatives a Shine et Indy</h2>
+<p>Si ni Shine ni Indy ne correspondent tout a fait a votre besoin, d'autres options meritent d'etre considerees :</p>
+<ul>
+<li><a href="/blog/pennylane-avis-test-complet">Pennylane</a> : plus complet qu'Indy pour les SASU/EURL, avec expert-comptable integre</li>
+<li><a href="/blog/tiime-avis-test-complet">Tiime</a> : plan gratuit permanent pour micro-entrepreneurs, tres simple</li>
+<li><a href="/blog/finom-avis-test-complet">Finom</a> : neobanque avec cashback 3% sur les depenses pro, alternative a Shine</li>
+<li><a href="/comparatif">Voir tous les logiciels compares</a></li>
+</ul>
+
+<h2>FAQ : Shine vs Indy</h2>
+<p><strong>Shine ou Indy pour un auto-entrepreneur ?</strong> Si vous avez besoin d'un compte bancaire pro, commencez par Shine (plan gratuit ou Pro a 9,90 EUR/mois). Si vous avez deja un compte et cherchez a simplifier vos declarations, Indy Solo a 9,90 EUR/mois est plus adapte.</p>
+<p><strong>Indy remplace-t-il un expert-comptable ?</strong> Pour un auto-entrepreneur, oui en grande partie. Pour une SASU ou EURL, Indy Pro peut generer le bilan et la liasse fiscale, mais beaucoup d'entrepreneurs preferent quand meme valider avec un EC pour le premier exercice.</p>
+<p><strong>Shine est-il une vraie banque ?</strong> Shine dispose d'un agrément d'etablissement de paiement (pas de banque au sens strict). Vos depots sont garantis par le Fonds de Garantie des Depots et de Resolution (FGDR) jusqu'a 100 000 EUR, comme une banque classique.</p>
+<p><strong>Peut-on changer de Shine pour Indy facilement ?</strong> Si vous voulez changer de banque, Shine permet de telecharger vos releves. Indy peut etre utilise avec n'importe quel compte bancaire et se connecte via Open Banking a la plupart des banques francaises (Shine incluse).</p>
+<p><strong>Indy est-il compatible avec la facturation electronique 2027 ?</strong> Indy a annonce son integration de la facturation electronique au format Factur-X. La certification PDP est en cours. Verifiez la feuille de route sur le site Indy pour les dernieres mises a jour.</p>
+    `.trim(),
+    date: '2026-11-27',
+    readTime: '9 min',
+    category: 'Comparatifs',
+    image: '/blog/shine-vs-indy-comparatif.svg',
+    author: "L'equipe FacturationPro",
+    tags: ['Shine', 'Indy', 'comparatif', 'neobanque', 'freelance', 'auto-entrepreneur'],
+  },
+  {
+    slug: 'logiciel-facturation-artisan-batiment',
+    title: 'Meilleur Logiciel de Facturation pour Artisan du Batiment : Comparatif 2026',
+    excerpt: 'Peintre, macon, charpentier, menuisier, electricien : quel logiciel de facturation choisir ? Comparatif 2026 avec prix, fonctionnalites devis-chantier et avis.',
+    content: `
+<h1>Meilleur Logiciel de Facturation pour Artisan du Batiment : Comparatif 2026</h1>
+<p>Un peintre, un macon ou un charpentier n'a pas les memes besoins qu'un consultant freelance en matiere de facturation. Vous avez besoin de devis chantiers detailles, de facturation a l'avancement, de gestion des sous-traitants et souvent de photos jointes aux rapports de chantier. Ce comparatif presente les meilleures solutions pour artisans du batiment en 2026.</p>
+
+<h2>Quel logiciel de facturation pour artisan du batiment ?</h2>
+<p>Pour un artisan du batiment, le logiciel ideal doit gerer : creation de devis professionnels avec bibliotheque de prestations, acomptes et facturation a l'avancement, suivi de chantier, relances clients, et conformite a la facturation electronique obligatoire a partir de 2027. Les solutions les plus adaptees sont <strong>Axonaut</strong>, <strong>Pennylane</strong> et des logiciels specialises batiment comme Obat ou Bati-X.</p>
+
+<h2>Les besoins specifiques d'un artisan du batiment</h2>
+<ul>
+<li><strong>Devis detailles</strong> : lignes de prestation par corps de metier, fournitures, main d'oeuvre</li>
+<li><strong>Situations de travaux</strong> : facturation progressive sur un chantier long (acompte, situation 1, situation 2, solde)</li>
+<li><strong>Retenue de garantie</strong> : 5% retenu par le client pendant 1 an apres la reception</li>
+<li><strong>Sous-traitants</strong> : gestion des contrats de sous-traitance et des cautions</li>
+<li><strong>Attestations fiscales</strong> : fourniture de l'attestation de vigilance URSSAF obligatoire</li>
+<li><strong>Photos et PV de reception</strong> : joindre des documents aux factures</li>
+</ul>
+
+<h2>Comparatif des meilleurs logiciels pour artisans du batiment</h2>
+
+<h3>Axonaut : le plus complet pour les artisans en croissance</h3>
+<p>Axonaut est un ERP francais qui s'est impose comme l'une des meilleures solutions pour les artisans et TPE du batiment. Il centralise CRM, devis, facturation, gestion de projets et RH.</p>
+<ul>
+<li><strong>Prix</strong> : a partir de 99 EUR/mois pour 5 utilisateurs</li>
+<li><strong>Devis</strong> : creation rapide avec catalogue de prestations personnalisable, envoi pour signature electronique</li>
+<li><strong>Facturation d'avancement</strong> : situations de travaux et factures d'acompte</li>
+<li><strong>Gestion de projets</strong> : suivi des chantiers avec planning et affectation des equipes</li>
+<li><strong>Points forts</strong> : signature electronique integree sur les devis, tres bon rapport fonctionnalites/prix</li>
+<li><strong>Limitation</strong> : pas de bibliotheque de prestations aussi specialisee batiment que les logiciels dedies</li>
+</ul>
+<p>Pour un artisan qui commence a avoir une equipe de 2 a 10 compagnons et plusieurs chantiers simultanement, Axonaut est probablement le meilleur rapport qualite-prix du marche.</p>
+<p><a href="https://www.axonaut.com/?utm_source=facturationpro&utm_medium=affiliation" rel="nofollow sponsored">Tester Axonaut 15 jours gratuits</a></p>
+
+<h3>Pennylane : pour l'artisan qui veut simplifier sa comptabilite</h3>
+<p>Pennylane est moins specialise batiment qu'Axonaut, mais il excelle si votre priorite est de simplifier votre comptabilite et vos relations avec votre expert-comptable. De nombreux artisans l'utilisent en complement de leur logiciel de devis batiment.</p>
+<ul>
+<li><strong>Prix</strong> : a partir de 69 EUR/mois</li>
+<li><strong>Points forts</strong> : synchro bancaire automatique, notes de frais avec photo des tickets, bilan comptable automatise</li>
+<li><strong>Limitation</strong> : devis batiment moins specifiques que les outils dedies, pas de gestion des situations de travaux avancee</li>
+<li><strong>Ideal pour</strong> : artisans qui travaillent avec un EC et veulent reduire le temps de comptabilite</li>
+</ul>
+<p><a href="https://app.pennylane.com/partners/affiliation_links/1a9a9c8e-7ee5-432e-9524-61b2ea91d2b3" rel="nofollow sponsored">Essayer Pennylane gratuitement</a></p>
+
+<h3>Obat : le specialiste du devis batiment</h3>
+<p>Obat est un logiciel specialise dans les devis et factures pour le batiment. Il propose une bibliotheque de prestations pre-remplie par corps de metier (peinture, maconnerie, charpente, electricite...) et des fonctionnalites specifiques au secteur.</p>
+<ul>
+<li><strong>Prix</strong> : a partir de 39 EUR/mois (plan Starter), 79 EUR/mois (plan Pro)</li>
+<li><strong>Points forts</strong> : bibliotheque de prestations batiment tres complete, factures de situations, retenue de garantie automatique</li>
+<li><strong>Limitation</strong> : moins complet sur la partie comptabilite et CRM</li>
+<li><strong>Ideal pour</strong> : artisans qui font beaucoup de devis complexes et veulent un outil oriente metier batiment</li>
+</ul>
+
+<h2>Quel logiciel selon votre corps de metier ?</h2>
+
+<h3>Peintre en batiment</h3>
+<p>Un peintre a besoin de devis avec quatres postes principaux : preparation des supports, fournitures (peintures, enduits), main d'oeuvre, et finitions. Les devis peuvent etre importants (plusieurs milliers d'euros). La signature electronique accelere la validation. Axonaut ou Obat sont adaptes.</p>
+
+<h3>Macon et gros oeuvre</h3>
+<p>Les chantiers de maconnerie sont souvent longs et necessitent une facturation par situations. La gestion des sous-traitants (ferrailleur, coffreur...) est souvent necessaire. Axonaut gere bien cela avec son module de gestion de projet.</p>
+
+<h3>Charpentier et menuisier</h3>
+<p>Les charpentiers et menuisiers ont des devis avec beaucoup de lignes de fournitures (essences de bois, quincaillerie) et de prestations. Une bibliotheque de prestations bien fournie est essentielle. Obat est particulierement adapte pour ces metiers.</p>
+
+<h3>Electricien et plombier</h3>
+<p>Les artisans en installation (electricite, plomberie, chauffage) ont des chantiers de tailles variables, de la petite intervention a la maison complete. Ils ont besoin d'un outil qui gere aussi bien la petite facture express que le gros devis. Axonaut convient bien pour les artisans ayant plusieurs equipes.</p>
+
+<h2>Facturation electronique obligatoire pour les artisans du batiment</h2>
+<p>Tous les artisans du batiment sont concernes par la reforme de la facturation electronique :</p>
+<ul>
+<li><strong>Septembre 2026</strong> : obligation de pouvoir recevoir des factures electroniques (si vous sous-traitez, vos donneurs d'ordre vous enverront des factures electroniques)</li>
+<li><strong>Septembre 2027</strong> : obligation d'emettre des factures electroniques pour les grandes entreprises et ETI</li>
+<li><strong>Septembre 2028</strong> : obligation pour les PME, TPE et micro-entrepreneurs</li>
+</ul>
+<p>Axonaut et Pennylane sont en cours de certification PDP. Verifiez que votre logiciel actuel a une feuille de route claire pour 2027. Voir aussi : <a href="/blog/facturation-electronique-auto-entrepreneur-2027">facturation electronique pour auto-entrepreneur 2027</a>.</p>
+
+<h2>Comment choisir son logiciel de facturation artisan ?</h2>
+<ol>
+<li><strong>Evaluez le volume de devis</strong> : moins de 20 devis/an = outil simple suffit ; plus de 50 devis/an = outil avec bibliotheque de prestations indispensable</li>
+<li><strong>Verifiez la gestion des situations</strong> : si vous faites des chantiers de plus de 3 mois, la facturation d'avancement est un critere cle</li>
+<li><strong>Pensez a la comptabilite</strong> : certains logiciels (Pennylane) integrent vraiment la compta ; d'autres necessitent un export vers votre EC</li>
+<li><strong>Testez avant de vous engager</strong> : tous les outils cites proposent des essais gratuits de 14 a 30 jours</li>
+</ol>
+<p>Pour un comparatif plus large de tous les logiciels de facturation, consultez notre <a href="/comparatif">comparatif logiciels de facturation</a> et notre <a href="/guide">guide complet</a>.</p>
+
+<h2>FAQ : logiciel de facturation artisan du batiment</h2>
+<p><strong>Quel logiciel de facturation pour un peintre en batiment ?</strong> Obat est tres bien adapte aux peintres avec sa bibliotheque de prestations pre-remplie. Axonaut convient si vous avez une equipe et souhaitez gerer planning et CRM. Pennylane est ideal si votre priorite est la simplification comptable.</p>
+<p><strong>Un auto-entrepreneur du batiment a-t-il besoin d'un logiciel de facturation specifique ?</strong> Un auto-entrepreneur peut commencer avec un outil simple comme Tiime (gratuit) ou Freebe. Mais si vous faites des devis detailles et des chantiers, un outil avec bibliotheque de prestations (Obat, Axonaut) vous fera gagner beaucoup de temps.</p>
+<p><strong>Comment facturer des situations de travaux avec un logiciel ?</strong> Dans Axonaut, vous creez un projet lie a un devis signe, puis vous generez des "situations" (factures partielles) au fur et a mesure de l'avancement. Le logiciel calcule automatiquement le reste a facturer et applique la retenue de garantie.</p>
+<p><strong>Un logiciel de facturation artisan est-il deductible des impots ?</strong> Oui, l'abonnement a un logiciel de facturation est une charge professionnelle deductible du resultat imposable, que vous soyez en micro-entreprise (via l'abattement forfaitaire), en SASU ou en EURL.</p>
+<p><strong>Faut-il un logiciel certifie pour les artisans du batiment ?</strong> Depuis 2018, les logiciels de caisse et de facturation doivent respecter les conditions de securite, d'inalterable, de conservation et d'archivage (criteres SICA) pour les assujettis a la TVA. Les logiciels cites (Axonaut, Pennylane) respectent ces criteres.</p>
+    `.trim(),
+    date: '2026-11-27',
+    readTime: '11 min',
+    category: 'Logiciels',
+    image: '/blog/logiciel-facturation-artisan-batiment.svg',
+    author: "L'equipe FacturationPro",
+    tags: ['artisan', 'batiment', 'logiciel facturation', 'peintre', 'macon', 'charpentier', 'Axonaut'],
+  },
 
 ]
 
